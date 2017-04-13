@@ -1,0 +1,43 @@
+BG,Keller
+1,1
+2,-
+3,2 
+4,3 
+5,4
+6,- 
+7,47 
+8,- 
+9,-
+10,16 
+11,17. Wright converts to multistate - Keller had spherical (0) and hemispherical (1), Barden had bulbous and pinched. Pinched now state 2.
+12,- 
+13,- 
+14,48 
+15,47, Wright recodes - Keller referred to (2) to as a single facet eye, Barden referred to (1) as single facet. (2) is now single facet.
+16,-
+17,-
+18,- 
+19,49
+20,57
+21,-
+22,-
+23,60 
+24,-
+25,82
+26,96, Keller had as a two-state always present character. Converted to all presence (1) 
+27,140, converted Keller's character 96 peduncularization to this one
+28,-
+29,-
+30,107, Keller has a third state, not meeting. I now call this (2), since Barden has a (0) but not (2).
+31,-
+32,-  - need to check on if 0 or 1 is gaster.
+33,111
+34,-
+35,-
+36,138, states reversed. Switch Keller to 0 for absence
+37,136
+38,3,different states in Barden, converted to presence/absence
+39,61
+40,22
+41,134
+42,-

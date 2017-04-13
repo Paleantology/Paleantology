@@ -1,0 +1,57 @@
+#NEXUS
+
+Begin data;
+Dimensions ntax=41 nchar=26;
+Format datatype=Standard symbols="01" missing=? gap=-;
+Matrix
+Acanthoponera_minor   10001000100010110110010-00
+Amblyopone_pallipes   10101010100110111010010101
+Aneuretus   100010-0101110110110010-00
+Anomalomyrma_sp   100110-0101010101001110-10
+Apomyrma_stygia   100110-0101010110000010-00
+Brownimecia_clavata   10???0-0101110110?10010-00
+Camelomecia   10000001101111110110110-00
+Cerapachys_sexspinus   100010001?0010100010010-11
+Chalybion_californicum   000000-111110110-000010--0
+Chyphotes_mellipes   000000-011000110-000010--0
+Formica_fusca   100000-0101110100000001-00
+Gerontoformica_gracilis   101000-1101111110110110100
+Gerontoformica_magnus   101000-1101111110110110100
+Gerontoformica_pilosus   101000-1101111110110110100
+Gerontoformica_spiralis   101000-1101111110110110100
+Haidomyrmex_scimitarus   010001-0101111110010010-00
+Haidomyrmodes_mammuthus   010001-11011??110010010-00
+Haidoterminus_cippus   010011-0101111110010010-00
+Heterogyna   000000-11111010----0010--0
+Hypoponera_opacior   10000010101110010100010-?0
+Kyromyrma   100000-0101110100000001-00
+Lasius_californicus   100000-0101110100000001-00
+Leptanilla_swani   100010-0101010100001110-10
+Leptanilloides_nomada   10000000100010100001010-10
+Leptogenys_diminuta   10000010101110110100110-?0
+Martialis_heureka   100010-0100111110010010-00
+Metapolybia_cingulata   000000-1100100110010010--0
+Myanmyrma_gracilis   1011?0-?10?111110110?10100
+Myrmecia_nigriceps   10001001101110110110110-10
+Myrmica_americana   10001000101110110011010-00
+Nothomyrmecia_macrops   10001000101110110110110-10
+Opamyrma_hungvuong   100110-0101110110010010-00
+Paraponera_clavata   10000000100110110110010-01
+Platythyrea_punctata   10000010100110101100010-?0
+Pogonomyrmex_californicus   10001000101110110011010-00
+Proceratium_stictum   10001000100110111000010-?0
+Scolia_verticalis   000000-1000101111010010--0
+Sphecomyrma_freyi   100000-1101111110?10010-00
+Tatuidris_tatusia   100000-0100010101001010-10
+Tetraponera_punctulata   10000000101110110110010-10
+Zigrasimecia   101100-0101111110010010100
+;
+End;
+
+[Begin MrBayes;
+Lset Rates=gamma Coding=informative;
+mcmc ngen=500000 samplefreq=100;
+sumt burnin=1050;
+sump burnin=1050
+End;
+]

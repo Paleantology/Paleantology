@@ -1,0 +1,197 @@
+\documentclass[]{article}
+
+\begin{document}
+
+\title{Comment on Missing Data, Model Misspecification and Ascertainment Bias}
+\author{Wright, Pett, Holder, Heath}
+\date{Today}
+\maketitle
+
+\section{Introduction}
+	For decades, phylogenetic inference from discrete morphological data has primarily been performed using the maximum parsimony optimality criterion. 
+	Parsimony is conceptually easy to understand: a phylogenetic tree is proposed to explain a matrix of morphological characters.
+	That tree is scored according to how many changes in the character matrix are required to explain it.
+	Conceptual extensions to parsimony, such as weighting different types of character changes also became common. 
+	However, in recent years, there has been an increased interest in using Bayesian methods for the inference of phylogeny from morphological data. 
+	\par
+	This interest has been driven, in part, by acknowledgement that incorporating more fossil data improves estimates of topology and divergence date analyses in combined molecular-morphological analyses.
+	Since molecular systematists primarily work with likelihood and Bayesian analyses, more researchers began to look for ways to incorporate fossils into the analytical frameworks with which they were familiar.
+	This interest also came from researchers working with comparative methods.
+	Without the inclusion of fossils, which are our only direct observations of the past, we may miss historical evolutionary dynamics.
+	For paleontologists, making use of the toolkit offered by phylogenetic comparative methods means estimating trees that have rate-based branch lengths, typically expressed in expected changes per character.
+	This type of branch length is estimated by Bayesian and likelihood analyses, but not parsimony analyses. 
+	Bayesian methods also calculate distributions of parameters and trees, rather than point estimates.
+	This leads to a more natural incorporation of uncertainty. \par
+	This renewed interest has lead to a flurry of papers examining Bayesian approaches to morphological phylogenetics.
+	However, many of the papers proposing new methods for incorporation of morphological data appeared in journals whose readership is primarily molecular. 
+	Here, we review some of the challenges of building Bayesian phylogenetic trees from morphological data.
+	\subsection{What is a Bayesian analysis?}
+	In any statistical approach to phylogenetics, evidence in favor of a particular tree topology is summarized by the likelihood function $P(D\mid T,\theta)$, which is the probability of observing the character data $D$, given a specific tree topology $T$ (and other model parameter values $\theta$).
+	In a maximum likelihood analysis, the goal is to identify the values of $T,\theta$ that maximize the likelihood function.
+	Uncertainty in this maximum likelihood estimate is typically evaluated using statistical resampling techniques, such as bootstrap or jackknife methods.
+	
+	In a Bayesian analysis, the goal is to infer the posterior probability $P(T,\theta\mid D)$.
+	The posterior probability has a natural and intuitive interpretation as the degree of belief in a particular tree (and parameters) after observing data $D$.
+	In addition, all uncertainty in $T,\theta$ is described by their posterior distribution.
+	The posterior distribution of $T,\theta$ can be computed from the likelihood using Bayes theorem $$P(T,\theta\mid D) = \frac{P(D\mid T,\theta)P(T,\theta)}{P(D)}$$
+	
+	The term $P(T,\theta)$ represents the \emph{prior distribution}, or our degree of belief in $T,\theta$ before observing any data.
+	While it may seem counter-intuitive to specify such prior beliefs, a prior distribution is actually implicit in any maximum likelihood analysis as well.
+	These assumptions are made explicit in a Bayesian analysis through specification of the prior distribution.
+	Furthermore, by explicitly specifying the prior, it is possible to accommodate any prior knowledge/constraints we may have for the tree topology or model parameters.
+	
+	The constant term $P(D)$ represents the \emph{marginal likelihood} of the data, or the expected value of the likelihood averaged over the prior distribution of all possible parameter values.
+	The computation of this term is computationally intractable for most models, and therefore specialized numerical methods are required to compute the posterior probability.
+	Chief among these are Markov Chain Monte Carlo (MCMC) methods, which produce a sample from the posterior distribution of trees and parameters by following a random walk through parameter space.
+	The key feature of this random walk is that its movements are directed from one state to another in proportion to the ratio of the posterior probability computed at each state.
+	Conveniently, because the constant term $P(D)$ cancels out in this ratio, it is therefore possible to sample from the posterior distribution using MCMC without ever computing the marginal likelihood.
+	The end result is a sample from the posterior distribution, which completely describes our knowledge and uncertainty of the tree and model parameters after observing data $D$.
+	
+	\subsection{How have Bayesian methods been applied to the fossil record?}
+	In 2001, Paul Lewis proposed a model called the Mk model, which stood for Markov \textit{k}-states model.
+	This model was a generalization of the Jukes-Cantor model for molecular sequence evolution.
+	As such, it makes  very few assumptions about the data.
+	The Mk model makes the standard Markovian assumption that a character can change instantaneously from one instant on a branch to the next.
+	Being a generalization of the Jukes-Cantor model of sequence evolution, the Mk model makes the same assumptions: chief among them that a character in any of the \textit{k} states specified by the user can transition to any of the other states with equal probability.
+	This is a very simple model, and the assumptions are not dissimilar to the assumptions made to an equal-weights parsimony step matrix. \par
+	The Mk model has been shown by mathematicians to be statistically consistent, meaning that as the amount of data provided approach infinite, the model will converge to the true answer.
+	By contrast, in many regions of parameter space, parsimony is shown to be positively misleading, meaning that wrong answers will be supported with higher probability as data are added.
+	The increased interest in Bayesian phylogenetics for the fossil record has resulted in several simulation studies looking into the efficacy of the model.
+	Ultimately, these studies conclude that using Bayesian methods to look at the fossil record often presents an increase in accuracy, while incorporating uncertainty more naturally. \par	
+	
+	\subsection{What are specific concerns for modeling morphological data using Bayesian methods?}
+	Nucleotide characters have different properties than morphological characters.
+	Due to the nature of collecting morphological data, there are special considerations that must be taken into account to model characters.
+	One major consideration is that researchers have generally only collected characters that vary within their clade of interest.
+	This means that certain subsets of characters, namely those which do not vary, are systematically excluded. 
+	Therefore, we must correct for this bias, called ascertainment bias, when setting up our models. \par
+	Morphological characters are also coded arbitrarily, but non-randomly.
+	Nucleotide, amino acid and protein data all have codings that correspond directly to a biochemical meaning.
+	A character state in morphology does not have these same explicit meanings.
+	A human makes the determination, according to their notions of character evolution, what to call each state.
+	This property of human bias in character coding also raises challenges for modeling the data. \par
+	Below, we will discuss in more depth each of these two issues.
+
+	\subsubsection{What is ascertainment bias? Why do we correct for it?}
+	
+	Ascertainment bias refers, broadly, to the systematic under- or oversampling of classes of characters in an analysis.
+	In phylogenetics involving discrete morphological characters, this typically means certain character types have been excluded.
+	Because trees have generally been estimated using parsimony methods, workers in paleontology typically have not collected characters that are not \textit{parsimony-informative}.
+	A parsimony-informative character is one that can be used to favor one set of trees over another.
+	Under this definition, invariant characters and autapomorphies are not parsimony-informative. 
+	However, in a Bayesian context, these characters are still useful for estimating rate of evolution parameters.
+	Their exclusion can lead to serious biases in branch lengths, and as branch lengths and topology are co-estimated, can even bias topology. \par
+	When Lewis first introduced the Mk model, he also introduced a correction for this bias.
+	This correction simulated invariant dummy characters, and calculated the likelihood of them along the tree. 
+	This likelihood was used to normalize the likelihood of the rest of the data. \par
+	In this paper, we apply a dynamic programming
+	approach to analytically derive the same likelihood.
+	The dynamic likelihood approach works by mechanisms that WILL will explain. \par
+	It should be noted that branch lengths in a morphological analysis, even when appropriate corrections are used, are still sensitive to the prior distribution chosen. 
+	In response to this sensitivity, we describe below a hierarchical prior distribution on branch lengths that allows for signal to be extracted from the data more efficiently. \par
+	
+	
+	\subsubsection{What does arbitrary character coding mean for how we model morphology?}
+	
+	Morphological data are coded in a way that is \textit{arbitrary}, but meaningful and non-random.
+	The character codings are arbitrary in the sense that they do not have universal meaning.
+	For example, when we collect nucleotide data, are collected, an `A' state has explicit meaning: it represents the nucleotide adenine, with all of adenine's biochemical properties.
+	These biochemical properties allow us to make inferences about the types of changes that are likely to be observed over evolutionary time.
+	For example, adenine is a purine nucleotide base, and we are more likely to observe changes from adenine to the other purine (guanine) than to the pyrimadine bases (cytosine and tyrosine). \par
+	Morphological characters lack these sorts of objective characterizations.
+	Different workers can code the same morphological character as binary, or as multistate. 
+	However, some meanings have arisen by convention.
+	The character state `0' often refers to absence.
+	Different researchers, may, however use the `0' character to refer only to characters that have not evolved in a lineage, while others may use it to refer both to the character not having evolved as well as the character having been lost. \par
+	The Mk model, as proposed by Lewis, made the assumption that character state frequencies were equal, and that all characters had the same frequencies.
+	In the software MrBayes, Huelsenbeck and Ronquist provided an option to relax the equal frequencies assumption.
+	In their method, researchers could place a symmetrical Beta prior on state frequencies, which would allow them to vary across characters. 
+	The Beta distribution would be discretized into a user-defined number of categories.
+	The value state frequencies for a given category would then be equal to the mean of that category. 
+	This means that for a given character, the state frequencies could be unequal.
+	The likelihood of observing a specific character state change is a product of both the transition rate and the frequency of the character state that is changing.
+	For example, it might be extremely likely to change from having a a limb be partially articulated to being full articulated.
+	But if few taxa with partially articulated limbs are in the sample of interest, this change will be seldom observed. 
+	A low-probability transition, by contrast, may be observed many times, if the character frequency of the originating state is common. \par
+	While this method allows for individual characters to have differential frequencies, altering the frequency with which a particular change is observed, the distribution is still symmetrical.
+	If the Beta distribution was discretized into four categories, then there would be four possible sets of state frequencies. 
+	Because of the property of symmetry, if one category had a very low frequency, this would be balanced by a high frequency category.
+	Wright, Pett et al. implemented an asymmetrical discretized Beta to allow for data where this assumption is likely to be violated.\par
+	Because this model uses a Beta distribution, it is not coherent for multistate data.
+	Wright, Pett et al. also introduced a mixture model to allow state frequency heterogeneity that works with multistate data.
+	The Site-Heterogeneous Discrete Morphology model (SHDM) uses a Dirichlet distribution to draw state frequencies from an \textit{N}-dimnesional space, in which \textit{N} is the number of character states. 
+	This model is called a mixture model because it is assumed that there are categories within the data that should be described with their own state frequencies. 
+	These categories are not specified \textit{a priori}, but are rather derived analytically. 
+	This model is a generalization for morphological data of the CAT model described by Lartillot. 
+	In effect, SHDM allows for state frequency heterogeneity models to expand to multi-state data.
+	\par
+	
+		
+ \subsection{Advances in Modeling Paleobiological Data}
+	Here, we perform multiple analyses that address the aforementioned challenges to modeling discrete morphological data in a Bayesian context in the software package RevBayes. 
+	Using an example dataset from the Formicidae, we demonstrate the utility of several new approaches to modeling arbitrary character coding and ascertainment bias. 
+	We also use simulated data to demonstrate the efficacy of new corrections for ascertainment bias. 
+	Finally, we demonstrate the effectiveness of a hierarchical framework for modeling the branch lengths of the tree. \par
+
+	
+\section{Methods}
+
+\subsection{Datasets}
+
+We used two datasets for this paper, both of which come from previously-published papers.
+One is from Barden and Grimaldi.
+This dataset contains 41 extinct ant taxa, with 41 characters.
+26 characters were binary, and 15 were multi-state.
+The original dataset contained one character with more than 10 states.
+RevBayes, the software in which the phylogenetic estimations were performed, cannot use characters with more than ten states.
+This character was pruned from the final dataset. \par
+A second set of simulated datasets was used to test the ascertainment bias corrections, which were unpublished for morphological data.
+These 350-character datasets are from Wright and Hillis, and were previously used to test the efficacy of the ascertainment bias corrections in MrBayes. 
+They were simulated along a 76-tip tree from Pyron, under the Mk model. \par
+
+\subsection{Ascertainment Bias}
+
+To test the efficacy of the ascertainment bias correction, we performed several comparisons with simulated data.
+First, we estimated the likelihood of the tree with unfiltered data (data containing parsimony-informative, invariant and non-parsimony-informative variable characters) using RevBayes and MrBayes.
+Then, in both RevBayes and MrBayes, we estimated the likelihood of the datasets after having filtered out parsimony non-informative variation, using the ascertainment bias corrections implemented in those programs.
+RevBayes and MrBayes should return the same likelihoods for the datasets, as they are calculating the same likelihood correction. \par
+
+
+\subsection{Character Coding}
+
+In RevBayes, we used the Formicidae dataset to test the Mk model against two more complex models for morphology data. 
+All test datasets were run for 3 million generations, and used Gamma-distributed rate variation (GDVR). 
+For more precise model-testing, we also performed stepping-stone analysis, which computes the likelihood of a model more accurately to enable better comparisons of models. \par
+The first model tested is the Mk model as formulated by Lewis (2001).
+The second is a simple model for parameterizing state frequency heterogeneity in binary data. 
+This model is a generalization of the discretized Beta distribution described in the section \textbf{1.3.2}. 
+The final model is the SHDM described in \textbf{1.3.2}. 
+We used this model for both the binary and the combined binary and multistate datasets. 
+\par
+
+\subsection{Branch Lengths}
+
+Branch lengths in Bayesian morphological analyses have not been addressed extensively in the literature.
+MrBayes, by default used an exponential distribution centered at 10 to describe branch lengths.
+In RevBayes, we varied this parameter.
+We used an exponential centered at 10, one centered at 5, and one in which the mean of the exponential distribution was drawn from a distribution.
+The latter technique is called a hierarchical prior, and allows the shape of the prior distribution to vary according to the data. \par
+
+	
+\section{Results}
+
+	a) Likelihood scores comparison - Fig 1 for asc bias
+	b) Tree comparisons, tree lengths. No asc. bias correction + misspecified model, no correction + misspecified model, correction + correct model, correction + misspecified model Fig 2a
+	c) Show that the dynamic programming and dummy char approaches work about the same. Fig 1b
+	d) L comparisons for character coding
+	e) Tree comparisons for no\_corr, Mk, Mk+disc, Mk+cat
+	f) branch lengths
+	
+Discussion	
+
+	a) How has the modeling of morphology changed since the Mk was proposed by Lewis?
+	b) Ascertainment bias: how does missing data interact with ascertainment bias to make corrections important
+	c) What does this mean for data collection? And for dataset reuse?
+
+\end{document}
+\end{document}
