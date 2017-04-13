@@ -1,0 +1,253 @@
+##########################################################################################
+# Joint Fossilized Birth-Death Process prior on the topology and fossil occurrence times #
+##########################################################################################
+
+
+# Define a exponential priors on the birth rate and death rate #
+birth_rate ~ dnExponential(10)
+death_rate ~ dnExponential(10)
+
+# Specify a scale move on the birth_rate parameter #
+# This move will be applied with 3 different tuning values (lambda) to help improve mixing # 
+moves[mvi++] = mvScale(birth_rate, lambda=0.01, weight=1)
+moves[mvi++] = mvScale(birth_rate, lambda=0.1,  weight=1)
+moves[mvi++] = mvScale(birth_rate, lambda=1.0,  weight=1)
+
+# Specify a sliding-window move on the death_rate parameter #
+# This move will be applied with 3 different window widths (delta) to help improve mixing # 
+moves[mvi++] = mvScale(death_rate, lambda=0.01, weight=1)
+moves[mvi++] = mvScale(death_rate, lambda=0.1,  weight=1)
+moves[mvi++] = mvScale(death_rate, lambda=1,    weight=1)
+
+# Create deterministic nodes for the diversification and turnover rates so that they can be monitored #
+diversification := birth_rate - death_rate
+turnover := death_rate/birth_rate
+
+# Fix the probability of sampling parameter (rho) to 1, #
+# because all extant bears are represented in this analysis #
+rho <- 1.0
+
+# Assume an exponential prior on the rate of sampling fossils (psi) #
+psi ~ dnExponential(10) 
+
+# Specify a scale move on the psi parameter #
+# This move will be applied with 3 different tuning values (lambda) to help improve mixing # 
+moves[mvi++] = mvScale(psi, lambda=0.01, weight=1)
+moves[mvi++] = mvScale(psi, lambda=0.1,  weight=1)
+moves[mvi++] = mvScale(psi, lambda=1,    weight=1)
+
+# The FBD is conditioned on a starting time for the process, which is the origin time #
+# Specify a uniform prior on the origin #
+origin_time ~ dnUnif(120, 140)
+
+# Specify a sliding-window move on the origin_time parameter #
+# This move will be applied with 3 different window widths (delta) to help improve mixing # 
+moves[mvi++] = mvSlide(origin_time, delta=0.01, weight=5.0)
+moves[mvi++] = mvSlide(origin_time, delta=0.1,  weight=5.0)
+moves[mvi++] = mvSlide(origin_time, delta=1,    weight=5.0)
+
+
+### Define the tree-prior distribution as the fossilized birth-death process ###
+tree_prior = dnFBDP(origin=origin_time, lambda=birth_rate, mu=death_rate, psi=psi, rho=rho, taxa=taxa)
+
+# The will be a random variable of a constrained topology distribution that is governed by the FBD #
+# this distribution will generate FBD trees that match the monophyly constraints defined above #
+#clade_ursinae = clade("Melursus_ursinus", "Ursus_arctos", "Ursus_maritimus", 
+#                      "Helarctos_malayanus", "Ursus_americanus", "Ursus_thibetanus", 
+#                      "Ursus_abstrusus", "Ursus_spelaeus")
+dolichoderinae = clade("Chronoxenus_wroughtonii_javanus","Tapinoma_opacum","Leptomyrmex_erythrocephalus",
+"Technomyrmex_albipes","Dolichoderus_erectilobus","Doleromyrma_darwiniana","Dolichoderus_decollatus",
+"Dorymyrmex_bicolor","Forelius_chalybaeus","Aptinoma_antongil","Tapinoma_melanocephalum","Azteca_instabilis",
+"Linepithema_keiteli","Forelius_pruinosus","Dolichoderus_pustulatus","Gracilidris_pombero","Axinidris_mlalu",
+"Froggattella_latispina","Liometopum_occidentale","Dolichoderus_lamellosus","Azteca_schimperi",
+"Technomyrmex_voeltzkowi","Linepithema_humile","Ravavy_miafina","Nebothriomyrmex_majeri",
+"Technomyrmex_anterops","Iridomyrmex_sanguineus","Axinidris_murielae","Liometopum_luctuosum",
+"Dorymyrmex_planidens","Azteca_ovaticeps","Dolichoderus_imitator","Turneria_bidentata",
+"Bothriomyrmex_saundersi","Anonychomyrma_itinerans","Loweriella_boltoni","Anonychomyrma_gilberti",
+"Dolichoderus_debilis","Liometopum_apiculatum","Iridomyrmex_spadius","Bothriomyrmex_meridionalis",
+"Iridomyrmex_pallidus","Aptinoma_mangabe","Dolichoderus_scabridus","Anonychomyrma_nitidiceps",
+"Papyrius_nitidus","Dorymyrmex_elegans","Bothriomyrmex_paradoxus","Froggattella_kirbii",
+"Philidris_cordata","Technomyrmex_difficilis","Tapinoma_sessile", "Alloiomma_differentialis",
+"Azteca_eumeces", "Dolichoderus_dibolius")
+
+amblyoponinae = clade("Mystrium_rogeri","Onychomyrmex_hedleyi","Xymmer_muticus","Mystrium_mysticum",
+"Stigmatomma_pallipes","Myopopone_castanea","Amblyopone_australis", "Casaleia_inversa")        
+
+dorylinae=clade("Neivamyrmex_nigrescens","Cerapachys_jacobsoni","Dorylus_helvolus","Simopone_oculata",
+"Simopone_latiscapa","Dorylus_mayri","Eciton_hamatum","Simopone_dryas","Aenictus_eugenii",
+"Dorylus_laevigatus","Leptanilloides_femoralis","Dorylus_wilverthi","Leptanilloides_gracilis",
+"Acanthostichus_davisi","Simopone_conradti","Leptanilloides_nomada","Dorylus_emeryi_opacus",
+"Acanthostichus_punctiscapus","Nomamyrmex_esenbeckii","Aenictus_turneri","Labidus_spininodis",
+"Cylindromyrmex_meinerti","Aenictus_ceylonicus","Sphinctomyrmex_stali","Eciton_vagans",
+"Leptanilloides_nubecula","Leptanilloides_mckennae","Vicinopone_conciliatrix","Simopone_trita",
+"Labidus_praedator","Simopone_marleyi","Acanthostichus_kirbyi","Cylindromyrmex_striatus","Tanipone_zona")
+
+ectatominae = clade("Rhytidoponera_chalybaea", "Typhlomyrmex_rogenhoferi","Gnamptogenys_striatula",
+"Rhytidoponera_metallica","Ectatomma_opaciventre")
+
+formicinae = clade("Camponotus_ocreatus","Myrmecocystus_flaviceps","Prenolepis_nitens","Polyergus_breviceps",
+"Formica_moki","Paraparatrechina_glabra","Myrmelachista_flavocotea","Paratrechina_longicornis",
+"Acropyga_acutiventris","Nylanderia_hystrix","Brachymyrmex_depilis","Cataglyphis_iberica",
+"Camponotus_maritimus","Acropyga_epedana","Calomyrmex_albertisi","Nylanderia_terricola",
+"Nylanderia_concinna","Notostigma_carazzii","Proformica_nasuta","Nylanderia_dodo","Lasius_latipes",
+"Camponotus_hyatti","Zatania_albimaculata","Nylanderia_wojciki","Lasius_californicus",
+"Oecophylla_smaragdina","Euprenolepis_procera","Nylanderia_parvula","Nylanderia_vitiensis",
+"Notoncus_capitatus","Prenolepis_imparis","Nylanderia_phantasma","Pseudolasius_australis",
+"Lasius_alienus","Myrmoteras_iriodum","Pseudolasius_typhlops","Opisthopsis_respiciens",
+"Myrmoteras_williamsi","Nylanderia_faisonensis","Paraparatrechina_weissi","Zatania_gloriosa",
+"Euprenolepis_wittei","Myrmecocystus_mexicanus", "Kyromyrma","Camponotus_theobaldi")
+
+pseudomyrmecinae = clade("Pseudomyrmex_gracilis", "Tetraponera_punctulata", "Pseudomyrmex_apache",
+"Tetraponera_rufonigra", "Myrcidris_epicharis")
+
+myrmicinae=clade("Strumigenys_godeffroyi","Harpagoxenus_sublaevis","Myrmecina_graminicola",
+"Lenomyrmex_colwelli","Royidris_notorthotenes","Baracidris_sitra","Stenamma_snellingi",
+"Mayriella_ebbei","Myrmicaria_brunnea","Solenopsis_mameti","Strumigenys_dicomas","Pilotrochus_besmerus",
+"Epopostruma_monstrosa","Pheidole_dispar","Aphaenogaster_texana","Monomorium_hanneli",
+"Strumigenys_olsoni","Pheidole_fimbriata","Crematogaster_sordidula","Monomorium_pharaonis",
+"Strumigenys_membranifera","Eurhopalothrix_australis","Megalomyrmex_silvestrii",
+"Eurhopalothrix_bolaui","Strumigenys_emmae","Manica_rubida","Monomorium_madecassum",
+"Pheidole_clydei","Rotastruma_recava","Pogonomyrmex_maricopa","Formicoxenus_diversipilosus",
+"Tropidomyrmex_elianae","Pogonomyrmex_striatinodus","Cephalotes_texanus",
+"Orectognathus_versicolor","Malagidris_belti","Trichomyrmex_oscaris","Trichomyrmex_robustior",
+"Aphaenogaster_araneoides","Phalacromyrmex_fugax","Mycetarotes_acutus","Stenamma_dyscheres",
+"Strumigenys_biolleyi","Cephalotes_unimaculatus","Monomorium_latinode","Calyptomyrmex_kaurus",
+"Kalathomyrmex_emeryi","Crematogaster_modiglianii","Pristomyrmex_punctatus","Hylomyrma_blandiens",
+"Vollenhovia_emeryi","Strumigenys_maxillaris","Melissotarsus_insularis","Stegomyrmex_manni",
+"Crematogaster_navajoa","Adlerzia_froggatti","Colobostruma_unicorna","Ochetomyrmex_semipolitus",
+"Rhopalothrix_isthmica","Epelysidris_brocha","Messor_wasmanni","Diplomorium_longipenne",
+"Tetramorium_venator","Monomorium_antarcticum","Ochetomyrmex_neopolitus","Aphaenogaster_occidentalis",
+"Rogeria_stigmatica","Oxyopomyrmex_insularis","Huberia_brounii","Gauromyrmex_acanthinus",
+"Cardiocondyla_emeryi","Strongylognathus_testaceus","Goniomma_hispanicum","Apterostigma_auriculatum",
+"Cataulacus_hispidulus","Procryptocerus_scabriusculus","Royidris_longiseta","Terataner_bottegoi",
+"Temnothorax_kutteri","Formicoxenus_provancheri","Anillomyrma_decamera","Romblonella_scrobifera",
+"Lophomyrmex_ambiguus","Syllophopsis_fisheri","Meranoplus_radamae","Procryptocerus_batesi",
+"Stenamma_striatulum","Mayriella_transfuga","Nesomyrmex_echinatinodis","Strumigenys_erynnes",
+"Rotastruma_stenoceps","Pheidole_pallidula","Strumigenys_exiguaevitae","Vombisidris_bilongrudi",
+"Mesostruma_browni","Strumigenys_coveri","Tetramorium_kutteri","Oxyopomyrmex_santschii",
+"Strumigenys_ludovici","Pheidole_lucioccipitalis","Temnothorax_rugatulus","Pheidole_rhea",
+"Messor_denticornis","Metapone_madagascarica","Myrmica_rugiventris","Cyphoidris_exalta",
+"Poecilomyrma_myrmecodiae","Strumigenys_chyzeri","Manica_bradleyi","Mycetosoritis_hartmanni",
+"Protalaridris_armata","Atopomyrmex_mocquerysi","Myrmica_kotokui","Tetramorium_taylori",
+"Cyphomyrmex_cornutus","Monomorium_exiguum","Goniomma_blanci","Temnothorax_bernardi",
+"Eurhopalothrix_philippina","Rhopalomastix_rothneyi","Stenamma_expolitum","Carebara_urichi",
+"Cardiocondyla_thoracica","Oxyepoecus_vezenyii","Dolopomyrmex_pilatus","Acanthomyrmex_ferox",
+"Tranopelta_subterranea","Perissomyrmex_snyderi","Tetramorium_atratulum","Monomorium_ergatogyna",
+"Nesomyrmex_madecassus","Liomyrmex_gestroi","Strumigenys_rogeri","Syllophopsis_ferodens",
+"Wasmannia_auropunctata","Proatta_butteli","Tyrannomyrmex_legatus","Tetheamyrma_subspongia",
+"Myrmica_striolagaster","Diaphoromyrma_sofiae","Monomorium_denticulatum","Aphaenogaster_swammerdami",
+"Austromorium_flavigaster","Atta_texana","Temnothorax_tricarinatus","Strumigenys_ocypete",
+"Lachnomyrmex_scrobiculatus","Crematogaster_acuta","Temnothorax_poeyi","Strumigenys_hoplites",
+"Tetramorium_severini","Allomerus_octoarticulatus","Daceton_armigerum","Solenopsis_molesta",
+"Bariamyrma_hispidula","Solenopsis_papuana","Meranoplus_mayri","Carebara_vidua",
+"Acromyrmex_versicolor","Pogonomyrmex_subdentatus","Carebara_affinis","Kartidris_sparsipila",
+"Cryptomyrmex_boltoni","Pheidole_antipodum","Cardiocondyla_mauritanica","Veromessor_andrei",
+"Veromessor_julianus","Strumigenys_chiricahua","Blepharidatta_conops","Aphaenogaster_pythia",
+"Pristomyrmex_orbiceps","Cataulacus_ebrardi","Megalomyrmex_foreli","Lordomyrma_desupra",
+"Eurhopalothrix_gravis","Adelomyrmex_paratristani","Trachymyrmex_jamaicensis","Rogeria_nevadensis",
+"Myrmica_incompleta","Myrmicaria_exigua","Strumigenys_ambatrix","Rhopalomastix_janeti",
+"Solenopsis_succinea","Myrmica_tahoensis","Lophomyrmex_striatulus","Strumigenys_nitens",
+"Myrmecina_americana","Crematogaster_emeryana","Solenopsis_invicta","Tranopelta_gilva",
+"Strumigenys_gundlachi","Eutetramorium_mocquerysi","Tetramorium_validiusculum","Nesomyrmex_wilda",
+"Strumigenys_pulchella","Basiceros_manni","Solenopsis_xyloni","Vitsika_suspicax","Cephalotes_atratus",
+"Pheidole_hyatti","Meranoplus_castaneus","Tetramorium_spinosum","Trachymyrmex_arizonensis",
+"Podomyrma_silvicola","Pogonomyrmex_vermiculatus","Dacatria_templaris","Malagidris_jugum",
+"Xenomyrmex_floridanus","Microdaceton_tibialis","Pheidole_longispinosa","Talaridris_mandibularis",
+"Myrmicaria_carinata","Tetramorium_hispidum","Ocymyrmex_picardi","Carebara_alperti",
+"Trichomyrmex_criniceps","Solenopsis_fugax","Propodilobus_pingorum","Mycocepurus_goeldii",
+"Pogonomyrmex_imberbiculus","Carebara_nosindambo","Crematogaster_kelleri")  
+ 
+ponerinae=clade("Leptogenys_occidentalis","Odontomachus_coquereli","Streblognathus_peetersi",
+"Ophthalmopone_berthoudi","Centromyrmex_brachycola","Platythyrea_lamellosa","Centromyrmex_sellaris",
+"Diacamma_rugosum","Buniapone_amblyops","Odontomachus_cephalotes","Leptogenys_iridescens",
+"Mayaponera_constricta","Thaumatomyrmex_atrox","Loboponera_politula","Phrynoponera_gabonensis",
+"Brachyponera_atrata","Leptogenys_falcigera","Emeryopone_buttelreepeni","Psalidomyrmex_procerus",
+"Anochetus_madagascarensis","Brachyponera_chinensis","Dinoponera_australis","Hypoponera_sakalava",
+"Neoponera_carinulata","Pachycondyla_harpax","Leptogenys_diminuta","Platythyrea_turneri",
+"Mesoponera_rubra","Platythyrea_strenua","Anochetus_emarginatus","Austroponera_castanea",
+"Platythyrea_quadridenta","Euponera_sikorae","Neoponera_marginata","Platythyrea_mocquerysi",
+"Pachycondyla_crassinoda","Pseudoneoponera_rufipes","Centromyrmex_hamulatus","Hagensia_havilandi",
+"Platythyrea_punctata","Cryptopone_gilva","Odontoponera_transversa","Cryptopone_sauteri",
+"Ponera_pennsylvanica","Myopias_tenuis","Neoponera_fauveli","Harpegnathos_venator",
+"Centromyrmex_feae","Neoponera_apicalis","Anochetus_mayri","Bothroponera_variolosa",
+"Mesoponera_ingesta","Dinoponera_gigantea","Paltothyreus_tarsatus","Pseudoponera_stigma",
+"Hypoponera_opacior","Neoponera_unidentata","Neoponera_commutata","Plectroctena_minor",
+"Neoponera_villosa","Megaponera_analis","Harpegnathos_saltator","Odontomachus_clarus",
+"Leptogenys_crassicornis","Pachycondyla_impressa","Myopias_lobosa","Plectroctena_ugandensis",
+"Brachyponera_sennaarensis","Hypoponera_inexorata","Neoponera_aenescens","Leptogenys_attenuata",
+"Bothroponera_wasmannii","Odontomachus_simillimus")
+  
+ sphecomymina = clade("Gerontoformica_gracilis", "Gerontoformica_magnus", "Gerontoformica_pilosus",
+ "Gerontoformica_spiralis", "Haidomyrmex_scimitarus", "Haidomyrmodes_mammuthus", "Haidoterminus_cippus",
+ "Sphecomyrma_freyi", "Zigrasimecia", "Baikuris_maximus")
+      
+constraints = v(dolichoderinae,ponerinae, myrmicinae, sphecomymina, dorylinae)
+
+fbd_tree ~ dnConstrainedTopology(constraints, tree_prior)
+
+#print(fbd_tree)
+# Specify moves on the tree and node times #
+# These moves update the tree topology 
+moves[mvi++] = mvFNPR(fbd_tree, weight=15.0)
+moves[mvi++] = mvCollapseExpandFossilBranch(fbd_tree, origin_time, weight=6.0)
+
+# These moves update the node ages #
+# Because we are conditioning on the origin time, we must also sample the root node age #
+moves[mvi++] = mvNodeTimeSlideUniform(fbd_tree, weight=40.0)
+moves[mvi++] = mvRootTimeSlideUniform(fbd_tree, origin_time, weight=5.0)
+
+
+### Use stratigraphic range data to explicitly sample the fossil occurence times ###
+# Read in the stratigraphic range data file #
+fossil_intervals = readDataDelimitedFile(file="data/ants_int.tsv", header=true)
+
+# Setup the fossil tip sampling #
+# Use a for loop to create a uniform distribution on the occurence time for each fossil #
+# The boundaries of the uniform distribution are specified in the tsv file #
+for(i in 1:fossil_intervals.size())
+{
+    taxon  = fossil_intervals[i][1]
+    obs_min = fossil_intervals[i][2]
+    obs_max = fossil_intervals[i][3]
+    
+    t[i] := tmrca(fbd_tree, clade(taxon))
+    
+    half    = (obs_max - obs_min)/2
+    umin[i] := max(v(t[i] - half, 0.0))
+    umax[i] := t[i] + half
+    
+    fossil[i] ~ dnUniform(umin[i], umax[i])
+    fossil[i].clamp( obs_min + half )
+}
+
+# Add a move to sample the fossil times #
+moves[mvi++] = mvFossilTimeSlideUniform(fbd_tree, origin_time, weight=5.0)
+
+
+### Create deterministic nodes to monitor various tree statistics ###
+# Monitor the number of sampled ancestors in the FBD-tree #
+num_samp_anc := fbd_tree.numSampledAncestors();
+
+                    
+# Monitor the age of the extant bears #
+#clade_extant = clade("Ailuropoda_melanoleuca","Tremarctos_ornatus","Melursus_ursinus",
+#                    "Ursus_arctos","Ursus_maritimus","Helarctos_malayanus",
+#                    "Ursus_americanus","Ursus_thibetanus")
+#age_extant := tmrca(fbd_tree, clade_extant)
+
+# Monitor all the fossil ages #
+#age_Agriarctos_spp          := tmrca(fbd_tree, clade("Agriarctos_spp"))
+#age_Ailurarctos_lufengensis := tmrca(fbd_tree, clade("Ailurarctos_lufengensis"))
+#age_Arctodus_simus          := tmrca(fbd_tree, clade("Arctodus_simus"))
+#age_Ballusia_elmensis       := tmrca(fbd_tree, clade("Ballusia_elmensis"))
+#age_Indarctos_arctoides     := tmrca(fbd_tree, clade("Indarctos_arctoides"))
+#age_Indarctos_punjabiensis  := tmrca(fbd_tree, clade("Indarctos_punjabiensis"))
+#age_Indarctos_vireti        := tmrca(fbd_tree, clade("Indarctos_vireti"))
+#age_Kretzoiarctos_beatrix   := tmrca(fbd_tree, clade("Kretzoiarctos_beatrix"))
+#age_Parictis_montanus       := tmrca(fbd_tree, clade("Parictis_montanus"))
+#age_Ursavus_brevirhinus     := tmrca(fbd_tree, clade("Ursavus_brevirhinus"))
+#age_Ursavus_primaevus       := tmrca(fbd_tree, clade("Ursavus_primaevus"))
+#age_Ursus_abstrusus         := tmrca(fbd_tree, clade("Ursus_abstrusus"))
+#age_Ursus_spelaeus          := tmrca(fbd_tree, clade("Ursus_spelaeus"))
+#age_Zaragocyon_daamsi       := tmrca(fbd_tree, clade("Zaragocyon_daamsi"))
+

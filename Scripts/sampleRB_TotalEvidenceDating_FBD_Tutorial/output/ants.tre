@@ -1,0 +1,24 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=13;
+	Taxlabels
+		Baikuris_maximus
+		Camelomecia
+		Gerontoformica_gracilis
+		Gerontoformica_magnus
+		Gerontoformica_pilosus
+		Gerontoformica_spiralis
+		Haidomyrmex
+		Haidomyrmodes
+		Haidoterminus
+		Kyromyrma
+		Myanmyrma_gracilis
+		Sphecomyrma_freyi
+		Zigrasimecia
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&R]((((((((((Sphecomyrma_freyi[&index=13,sampled_ancestor=0.005326]:7.126390)Zigrasimecia[&index=14,posterior=0.283622,age_95%_HPD={4.74426,10.4726},sampled_ancestor=0.555260]:0.000003)Gerontoformica_gracilis[&index=15,posterior=0.114514,age_95%_HPD={6.69962,9.73443},sampled_ancestor=0.998668]:0.000000)Gerontoformica_magnus[&index=16,posterior=0.099867,age_95%_HPD={6.69965,9.73443},sampled_ancestor=0.968043]:0.000000)Gerontoformica_pilosus[&index=17,posterior=0.061252,age_95%_HPD={6.61892,7.85184},sampled_ancestor=0.910786]:0.000000)Gerontoformica_spiralis[&index=18,posterior=0.074567,age_95%_HPD={6.61892,7.85184},sampled_ancestor=1.000000]:0.352006)Haidoterminus[&index=19,posterior=0.029294,age_95%_HPD={6.74332,9.58005},sampled_ancestor=0.893475]:0.047767)Haidomyrmex[&index=20,posterior=0.009321,age_95%_HPD={7.09967,9.58103},sampled_ancestor=0.816245]:0.000249)Camelomecia[&index=21,posterior=0.010652,age_95%_HPD={7.01614,7.95316},sampled_ancestor=0.856192]:1.544045,((Myanmyrma_gracilis[&index=6,sampled_ancestor=0.629827,age_95%_HPD={2.96724,10.8019}]:0.038105)Haidomyrmodes[&index=22,posterior=0.046605,age_95%_HPD={7.00583,10.6619},sampled_ancestor=0.721704]:0.773781)Kyromyrma[&index=23,posterior=0.015979,age_95%_HPD={8.07134,10.8888},sampled_ancestor=0.780293]:0.770263)[&index=24,posterior=0.585885,age_95%_HPD={7.77594,13.8623}]:3.024186)Baikuris_maximus[&index=25,posterior=0.584554,age_95%_HPD={10.9569,15.9645},sampled_ancestor=0.946738]:0.000000;
+End;
