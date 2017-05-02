@@ -1,0 +1,57 @@
+################################################################################
+#
+# RevBayes Example: Total-evidence dating under the fossilized birth-death model
+# 
+# This file: Runs the full MCMC ...
+#
+# authors: Tracy A. Heath, Walker C. Pett, April M. Wright
+#
+################################################################################
+
+#######################
+# Reading in the Data #
+#######################
+# Import the morphological character matrix #
+# this file contains only the taxa for which morphological characters are available #
+morpho <- readDiscreteCharacterData("Data/AntMegaMatrix.nex")
+
+## helpers
+mvi = 1
+mni = 1
+taxa <- morpho.names()
+n_taxa <- taxa.size()
+n_branches <- 2 * n_taxa - 2
+morpho.setNumStatesPartition(2)
+# Load the model files
+
+source("scripts/mk_binary.rev") # Morphological character change model
+
+
+########
+# MCMC #
+########
+
+# initialize the model object #
+mymodel = model(phylogeny)
+# Create a vector of monitors #
+# 1. for the full model #
+monitors[mni++] = mnModel(filename="testcorr.log", printgen=10)
+# 2. the tree #
+monitors[mni++] = mnFile(filename="testcorr.trees", printgen=10, phylogeny)
+# 3. and a few select parameters to be printed to the screen #
+monitors[mni++] = mnScreen(printgen=10)
+# Initialize the MCMC object #
+mymcmc = mcmc(mymodel, monitors, moves)
+
+# Run the MCMC #
+#mymcmc.run(generations=1000000)
+##pow_p = powerPosterior(model=mymodel, moves=moves, monitors=monitors, filename="output/stones/mk_cat.log", cats=75)
+
+# Run the MCMC #
+mymcmc.run(generations=300000)
+# pow_p.burnin(generations=1000,tuningInterval=250)
+# pow_p.run(generations=10000)
+# ss = steppingStoneSampler(file="output/stones/mk_cat.log", powerColumnName="power", likelihoodColumnName="likelihood")
+# ss.marginal()
+# Quit RevBayes #
+q()
