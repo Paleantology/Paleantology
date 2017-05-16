@@ -1,0 +1,99 @@
+taxa <- starting_tree.taxa()
+taxa
+n_cats = 4
+alpha_ofbeta ~ dnExponential( 1 )
+beta_ofbeta ~ dnExponential( 1 )
+cats := fnDiscretizeBeta(alpha_ofbeta, beta_ofbeta,4)
+for (i in 1:cats.size())
+{
+Q[i] := fnFreeBinary(v(1-cats[i], cats[i]), false)
+}
+matrix_probs ~ dnDirichlet(v(1,1,1,1))
+moves[mvi++] = mvSimplexElementScale(matrix_probs, alpha=10, weight=1.0) 
+alpha_morpho ~ dnExponential( 1.0 )
+rates_morpho := fnDiscretizeGamma( alpha_morpho, alpha_morpho, 4 )
+phyMorpho ~ dnPhyloCTMC(tree=starting_tree, siteRates=rates_morpho, Q=Q, type="Standard", coding="variable", siteMatrices=matrix_probs)
+phyMorpho
+phyMorpho.redraw(n_sites)
+phyMorpho.redraw()
+phyMorpho
+mvi = 1
+mni = 1
+phyMorpho.writeNexus("test)
+phyMorpho.writeNexus("test")
+writeNexus(phyMorpho)
+writeNexus(filename="text", phyMorpho)
+seq ~ dnPhyloCTMC(phyMorpho, nSites=26)
+seq ~ dnPhyloCTMC(phyMorpho, 26)
+seq ~ dnPhyloCTMC(tree=starting_tree, siteRates=rates_morpho, Q=Q, type="Standard", coding="variable", siteMatrices=matrix_probs, 26)
+seq
+seq ~ dnPhyloCTMC(tree=starting_tree, siteRates=rates_morpho, Q=Q, type="Standard", coding="variable", siteMatrices=matrix_probs, nsites=26)
+seq ~ dnPhyloCTMC(tree=starting_tree, siteRates=rates_morpho, Q=Q, type="Standard", coding="variable", siteMatrices=matrix_probs, n_sites=26)
+seq ~ dnPhyloCTMC(tree=starting_tree, siteRates=rates_morpho, Q=Q, type="Standard", coding="variable", siteMatrices=matrix_probs, nSites=26)
+seq
+writeNexus(filename="text", seq)
+ reps <- 100
+ for (i in 1:reps)
+{
+seq ~ dnPhyloCTMC(tree=starting_tree, siteRates=rates_morpho, Q=Q, type="Standard", coding="variable", siteMatrices=matrix_probs, nSites=26)
+name <- i + ".nex"
+writeNexus(filename=name, seq)
+seq.redraw()
+}
+n_species <- 41
+n_genes <- 1
+n_sites <- 42
+n_branches <- 2 * n_species - 3 # number of branches in a rooted tree
+dataFolder <- "MS4cat/"
+######################
+# Species-Tree model #
+######################
+starting_tree <- readBranchLengthTrees("binsimtree.txt")[1]
+taxa <- starting_tree.taxa()
+n_cats = 4
+alpha_ofbeta ~ dnExponential( 1 )
+beta_ofbeta ~ dnExponential( 1 )
+pi_prior := rep(dir_alpha, 7)
+AbstractHomologousDiscreteCharacterData
+# stationary freqs
+for(i in 1:n_cats)
+{
+AbstractHomologousDiscreteCharacterDatapi[i] ~ dnDirichlet(pi_prior)
+    moves[mvi++] = mvSimplexElementScale(pi[i], alpha=10, weight=1.0) 
+    
+    Q_morpho[i] := fnF81(pi[i])
+}
+matrix_probs ~ dnDirichlet(v(1,1,1,1))
+moves[mvi++] = mvSimplexElementScale(matrix_probs, alpha=10, weight=1.0) 
+ for (i in 1:cats.size())
+{
+ Q[i] := fnFreeBinary(v(1-cats[i], cats[i]), false)
+ }
+ matrix_probs ~ dnDirichlet(v(1,1,1,1))
+ 
+ alpha_morpho ~ dnExponential( 1.0 )
+ rates_morpho := fnDiscretizeGamma( alpha_morpho, alpha_morpho, 4 )
+ 
+ reps <- 100
+ for (i in 1:reps)
+{
+seq ~ dnPhyloCTMC(tree=starting_tree, siteRates=rates_morpho, Q=Q, type="Standard", coding="variable", siteMatrices=matrix_probs, nSites=26)
+name <- datafolder + i + ".nex"
+writeNexus(filename=name, seq)
+seq.redraw()
+}
+q()
+morpho <- readDiscreteCharacterData("Data/AntMegaMatrix.nex")
+morpho <- readDiscreteCharacterData("../Morph/Data/AntMegaMatrix.nex")
+morpho
+morpho.getNumStatesPartition(2)
+morpho.setNumStatesPartition(2)
+morpho
+q()
+cat
+cat()
+?cat
+?concat
+?concatenate
+concatenate(seq, seqbin)
+q()
