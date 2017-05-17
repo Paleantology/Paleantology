@@ -1,0 +1,33 @@
+charsizes <- [2,3,4,5,7]
+
+# branch lengths
+nbr <- 2*n_taxa.size() - 3
+for (i in 1:nbr){
+    br_lens[i] ~ dnExponential(5.0)
+    moves[mvi++] = mvScale(br_lens[i])
+}
+
+tau ~ dnUniformTopology(n_taxa)
+phylogeny := treeAssembly(tau, br_lens)
+moves[mvi++] = mvSPR(tau)
+tree_length := phylogeny.treeLength()
+
+for (i in 1:n_data_subsets){
+
+reps <- charsizes[i]
+
+# stationary freqs
+Q_morpho[i] := fnJC(reps)
+
+# We also use a discretized gamma distribution of rate categories #
+# again, the shape parameter is drawn from an exponential prior #
+alpha_morpho[i] ~ dnExponential( 1.0 )
+rates_morpho[i] := fnDiscretizeGamma( alpha_morpho[i], alpha_morpho[i], 4 )
+moves[mvi++] = mvScale(alpha_morpho[i], lambda=0.01, weight=1.0)
+moves[mvi++] = mvScale(alpha_morpho[i], lambda=0.1,  weight=1.0)
+moves[mvi++] = mvScale(alpha_morpho[i], lambda=1,    weight=1.0)
+phyMorpho[i] ~ dnPhyloCTMC(tree=phylogeny, siteRates=rates_morpho[i], Q=Q_morpho[i], type="Standard")
+	phyMorpho[i].clamp(data[i])
+}
+
+
