@@ -1,23 +1,12 @@
 ## Install instructions
 
-### Locating the terminal.
+### Installing a Terminal
 
-Click on the magnifying glass. Type "Terminal" when the search bar pops up. Double-click 
-the application. Congratulations, you now have a terminal.
+https://git-for-windows.github.io/
 
-### Installing Git
-
-In this lab, we use Git for doing back-ups of code and data. Eventually, as we progress, we 
+In this lab, we use Git for doing back-ups of code and data, and the terminal to navigate our computers. Eventually, as we progress, we 
 will also use Git to do cool things like revert to previous revisions of code, and share data, 
 scripts and results amongst our selves.
-
-In the terminal, type:
-
-```
-git
-```
-
-This will pop-up a visual interface to install Git.
 
 ### Installing Python
 
