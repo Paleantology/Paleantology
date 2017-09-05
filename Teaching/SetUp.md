@@ -15,6 +15,15 @@ Anaconda, to do our computing activities.
 
 [This](https://www.anaconda.com/download/) website will walk you through the download.
 
+###Install Git
+
+Open a terminal. Type:
+
+```
+git
+```
+This should pull up a graphical install guide.
+
 ### Clone our class materials
 
 To interact with a server containing material, we need to first set up our git client. First,
