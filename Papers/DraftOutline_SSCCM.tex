@@ -86,31 +86,82 @@ We also perform simulations to demonstrate that the true number of transition ra
 Several large and well-documented ant matrices were used in this study.
 The first was that of Keller (2011). 
 This matrix is of extant ant groups. 
-It was collected for , and has characters and taxa.
-Of the total character set, were binary and were multistate.
-Because of the scope of Keller's study, the taxon sampling is biased towards and away from . \par
+Keller's matrix was collected with special attention to the poneromorph subgroups (Amblyoponinae, Ectatomminae,Heteroponerinae, Paraponerinae, Ponerinae, and Proceratiinae) and has 139 characters and 105 taxa.
+The matrix is highly complete for a morphological dataset, with about 60\% of cells being filled.
+Of the total character set, 100 characters were binary and 39 characters were multistate.
+Because of the scope of Keller's study, the taxon sampling is biased towards the poneromorphs, and away from the other ant subfamilies, including large subfamilies such as the Dolichoderinae and the Formicinae. \par
 We also used data from Barden and Grimaldi (2015). 
-This matrix contained both extant and extinct ants, and was collected in order to place a new taxon of ants from the period.
-The matrix contained characters and taxa. \par
-
+This matrix contained both extant and extinct ants, and was collected in order to place stem ants from the Cretaceous period.
+One crown ant amber fossil, \textit{Kyromyrma neffi}, was included in this matrix, but the key feature of this matrix is the sampling of the stem group, including multiple samples from the \textit{Gerontoformica} genus.
+This matrix also expands sampling in the non-ponerine groups that are underrepresented in the Keller matrix.
+The Barden-Grimaldi matrix contained 42 characters and 41 taxa. 
+Of these characters, 26 were binary.\par
 In order to achieve maximum coverage, we merged these character matrices.
-The taxonomic overlap between the two was taxa, and the character overlap (those characters represented in both matrices without any recoding) was .
-The Barden matrix contained characters that were inapplicable to the Keller matrix.
-The Keller matrix contained characters that were innapplicable to the Barden matrix.
+The taxonomic overlap between the two was 11 taxa, and all subfamilies of the Formicidae except the extinct Formiciinae were represented in the matrix. 
+Eleven characters were represented in both matrices without any recoding, and both matrices had many characters that were inapplicable to the other matrices.
 Inapplicable characters were left in the matrix due to their ability to resolve bipartitions in the the authors' respective groups of interest. \par
-Six characters were recoded to bring characters from the original matrices into line with one another.
+Six characters were recoded to make the character states uniform between the two matrices.
 Most of these changes simply involved changing the terminology used in reference to the character states.
 For example, Barden and Grimaldi's character 15 is the same as Keller's character 47, but the two matrices had inverse character codings relative to one another.
-The remainder of the changes were changing binary characters to a multistate in cases where one author had more states than the other. \par
+The remainder of the changes were changing binary characters to a multistate in cases where one author had more states than the other. 
+We will refer to this dataset as the combined dataset. \par
+To test the SHDM model, we used several permutations of these data.
+First, to test the binary version of the model, we used Barden and Grimaldi's dataset with the multistate characters removed.
+This dataset was chosen because the dataset size and completeness is very typical to a morpholgoical dataset, particularly one involving fossils.
+We used this to test the SHDM model.
+We used the combined matrix to also test the full SHDM model.
+Lastly, we used the combined matrix, stripped of multi-state characters to test the binary model on a larger dataset.
+The two datasets including both multistate and binary characters were used to examine the effect of dataset size on the ability to estimate model parameters. \par
 
-	b) Multi-state data matrix
-		b1) Model Fit
-		b2) Topology
-	c) simulated data sets
-		c1) Detectability
-		c2) Correctness
-	
+\subsubsection{Simulated Matrices}
+
+To test the performance of the SHDM model on idealized datasets, we used RevBayes to simulate five sets of 100 replicates of morphological data.
+The first two sets of simulations were based on Barden and Grimaldi's dataset size and tree.
+Under this set of conditions, datasets of 41 taxa and 42 characters were generated in RevBayes.
+In one set, only binary characters were evolved under the Beta model.
+In the other, both binary and mutistate characters were evolved.
+For both datasets, the binary or Dirichlet distribution was discretized into four categories.
+We also created one set of 100 replicates that was generated under a strict Mk model with no state frequency variation to see if the model will overfit state frequency variation where none exists.\par
+The other set of two simulations was based on the full datasets.
+One set of 139 binary characters was generated for the full 105 taxa under the binary model; a second set including multistate characters was generated under the SHDM model.
+The tree used to generate the data was the tree estimated from the combined empirical dataset using the SHDM. \par
+
+\subsection{Phylogenetic Analyses}
+\subsubsection{Empirical Data}
+
+Trees were estimated from each empirical dataset using multiple models of evolution.
+The Mk model was used for each dataset, with an appropriately-sized Q-matrix.
+For the binary-only datasets, the binary model was used.
+The datasets containing both binary and multistate characters were analyzed using the SHDM, with the dimensionality of the Dirichlet process being equal to the largest number of character states. 
+Each dataset was run under several different numbers of discrete state frequency variation categories, from two to eight categories.
+All datasets were corrected for not observing invariant characters. \par
+For the binary datasets, Bayes Factor model fitting was used to assess what the optimal number of discrete categories were.
+We used stepping-stone model fitting to calculate the marginal likelihood.
+We first ran an MCMC analysis to determine how many generations are required to attain convergence (about one million).
+Each of the 50 stepping stones was then run for one million generations.
+Due to computational limits, for the multistate datasets, we used the mean of the MCMC distribution to compare across different discretizations of the model. \par
+
+
+\subsubsection{Simulated Data}
+
+Because the true tree cannot be known from empirical data, we used simulated data to observe the effect this model has on accuracy of estimation, and to see if it is possible to detect the true number of discrete categories of state frequency variation.
+To this end, for each replicate, all datasets were estimated in RevBayes using the true model.
+Trees were also estimated from all datasets without allowing any state frequency variation (i.e., the Mk model) to simulate the effect of excluding variation (underparameterizing the data) completely.
+Lastly, every dataset was run under the correct model (either the binary model or the SHDM model), but with a misspecified number of categories.
+The number of categories ran from two to eight.
+These categories were chosen because they run from half the true number to double the true number. 
+In total, each dataset was run under one true model and eight misspecified models. \par
+
 \section{Results}
+
+\subsection{Empirical Phylogenetic Analyses}
+\subsection{Binary Data}
+
+The marginal likelihood comparisons for the Barden and Grimaldi dataset, when multistate characters are removed can be seen in Fig. 1a.
+The marginal likelihood comparisons for the combined dataset with the multistate characters removed can be seen in Fig. 1b.
+
+
+
 
 	a) Best fit model?
 	b) Tree comparisons, esp. branch lengths. No asc. bias correction + misspecified model, no correction + misspecified model, correction + correct model, correction + misspecified model 
