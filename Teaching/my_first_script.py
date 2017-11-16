@@ -1,7 +1,6 @@
 import pandas as pd
 
 
-
 def extract_ants(ant_data, query_list):	
 	'''Function to get ants out of dataframe'''
 	new_data = ant_data.loc[query_list]
@@ -24,6 +23,14 @@ if __name__ == "__main__":
 def write_out():
 	''' '''
 
+<<<<<<< HEAD
+if __name__ == "__main__":
+	ant_data = pd.read_csv("Data/Ants.csv", index_col=0)
+	namefile = "Data/AntNames.txt"
+	query_list = get_names(namefile)
+	extracted_ants = extract_ants(ant_data, query_list)
+	print(extracted_ants)
+=======
 (^write into file NOT Data, and leave comment^)
 
 if __name__ == "__main__":
@@ -39,3 +46,4 @@ if __name__ == "__main__":
 
 
 >>>>>>> 9b3c0e14c2d7d2ef4140d75f7f2d5abecc8fbe34
+>>>>>>> 90b8100f154d483ebf5c7394f8a7f2e056484c5b
