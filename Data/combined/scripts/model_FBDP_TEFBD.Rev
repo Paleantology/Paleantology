@@ -67,7 +67,7 @@ moves[mvi++] = mvScale(psi, lambda=1, weight=1)
 
 # The FBD is conditioned on a starting time for the process, which is the origin time #
 # Specify a uniform prior on the origin #
-origin_time ~ dnUnif(120, 200)
+origin_time ~ dnUnif(100, 150)
 
 # Specify a sliding-window move on the origin_time parameter #
 # This move will be applied with 3 different window widths (delta) to help improve mixing # 
@@ -89,22 +89,22 @@ crown = clade("Martialis_heureka", "Leptanilla_swani", "Anomalomyrma_sp", "Apomy
 # this distribution will generate FBD trees that match the monophyly constraints defined above #
 constraints = v(crown)
 fbd_tree ~ dnConstrainedTopology(fbd_dist, constraints)
-fbd_tree.setValue(starting_tree)
+#fbd_tree.setValue(starting_tree)
 
 # Specify mclade(taxon))
-intervals = readDataDelimitedFile(file="ants_fossil_intervals.tsv", header=true)
+#intervals = readDataDelimitedFile(file="ants_fossil_intervals.tsv", header=true)
 
-for(i in 1:intervals.size())
-{
- taxon  = intervals[i][1]
- a_i = intervals[i][2]
- b_i = intervals[i][3]
- 
- t[i] := tmrca(fbd_tree, clade(taxon))
+#for(i in 1:intervals.size())
+#{
+# taxon  = intervals[i][1]
+# a_i = intervals[i][2]
+# b_i = intervals[i][3]
 # 
- fossil[i] ~ dnUniform(t[i] - b_i, t[i] - a_i)
- fossil[i].clamp( 0 )
-}
+# t[i] := tmrca(fbd_tree, clade(taxon))
+# 
+# fossil[i] ~ dnUniform(t[i] - b_i, t[i] - a_i)
+# fossil[i].clamp( 0 )
+#}
 # Add a move to sample the fossil times #
 moves[mvi++] = mvFossilTimeSlideUniform(fbd_tree, origin_time, weight=5.0)
 moves[mvi++] = mvCollapseExpandFossilBranch(fbd_tree, origin_time, weight=5.0) 

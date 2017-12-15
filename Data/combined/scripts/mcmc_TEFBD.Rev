@@ -12,11 +12,11 @@
 # Reading in the Data #
 #######################
 # Create the full list of taxa (including all fossils and extant species #
-taxa <- readTaxonData("taxa_reduced.txt")
+taxa <- readTaxonData("Data/taxa.tsv")
 
 # Import the molecular sequences #
 # this file contains only the taxa for which sequence data are available #
-filenames <- v("18s.nex", "28s.nex", "ABD.nex","Arg.nex", "CAD.nex", "EF1.nex", "EF2.nex", "lg.nex", "WG.nex")
+filenames <- v("Data/18s.nex", "Data/28s.nex", "Data/ABD.nex","Data/Arg.nex", "Data/CAD.nex", "Data/EF1.nex", "Data/EF2.nex", "Data/lg.nex", "Data/WG.nex")
 #filenames <- v("18s.nex", "28s.nex")
                                                              
 n_data_subsets <- filenames.size()                            
@@ -26,7 +26,7 @@ for (i in 1:n_data_subsets) {
 
 # Import the morphological character matrix #
 # this file contains only the taxa for which morphological characters are available #
-morpho <- readDiscreteCharacterData("AntMegaMatrix.nex")
+morpho <- readDiscreteCharacterData("Data/AntMegaMatrixMinusAmbig.nex")
 
 # Add the missing taxa to each data partition #
 for (i in 1:n_data_subsets) {                                 
@@ -35,7 +35,7 @@ for (i in 1:n_data_subsets) {
        
 morpho.addMissingTaxa( taxa )
 
-starting_tree <- readTrees("starting_tree.tre")[1]
+#starting_tree <- readTrees("Data/MAP.tre")[1]
 
 ## helpers
 mvi = 1
@@ -50,7 +50,7 @@ source("scripts/model_UExp_TEFBD.Rev") # UExp relaxed clock
 
 source("scripts/model_GTRG_TEFBD.Rev") # Molecular substitution model (GTR+G)
 
-source("scripts/mk.rev") # Morphological character change model
+#source("scripts/mk.rev") # Morphological character change model
 
 
 ########
@@ -58,7 +58,7 @@ source("scripts/mk.rev") # Morphological character change model
 ########
 
 # initialize the model object #
-mymodel = model(rates_morpho)
+mymodel = model(rates_cytb[i])
 # Create a vector of monitors #
 # 1. for the full model #
 monitors[mni++] = mnModel(filename="output/antsSA.log", printgen=10)
