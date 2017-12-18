@@ -1,0 +1,28 @@
+starting_tree <- readTrees("./trees/big.tre")[1]
+datafolder = "4catMSlarge"
+n_sites <- 163
+taxa <- starting_tree.taxa()
+taxa
+n_cats = 4
+mvi = 1
+mni = 1
+alpha_ofbeta ~ dnExponential( 1 )
+beta_ofbeta ~ dnExponential( 1 )
+cats := fnDiscretizeBeta(alpha_ofbeta, beta_ofbeta,4)
+for (i in 1:cats.size())
+{
+Q[i] := fnF81(v(1-cats[i], cats[i]), false)
+}
+matrix_probs ~ dnDirichlet(v(1,1,1,1))
+moves[mvi++] = mvSimplexElementScale(matrix_probs, alpha=10, weight=1.0) 
+alpha_morpho ~ dnExponential( 1.0 )
+rates_morpho := fnDiscretizeGamma( alpha_morpho, alpha_morpho, 4 )
+ reps <- 100
+ for (i in 1:reps)
+{
+seq ~ dnPhyloCTMC(tree=starting_tree, siteRates=rates_morpho, Q=Q, type="Standard", coding="variable", siteMatrices=matrix_probs, nSites=163)
+name <- i + ".nex"
+writeNexus(filename=name, seq)
+seq.redraw()
+}
+q()
