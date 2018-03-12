@@ -38,7 +38,8 @@ moves[mvi++] = mvScale(clock_morpho, lambda=1,    weight=4.0)
 # Here we use the option siteMatrices=true specify that the vector Q #
 # represents a site-specific mixture of rate matrices #
 # We also condition on observing only variable characters using coding="variable" #
-phyMorpho ~ dnPhyloCTMC(tree=fbd_tree, siteRates=rates_morpho, branchRates=clock_morpho, Q=Q_morpho, type="Standard", coding="variable", siteMatrices=matrix_probs)
+phyMorpho ~ dnPhyloCTMC(tree=fbd_tree, siteRates=rates_morpho, branchRates=clock_morpho, Q=Q_morpho, 
+type="Standard", siteMatrices=matrix_probs)
 phyMorpho.clamp(morpho)
 
 
