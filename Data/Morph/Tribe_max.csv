@@ -1,0 +1,18 @@
+oldest of each tribe
+     accepted_name  reference_no       subfamily  \
+Tribe                                                                   
+Amblyoponini               Amblyoponini         53165   Amblyoponinae   
+Attini           Aphaenogaster_longaeva         39765      Myrmicinae   
+Camponotini                 Camponotini         51248      Formicinae   
+Crematogastrini      Carebara_ucrainica         44578      Myrmicinae   
+None               Zigrasimecia_tonsora         59331  Sphecomyrminae   
+Solenopsidini        Solenopsites_rossi         56112       Mymicinae   
+
+                         Genus Fossil  min_ma  max_ma      Notes  
+Tribe                                                             
+Amblyoponini      Amblyoponini    Yes  20.440   23.03       Note  
+Attini           Aphaenogaster    Yes  23.030   33.90       Note  
+Camponotini               None    Yes   2.588    3.60       Note  
+Crematogastrini       Carebara    Yes  33.900   38.00       Note  
+None              Zigrasimecia    Yes  99.600  105.30  Stem Ant?  
+Solenopsidini     Solenopsites    Yes  46.200   50.30       Note  
