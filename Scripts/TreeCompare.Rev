@@ -1,0 +1,14 @@
+
+starting_tree <- readBranchLengthTrees("binsimtree.txt")[1]
+
+symmetricDifference(starting_tree, starting_tree)
+trace = readTreeTrace("../testcorr.trees")
+
+symdiffs = ["Diff"]
+
+for(i in 1:trace.size()){
+symdiffs.append(symmetricDifference(starting_tree, trace.getTree(i)))
+}
+
+write(symdiffs, filename="diffs.csv")
+
