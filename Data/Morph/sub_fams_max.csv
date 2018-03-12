@@ -1,0 +1,107 @@
+              accepted_name  reference_no          Genus  \
+subfamily                                                                   
+Agroecomyrmecinae     Eulithomyrmex_striatus         44414  
+Eulithomyrmex   
+Amblyoponinae            Casaleia_orientalis         59088           
+None   
+Ambyloponinae            Stigmatomma_groehni         44602    
+Stigmatomma   
+Aneuretinae          Protaneuretus_succineus         56094  
+Protaneuretus   
+Armaniinae           Pseudarmania_rasnitsyni         39728   
+Pseudarmania   
+Brownimeciinae           Brownimecia_clavata          5815    
+Brownimecia   
+Dolichoderinae            Zherichinius_rapax         56276   
+Zherichinius   
+Dorylinae             Procerapachys_sulcatus         52386  
+Procerapachys   
+Ectatomminae          Rhytidoponera_waipiata         59088  
+Rhytidoponera   
+Fomiciinae             Titanomyrma_simillima         44589    
+Titanomyrma   
+Formicinae                   Zatania_electra         59088        
+Zatania   
+Formiicinae                Formicium_brodiei         49700      
+Formicium   
+Incertae                 Petropone_petiolata         58266      
+Petropone   
+Insect             Eocynipites_xilutianensis         40725    
+Eocynipites   
+Mymicinae             Zhangidris_atopogaster         56112     
+Zhangidris   
+Myrmiciinae            Ypresiomyrma_rebekkae         56094   
+Ypresiomyrma   
+Myrmicinae            Trachymyrmex_primaevus         57466   
+Trachymyrmex   
+None                              Formicidae         37344           
+None   
+Paraponerinae             Paraponera_dieteri         40058     
+Paraponera   
+Ponerinae          Taphopone_stauropolitanus         59088      
+Taphopone   
+Proceratiinae            Proceratium_poinari         56094    
+Proceratium   
+Pseudomyrmecinae         Tetraponera_simplex         55770    
+Tetraponera   
+Sphecomyrinae           Haidoterminus_cippus         58266  
+Haidoterminus   
+Sphecomyrma             Zigrasimecia_tonsora         50003   
+Zigrasimecia   
+Sphecomyrminae       Dlusskyidris_zherichini         59331   
+Dlusskyidris   
+
+                  Fossil  min_ma  max_ma  \
+subfamily                                  
+Agroecomyrmecinae    Yes   33.90   38.00   
+Amblyoponinae        Yes   40.40   48.60   
+Ambyloponinae        Yes   33.90   38.00   
+Aneuretinae          Yes   93.50   99.60   
+Armaniinae           Yes   89.80   93.90   
+Brownimeciinae       Yes   89.80   93.90   
+Dolichoderinae       Yes   70.60   83.50   
+Dorylinae            Yes   33.90   38.00   
+Ectatomminae         Yes   70.60   83.50   
+Fomiciinae           Yes   48.60   55.80   
+Formicinae           Yes   89.80   93.90   
+Formiicinae          Yes   38.00   41.30   
+Incertae             Yes   93.50   99.60   
+Insect               Yes   48.60   55.80   
+Mymicinae            Yes   48.60   55.80   
+Myrmiciinae          Yes   47.80   56.00   
+Myrmicinae           Yes   89.80   93.90   
+None                 Yes   47.80   56.00   
+Paraponerinae        Yes   13.82   20.44   
+Ponerinae            Yes   89.80   93.90   
+Proceratiinae        Yes   33.90   38.00   
+Pseudomyrmecinae     Yes   41.30   47.80   
+Sphecomyrinae        Yes   99.60  105.30   
+Sphecomyrma          Yes   93.50   99.60   
+Sphecomyrminae       Yes   99.60  105.30   
+
+                                                   Notes  
+subfamily                                                 
+Agroecomyrmecinae                                   Note  
+Amblyoponinae                                       Note  
+Ambyloponinae                                       Note  
+Aneuretinae                                         Note  
+Armaniinae                                     Stem Ant?  
+Brownimeciinae                                      Note  
+Dolichoderinae                                      Note  
+Dorylinae                                           Note  
+Ectatomminae                                        Note  
+Fomiciinae                                          Note  
+Formicinae                                          Note  
+Formiicinae                                         Note  
+Incertae           Possibly not an ant, date seems goofy  
+Insect                                        Not an ant  
+Mymicinae                                           Note  
+Myrmiciinae                                         Note  
+Myrmicinae                                          Note  
+None                                                Note  
+Paraponerinae                                       Note  
+Ponerinae                                           Note  
+Proceratiinae                                       Note  
+Pseudomyrmecinae                                    Note  
+Sphecomyrinae                                       Note  
+Sphecomyrma                                         Note  
