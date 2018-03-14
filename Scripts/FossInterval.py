@@ -3,7 +3,7 @@ import dendropy
 import argparse
 
 def parse_dataframe(df):
-    '''Retrieve a taxon list from a dataframe'''
+    '''Retrieve a taxon list of non-contemporaneous tips from RevBayes taxon List object'''
     if df.endswith('.tsv'):
         df = pd.read_csv(df, delimiter="\t")
     elif df.endswith('.csv'):
@@ -13,7 +13,7 @@ def parse_dataframe(df):
     return(foss_tax)
 
 def map_fossils(tnrs, foss_tax):
-    '''Decide which taxa in the morphology are fossils, and which are extant'''
+    '''Find the min and max ages for each fossil'''
     dict_of_nameages = {}
     if tnrs.endswith('.tsv'):
         tnrs = pd.read_csv(tnrs, delimiter="\t")
