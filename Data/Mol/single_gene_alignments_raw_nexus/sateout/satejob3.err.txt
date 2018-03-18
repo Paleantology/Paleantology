@@ -1,0 +1,2 @@
+PASTA ERROR: PASTA is exiting because of an error:
+PastaAligner Job killed 
