@@ -1,0 +1,2240 @@
+[03/04/18 17:40:33.398] :  align0_mafft queued
+[03/04/18 17:40:33.399] :  align1_mafft queued
+[03/04/18 17:40:33.399] :  align0_mafft (6297723) started
+[03/04/18 17:40:33.399] :  align2_mafft queued
+[03/04/18 17:40:33.399] :  align0_mafft (6297723) completed
+[03/04/18 17:40:33.399] :  align3_mafft queued
+[03/04/18 17:40:33.399] :  align1_mafft (2558507) started
+[03/04/18 17:40:33.400] :  align1_mafft (2558507) completed
+[03/04/18 17:40:33.399] :  align4_mafft queued
+[03/04/18 17:40:33.400] :  align2_mafft (7895872) started
+[03/04/18 17:40:33.400] :  align5_mafft queued
+[03/04/18 17:40:33.400] :  align2_mafft (7895872) completed
+[03/04/18 17:40:33.400] :  align6_mafft queued
+[03/04/18 17:40:33.400] :  align3_mafft (4949870) started
+[03/04/18 17:40:33.400] :  align7_mafft queued
+[03/04/18 17:40:33.400] :  align3_mafft (4949870) completed
+[03/04/18 17:40:33.401] :  align8_mafft queued
+[03/04/18 17:40:33.401] :  align4_mafft (2917824) started
+[03/04/18 17:40:33.401] :  align0_mafft queued
+[03/04/18 17:40:33.401] :  align4_mafft (2917824) completed
+[03/04/18 17:40:33.401] :  align1_mafft queued
+[03/04/18 17:40:33.401] :  align5_mafft (410319) started
+[03/04/18 17:40:33.401] :  align2_mafft queued
+[03/04/18 17:40:33.402] :  align5_mafft (410319) completed
+[03/04/18 17:40:33.402] :  align3_mafft queued
+[03/04/18 17:40:33.402] :  align6_mafft (1732014) started
+[03/04/18 17:40:33.402] :  align4_mafft queued
+[03/04/18 17:40:33.402] :  align6_mafft (1732014) completed
+[03/04/18 17:40:33.402] :  align5_mafft queued
+[03/04/18 17:40:33.402] :  align7_mafft (1008178) started
+[03/04/18 17:40:33.402] :  align6_mafft queued
+[03/04/18 17:40:33.402] :  align7_mafft (1008178) completed
+[03/04/18 17:40:33.403] :  align7_mafft queued
+[03/04/18 17:40:33.403] :  align8_mafft (1488223) started
+[03/04/18 17:40:33.403] :  align8_mafft queued
+[03/04/18 17:40:33.403] :  align8_mafft (1488223) completed
+[03/04/18 17:40:33.403] :  align0_mafft queued
+[03/04/18 17:40:33.403] :  align0_mafft (5193353) started
+[03/04/18 17:40:33.404] :  align1_mafft queued
+[03/04/18 17:40:33.404] :  align0_mafft (5193353) completed
+[03/04/18 17:40:33.404] :  align2_mafft queued
+[03/04/18 17:40:33.404] :  align1_mafft (8241433) started
+[03/04/18 17:40:33.404] :  align3_mafft queued
+[03/04/18 17:40:33.404] :  align1_mafft (8241433) completed
+[03/04/18 17:40:33.405] :  align4_mafft queued
+[03/04/18 17:40:33.405] :  align2_mafft (5985911) started
+[03/04/18 17:40:33.405] :  align5_mafft queued
+[03/04/18 17:40:33.405] :  align2_mafft (5985911) completed
+[03/04/18 17:40:33.405] :  align6_mafft queued
+[03/04/18 17:40:33.406] :  align3_mafft (2039396) started
+[03/04/18 17:40:33.406] :  align7_mafft queued
+[03/04/18 17:40:33.406] :  align3_mafft (2039396) completed
+[03/04/18 17:40:33.406] :  align8_mafft queued
+[03/04/18 17:40:33.406] :  align4_mafft (8624828) started
+[03/04/18 17:40:33.406] :  align0_mafft queued
+[03/04/18 17:40:33.406] :  align4_mafft (8624828) completed
+[03/04/18 17:40:33.407] :  align1_mafft queued
+[03/04/18 17:40:33.407] :  align5_mafft (1928740) started
+[03/04/18 17:40:33.407] :  align2_mafft queued
+[03/04/18 17:40:33.407] :  align5_mafft (1928740) completed
+[03/04/18 17:40:33.407] :  align3_mafft queued
+[03/04/18 17:40:33.407] :  align6_mafft (501383) started
+[03/04/18 17:40:33.407] :  align4_mafft queued
+[03/04/18 17:40:33.408] :  align6_mafft (501383) completed
+[03/04/18 17:40:33.408] :  align5_mafft queued
+[03/04/18 17:40:33.408] :  align7_mafft (8070972) started
+[03/04/18 17:40:33.408] :  align6_mafft queued
+[03/04/18 17:40:33.408] :  align7_mafft (8070972) completed
+[03/04/18 17:40:33.408] :  align7_mafft queued
+[03/04/18 17:40:33.408] :  align8_mafft (8176888) started
+[03/04/18 17:40:33.408] :  align8_mafft queued
+[03/04/18 17:40:33.408] :  align8_mafft (8176888) completed
+[03/04/18 17:40:33.409] :  align0_mafft queued
+[03/04/18 17:40:33.409] :  align0_mafft (663330) started
+[03/04/18 17:40:33.409] :  align1_mafft queued
+[03/04/18 17:40:33.409] :  align0_mafft (663330) completed
+[03/04/18 17:40:33.409] :  align2_mafft queued
+[03/04/18 17:40:33.409] :  align1_mafft (4738821) started
+[03/04/18 17:40:33.409] :  align3_mafft queued
+[03/04/18 17:40:33.409] :  align1_mafft (4738821) completed
+[03/04/18 17:40:33.409] :  align4_mafft queued
+[03/04/18 17:40:33.410] :  align2_mafft (3023148) started
+[03/04/18 17:40:33.410] :  align5_mafft queued
+[03/04/18 17:40:33.410] :  align2_mafft (3023148) completed
+[03/04/18 17:40:33.410] :  align6_mafft queued
+[03/04/18 17:40:33.410] :  align3_mafft (766951) started
+[03/04/18 17:40:33.410] :  align7_mafft queued
+[03/04/18 17:40:33.410] :  align3_mafft (766951) completed
+[03/04/18 17:40:33.410] :  align8_mafft queued
+[03/04/18 17:40:33.410] :  align4_mafft (1888586) started
+[03/04/18 17:40:33.410] :  align0_mafft queued
+[03/04/18 17:40:33.410] :  align4_mafft (1888586) completed
+[03/04/18 17:40:33.411] :  align1_mafft queued
+[03/04/18 17:40:33.411] :  align5_mafft (2018988) started
+[03/04/18 17:40:33.411] :  align2_mafft queued
+[03/04/18 17:40:33.411] :  align5_mafft (2018988) completed
+[03/04/18 17:40:33.411] :  align3_mafft queued
+[03/04/18 17:40:33.411] :  align6_mafft (900344) started
+[03/04/18 17:40:33.411] :  align4_mafft queued
+[03/04/18 17:40:33.411] :  align6_mafft (900344) completed
+[03/04/18 17:40:33.411] :  align5_mafft queued
+[03/04/18 17:40:33.411] :  align7_mafft (1539622) started
+[03/04/18 17:40:33.412] :  align6_mafft queued
+[03/04/18 17:40:33.412] :  align7_mafft (1539622) completed
+[03/04/18 17:40:33.412] :  align7_mafft queued
+[03/04/18 17:40:33.412] :  align8_mafft (6629327) started
+[03/04/18 17:40:33.412] :  align8_mafft queued
+[03/04/18 17:40:33.412] :  align8_mafft (6629327) completed
+[03/04/18 17:40:33.412] :  align0_mafft queued
+[03/04/18 17:40:33.412] :  align0_mafft (4000904) started
+[03/04/18 17:40:33.412] :  align1_mafft queued
+[03/04/18 17:40:33.413] :  align2_mafft queued
+[03/04/18 17:40:33.413] :  align3_mafft queued
+[03/04/18 17:40:33.413] :  align4_mafft queued
+[03/04/18 17:40:33.413] :  align5_mafft queued
+[03/04/18 17:40:33.413] :  align6_mafft queued
+[03/04/18 17:40:33.413] :  align7_mafft queued
+[03/04/18 17:40:33.413] :  align8_mafft queued
+[03/04/18 17:40:33.414] :  align0_mafft queued
+[03/04/18 17:40:33.414] :  align1_mafft queued
+[03/04/18 17:40:33.414] :  align2_mafft queued
+[03/04/18 17:40:33.414] :  align3_mafft queued
+[03/04/18 17:40:33.414] :  align4_mafft queued
+[03/04/18 17:40:33.414] :  align5_mafft queued
+[03/04/18 17:40:33.414] :  align6_mafft queued
+[03/04/18 17:40:33.415] :  align7_mafft queued
+[03/04/18 17:40:33.415] :  align8_mafft queued
+[03/04/18 17:40:33.415] :  align0_mafft queued
+[03/04/18 17:40:33.415] :  align1_mafft queued
+[03/04/18 17:40:33.415] :  align2_mafft queued
+[03/04/18 17:40:33.415] :  align3_mafft queued
+[03/04/18 17:40:33.415] :  align4_mafft queued
+[03/04/18 17:40:33.415] :  align5_mafft queued
+[03/04/18 17:40:33.415] :  align6_mafft queued
+[03/04/18 17:40:33.415] :  align7_mafft queued
+[03/04/18 17:40:33.415] :  align8_mafft queued
+[03/04/18 17:40:33.415] :  align0_mafft queued
+[03/04/18 17:40:33.415] :  align1_mafft queued
+[03/04/18 17:40:33.416] :  align2_mafft queued
+[03/04/18 17:40:33.416] :  align3_mafft queued
+[03/04/18 17:40:33.416] :  align4_mafft queued
+[03/04/18 17:40:33.416] :  align5_mafft queued
+[03/04/18 17:40:33.416] :  align6_mafft queued
+[03/04/18 17:40:33.416] :  align7_mafft queued
+[03/04/18 17:40:33.416] :  align8_mafft queued
+[03/04/18 17:40:33.416] :  align0_mafft queued
+[03/04/18 17:40:33.416] :  align1_mafft queued
+[03/04/18 17:40:33.416] :  align2_mafft queued
+[03/04/18 17:40:33.416] :  align3_mafft queued
+[03/04/18 17:40:33.416] :  align4_mafft queued
+[03/04/18 17:40:33.416] :  align5_mafft queued
+[03/04/18 17:40:33.417] :  align6_mafft queued
+[03/04/18 17:40:33.417] :  align7_mafft queued
+[03/04/18 17:40:33.417] :  align8_mafft queued
+[03/04/18 17:40:33.417] :  align0_mafft queued
+[03/04/18 17:40:33.417] :  align1_mafft queued
+[03/04/18 17:40:33.417] :  align2_mafft queued
+[03/04/18 17:40:33.417] :  align3_mafft queued
+[03/04/18 17:40:33.417] :  align4_mafft queued
+[03/04/18 17:40:33.417] :  align5_mafft queued
+[03/04/18 17:40:33.417] :  align6_mafft queued
+[03/04/18 17:40:33.417] :  align7_mafft queued
+[03/04/18 17:40:33.417] :  align8_mafft queued
+[03/04/18 17:40:33.417] :  align0_mafft queued
+[03/04/18 17:40:33.417] :  align1_mafft queued
+[03/04/18 17:40:33.417] :  align2_mafft queued
+[03/04/18 17:40:33.418] :  align3_mafft queued
+[03/04/18 17:40:33.418] :  align4_mafft queued
+[03/04/18 17:40:33.418] :  align5_mafft queued
+[03/04/18 17:40:33.418] :  align6_mafft queued
+[03/04/18 17:40:33.418] :  align7_mafft queued
+[03/04/18 17:40:33.418] :  align8_mafft queued
+[03/04/18 17:40:33.418] :  align0_mafft queued
+[03/04/18 17:40:33.418] :  align1_mafft queued
+[03/04/18 17:40:33.418] :  align2_mafft queued
+[03/04/18 17:40:33.418] :  align3_mafft queued
+[03/04/18 17:40:33.418] :  align4_mafft queued
+[03/04/18 17:40:33.418] :  align5_mafft queued
+[03/04/18 17:40:33.418] :  align6_mafft queued
+[03/04/18 17:40:33.418] :  align7_mafft queued
+[03/04/18 17:40:33.418] :  align8_mafft queued
+[03/04/18 17:40:33.419] :  align0_mafft queued
+[03/04/18 17:40:33.419] :  align1_mafft queued
+[03/04/18 17:40:33.419] :  align2_mafft queued
+[03/04/18 17:40:33.419] :  align3_mafft queued
+[03/04/18 17:40:33.419] :  align4_mafft queued
+[03/04/18 17:40:33.419] :  align5_mafft queued
+[03/04/18 17:40:33.419] :  align6_mafft queued
+[03/04/18 17:40:33.419] :  align7_mafft queued
+[03/04/18 17:40:33.419] :  align8_mafft queued
+[03/04/18 17:40:33.419] :  align0_mafft queued
+[03/04/18 17:40:33.419] :  align1_mafft queued
+[03/04/18 17:40:33.420] :  align2_mafft queued
+[03/04/18 17:40:33.420] :  align3_mafft queued
+[03/04/18 17:40:33.420] :  align4_mafft queued
+[03/04/18 17:40:33.420] :  align5_mafft queued
+[03/04/18 17:40:33.420] :  align6_mafft queued
+[03/04/18 17:40:33.420] :  align7_mafft queued
+[03/04/18 17:40:33.420] :  align8_mafft queued
+[03/04/18 17:40:33.420] :  align0_mafft queued
+[03/04/18 17:40:33.420] :  align1_mafft queued
+[03/04/18 17:40:33.420] :  align2_mafft queued
+[03/04/18 17:40:33.420] :  align3_mafft queued
+[03/04/18 17:40:33.420] :  align4_mafft queued
+[03/04/18 17:40:33.420] :  align5_mafft queued
+[03/04/18 17:40:33.420] :  align6_mafft queued
+[03/04/18 17:40:33.420] :  align7_mafft queued
+[03/04/18 17:40:33.420] :  align8_mafft queued
+[03/04/18 17:40:33.421] :  align0_mafft queued
+[03/04/18 17:40:33.421] :  align1_mafft queued
+[03/04/18 17:40:33.421] :  align2_mafft queued
+[03/04/18 17:40:33.421] :  align3_mafft queued
+[03/04/18 17:40:33.421] :  align4_mafft queued
+[03/04/18 17:40:33.421] :  align5_mafft queued
+[03/04/18 17:40:33.421] :  align6_mafft queued
+[03/04/18 17:40:33.421] :  align7_mafft queued
+[03/04/18 17:40:33.421] :  align8_mafft queued
+[03/04/18 17:40:33.421] :  align0_mafft queued
+[03/04/18 17:40:33.421] :  align1_mafft queued
+[03/04/18 17:40:33.421] :  align2_mafft queued
+[03/04/18 17:40:33.421] :  align3_mafft queued
+[03/04/18 17:40:33.422] :  align4_mafft queued
+[03/04/18 17:40:33.422] :  align5_mafft queued
+[03/04/18 17:40:33.422] :  align6_mafft queued
+[03/04/18 17:40:33.422] :  align7_mafft queued
+[03/04/18 17:40:33.422] :  align8_mafft queued
+[03/04/18 17:40:33.422] :  align0_mafft queued
+[03/04/18 17:40:33.422] :  align1_mafft queued
+[03/04/18 17:40:33.422] :  align2_mafft queued
+[03/04/18 17:40:33.422] :  align3_mafft queued
+[03/04/18 17:40:33.422] :  align4_mafft queued
+[03/04/18 17:40:33.422] :  align5_mafft queued
+[03/04/18 17:40:33.423] :  align6_mafft queued
+[03/04/18 17:40:33.423] :  align7_mafft queued
+[03/04/18 17:40:33.423] :  align8_mafft queued
+[03/04/18 17:40:33.423] :  align0_mafft queued
+[03/04/18 17:40:33.423] :  align1_mafft queued
+[03/04/18 17:40:33.423] :  align2_mafft queued
+[03/04/18 17:40:33.423] :  align3_mafft queued
+[03/04/18 17:40:33.423] :  align4_mafft queued
+[03/04/18 17:40:33.423] :  align5_mafft queued
+[03/04/18 17:40:33.423] :  align6_mafft queued
+[03/04/18 17:40:33.423] :  align7_mafft queued
+[03/04/18 17:40:33.423] :  align8_mafft queued
+[03/04/18 17:40:33.423] :  align0_mafft queued
+[03/04/18 17:40:33.423] :  align1_mafft queued
+[03/04/18 17:40:33.424] :  align2_mafft queued
+[03/04/18 17:40:33.424] :  align3_mafft queued
+[03/04/18 17:40:33.424] :  align4_mafft queued
+[03/04/18 17:40:33.424] :  align5_mafft queued
+[03/04/18 17:40:33.424] :  align6_mafft queued
+[03/04/18 17:40:33.424] :  align7_mafft queued
+[03/04/18 17:40:33.424] :  align8_mafft queued
+[03/04/18 17:40:33.424] :  align0_mafft queued
+[03/04/18 17:40:33.424] :  align1_mafft queued
+[03/04/18 17:40:33.424] :  align2_mafft queued
+[03/04/18 17:40:33.424] :  align3_mafft queued
+[03/04/18 17:40:33.424] :  align4_mafft queued
+[03/04/18 17:40:33.424] :  align5_mafft queued
+[03/04/18 17:40:33.424] :  align6_mafft queued
+[03/04/18 17:40:33.425] :  align7_mafft queued
+[03/04/18 17:40:33.425] :  align8_mafft queued
+[03/04/18 17:40:33.425] :  align0_mafft queued
+[03/04/18 17:40:33.425] :  align1_mafft queued
+[03/04/18 17:40:33.425] :  align2_mafft queued
+[03/04/18 17:40:33.425] :  align3_mafft queued
+[03/04/18 17:40:33.425] :  align4_mafft queued
+[03/04/18 17:40:33.425] :  align5_mafft queued
+[03/04/18 17:40:33.425] :  align6_mafft queued
+[03/04/18 17:40:33.425] :  align7_mafft queued
+[03/04/18 17:40:33.425] :  align8_mafft queued
+[03/04/18 17:40:33.425] :  align0_mafft queued
+[03/04/18 17:40:33.425] :  align1_mafft queued
+[03/04/18 17:40:33.425] :  align2_mafft queued
+[03/04/18 17:40:33.425] :  align3_mafft queued
+[03/04/18 17:40:33.425] :  align4_mafft queued
+[03/04/18 17:40:33.426] :  align5_mafft queued
+[03/04/18 17:40:33.426] :  align6_mafft queued
+[03/04/18 17:40:33.426] :  align7_mafft queued
+[03/04/18 17:40:33.426] :  align8_mafft queued
+[03/04/18 17:40:33.426] :  align0_mafft queued
+[03/04/18 17:40:33.426] :  align1_mafft queued
+[03/04/18 17:40:33.426] :  align2_mafft queued
+[03/04/18 17:40:33.426] :  align3_mafft queued
+[03/04/18 17:40:33.426] :  align4_mafft queued
+[03/04/18 17:40:33.426] :  align5_mafft queued
+[03/04/18 17:40:33.426] :  align6_mafft queued
+[03/04/18 17:40:33.426] :  align7_mafft queued
+[03/04/18 17:40:33.427] :  align8_mafft queued
+[03/04/18 17:40:33.427] :  align0_mafft queued
+[03/04/18 17:40:33.427] :  align1_mafft queued
+[03/04/18 17:40:33.427] :  align2_mafft queued
+[03/04/18 17:40:33.427] :  align3_mafft queued
+[03/04/18 17:40:33.427] :  align4_mafft queued
+[03/04/18 17:40:33.427] :  align5_mafft queued
+[03/04/18 17:40:33.427] :  align6_mafft queued
+[03/04/18 17:40:33.427] :  align7_mafft queued
+[03/04/18 17:40:33.427] :  align8_mafft queued
+[03/04/18 17:40:33.427] :  align0_mafft queued
+[03/04/18 17:40:33.428] :  align1_mafft queued
+[03/04/18 17:40:33.428] :  align2_mafft queued
+[03/04/18 17:40:33.428] :  align3_mafft queued
+[03/04/18 17:40:33.428] :  align4_mafft queued
+[03/04/18 17:40:33.428] :  align5_mafft queued
+[03/04/18 17:40:33.428] :  align6_mafft queued
+[03/04/18 17:40:33.428] :  align7_mafft queued
+[03/04/18 17:40:33.428] :  align8_mafft queued
+[03/04/18 17:40:33.428] :  align0_mafft queued
+[03/04/18 17:40:33.428] :  align1_mafft queued
+[03/04/18 17:40:33.428] :  align2_mafft queued
+[03/04/18 17:40:33.428] :  align3_mafft queued
+[03/04/18 17:40:33.428] :  align4_mafft queued
+[03/04/18 17:40:33.428] :  align5_mafft queued
+[03/04/18 17:40:33.428] :  align6_mafft queued
+[03/04/18 17:40:33.429] :  align7_mafft queued
+[03/04/18 17:40:33.429] :  align8_mafft queued
+[03/04/18 17:40:33.429] :  align0_mafft queued
+[03/04/18 17:40:33.429] :  align1_mafft queued
+[03/04/18 17:40:33.429] :  align2_mafft queued
+[03/04/18 17:40:33.429] :  align3_mafft queued
+[03/04/18 17:40:33.429] :  align4_mafft queued
+[03/04/18 17:40:33.429] :  align5_mafft queued
+[03/04/18 17:40:33.429] :  align6_mafft queued
+[03/04/18 17:40:33.429] :  align7_mafft queued
+[03/04/18 17:40:33.429] :  align8_mafft queued
+[03/04/18 17:40:33.429] :  align0_mafft queued
+[03/04/18 17:40:33.430] :  align1_mafft queued
+[03/04/18 17:40:33.430] :  align2_mafft queued
+[03/04/18 17:40:33.430] :  align3_mafft queued
+[03/04/18 17:40:33.430] :  align4_mafft queued
+[03/04/18 17:40:33.430] :  align5_mafft queued
+[03/04/18 17:40:33.430] :  align6_mafft queued
+[03/04/18 17:40:33.430] :  align7_mafft queued
+[03/04/18 17:40:33.430] :  align8_mafft queued
+[03/04/18 17:40:33.430] :  align0_mafft queued
+[03/04/18 17:40:33.430] :  align1_mafft queued
+[03/04/18 17:40:33.430] :  align2_mafft queued
+[03/04/18 17:40:33.430] :  align3_mafft queued
+[03/04/18 17:40:33.430] :  align4_mafft queued
+[03/04/18 17:40:33.431] :  align5_mafft queued
+[03/04/18 17:40:33.431] :  align6_mafft queued
+[03/04/18 17:40:33.431] :  align7_mafft queued
+[03/04/18 17:40:33.431] :  align8_mafft queued
+[03/04/18 17:40:33.431] :  align0_mafft queued
+[03/04/18 17:40:33.431] :  align1_mafft queued
+[03/04/18 17:40:33.431] :  align2_mafft queued
+[03/04/18 17:40:33.431] :  align3_mafft queued
+[03/04/18 17:40:33.431] :  align4_mafft queued
+[03/04/18 17:40:33.431] :  align5_mafft queued
+[03/04/18 17:40:33.431] :  align6_mafft queued
+[03/04/18 17:40:33.431] :  align7_mafft queued
+[03/04/18 17:40:33.431] :  align8_mafft queued
+[03/04/18 17:40:33.431] :  align0_mafft queued
+[03/04/18 17:40:33.431] :  align1_mafft queued
+[03/04/18 17:40:33.432] :  align2_mafft queued
+[03/04/18 17:40:33.432] :  align3_mafft queued
+[03/04/18 17:40:33.432] :  align4_mafft queued
+[03/04/18 17:40:33.432] :  align5_mafft queued
+[03/04/18 17:40:33.432] :  align6_mafft queued
+[03/04/18 17:40:33.432] :  align7_mafft queued
+[03/04/18 17:40:33.432] :  align8_mafft queued
+[03/04/18 17:40:33.432] :  align0_mafft queued
+[03/04/18 17:40:33.432] :  align1_mafft queued
+[03/04/18 17:40:33.432] :  align2_mafft queued
+[03/04/18 17:40:33.432] :  align3_mafft queued
+[03/04/18 17:40:33.432] :  align4_mafft queued
+[03/04/18 17:40:33.432] :  align5_mafft queued
+[03/04/18 17:40:33.432] :  align6_mafft queued
+[03/04/18 17:40:33.433] :  align7_mafft queued
+[03/04/18 17:40:33.433] :  align8_mafft queued
+[03/04/18 17:40:33.433] :  align0_mafft queued
+[03/04/18 17:40:33.433] :  align1_mafft queued
+[03/04/18 17:40:33.433] :  align2_mafft queued
+[03/04/18 17:40:33.433] :  align3_mafft queued
+[03/04/18 17:40:33.433] :  align4_mafft queued
+[03/04/18 17:40:33.433] :  align5_mafft queued
+[03/04/18 17:40:33.433] :  align6_mafft queued
+[03/04/18 17:40:33.433] :  align7_mafft queued
+[03/04/18 17:40:33.433] :  align8_mafft queued
+[03/04/18 17:40:33.433] :  align0_mafft queued
+[03/04/18 17:40:33.433] :  align1_mafft queued
+[03/04/18 17:40:33.434] :  align2_mafft queued
+[03/04/18 17:40:33.434] :  align3_mafft queued
+[03/04/18 17:40:33.434] :  align4_mafft queued
+[03/04/18 17:40:33.434] :  align5_mafft queued
+[03/04/18 17:40:33.434] :  align6_mafft queued
+[03/04/18 17:40:33.434] :  align7_mafft queued
+[03/04/18 17:40:33.434] :  align8_mafft queued
+[03/04/18 17:40:33.434] :  align0_mafft queued
+[03/04/18 17:40:33.434] :  align1_mafft queued
+[03/04/18 17:40:33.434] :  align2_mafft queued
+[03/04/18 17:40:33.434] :  align3_mafft queued
+[03/04/18 17:40:33.434] :  align4_mafft queued
+[03/04/18 17:40:33.434] :  align5_mafft queued
+[03/04/18 17:40:33.434] :  align6_mafft queued
+[03/04/18 17:40:33.434] :  align7_mafft queued
+[03/04/18 17:40:33.435] :  align8_mafft queued
+[03/04/18 17:40:33.435] :  align0_mafft queued
+[03/04/18 17:40:33.435] :  align1_mafft queued
+[03/04/18 17:40:33.435] :  align2_mafft queued
+[03/04/18 17:40:33.435] :  align3_mafft queued
+[03/04/18 17:40:33.435] :  align4_mafft queued
+[03/04/18 17:40:33.435] :  align5_mafft queued
+[03/04/18 17:40:33.435] :  align6_mafft queued
+[03/04/18 17:40:33.435] :  align7_mafft queued
+[03/04/18 17:40:33.436] :  align8_mafft queued
+[03/04/18 17:40:33.436] :  align0_mafft queued
+[03/04/18 17:40:33.436] :  align1_mafft queued
+[03/04/18 17:40:33.436] :  align2_mafft queued
+[03/04/18 17:40:33.436] :  align3_mafft queued
+[03/04/18 17:40:33.436] :  align4_mafft queued
+[03/04/18 17:40:33.436] :  align5_mafft queued
+[03/04/18 17:40:33.436] :  align6_mafft queued
+[03/04/18 17:40:33.436] :  align7_mafft queued
+[03/04/18 17:40:33.436] :  align8_mafft queued
+[03/04/18 17:40:33.436] :  align0_mafft queued
+[03/04/18 17:40:33.436] :  align1_mafft queued
+[03/04/18 17:40:33.436] :  align2_mafft queued
+[03/04/18 17:40:33.436] :  align3_mafft queued
+[03/04/18 17:40:33.437] :  align4_mafft queued
+[03/04/18 17:40:33.437] :  align5_mafft queued
+[03/04/18 17:40:33.437] :  align6_mafft queued
+[03/04/18 17:40:33.437] :  align7_mafft queued
+[03/04/18 17:40:33.437] :  align8_mafft queued
+[03/04/18 17:40:33.437] :  align0_mafft queued
+[03/04/18 17:40:33.437] :  align1_mafft queued
+[03/04/18 17:40:33.437] :  align2_mafft queued
+[03/04/18 17:40:33.437] :  align3_mafft queued
+[03/04/18 17:40:33.437] :  align4_mafft queued
+[03/04/18 17:40:33.437] :  align5_mafft queued
+[03/04/18 17:40:33.437] :  align6_mafft queued
+[03/04/18 17:40:33.437] :  align7_mafft queued
+[03/04/18 17:40:33.437] :  align8_mafft queued
+[03/04/18 17:40:33.438] :  align0_mafft queued
+[03/04/18 17:40:33.438] :  align1_mafft queued
+[03/04/18 17:40:33.438] :  align2_mafft queued
+[03/04/18 17:40:33.438] :  align3_mafft queued
+[03/04/18 17:40:33.438] :  align4_mafft queued
+[03/04/18 17:40:33.438] :  align5_mafft queued
+[03/04/18 17:40:33.438] :  align6_mafft queued
+[03/04/18 17:40:33.438] :  align7_mafft queued
+[03/04/18 17:40:33.438] :  align8_mafft queued
+[03/04/18 17:40:33.438] :  align0_mafft queued
+[03/04/18 17:40:33.438] :  align1_mafft queued
+[03/04/18 17:40:33.438] :  align2_mafft queued
+[03/04/18 17:40:33.439] :  align3_mafft queued
+[03/04/18 17:40:33.439] :  align4_mafft queued
+[03/04/18 17:40:33.439] :  align5_mafft queued
+[03/04/18 17:40:33.439] :  align6_mafft queued
+[03/04/18 17:40:33.439] :  align7_mafft queued
+[03/04/18 17:40:33.439] :  align8_mafft queued
+[03/04/18 17:40:33.439] :  align0_mafft queued
+[03/04/18 17:40:33.439] :  align1_mafft queued
+[03/04/18 17:40:33.439] :  align2_mafft queued
+[03/04/18 17:40:33.439] :  align3_mafft queued
+[03/04/18 17:40:33.439] :  align4_mafft queued
+[03/04/18 17:40:33.439] :  align5_mafft queued
+[03/04/18 17:40:33.439] :  align6_mafft queued
+[03/04/18 17:40:33.439] :  align7_mafft queued
+[03/04/18 17:40:33.439] :  align8_mafft queued
+[03/04/18 17:40:33.440] :  align0_mafft queued
+[03/04/18 17:40:33.440] :  align1_mafft queued
+[03/04/18 17:40:33.440] :  align2_mafft queued
+[03/04/18 17:40:33.440] :  align3_mafft queued
+[03/04/18 17:40:33.440] :  align4_mafft queued
+[03/04/18 17:40:33.440] :  align5_mafft queued
+[03/04/18 17:40:33.440] :  align6_mafft queued
+[03/04/18 17:40:33.440] :  align7_mafft queued
+[03/04/18 17:40:33.440] :  align8_mafft queued
+[03/04/18 17:40:33.440] :  align0_mafft queued
+[03/04/18 17:40:33.440] :  align1_mafft queued
+[03/04/18 17:40:33.440] :  align2_mafft queued
+[03/04/18 17:40:33.440] :  align3_mafft queued
+[03/04/18 17:40:33.441] :  align4_mafft queued
+[03/04/18 17:40:33.441] :  align5_mafft queued
+[03/04/18 17:40:33.441] :  align6_mafft queued
+[03/04/18 17:40:33.441] :  align7_mafft queued
+[03/04/18 17:40:33.441] :  align8_mafft queued
+[03/04/18 17:40:33.441] :  align0_mafft queued
+[03/04/18 17:40:33.441] :  align1_mafft queued
+[03/04/18 17:40:33.441] :  align2_mafft queued
+[03/04/18 17:40:33.441] :  align3_mafft queued
+[03/04/18 17:40:33.442] :  align4_mafft queued
+[03/04/18 17:40:33.442] :  align5_mafft queued
+[03/04/18 17:40:33.442] :  align6_mafft queued
+[03/04/18 17:40:33.442] :  align7_mafft queued
+[03/04/18 17:40:33.442] :  align8_mafft queued
+[03/04/18 17:40:33.443] :  align0_mafft queued
+[03/04/18 17:40:33.443] :  align1_mafft queued
+[03/04/18 17:40:33.443] :  align2_mafft queued
+[03/04/18 17:40:33.443] :  align3_mafft queued
+[03/04/18 17:40:33.443] :  align4_mafft queued
+[03/04/18 17:40:33.443] :  align5_mafft queued
+[03/04/18 17:40:33.443] :  align6_mafft queued
+[03/04/18 17:40:33.443] :  align7_mafft queued
+[03/04/18 17:40:33.443] :  align8_mafft queued
+[03/04/18 17:40:33.443] :  align0_mafft queued
+[03/04/18 17:40:33.443] :  align1_mafft queued
+[03/04/18 17:40:33.443] :  align2_mafft queued
+[03/04/18 17:40:33.443] :  align3_mafft queued
+[03/04/18 17:40:33.444] :  align4_mafft queued
+[03/04/18 17:40:33.444] :  align5_mafft queued
+[03/04/18 17:40:33.444] :  align6_mafft queued
+[03/04/18 17:40:33.444] :  align7_mafft queued
+[03/04/18 17:40:33.444] :  align8_mafft queued
+[03/04/18 17:40:33.444] :  align0_mafft queued
+[03/04/18 17:40:33.444] :  align1_mafft queued
+[03/04/18 17:40:33.444] :  align2_mafft queued
+[03/04/18 17:40:33.444] :  align3_mafft queued
+[03/04/18 17:40:33.444] :  align4_mafft queued
+[03/04/18 17:40:33.444] :  align5_mafft queued
+[03/04/18 17:40:33.444] :  align6_mafft queued
+[03/04/18 17:40:33.444] :  align7_mafft queued
+[03/04/18 17:40:33.444] :  align8_mafft queued
+[03/04/18 17:40:33.444] :  align0_mafft queued
+[03/04/18 17:40:33.445] :  align1_mafft queued
+[03/04/18 17:40:33.445] :  align2_mafft queued
+[03/04/18 17:40:33.445] :  align3_mafft queued
+[03/04/18 17:40:33.445] :  align4_mafft queued
+[03/04/18 17:40:33.445] :  align5_mafft queued
+[03/04/18 17:40:33.445] :  align6_mafft queued
+[03/04/18 17:40:33.445] :  align7_mafft queued
+[03/04/18 17:40:33.445] :  align8_mafft queued
+[03/04/18 17:40:33.445] :  align0_mafft queued
+[03/04/18 17:40:33.445] :  align1_mafft queued
+[03/04/18 17:40:33.445] :  align2_mafft queued
+[03/04/18 17:40:33.445] :  align3_mafft queued
+[03/04/18 17:40:33.445] :  align4_mafft queued
+[03/04/18 17:40:33.446] :  align5_mafft queued
+[03/04/18 17:40:33.446] :  align6_mafft queued
+[03/04/18 17:40:33.446] :  align7_mafft queued
+[03/04/18 17:40:33.446] :  align8_mafft queued
+[03/04/18 17:40:33.446] :  align0_mafft queued
+[03/04/18 17:40:33.446] :  align1_mafft queued
+[03/04/18 17:40:33.446] :  align2_mafft queued
+[03/04/18 17:40:33.446] :  align3_mafft queued
+[03/04/18 17:40:33.447] :  align4_mafft queued
+[03/04/18 17:40:33.447] :  align5_mafft queued
+[03/04/18 17:40:33.447] :  align6_mafft queued
+[03/04/18 17:40:33.447] :  align7_mafft queued
+[03/04/18 17:40:33.447] :  align8_mafft queued
+[03/04/18 17:40:33.447] :  align0_mafft queued
+[03/04/18 17:40:33.447] :  align1_mafft queued
+[03/04/18 17:40:33.447] :  align2_mafft queued
+[03/04/18 17:40:33.447] :  align3_mafft queued
+[03/04/18 17:40:33.447] :  align4_mafft queued
+[03/04/18 17:40:33.447] :  align5_mafft queued
+[03/04/18 17:40:33.447] :  align6_mafft queued
+[03/04/18 17:40:33.447] :  align7_mafft queued
+[03/04/18 17:40:33.447] :  align8_mafft queued
+[03/04/18 17:40:33.448] :  align0_mafft queued
+[03/04/18 17:40:33.448] :  align1_mafft queued
+[03/04/18 17:40:33.448] :  align2_mafft queued
+[03/04/18 17:40:33.448] :  align3_mafft queued
+[03/04/18 17:40:33.448] :  align4_mafft queued
+[03/04/18 17:40:33.448] :  align5_mafft queued
+[03/04/18 17:40:33.448] :  align6_mafft queued
+[03/04/18 17:40:33.448] :  align7_mafft queued
+[03/04/18 17:40:33.448] :  align8_mafft queued
+[03/04/18 17:40:33.448] :  align0_mafft queued
+[03/04/18 17:40:33.448] :  align1_mafft queued
+[03/04/18 17:40:33.448] :  align2_mafft queued
+[03/04/18 17:40:33.448] :  align3_mafft queued
+[03/04/18 17:40:33.448] :  align4_mafft queued
+[03/04/18 17:40:33.449] :  align5_mafft queued
+[03/04/18 17:40:33.449] :  align6_mafft queued
+[03/04/18 17:40:33.449] :  align7_mafft queued
+[03/04/18 17:40:33.449] :  align8_mafft queued
+[03/04/18 17:40:33.449] :  align0_mafft queued
+[03/04/18 17:40:33.449] :  align1_mafft queued
+[03/04/18 17:40:33.449] :  align2_mafft queued
+[03/04/18 17:40:33.449] :  align3_mafft queued
+[03/04/18 17:40:33.449] :  align4_mafft queued
+[03/04/18 17:40:33.449] :  align5_mafft queued
+[03/04/18 17:40:33.449] :  align6_mafft queued
+[03/04/18 17:40:33.449] :  align7_mafft queued
+[03/04/18 17:40:33.449] :  align8_mafft queued
+[03/04/18 17:40:33.449] :  align0_mafft queued
+[03/04/18 17:40:33.449] :  align1_mafft queued
+[03/04/18 17:40:33.450] :  align2_mafft queued
+[03/04/18 17:40:33.450] :  align3_mafft queued
+[03/04/18 17:40:33.450] :  align4_mafft queued
+[03/04/18 17:40:33.450] :  align5_mafft queued
+[03/04/18 17:40:33.450] :  align6_mafft queued
+[03/04/18 17:40:33.450] :  align7_mafft queued
+[03/04/18 17:40:33.450] :  align8_mafft queued
+[03/04/18 17:40:33.450] :  align0_mafft queued
+[03/04/18 17:40:33.450] :  align1_mafft queued
+[03/04/18 17:40:33.451] :  align2_mafft queued
+[03/04/18 17:40:33.451] :  align3_mafft queued
+[03/04/18 17:40:33.451] :  align4_mafft queued
+[03/04/18 17:40:33.451] :  align5_mafft queued
+[03/04/18 17:40:33.451] :  align6_mafft queued
+[03/04/18 17:40:33.451] :  align7_mafft queued
+[03/04/18 17:40:33.451] :  align8_mafft queued
+[03/04/18 17:40:33.451] :  align0_mafft queued
+[03/04/18 17:40:33.451] :  align1_mafft queued
+[03/04/18 17:40:33.451] :  align2_mafft queued
+[03/04/18 17:40:33.451] :  align3_mafft queued
+[03/04/18 17:40:33.451] :  align4_mafft queued
+[03/04/18 17:40:33.451] :  align5_mafft queued
+[03/04/18 17:40:33.451] :  align6_mafft queued
+[03/04/18 17:40:33.451] :  align7_mafft queued
+[03/04/18 17:40:33.452] :  align8_mafft queued
+[03/04/18 17:40:33.452] :  align0_mafft queued
+[03/04/18 17:40:33.452] :  align1_mafft queued
+[03/04/18 17:40:33.452] :  align2_mafft queued
+[03/04/18 17:40:33.452] :  align3_mafft queued
+[03/04/18 17:40:33.452] :  align4_mafft queued
+[03/04/18 17:40:33.452] :  align5_mafft queued
+[03/04/18 17:40:33.452] :  align6_mafft queued
+[03/04/18 17:40:33.452] :  align7_mafft queued
+[03/04/18 17:40:33.452] :  align8_mafft queued
+[03/04/18 17:40:33.657] :  align0_mafft (4000904) completed
+[03/04/18 17:40:33.658] :  align1_mafft (7069710) started
+[03/04/18 17:40:33.968] :  align1_mafft (7069710) completed
+[03/04/18 17:40:33.968] :  align2_mafft (5187759) started
+[03/04/18 17:40:34.228] :  align2_mafft (5187759) completed
+[03/04/18 17:40:34.228] :  align3_mafft (4124875) started
+[03/04/18 17:40:34.228] :  align3_mafft (4124875) completed
+[03/04/18 17:40:34.228] :  align4_mafft (1113787) started
+[03/04/18 17:40:34.433] :  align4_mafft (1113787) completed
+[03/04/18 17:40:34.433] :  align5_mafft (9512783) started
+[03/04/18 17:40:34.434] :  align5_mafft (9512783) completed
+[03/04/18 17:40:34.434] :  align6_mafft (82531) started
+[03/04/18 17:40:34.434] :  align6_mafft (82531) completed
+[03/04/18 17:40:34.434] :  align7_mafft (3133352) started
+[03/04/18 17:40:34.733] :  align7_mafft (3133352) completed
+[03/04/18 17:40:34.733] :  align8_mafft (6312548) started
+[03/04/18 17:40:35.64] :  merger0_muscle queued
+[03/04/18 17:40:35.64] :  merger1_muscle queued
+[03/04/18 17:40:35.65] :  merger2_muscle queued
+[03/04/18 17:40:35.65] :  merger3_muscle queued
+[03/04/18 17:40:35.65] :  merger4_muscle queued
+[03/04/18 17:40:35.65] :  merger5_muscle queued
+[03/04/18 17:40:35.65] :  merger6_muscle queued
+[03/04/18 17:40:35.65] :  merger7_muscle queued
+[03/04/18 17:40:35.65] :  merger8_muscle queued
+[03/04/18 17:40:35.65] :  align8_mafft (6312548) completed
+[03/04/18 17:40:35.66] :  align0_mafft (6268925) started
+[03/04/18 17:40:35.66] :  align0_mafft (6268925) completed
+[03/04/18 17:40:35.66] :  align1_mafft (8410491) started
+[03/04/18 17:40:35.293] :  align1_mafft (8410491) completed
+[03/04/18 17:40:35.294] :  align2_mafft (7045058) started
+[03/04/18 17:40:35.294] :  align2_mafft (7045058) completed
+[03/04/18 17:40:35.294] :  align3_mafft (5598785) started
+[03/04/18 17:40:35.294] :  align3_mafft (5598785) completed
+[03/04/18 17:40:35.294] :  align4_mafft (5182614) started
+[03/04/18 17:40:35.482] :  align4_mafft (5182614) completed
+[03/04/18 17:40:35.483] :  align5_mafft (2646713) started
+[03/04/18 17:40:35.483] :  align5_mafft (2646713) completed
+[03/04/18 17:40:35.483] :  align6_mafft (5623695) started
+[03/04/18 17:40:35.483] :  align6_mafft (5623695) completed
+[03/04/18 17:40:35.483] :  align7_mafft (3941894) started
+[03/04/18 17:40:35.748] :  align7_mafft (3941894) completed
+[03/04/18 17:40:35.749] :  align8_mafft (7706372) started
+[03/04/18 17:40:36.23] :  align8_mafft (7706372) completed
+[03/04/18 17:40:36.23] :  align0_mafft (5915656) started
+[03/04/18 17:40:36.23] :  align0_mafft (5915656) completed
+[03/04/18 17:40:36.24] :  align1_mafft (8731793) started
+[03/04/18 17:40:36.24] :  align1_mafft (8731793) completed
+[03/04/18 17:40:36.25] :  align2_mafft (687458) started
+[03/04/18 17:40:36.25] :  align2_mafft (687458) completed
+[03/04/18 17:40:36.25] :  align3_mafft (5151795) started
+[03/04/18 17:40:36.25] :  align3_mafft (5151795) completed
+[03/04/18 17:40:36.26] :  align4_mafft (3291964) started
+[03/04/18 17:40:36.26] :  align4_mafft (3291964) completed
+[03/04/18 17:40:36.26] :  align5_mafft (2494034) started
+[03/04/18 17:40:36.26] :  align5_mafft (2494034) completed
+[03/04/18 17:40:36.26] :  align6_mafft (1023365) started
+[03/04/18 17:40:36.26] :  align6_mafft (1023365) completed
+[03/04/18 17:40:36.27] :  align7_mafft (3277653) started
+[03/04/18 17:40:36.27] :  align7_mafft (3277653) completed
+[03/04/18 17:40:36.27] :  align8_mafft (5170392) started
+[03/04/18 17:40:36.27] :  align8_mafft (5170392) completed
+[03/04/18 17:40:36.27] :  align0_mafft (2593111) started
+[03/04/18 17:40:36.299] :  align0_mafft (2593111) completed
+[03/04/18 17:40:36.299] :  align1_mafft (6105695) started
+[03/04/18 17:40:36.753] :  align1_mafft (6105695) completed
+[03/04/18 17:40:36.753] :  align2_mafft (4231763) started
+[03/04/18 17:40:37.38] :  align2_mafft (4231763) completed
+[03/04/18 17:40:37.38] :  align3_mafft (4435527) started
+[03/04/18 17:40:37.38] :  align3_mafft (4435527) completed
+[03/04/18 17:40:37.38] :  align4_mafft (4580115) started
+[03/04/18 17:40:37.244] :  align4_mafft (4580115) completed
+[03/04/18 17:40:37.244] :  align5_mafft (1405365) started
+[03/04/18 17:40:37.244] :  align5_mafft (1405365) completed
+[03/04/18 17:40:37.244] :  align6_mafft (8026557) started
+[03/04/18 17:40:37.244] :  align6_mafft (8026557) completed
+[03/04/18 17:40:37.244] :  align7_mafft (6172377) started
+[03/04/18 17:40:37.449] :  align7_mafft (6172377) completed
+[03/04/18 17:40:37.449] :  align8_mafft (7702857) started
+[03/04/18 17:40:37.449] :  align8_mafft (7702857) completed
+[03/04/18 17:40:37.449] :  align0_mafft (2265913) started
+[03/04/18 17:40:37.449] :  align0_mafft (2265913) completed
+[03/04/18 17:40:37.450] :  align1_mafft (4025792) started
+[03/04/18 17:40:37.450] :  align1_mafft (4025792) completed
+[03/04/18 17:40:37.450] :  align2_mafft (2667043) started
+[03/04/18 17:40:37.450] :  align2_mafft (2667043) completed
+[03/04/18 17:40:37.450] :  align3_mafft (239598) started
+[03/04/18 17:40:37.450] :  align3_mafft (239598) completed
+[03/04/18 17:40:37.450] :  align4_mafft (5869836) started
+[03/04/18 17:40:37.450] :  align4_mafft (5869836) completed
+[03/04/18 17:40:37.450] :  align5_mafft (703444) started
+[03/04/18 17:40:37.450] :  align5_mafft (703444) completed
+[03/04/18 17:40:37.450] :  align6_mafft (4647577) started
+[03/04/18 17:40:37.450] :  align6_mafft (4647577) completed
+[03/04/18 17:40:37.450] :  align7_mafft (9131615) started
+[03/04/18 17:40:37.450] :  align7_mafft (9131615) completed
+[03/04/18 17:40:37.451] :  align8_mafft (2621039) started
+[03/04/18 17:40:37.459] :  merger0_muscle queued
+[03/04/18 17:40:37.459] :  merger1_muscle queued
+[03/04/18 17:40:37.459] :  merger2_muscle queued
+[03/04/18 17:40:37.459] :  merger3_muscle queued
+[03/04/18 17:40:37.459] :  merger4_muscle queued
+[03/04/18 17:40:37.459] :  merger5_muscle queued
+[03/04/18 17:40:37.459] :  merger6_muscle queued
+[03/04/18 17:40:37.459] :  merger7_muscle queued
+[03/04/18 17:40:37.459] :  merger8_muscle queued
+[03/04/18 17:40:37.465] :  merger0_muscle queued
+[03/04/18 17:40:37.465] :  merger1_muscle queued
+[03/04/18 17:40:37.465] :  merger2_muscle queued
+[03/04/18 17:40:37.465] :  merger3_muscle queued
+[03/04/18 17:40:37.465] :  merger4_muscle queued
+[03/04/18 17:40:37.466] :  merger5_muscle queued
+[03/04/18 17:40:37.466] :  merger6_muscle queued
+[03/04/18 17:40:37.466] :  merger7_muscle queued
+[03/04/18 17:40:37.466] :  merger8_muscle queued
+[03/04/18 17:40:37.466] :  align8_mafft (2621039) completed
+[03/04/18 17:40:37.466] :  align0_mafft (6661894) started
+[03/04/18 17:40:37.466] :  align0_mafft (6661894) completed
+[03/04/18 17:40:37.466] :  align1_mafft (9737326) started
+[03/04/18 17:40:37.467] :  align1_mafft (9737326) completed
+[03/04/18 17:40:37.467] :  align2_mafft (7256916) started
+[03/04/18 17:40:37.467] :  align2_mafft (7256916) completed
+[03/04/18 17:40:37.467] :  align3_mafft (1582154) started
+[03/04/18 17:40:37.467] :  align3_mafft (1582154) completed
+[03/04/18 17:40:37.467] :  align4_mafft (1505899) started
+[03/04/18 17:40:37.467] :  align4_mafft (1505899) completed
+[03/04/18 17:40:37.467] :  align5_mafft (7316146) started
+[03/04/18 17:40:37.468] :  align5_mafft (7316146) completed
+[03/04/18 17:40:37.468] :  align6_mafft (1735767) started
+[03/04/18 17:40:37.468] :  align6_mafft (1735767) completed
+[03/04/18 17:40:37.468] :  align7_mafft (5715162) started
+[03/04/18 17:40:37.468] :  align7_mafft (5715162) completed
+[03/04/18 17:40:37.468] :  align8_mafft (1787532) started
+[03/04/18 17:40:37.481] :  merger0_muscle queued
+[03/04/18 17:40:37.481] :  merger1_muscle queued
+[03/04/18 17:40:37.482] :  merger2_muscle queued
+[03/04/18 17:40:37.482] :  merger3_muscle queued
+[03/04/18 17:40:37.482] :  merger4_muscle queued
+[03/04/18 17:40:37.482] :  merger5_muscle queued
+[03/04/18 17:40:37.482] :  merger6_muscle queued
+[03/04/18 17:40:37.482] :  merger7_muscle queued
+[03/04/18 17:40:37.482] :  merger8_muscle queued
+[03/04/18 17:40:37.482] :  align8_mafft (1787532) completed
+[03/04/18 17:40:37.483] :  align0_mafft (5083303) started
+[03/04/18 17:40:37.483] :  align0_mafft (5083303) completed
+[03/04/18 17:40:37.483] :  align1_mafft (5123278) started
+[03/04/18 17:40:37.483] :  align1_mafft (5123278) completed
+[03/04/18 17:40:37.483] :  align2_mafft (457108) started
+[03/04/18 17:40:37.483] :  align2_mafft (457108) completed
+[03/04/18 17:40:37.483] :  align3_mafft (9642123) started
+[03/04/18 17:40:37.483] :  align3_mafft (9642123) completed
+[03/04/18 17:40:37.483] :  align4_mafft (4475153) started
+[03/04/18 17:40:37.484] :  align4_mafft (4475153) completed
+[03/04/18 17:40:37.484] :  align5_mafft (8131457) started
+[03/04/18 17:40:37.484] :  align5_mafft (8131457) completed
+[03/04/18 17:40:37.484] :  align6_mafft (2421811) started
+[03/04/18 17:40:37.484] :  align6_mafft (2421811) completed
+[03/04/18 17:40:37.484] :  align7_mafft (3255201) started
+[03/04/18 17:40:37.484] :  align7_mafft (3255201) completed
+[03/04/18 17:40:37.485] :  align8_mafft (9087070) started
+[03/04/18 17:40:37.485] :  align8_mafft (9087070) completed
+[03/04/18 17:40:37.485] :  align0_mafft (1699329) started
+[03/04/18 17:40:37.798] :  align0_mafft (1699329) completed
+[03/04/18 17:40:37.799] :  align1_mafft (7615854) started
+[03/04/18 17:40:38.62] :  align1_mafft (7615854) completed
+[03/04/18 17:40:38.62] :  align2_mafft (9511809) started
+[03/04/18 17:40:38.62] :  align2_mafft (9511809) completed
+[03/04/18 17:40:38.62] :  align3_mafft (1210294) started
+[03/04/18 17:40:38.62] :  align3_mafft (1210294) completed
+[03/04/18 17:40:38.62] :  align4_mafft (9728850) started
+[03/04/18 17:40:38.261] :  align4_mafft (9728850) completed
+[03/04/18 17:40:38.261] :  align5_mafft (1848887) started
+[03/04/18 17:40:38.261] :  align5_mafft (1848887) completed
+[03/04/18 17:40:38.262] :  align6_mafft (9654661) started
+[03/04/18 17:40:38.262] :  align6_mafft (9654661) completed
+[03/04/18 17:40:38.262] :  align7_mafft (9686730) started
+[03/04/18 17:40:38.460] :  align7_mafft (9686730) completed
+[03/04/18 17:40:38.461] :  align8_mafft (3598958) started
+[03/04/18 17:40:38.471] :  merger0_muscle queued
+[03/04/18 17:40:38.471] :  merger1_muscle queued
+[03/04/18 17:40:38.472] :  merger2_muscle queued
+[03/04/18 17:40:38.472] :  merger3_muscle queued
+[03/04/18 17:40:38.472] :  merger4_muscle queued
+[03/04/18 17:40:38.472] :  merger5_muscle queued
+[03/04/18 17:40:38.472] :  merger6_muscle queued
+[03/04/18 17:40:38.473] :  merger7_muscle queued
+[03/04/18 17:40:38.473] :  merger8_muscle queued
+[03/04/18 17:40:38.484] :  merger0_muscle queued
+[03/04/18 17:40:38.484] :  merger1_muscle queued
+[03/04/18 17:40:38.484] :  merger2_muscle queued
+[03/04/18 17:40:38.484] :  merger3_muscle queued
+[03/04/18 17:40:38.484] :  merger4_muscle queued
+[03/04/18 17:40:38.484] :  merger5_muscle queued
+[03/04/18 17:40:38.484] :  merger6_muscle queued
+[03/04/18 17:40:38.485] :  merger7_muscle queued
+[03/04/18 17:40:38.485] :  merger8_muscle queued
+[03/04/18 17:40:38.498] :  merger0_muscle queued
+[03/04/18 17:40:38.498] :  merger1_muscle queued
+[03/04/18 17:40:38.498] :  merger2_muscle queued
+[03/04/18 17:40:38.498] :  merger3_muscle queued
+[03/04/18 17:40:38.498] :  merger4_muscle queued
+[03/04/18 17:40:38.498] :  merger5_muscle queued
+[03/04/18 17:40:38.498] :  merger6_muscle queued
+[03/04/18 17:40:38.498] :  merger7_muscle queued
+[03/04/18 17:40:38.499] :  merger8_muscle queued
+[03/04/18 17:40:38.513] :  merger0_muscle queued
+[03/04/18 17:40:38.513] :  merger1_muscle queued
+[03/04/18 17:40:38.513] :  merger2_muscle queued
+[03/04/18 17:40:38.513] :  merger3_muscle queued
+[03/04/18 17:40:38.513] :  merger4_muscle queued
+[03/04/18 17:40:38.514] :  merger5_muscle queued
+[03/04/18 17:40:38.514] :  merger6_muscle queued
+[03/04/18 17:40:38.514] :  merger7_muscle queued
+[03/04/18 17:40:38.514] :  merger8_muscle queued
+[03/04/18 17:40:38.528] :  merger0_muscle queued
+[03/04/18 17:40:38.528] :  merger1_muscle queued
+[03/04/18 17:40:38.528] :  merger2_muscle queued
+[03/04/18 17:40:38.528] :  merger3_muscle queued
+[03/04/18 17:40:38.528] :  merger4_muscle queued
+[03/04/18 17:40:38.528] :  merger5_muscle queued
+[03/04/18 17:40:38.528] :  merger6_muscle queued
+[03/04/18 17:40:38.529] :  merger7_muscle queued
+[03/04/18 17:40:38.529] :  merger8_muscle queued
+[03/04/18 17:40:38.529] :  align8_mafft (3598958) completed
+[03/04/18 17:40:38.529] :  align0_mafft (5405428) started
+[03/04/18 17:40:38.982] :  align0_mafft (5405428) completed
+[03/04/18 17:40:38.982] :  align1_mafft (687201) started
+[03/04/18 17:40:39.223] :  align1_mafft (687201) completed
+[03/04/18 17:40:39.224] :  align2_mafft (8954719) started
+[03/04/18 17:40:39.224] :  align2_mafft (8954719) completed
+[03/04/18 17:40:39.224] :  align3_mafft (8949408) started
+[03/04/18 17:40:39.224] :  align3_mafft (8949408) completed
+[03/04/18 17:40:39.224] :  align4_mafft (6310936) started
+[03/04/18 17:40:39.416] :  align4_mafft (6310936) completed
+[03/04/18 17:40:39.416] :  align5_mafft (5608581) started
+[03/04/18 17:40:39.416] :  align5_mafft (5608581) completed
+[03/04/18 17:40:39.416] :  align6_mafft (4025249) started
+[03/04/18 17:40:39.416] :  align6_mafft (4025249) completed
+[03/04/18 17:40:39.416] :  align7_mafft (2181657) started
+[03/04/18 17:40:39.668] :  align7_mafft (2181657) completed
+[03/04/18 17:40:39.668] :  align8_mafft (8759477) started
+[03/04/18 17:40:39.679] :  merger0_muscle queued
+[03/04/18 17:40:39.679] :  merger1_muscle queued
+[03/04/18 17:40:39.679] :  merger2_muscle queued
+[03/04/18 17:40:39.680] :  merger3_muscle queued
+[03/04/18 17:40:39.680] :  merger4_muscle queued
+[03/04/18 17:40:39.680] :  merger5_muscle queued
+[03/04/18 17:40:39.680] :  merger6_muscle queued
+[03/04/18 17:40:39.680] :  merger7_muscle queued
+[03/04/18 17:40:39.680] :  merger8_muscle queued
+[03/04/18 17:40:39.695] :  merger0_muscle queued
+[03/04/18 17:40:39.695] :  merger1_muscle queued
+[03/04/18 17:40:39.695] :  merger2_muscle queued
+[03/04/18 17:40:39.695] :  merger3_muscle queued
+[03/04/18 17:40:39.695] :  merger4_muscle queued
+[03/04/18 17:40:39.695] :  merger5_muscle queued
+[03/04/18 17:40:39.695] :  merger6_muscle queued
+[03/04/18 17:40:39.695] :  merger7_muscle queued
+[03/04/18 17:40:39.696] :  merger8_muscle queued
+[03/04/18 17:40:39.696] :  align8_mafft (8759477) completed
+[03/04/18 17:40:39.696] :  align0_mafft (4547439) started
+[03/04/18 17:40:39.696] :  align0_mafft (4547439) completed
+[03/04/18 17:40:39.696] :  align1_mafft (6254857) started
+[03/04/18 17:40:39.980] :  align1_mafft (6254857) completed
+[03/04/18 17:40:39.980] :  align2_mafft (9879729) started
+[03/04/18 17:40:39.980] :  align2_mafft (9879729) completed
+[03/04/18 17:40:39.981] :  align3_mafft (4528643) started
+[03/04/18 17:40:39.981] :  align3_mafft (4528643) completed
+[03/04/18 17:40:39.981] :  align4_mafft (3199804) started
+[03/04/18 17:40:40.214] :  align4_mafft (3199804) completed
+[03/04/18 17:40:40.214] :  align5_mafft (9233895) started
+[03/04/18 17:40:40.214] :  align5_mafft (9233895) completed
+[03/04/18 17:40:40.214] :  align6_mafft (1620890) started
+[03/04/18 17:40:40.215] :  align6_mafft (1620890) completed
+[03/04/18 17:40:40.215] :  align7_mafft (6692599) started
+[03/04/18 17:40:40.422] :  align7_mafft (6692599) completed
+[03/04/18 17:40:40.422] :  align8_mafft (2085486) started
+[03/04/18 17:40:40.630] :  align8_mafft (2085486) completed
+[03/04/18 17:40:40.630] :  align0_mafft (4947713) started
+[03/04/18 17:40:40.630] :  align0_mafft (4947713) completed
+[03/04/18 17:40:40.630] :  align1_mafft (9921310) started
+[03/04/18 17:40:40.630] :  align1_mafft (9921310) completed
+[03/04/18 17:40:40.630] :  align2_mafft (3258506) started
+[03/04/18 17:40:40.630] :  align2_mafft (3258506) completed
+[03/04/18 17:40:40.630] :  align3_mafft (2288956) started
+[03/04/18 17:40:40.630] :  align3_mafft (2288956) completed
+[03/04/18 17:40:40.630] :  align4_mafft (6174854) started
+[03/04/18 17:40:40.630] :  align4_mafft (6174854) completed
+[03/04/18 17:40:40.631] :  align5_mafft (3255252) started
+[03/04/18 17:40:40.631] :  align5_mafft (3255252) completed
+[03/04/18 17:40:40.631] :  align6_mafft (7215747) started
+[03/04/18 17:40:40.631] :  align6_mafft (7215747) completed
+[03/04/18 17:40:40.631] :  align7_mafft (9846800) started
+[03/04/18 17:40:40.631] :  align7_mafft (9846800) completed
+[03/04/18 17:40:40.631] :  align8_mafft (672476) started
+[03/04/18 17:40:40.631] :  align8_mafft (672476) completed
+[03/04/18 17:40:40.631] :  align0_mafft (1687344) started
+[03/04/18 17:40:40.631] :  align0_mafft (1687344) completed
+[03/04/18 17:40:40.631] :  align1_mafft (167410) started
+[03/04/18 17:40:40.631] :  align1_mafft (167410) completed
+[03/04/18 17:40:40.631] :  align2_mafft (7228670) started
+[03/04/18 17:40:40.631] :  align2_mafft (7228670) completed
+[03/04/18 17:40:40.631] :  align3_mafft (8582603) started
+[03/04/18 17:40:40.631] :  align3_mafft (8582603) completed
+[03/04/18 17:40:40.632] :  align4_mafft (1285342) started
+[03/04/18 17:40:40.632] :  align4_mafft (1285342) completed
+[03/04/18 17:40:40.632] :  align5_mafft (3055919) started
+[03/04/18 17:40:40.632] :  align5_mafft (3055919) completed
+[03/04/18 17:40:40.632] :  align6_mafft (6680882) started
+[03/04/18 17:40:40.632] :  align6_mafft (6680882) completed
+[03/04/18 17:40:40.632] :  align7_mafft (5175256) started
+[03/04/18 17:40:40.632] :  align7_mafft (5175256) completed
+[03/04/18 17:40:40.632] :  align8_mafft (5109228) started
+[03/04/18 17:40:40.632] :  align8_mafft (5109228) completed
+[03/04/18 17:40:40.632] :  align0_mafft (7265623) started
+[03/04/18 17:40:40.632] :  align0_mafft (7265623) completed
+[03/04/18 17:40:40.632] :  align1_mafft (1710143) started
+[03/04/18 17:40:40.632] :  align1_mafft (1710143) completed
+[03/04/18 17:40:40.633] :  align2_mafft (4051624) started
+[03/04/18 17:40:40.633] :  align2_mafft (4051624) completed
+[03/04/18 17:40:40.633] :  align3_mafft (5625074) started
+[03/04/18 17:40:40.633] :  align3_mafft (5625074) completed
+[03/04/18 17:40:40.633] :  align4_mafft (6657294) started
+[03/04/18 17:40:40.633] :  align4_mafft (6657294) completed
+[03/04/18 17:40:40.633] :  align5_mafft (5190466) started
+[03/04/18 17:40:40.633] :  align5_mafft (5190466) completed
+[03/04/18 17:40:40.633] :  align6_mafft (4253489) started
+[03/04/18 17:40:40.633] :  align6_mafft (4253489) completed
+[03/04/18 17:40:40.633] :  align7_mafft (9306159) started
+[03/04/18 17:40:40.633] :  align7_mafft (9306159) completed
+[03/04/18 17:40:40.633] :  align8_mafft (7210446) started
+[03/04/18 17:40:40.633] :  align8_mafft (7210446) completed
+[03/04/18 17:40:40.633] :  align0_mafft (5608160) started
+[03/04/18 17:40:41.92] :  align0_mafft (5608160) completed
+[03/04/18 17:40:41.92] :  align1_mafft (329431) started
+[03/04/18 17:40:41.494] :  align1_mafft (329431) completed
+[03/04/18 17:40:41.494] :  align2_mafft (7217418) started
+[03/04/18 17:40:41.748] :  align2_mafft (7217418) completed
+[03/04/18 17:40:41.749] :  align3_mafft (3893671) started
+[03/04/18 17:40:41.951] :  align3_mafft (3893671) completed
+[03/04/18 17:40:41.952] :  align4_mafft (3994109) started
+[03/04/18 17:40:42.225] :  align4_mafft (3994109) completed
+[03/04/18 17:40:42.225] :  align5_mafft (5124175) started
+[03/04/18 17:40:42.425] :  align5_mafft (5124175) completed
+[03/04/18 17:40:42.425] :  align6_mafft (1366297) started
+[03/04/18 17:40:42.425] :  align6_mafft (1366297) completed
+[03/04/18 17:40:42.425] :  align7_mafft (4456593) started
+[03/04/18 17:40:42.692] :  align7_mafft (4456593) completed
+[03/04/18 17:40:42.692] :  align8_mafft (5820035) started
+[03/04/18 17:40:42.915] :  align8_mafft (5820035) completed
+[03/04/18 17:40:42.915] :  align0_mafft (5838027) started
+[03/04/18 17:40:43.221] :  align0_mafft (5838027) completed
+[03/04/18 17:40:43.222] :  align1_mafft (253572) started
+[03/04/18 17:40:43.585] :  align1_mafft (253572) completed
+[03/04/18 17:40:43.585] :  align2_mafft (2683183) started
+[03/04/18 17:40:43.947] :  align2_mafft (2683183) completed
+[03/04/18 17:40:43.948] :  align3_mafft (5770054) started
+[03/04/18 17:40:43.948] :  align3_mafft (5770054) completed
+[03/04/18 17:40:43.948] :  align4_mafft (6140865) started
+[03/04/18 17:40:44.153] :  align4_mafft (6140865) completed
+[03/04/18 17:40:44.154] :  align5_mafft (2694862) started
+[03/04/18 17:40:44.356] :  align5_mafft (2694862) completed
+[03/04/18 17:40:44.356] :  align6_mafft (2363665) started
+[03/04/18 17:40:44.555] :  align6_mafft (2363665) completed
+[03/04/18 17:40:44.555] :  align7_mafft (1714478) started
+[03/04/18 17:40:44.793] :  align7_mafft (1714478) completed
+[03/04/18 17:40:44.793] :  align8_mafft (9345334) started
+[03/04/18 17:40:45.61] :  align8_mafft (9345334) completed
+[03/04/18 17:40:45.61] :  align0_mafft (3013389) started
+[03/04/18 17:40:45.376] :  align0_mafft (3013389) completed
+[03/04/18 17:40:45.376] :  align1_mafft (9141859) started
+[03/04/18 17:40:45.625] :  align1_mafft (9141859) completed
+[03/04/18 17:40:45.625] :  align2_mafft (8747181) started
+[03/04/18 17:40:45.841] :  align2_mafft (8747181) completed
+[03/04/18 17:40:45.841] :  align3_mafft (2999854) started
+[03/04/18 17:40:45.841] :  align3_mafft (2999854) completed
+[03/04/18 17:40:45.841] :  align4_mafft (5841956) started
+[03/04/18 17:40:46.71] :  align4_mafft (5841956) completed
+[03/04/18 17:40:46.71] :  align5_mafft (657414) started
+[03/04/18 17:40:46.72] :  align5_mafft (657414) completed
+[03/04/18 17:40:46.72] :  align6_mafft (9040671) started
+[03/04/18 17:40:46.72] :  align6_mafft (9040671) completed
+[03/04/18 17:40:46.72] :  align7_mafft (19010) started
+[03/04/18 17:40:46.280] :  align7_mafft (19010) completed
+[03/04/18 17:40:46.280] :  align8_mafft (2161727) started
+[03/04/18 17:40:46.498] :  align8_mafft (2161727) completed
+[03/04/18 17:40:46.498] :  align0_mafft (2635069) started
+[03/04/18 17:40:47.459] :  align0_mafft (2635069) completed
+[03/04/18 17:40:47.459] :  align1_mafft (8565876) started
+[03/04/18 17:40:48.14] :  align1_mafft (8565876) completed
+[03/04/18 17:40:48.15] :  align2_mafft (6492910) started
+[03/04/18 17:40:48.333] :  align2_mafft (6492910) completed
+[03/04/18 17:40:48.334] :  align3_mafft (2695565) started
+[03/04/18 17:40:48.611] :  align3_mafft (2695565) completed
+[03/04/18 17:40:48.612] :  align4_mafft (6995307) started
+[03/04/18 17:40:49.6] :  align4_mafft (6995307) completed
+[03/04/18 17:40:49.6] :  align5_mafft (6607347) started
+[03/04/18 17:40:49.224] :  align5_mafft (6607347) completed
+[03/04/18 17:40:49.224] :  align6_mafft (9384267) started
+[03/04/18 17:40:49.224] :  align6_mafft (9384267) completed
+[03/04/18 17:40:49.224] :  align7_mafft (5229093) started
+[03/04/18 17:40:49.486] :  align7_mafft (5229093) completed
+[03/04/18 17:40:49.486] :  align8_mafft (7085601) started
+[03/04/18 17:40:49.826] :  merger0_muscle queued
+[03/04/18 17:40:49.826] :  merger1_muscle queued
+[03/04/18 17:40:49.827] :  merger2_muscle queued
+[03/04/18 17:40:49.827] :  merger3_muscle queued
+[03/04/18 17:40:49.827] :  merger4_muscle queued
+[03/04/18 17:40:49.827] :  merger5_muscle queued
+[03/04/18 17:40:49.827] :  merger6_muscle queued
+[03/04/18 17:40:49.827] :  merger7_muscle queued
+[03/04/18 17:40:49.827] :  merger8_muscle queued
+[03/04/18 17:40:49.827] :  align8_mafft (7085601) completed
+[03/04/18 17:40:49.828] :  align0_mafft (7459924) started
+[03/04/18 17:40:49.828] :  align0_mafft (7459924) completed
+[03/04/18 17:40:49.828] :  align1_mafft (2508915) started
+[03/04/18 17:40:49.828] :  align1_mafft (2508915) completed
+[03/04/18 17:40:49.828] :  align2_mafft (2817311) started
+[03/04/18 17:40:49.829] :  align2_mafft (2817311) completed
+[03/04/18 17:40:49.830] :  align3_mafft (6537233) started
+[03/04/18 17:40:49.830] :  align3_mafft (6537233) completed
+[03/04/18 17:40:49.830] :  align4_mafft (3610679) started
+[03/04/18 17:40:49.830] :  align4_mafft (3610679) completed
+[03/04/18 17:40:49.830] :  align5_mafft (5793617) started
+[03/04/18 17:40:49.830] :  align5_mafft (5793617) completed
+[03/04/18 17:40:49.830] :  align6_mafft (7848764) started
+[03/04/18 17:40:49.831] :  align6_mafft (7848764) completed
+[03/04/18 17:40:49.831] :  align7_mafft (3633732) started
+[03/04/18 17:40:49.831] :  align7_mafft (3633732) completed
+[03/04/18 17:40:49.831] :  align8_mafft (5907365) started
+[03/04/18 17:40:49.831] :  align8_mafft (5907365) completed
+[03/04/18 17:40:49.831] :  align0_mafft (755197) started
+[03/04/18 17:40:49.831] :  align0_mafft (755197) completed
+[03/04/18 17:40:49.832] :  align1_mafft (5619307) started
+[03/04/18 17:40:49.832] :  align1_mafft (5619307) completed
+[03/04/18 17:40:49.832] :  align2_mafft (1960475) started
+[03/04/18 17:40:49.832] :  align2_mafft (1960475) completed
+[03/04/18 17:40:49.833] :  align3_mafft (9345651) started
+[03/04/18 17:40:49.833] :  align3_mafft (9345651) completed
+[03/04/18 17:40:49.833] :  align4_mafft (4661163) started
+[03/04/18 17:40:49.833] :  align4_mafft (4661163) completed
+[03/04/18 17:40:49.833] :  align5_mafft (2593118) started
+[03/04/18 17:40:49.834] :  align5_mafft (2593118) completed
+[03/04/18 17:40:49.834] :  align6_mafft (1466565) started
+[03/04/18 17:40:49.834] :  align6_mafft (1466565) completed
+[03/04/18 17:40:49.834] :  align7_mafft (718071) started
+[03/04/18 17:40:49.834] :  align7_mafft (718071) completed
+[03/04/18 17:40:49.834] :  align8_mafft (1943273) started
+[03/04/18 17:40:49.834] :  align8_mafft (1943273) completed
+[03/04/18 17:40:49.834] :  align0_mafft (1359006) started
+[03/04/18 17:40:50.737] :  align0_mafft (1359006) completed
+[03/04/18 17:40:50.738] :  align1_mafft (4149239) started
+[03/04/18 17:40:51.306] :  align1_mafft (4149239) completed
+[03/04/18 17:40:51.306] :  align2_mafft (8069842) started
+[03/04/18 17:40:51.612] :  align2_mafft (8069842) completed
+[03/04/18 17:40:51.612] :  align3_mafft (6579415) started
+[03/04/18 17:40:51.864] :  align3_mafft (6579415) completed
+[03/04/18 17:40:51.865] :  align4_mafft (6762929) started
+[03/04/18 17:40:52.218] :  align4_mafft (6762929) completed
+[03/04/18 17:40:52.218] :  align5_mafft (7847548) started
+[03/04/18 17:40:52.424] :  align5_mafft (7847548) completed
+[03/04/18 17:40:52.424] :  align6_mafft (441443) started
+[03/04/18 17:40:52.424] :  align6_mafft (441443) completed
+[03/04/18 17:40:52.424] :  align7_mafft (6343146) started
+[03/04/18 17:40:52.663] :  align7_mafft (6343146) completed
+[03/04/18 17:40:52.663] :  align8_mafft (9702739) started
+[03/04/18 17:40:52.938] :  merger0_muscle queued
+[03/04/18 17:40:52.938] :  merger1_muscle queued
+[03/04/18 17:40:52.938] :  merger2_muscle queued
+[03/04/18 17:40:52.938] :  merger3_muscle queued
+[03/04/18 17:40:52.938] :  merger4_muscle queued
+[03/04/18 17:40:52.939] :  merger5_muscle queued
+[03/04/18 17:40:52.939] :  merger6_muscle queued
+[03/04/18 17:40:52.939] :  merger7_muscle queued
+[03/04/18 17:40:52.939] :  merger8_muscle queued
+[03/04/18 17:40:52.939] :  align8_mafft (9702739) completed
+[03/04/18 17:40:52.939] :  align0_mafft (7342645) started
+[03/04/18 17:40:52.939] :  align0_mafft (7342645) completed
+[03/04/18 17:40:52.939] :  align1_mafft (6699919) started
+[03/04/18 17:40:52.940] :  align1_mafft (6699919) completed
+[03/04/18 17:40:52.940] :  align2_mafft (1283279) started
+[03/04/18 17:40:52.940] :  align2_mafft (1283279) completed
+[03/04/18 17:40:52.940] :  align3_mafft (1527406) started
+[03/04/18 17:40:52.940] :  align3_mafft (1527406) completed
+[03/04/18 17:40:52.940] :  align4_mafft (8587552) started
+[03/04/18 17:40:52.940] :  align4_mafft (8587552) completed
+[03/04/18 17:40:52.941] :  align5_mafft (5005113) started
+[03/04/18 17:40:52.941] :  align5_mafft (5005113) completed
+[03/04/18 17:40:52.941] :  align6_mafft (3751311) started
+[03/04/18 17:40:52.941] :  align6_mafft (3751311) completed
+[03/04/18 17:40:52.942] :  align7_mafft (694307) started
+[03/04/18 17:40:52.942] :  align7_mafft (694307) completed
+[03/04/18 17:40:52.942] :  align8_mafft (8097211) started
+[03/04/18 17:40:52.942] :  align8_mafft (8097211) completed
+[03/04/18 17:40:52.942] :  align0_mafft (3644968) started
+[03/04/18 17:40:53.525] :  align0_mafft (3644968) completed
+[03/04/18 17:40:53.525] :  align1_mafft (5953460) started
+[03/04/18 17:40:53.921] :  align1_mafft (5953460) completed
+[03/04/18 17:40:53.921] :  align2_mafft (6120931) started
+[03/04/18 17:40:54.163] :  align2_mafft (6120931) completed
+[03/04/18 17:40:54.163] :  align3_mafft (2711717) started
+[03/04/18 17:40:54.420] :  align3_mafft (2711717) completed
+[03/04/18 17:40:54.420] :  align4_mafft (8295782) started
+[03/04/18 17:40:54.713] :  align4_mafft (8295782) completed
+[03/04/18 17:40:54.713] :  align5_mafft (3557437) started
+[03/04/18 17:40:54.916] :  align5_mafft (3557437) completed
+[03/04/18 17:40:54.916] :  align6_mafft (8869171) started
+[03/04/18 17:40:55.138] :  align6_mafft (8869171) completed
+[03/04/18 17:40:55.138] :  align7_mafft (6995286) started
+[03/04/18 17:40:55.347] :  align7_mafft (6995286) completed
+[03/04/18 17:40:55.347] :  align8_mafft (5886873) started
+[03/04/18 17:40:55.575] :  merger0_muscle queued
+[03/04/18 17:40:55.575] :  merger1_muscle queued
+[03/04/18 17:40:55.575] :  merger2_muscle queued
+[03/04/18 17:40:55.575] :  merger3_muscle queued
+[03/04/18 17:40:55.575] :  merger4_muscle queued
+[03/04/18 17:40:55.575] :  merger5_muscle queued
+[03/04/18 17:40:55.575] :  merger6_muscle queued
+[03/04/18 17:40:55.575] :  merger7_muscle queued
+[03/04/18 17:40:55.575] :  merger8_muscle queued
+[03/04/18 17:40:55.575] :  align8_mafft (5886873) completed
+[03/04/18 17:40:55.575] :  align0_mafft (4964984) started
+[03/04/18 17:40:56.156] :  align0_mafft (4964984) completed
+[03/04/18 17:40:56.156] :  align1_mafft (5149471) started
+[03/04/18 17:40:56.648] :  align1_mafft (5149471) completed
+[03/04/18 17:40:56.648] :  align2_mafft (201488) started
+[03/04/18 17:40:56.941] :  align2_mafft (201488) completed
+[03/04/18 17:40:56.941] :  align3_mafft (3272759) started
+[03/04/18 17:40:56.941] :  align3_mafft (3272759) completed
+[03/04/18 17:40:56.941] :  align4_mafft (8157120) started
+[03/04/18 17:40:57.261] :  align4_mafft (8157120) completed
+[03/04/18 17:40:57.261] :  align5_mafft (6413903) started
+[03/04/18 17:40:57.542] :  align5_mafft (6413903) completed
+[03/04/18 17:40:57.542] :  align6_mafft (2789575) started
+[03/04/18 17:40:57.834] :  align6_mafft (2789575) completed
+[03/04/18 17:40:57.834] :  align7_mafft (1201604) started
+[03/04/18 17:40:58.134] :  align7_mafft (1201604) completed
+[03/04/18 17:40:58.134] :  align8_mafft (4536766) started
+[03/04/18 17:40:58.428] :  align8_mafft (4536766) completed
+[03/04/18 17:40:58.428] :  align0_mafft (7159534) started
+[03/04/18 17:40:58.649] :  align0_mafft (7159534) completed
+[03/04/18 17:40:58.649] :  align1_mafft (6238529) started
+[03/04/18 17:40:58.915] :  align1_mafft (6238529) completed
+[03/04/18 17:40:58.916] :  align2_mafft (7865320) started
+[03/04/18 17:40:59.159] :  align2_mafft (7865320) completed
+[03/04/18 17:40:59.160] :  align3_mafft (1234629) started
+[03/04/18 17:40:59.160] :  align3_mafft (1234629) completed
+[03/04/18 17:40:59.160] :  align4_mafft (8140946) started
+[03/04/18 17:40:59.353] :  align4_mafft (8140946) completed
+[03/04/18 17:40:59.353] :  align5_mafft (7896082) started
+[03/04/18 17:40:59.353] :  align5_mafft (7896082) completed
+[03/04/18 17:40:59.353] :  align6_mafft (7197324) started
+[03/04/18 17:40:59.354] :  align6_mafft (7197324) completed
+[03/04/18 17:40:59.354] :  align7_mafft (8848354) started
+[03/04/18 17:40:59.553] :  align7_mafft (8848354) completed
+[03/04/18 17:40:59.553] :  align8_mafft (2935710) started
+[03/04/18 17:40:59.554] :  align8_mafft (2935710) completed
+[03/04/18 17:40:59.554] :  align0_mafft (8933285) started
+[03/04/18 17:40:59.554] :  align0_mafft (8933285) completed
+[03/04/18 17:40:59.554] :  align1_mafft (9034816) started
+[03/04/18 17:40:59.554] :  align1_mafft (9034816) completed
+[03/04/18 17:40:59.554] :  align2_mafft (6994218) started
+[03/04/18 17:40:59.554] :  align2_mafft (6994218) completed
+[03/04/18 17:40:59.554] :  align3_mafft (7264918) started
+[03/04/18 17:40:59.554] :  align3_mafft (7264918) completed
+[03/04/18 17:40:59.554] :  align4_mafft (3733338) started
+[03/04/18 17:40:59.554] :  align4_mafft (3733338) completed
+[03/04/18 17:40:59.554] :  align5_mafft (8285014) started
+[03/04/18 17:40:59.554] :  align5_mafft (8285014) completed
+[03/04/18 17:40:59.555] :  align6_mafft (873134) started
+[03/04/18 17:40:59.555] :  align6_mafft (873134) completed
+[03/04/18 17:40:59.555] :  align7_mafft (4485733) started
+[03/04/18 17:40:59.555] :  align7_mafft (4485733) completed
+[03/04/18 17:40:59.555] :  align8_mafft (9227089) started
+[03/04/18 17:40:59.555] :  align8_mafft (9227089) completed
+[03/04/18 17:40:59.555] :  align0_mafft (3975727) started
+[03/04/18 17:40:59.555] :  align0_mafft (3975727) completed
+[03/04/18 17:40:59.555] :  align1_mafft (5316086) started
+[03/04/18 17:40:59.555] :  align1_mafft (5316086) completed
+[03/04/18 17:40:59.555] :  align2_mafft (2095646) started
+[03/04/18 17:40:59.555] :  align2_mafft (2095646) completed
+[03/04/18 17:40:59.555] :  align3_mafft (7047619) started
+[03/04/18 17:40:59.555] :  align3_mafft (7047619) completed
+[03/04/18 17:40:59.555] :  align4_mafft (6343361) started
+[03/04/18 17:40:59.754] :  align4_mafft (6343361) completed
+[03/04/18 17:40:59.754] :  align5_mafft (3423285) started
+[03/04/18 17:40:59.972] :  align5_mafft (3423285) completed
+[03/04/18 17:40:59.972] :  align6_mafft (1691822) started
+[03/04/18 17:41:00.207] :  align6_mafft (1691822) completed
+[03/04/18 17:41:00.207] :  align7_mafft (8654379) started
+[03/04/18 17:41:00.406] :  align7_mafft (8654379) completed
+[03/04/18 17:41:00.406] :  align8_mafft (2412577) started
+[03/04/18 17:41:00.617] :  align8_mafft (2412577) completed
+[03/04/18 17:41:00.617] :  align0_mafft (4930851) started
+[03/04/18 17:41:00.968] :  align0_mafft (4930851) completed
+[03/04/18 17:41:00.968] :  align1_mafft (873649) started
+[03/04/18 17:41:01.316] :  align1_mafft (873649) completed
+[03/04/18 17:41:01.316] :  align2_mafft (3507981) started
+[03/04/18 17:41:01.541] :  align2_mafft (3507981) completed
+[03/04/18 17:41:01.542] :  align3_mafft (2506089) started
+[03/04/18 17:41:01.542] :  align3_mafft (2506089) completed
+[03/04/18 17:41:01.542] :  align4_mafft (881625) started
+[03/04/18 17:41:01.754] :  align4_mafft (881625) completed
+[03/04/18 17:41:01.754] :  align5_mafft (6216918) started
+[03/04/18 17:41:01.754] :  align5_mafft (6216918) completed
+[03/04/18 17:41:01.754] :  align6_mafft (1406285) started
+[03/04/18 17:41:01.754] :  align6_mafft (1406285) completed
+[03/04/18 17:41:01.754] :  align7_mafft (3389834) started
+[03/04/18 17:41:01.962] :  align7_mafft (3389834) completed
+[03/04/18 17:41:01.962] :  align8_mafft (3615420) started
+[03/04/18 17:41:02.193] :  align8_mafft (3615420) completed
+[03/04/18 17:41:02.193] :  align0_mafft (4918434) started
+[03/04/18 17:41:03.704] :  align0_mafft (4918434) completed
+[03/04/18 17:41:03.704] :  align1_mafft (2448306) started
+[03/04/18 17:41:04.570] :  align1_mafft (2448306) completed
+[03/04/18 17:41:04.570] :  align2_mafft (1758080) started
+[03/04/18 17:41:04.974] :  align2_mafft (1758080) completed
+[03/04/18 17:41:04.974] :  align3_mafft (5393702) started
+[03/04/18 17:41:05.355] :  align3_mafft (5393702) completed
+[03/04/18 17:41:05.355] :  align4_mafft (5192604) started
+[03/04/18 17:41:05.906] :  align4_mafft (5192604) completed
+[03/04/18 17:41:05.907] :  align5_mafft (3628315) started
+[03/04/18 17:41:06.171] :  align5_mafft (3628315) completed
+[03/04/18 17:41:06.171] :  align6_mafft (4190129) started
+[03/04/18 17:41:06.419] :  align6_mafft (4190129) completed
+[03/04/18 17:41:06.419] :  align7_mafft (2231922) started
+[03/04/18 17:41:06.691] :  align7_mafft (2231922) completed
+[03/04/18 17:41:06.691] :  align8_mafft (1716903) started
+[03/04/18 17:41:07.5] :  merger0_muscle queued
+[03/04/18 17:41:07.5] :  merger1_muscle queued
+[03/04/18 17:41:07.6] :  merger2_muscle queued
+[03/04/18 17:41:07.6] :  merger3_muscle queued
+[03/04/18 17:41:07.6] :  merger4_muscle queued
+[03/04/18 17:41:07.6] :  merger5_muscle queued
+[03/04/18 17:41:07.6] :  merger6_muscle queued
+[03/04/18 17:41:07.6] :  merger7_muscle queued
+[03/04/18 17:41:07.6] :  merger8_muscle queued
+[03/04/18 17:41:07.6] :  align8_mafft (1716903) completed
+[03/04/18 17:41:07.7] :  align0_mafft (1450250) started
+[03/04/18 17:41:07.7] :  align0_mafft (1450250) completed
+[03/04/18 17:41:07.7] :  align1_mafft (4918615) started
+[03/04/18 17:41:07.7] :  align1_mafft (4918615) completed
+[03/04/18 17:41:07.7] :  align2_mafft (2945823) started
+[03/04/18 17:41:07.7] :  align2_mafft (2945823) completed
+[03/04/18 17:41:07.7] :  align3_mafft (4990565) started
+[03/04/18 17:41:07.7] :  align3_mafft (4990565) completed
+[03/04/18 17:41:07.7] :  align4_mafft (4458368) started
+[03/04/18 17:41:07.8] :  align4_mafft (4458368) completed
+[03/04/18 17:41:07.8] :  align5_mafft (5439454) started
+[03/04/18 17:41:07.8] :  align5_mafft (5439454) completed
+[03/04/18 17:41:07.8] :  align6_mafft (5361663) started
+[03/04/18 17:41:07.8] :  align6_mafft (5361663) completed
+[03/04/18 17:41:07.8] :  align7_mafft (3312028) started
+[03/04/18 17:41:07.8] :  align7_mafft (3312028) completed
+[03/04/18 17:41:07.8] :  align8_mafft (9741817) started
+[03/04/18 17:41:07.22] :  merger0_muscle queued
+[03/04/18 17:41:07.23] :  merger1_muscle queued
+[03/04/18 17:41:07.23] :  merger2_muscle queued
+[03/04/18 17:41:07.23] :  merger3_muscle queued
+[03/04/18 17:41:07.23] :  merger4_muscle queued
+[03/04/18 17:41:07.23] :  merger5_muscle queued
+[03/04/18 17:41:07.23] :  merger6_muscle queued
+[03/04/18 17:41:07.23] :  merger7_muscle queued
+[03/04/18 17:41:07.23] :  merger8_muscle queued
+[03/04/18 17:41:07.23] :  align8_mafft (9741817) completed
+[03/04/18 17:41:07.23] :  align0_mafft (8893484) started
+[03/04/18 17:41:07.23] :  align0_mafft (8893484) completed
+[03/04/18 17:41:07.23] :  align1_mafft (1096775) started
+[03/04/18 17:41:07.24] :  align1_mafft (1096775) completed
+[03/04/18 17:41:07.24] :  align2_mafft (3242644) started
+[03/04/18 17:41:07.24] :  align2_mafft (3242644) completed
+[03/04/18 17:41:07.24] :  align3_mafft (6823823) started
+[03/04/18 17:41:07.24] :  align3_mafft (6823823) completed
+[03/04/18 17:41:07.24] :  align4_mafft (4447843) started
+[03/04/18 17:41:07.24] :  align4_mafft (4447843) completed
+[03/04/18 17:41:07.24] :  align5_mafft (3329867) started
+[03/04/18 17:41:07.24] :  align5_mafft (3329867) completed
+[03/04/18 17:41:07.24] :  align6_mafft (2627338) started
+[03/04/18 17:41:07.24] :  align6_mafft (2627338) completed
+[03/04/18 17:41:07.24] :  align7_mafft (8373160) started
+[03/04/18 17:41:07.24] :  align7_mafft (8373160) completed
+[03/04/18 17:41:07.24] :  align8_mafft (9573382) started
+[03/04/18 17:41:07.24] :  align8_mafft (9573382) completed
+[03/04/18 17:41:07.24] :  align0_mafft (2289124) started
+[03/04/18 17:41:07.25] :  align0_mafft (2289124) completed
+[03/04/18 17:41:07.25] :  align1_mafft (7373769) started
+[03/04/18 17:41:07.296] :  align1_mafft (7373769) completed
+[03/04/18 17:41:07.296] :  align2_mafft (644406) started
+[03/04/18 17:41:07.296] :  align2_mafft (644406) completed
+[03/04/18 17:41:07.296] :  align3_mafft (9991101) started
+[03/04/18 17:41:07.296] :  align3_mafft (9991101) completed
+[03/04/18 17:41:07.296] :  align4_mafft (9090008) started
+[03/04/18 17:41:07.554] :  align4_mafft (9090008) completed
+[03/04/18 17:41:07.554] :  align5_mafft (8741152) started
+[03/04/18 17:41:07.554] :  align5_mafft (8741152) completed
+[03/04/18 17:41:07.555] :  align6_mafft (1025158) started
+[03/04/18 17:41:07.555] :  align6_mafft (1025158) completed
+[03/04/18 17:41:07.555] :  align7_mafft (8499757) started
+[03/04/18 17:41:07.757] :  align7_mafft (8499757) completed
+[03/04/18 17:41:07.758] :  align8_mafft (3446703) started
+[03/04/18 17:41:07.959] :  align8_mafft (3446703) completed
+[03/04/18 17:41:07.959] :  align0_mafft (4717688) started
+[03/04/18 17:41:08.173] :  align0_mafft (4717688) completed
+[03/04/18 17:41:08.173] :  align1_mafft (3024401) started
+[03/04/18 17:41:08.391] :  align1_mafft (3024401) completed
+[03/04/18 17:41:08.392] :  align2_mafft (8390374) started
+[03/04/18 17:41:08.622] :  align2_mafft (8390374) completed
+[03/04/18 17:41:08.622] :  align3_mafft (3561472) started
+[03/04/18 17:41:08.622] :  align3_mafft (3561472) completed
+[03/04/18 17:41:08.622] :  align4_mafft (5725176) started
+[03/04/18 17:41:08.825] :  align4_mafft (5725176) completed
+[03/04/18 17:41:08.825] :  align5_mafft (9126928) started
+[03/04/18 17:41:08.825] :  align5_mafft (9126928) completed
+[03/04/18 17:41:08.825] :  align6_mafft (4536264) started
+[03/04/18 17:41:08.826] :  align6_mafft (4536264) completed
+[03/04/18 17:41:08.826] :  align7_mafft (1994021) started
+[03/04/18 17:41:09.21] :  align7_mafft (1994021) completed
+[03/04/18 17:41:09.21] :  align8_mafft (6656764) started
+[03/04/18 17:41:09.232] :  merger0_muscle queued
+[03/04/18 17:41:09.233] :  merger1_muscle queued
+[03/04/18 17:41:09.233] :  merger2_muscle queued
+[03/04/18 17:41:09.233] :  merger3_muscle queued
+[03/04/18 17:41:09.233] :  merger4_muscle queued
+[03/04/18 17:41:09.233] :  merger5_muscle queued
+[03/04/18 17:41:09.233] :  merger6_muscle queued
+[03/04/18 17:41:09.233] :  merger7_muscle queued
+[03/04/18 17:41:09.233] :  merger8_muscle queued
+[03/04/18 17:41:09.241] :  merger0_muscle queued
+[03/04/18 17:41:09.241] :  merger1_muscle queued
+[03/04/18 17:41:09.241] :  merger2_muscle queued
+[03/04/18 17:41:09.241] :  merger3_muscle queued
+[03/04/18 17:41:09.241] :  merger4_muscle queued
+[03/04/18 17:41:09.241] :  merger5_muscle queued
+[03/04/18 17:41:09.241] :  merger6_muscle queued
+[03/04/18 17:41:09.241] :  merger7_muscle queued
+[03/04/18 17:41:09.242] :  merger8_muscle queued
+[03/04/18 17:41:09.242] :  align8_mafft (6656764) completed
+[03/04/18 17:41:09.242] :  align0_mafft (3602297) started
+[03/04/18 17:41:09.764] :  align0_mafft (3602297) completed
+[03/04/18 17:41:09.765] :  align1_mafft (7024629) started
+[03/04/18 17:41:10.87] :  align1_mafft (7024629) completed
+[03/04/18 17:41:10.88] :  align2_mafft (7532503) started
+[03/04/18 17:41:10.320] :  align2_mafft (7532503) completed
+[03/04/18 17:41:10.320] :  align3_mafft (4101774) started
+[03/04/18 17:41:10.543] :  align3_mafft (4101774) completed
+[03/04/18 17:41:10.544] :  align4_mafft (4301573) started
+[03/04/18 17:41:10.850] :  align4_mafft (4301573) completed
+[03/04/18 17:41:10.850] :  align5_mafft (8672766) started
+[03/04/18 17:41:11.61] :  align5_mafft (8672766) completed
+[03/04/18 17:41:11.61] :  align6_mafft (9284920) started
+[03/04/18 17:41:11.61] :  align6_mafft (9284920) completed
+[03/04/18 17:41:11.61] :  align7_mafft (2531914) started
+[03/04/18 17:41:11.271] :  align7_mafft (2531914) completed
+[03/04/18 17:41:11.271] :  align8_mafft (3489582) started
+[03/04/18 17:41:11.487] :  align8_mafft (3489582) completed
+[03/04/18 17:41:11.487] :  align0_mafft (1557081) started
+[03/04/18 17:41:11.487] :  align0_mafft (1557081) completed
+[03/04/18 17:41:11.487] :  align1_mafft (6831523) started
+[03/04/18 17:41:11.487] :  align1_mafft (6831523) completed
+[03/04/18 17:41:11.487] :  align2_mafft (4078062) started
+[03/04/18 17:41:11.487] :  align2_mafft (4078062) completed
+[03/04/18 17:41:11.487] :  align3_mafft (6019064) started
+[03/04/18 17:41:11.487] :  align3_mafft (6019064) completed
+[03/04/18 17:41:11.487] :  align4_mafft (1793443) started
+[03/04/18 17:41:11.487] :  align4_mafft (1793443) completed
+[03/04/18 17:41:11.488] :  align5_mafft (810866) started
+[03/04/18 17:41:11.488] :  align5_mafft (810866) completed
+[03/04/18 17:41:11.488] :  align6_mafft (5089106) started
+[03/04/18 17:41:11.488] :  align6_mafft (5089106) completed
+[03/04/18 17:41:11.488] :  align7_mafft (208003) started
+[03/04/18 17:41:11.488] :  align7_mafft (208003) completed
+[03/04/18 17:41:11.488] :  align8_mafft (7789363) started
+[03/04/18 17:41:11.488] :  align8_mafft (7789363) completed
+[03/04/18 17:41:11.488] :  align0_mafft (5281457) started
+[03/04/18 17:41:11.488] :  align0_mafft (5281457) completed
+[03/04/18 17:41:11.488] :  align1_mafft (3940766) started
+[03/04/18 17:41:11.692] :  align1_mafft (3940766) completed
+[03/04/18 17:41:11.693] :  align2_mafft (7341234) started
+[03/04/18 17:41:11.693] :  align2_mafft (7341234) completed
+[03/04/18 17:41:11.693] :  align3_mafft (9971879) started
+[03/04/18 17:41:11.693] :  align3_mafft (9971879) completed
+[03/04/18 17:41:11.693] :  align4_mafft (9074154) started
+[03/04/18 17:41:11.937] :  align4_mafft (9074154) completed
+[03/04/18 17:41:11.937] :  align5_mafft (6521320) started
+[03/04/18 17:41:11.937] :  align5_mafft (6521320) completed
+[03/04/18 17:41:11.937] :  align6_mafft (7488358) started
+[03/04/18 17:41:11.937] :  align6_mafft (7488358) completed
+[03/04/18 17:41:11.937] :  align7_mafft (6448225) started
+[03/04/18 17:41:12.142] :  align7_mafft (6448225) completed
+[03/04/18 17:41:12.142] :  align8_mafft (7961442) started
+[03/04/18 17:41:12.364] :  align8_mafft (7961442) completed
+[03/04/18 17:41:12.365] :  align0_mafft (4552710) started
+[03/04/18 17:41:12.365] :  align0_mafft (4552710) completed
+[03/04/18 17:41:12.365] :  align1_mafft (2598580) started
+[03/04/18 17:41:12.365] :  align1_mafft (2598580) completed
+[03/04/18 17:41:12.365] :  align2_mafft (5425003) started
+[03/04/18 17:41:12.365] :  align2_mafft (5425003) completed
+[03/04/18 17:41:12.366] :  align3_mafft (1666740) started
+[03/04/18 17:41:12.366] :  align3_mafft (1666740) completed
+[03/04/18 17:41:12.366] :  align4_mafft (9148316) started
+[03/04/18 17:41:12.366] :  align4_mafft (9148316) completed
+[03/04/18 17:41:12.366] :  align5_mafft (2152590) started
+[03/04/18 17:41:12.366] :  align5_mafft (2152590) completed
+[03/04/18 17:41:12.366] :  align6_mafft (6418956) started
+[03/04/18 17:41:12.366] :  align6_mafft (6418956) completed
+[03/04/18 17:41:12.366] :  align7_mafft (7786752) started
+[03/04/18 17:41:12.366] :  align7_mafft (7786752) completed
+[03/04/18 17:41:12.367] :  align8_mafft (2646172) started
+[03/04/18 17:41:12.367] :  align8_mafft (2646172) completed
+[03/04/18 17:41:12.367] :  align0_mafft (3411570) started
+[03/04/18 17:41:12.367] :  align0_mafft (3411570) completed
+[03/04/18 17:41:12.367] :  align1_mafft (2806804) started
+[03/04/18 17:41:12.367] :  align1_mafft (2806804) completed
+[03/04/18 17:41:12.367] :  align2_mafft (4200955) started
+[03/04/18 17:41:12.367] :  align2_mafft (4200955) completed
+[03/04/18 17:41:12.367] :  align3_mafft (5826297) started
+[03/04/18 17:41:12.367] :  align3_mafft (5826297) completed
+[03/04/18 17:41:12.367] :  align4_mafft (6305283) started
+[03/04/18 17:41:12.367] :  align4_mafft (6305283) completed
+[03/04/18 17:41:12.367] :  align5_mafft (474989) started
+[03/04/18 17:41:12.367] :  align5_mafft (474989) completed
+[03/04/18 17:41:12.367] :  align6_mafft (2380154) started
+[03/04/18 17:41:12.367] :  align6_mafft (2380154) completed
+[03/04/18 17:41:12.368] :  align7_mafft (4985382) started
+[03/04/18 17:41:12.368] :  align7_mafft (4985382) completed
+[03/04/18 17:41:12.368] :  align8_mafft (8219049) started
+[03/04/18 17:41:12.368] :  align8_mafft (8219049) completed
+[03/04/18 17:41:12.368] :  align0_mafft (1925082) started
+[03/04/18 17:42:05.363] :  align0_mafft (1925082) completed
+[03/04/18 17:42:05.363] :  align1_mafft (2106274) started
+[03/04/18 17:42:32.37] :  align1_mafft (2106274) completed
+[03/04/18 17:42:32.37] :  align2_mafft (6790314) started
+[03/04/18 17:42:39.634] :  align2_mafft (6790314) completed
+[03/04/18 17:42:39.635] :  align3_mafft (2633311) started
+[03/04/18 17:42:46.150] :  align3_mafft (2633311) completed
+[03/04/18 17:42:46.150] :  align4_mafft (6528333) started
+[03/04/18 17:42:57.818] :  align4_mafft (6528333) completed
+[03/04/18 17:42:57.818] :  align5_mafft (1136882) started
+[03/04/18 17:42:59.674] :  align5_mafft (1136882) completed
+[03/04/18 17:42:59.674] :  align6_mafft (6788243) started
+[03/04/18 17:43:03.49] :  align6_mafft (6788243) completed
+[03/04/18 17:43:03.49] :  align7_mafft (987265) started
+[03/04/18 17:43:06.590] :  align7_mafft (987265) completed
+[03/04/18 17:43:06.590] :  align8_mafft (2423242) started
+[03/04/18 17:43:11.60] :  merger0_muscle queued
+[03/04/18 17:43:11.60] :  merger1_muscle queued
+[03/04/18 17:43:11.60] :  merger2_muscle queued
+[03/04/18 17:43:11.60] :  merger3_muscle queued
+[03/04/18 17:43:11.60] :  merger4_muscle queued
+[03/04/18 17:43:11.61] :  merger5_muscle queued
+[03/04/18 17:43:11.61] :  merger6_muscle queued
+[03/04/18 17:43:11.61] :  merger7_muscle queued
+[03/04/18 17:43:11.61] :  merger8_muscle queued
+[03/04/18 17:43:11.61] :  align8_mafft (2423242) completed
+[03/04/18 17:43:11.61] :  align0_mafft (6604876) started
+[03/04/18 17:43:11.494] :  align0_mafft (6604876) completed
+[03/04/18 17:43:11.495] :  align1_mafft (1947309) started
+[03/04/18 17:43:11.861] :  align1_mafft (1947309) completed
+[03/04/18 17:43:11.861] :  align2_mafft (418153) started
+[03/04/18 17:43:12.136] :  align2_mafft (418153) completed
+[03/04/18 17:43:12.137] :  align3_mafft (6584192) started
+[03/04/18 17:43:12.378] :  align3_mafft (6584192) completed
+[03/04/18 17:43:12.378] :  align4_mafft (5550827) started
+[03/04/18 17:43:12.686] :  align4_mafft (5550827) completed
+[03/04/18 17:43:12.686] :  align5_mafft (8229826) started
+[03/04/18 17:43:12.906] :  align5_mafft (8229826) completed
+[03/04/18 17:43:12.907] :  align6_mafft (7916433) started
+[03/04/18 17:43:13.104] :  align6_mafft (7916433) completed
+[03/04/18 17:43:13.104] :  align7_mafft (7994950) started
+[03/04/18 17:43:13.337] :  align7_mafft (7994950) completed
+[03/04/18 17:43:13.337] :  align8_mafft (6676713) started
+[03/04/18 17:43:13.568] :  merger0_muscle queued
+[03/04/18 17:43:13.568] :  merger1_muscle queued
+[03/04/18 17:43:13.568] :  merger2_muscle queued
+[03/04/18 17:43:13.568] :  merger3_muscle queued
+[03/04/18 17:43:13.569] :  merger4_muscle queued
+[03/04/18 17:43:13.569] :  merger5_muscle queued
+[03/04/18 17:43:13.569] :  merger6_muscle queued
+[03/04/18 17:43:13.569] :  merger7_muscle queued
+[03/04/18 17:43:13.569] :  merger8_muscle queued
+[03/04/18 17:43:13.581] :  merger0_muscle queued
+[03/04/18 17:43:13.582] :  merger1_muscle queued
+[03/04/18 17:43:13.582] :  merger2_muscle queued
+[03/04/18 17:43:13.582] :  merger3_muscle queued
+[03/04/18 17:43:13.582] :  merger4_muscle queued
+[03/04/18 17:43:13.582] :  merger5_muscle queued
+[03/04/18 17:43:13.582] :  merger6_muscle queued
+[03/04/18 17:43:13.582] :  merger7_muscle queued
+[03/04/18 17:43:13.582] :  merger8_muscle queued
+[03/04/18 17:43:13.582] :  align8_mafft (6676713) completed
+[03/04/18 17:43:13.582] :  align0_mafft (6160520) started
+[03/04/18 17:43:13.583] :  align0_mafft (6160520) completed
+[03/04/18 17:43:13.583] :  align1_mafft (3801488) started
+[03/04/18 17:43:13.583] :  align1_mafft (3801488) completed
+[03/04/18 17:43:13.583] :  align2_mafft (3044186) started
+[03/04/18 17:43:13.583] :  align2_mafft (3044186) completed
+[03/04/18 17:43:13.583] :  align3_mafft (3114165) started
+[03/04/18 17:43:13.583] :  align3_mafft (3114165) completed
+[03/04/18 17:43:13.583] :  align4_mafft (6191377) started
+[03/04/18 17:43:13.583] :  align4_mafft (6191377) completed
+[03/04/18 17:43:13.583] :  align5_mafft (6348518) started
+[03/04/18 17:43:13.583] :  align5_mafft (6348518) completed
+[03/04/18 17:43:13.583] :  align6_mafft (8146608) started
+[03/04/18 17:43:13.583] :  align6_mafft (8146608) completed
+[03/04/18 17:43:13.583] :  align7_mafft (6959189) started
+[03/04/18 17:43:13.584] :  align7_mafft (6959189) completed
+[03/04/18 17:43:13.584] :  align8_mafft (3127350) started
+[03/04/18 17:43:13.584] :  align8_mafft (3127350) completed
+[03/04/18 17:43:13.584] :  align0_mafft (6581754) started
+[03/04/18 17:43:13.584] :  align0_mafft (6581754) completed
+[03/04/18 17:43:13.584] :  align1_mafft (3936382) started
+[03/04/18 17:43:13.584] :  align1_mafft (3936382) completed
+[03/04/18 17:43:13.584] :  align2_mafft (7877235) started
+[03/04/18 17:43:13.584] :  align2_mafft (7877235) completed
+[03/04/18 17:43:13.584] :  align3_mafft (3538376) started
+[03/04/18 17:43:13.584] :  align3_mafft (3538376) completed
+[03/04/18 17:43:13.584] :  align4_mafft (5531054) started
+[03/04/18 17:43:13.584] :  align4_mafft (5531054) completed
+[03/04/18 17:43:13.584] :  align5_mafft (9207934) started
+[03/04/18 17:43:13.584] :  align5_mafft (9207934) completed
+[03/04/18 17:43:13.585] :  align6_mafft (7238024) started
+[03/04/18 17:43:13.585] :  align6_mafft (7238024) completed
+[03/04/18 17:43:13.585] :  align7_mafft (6867689) started
+[03/04/18 17:43:13.585] :  align7_mafft (6867689) completed
+[03/04/18 17:43:13.585] :  align8_mafft (7337857) started
+[03/04/18 17:43:13.585] :  align8_mafft (7337857) completed
+[03/04/18 17:43:13.585] :  align0_mafft (216783) started
+[03/04/18 17:43:13.979] :  align0_mafft (216783) completed
+[03/04/18 17:43:13.979] :  align1_mafft (7117753) started
+[03/04/18 17:43:14.282] :  align1_mafft (7117753) completed
+[03/04/18 17:43:14.282] :  align2_mafft (8898475) started
+[03/04/18 17:43:14.535] :  align2_mafft (8898475) completed
+[03/04/18 17:43:14.535] :  align3_mafft (2585851) started
+[03/04/18 17:43:14.759] :  align3_mafft (2585851) completed
+[03/04/18 17:43:14.759] :  align4_mafft (2386473) started
+[03/04/18 17:43:15.10] :  align4_mafft (2386473) completed
+[03/04/18 17:43:15.10] :  align5_mafft (3393603) started
+[03/04/18 17:43:15.249] :  align5_mafft (3393603) completed
+[03/04/18 17:43:15.249] :  align6_mafft (3366704) started
+[03/04/18 17:43:15.460] :  align6_mafft (3366704) completed
+[03/04/18 17:43:15.460] :  align7_mafft (2282859) started
+[03/04/18 17:43:15.684] :  align7_mafft (2282859) completed
+[03/04/18 17:43:15.684] :  align8_mafft (9451066) started
+[03/04/18 17:43:15.918] :  merger0_muscle queued
+[03/04/18 17:43:15.918] :  merger1_muscle queued
+[03/04/18 17:43:15.918] :  merger2_muscle queued
+[03/04/18 17:43:15.919] :  merger3_muscle queued
+[03/04/18 17:43:15.919] :  merger4_muscle queued
+[03/04/18 17:43:15.919] :  merger5_muscle queued
+[03/04/18 17:43:15.919] :  merger6_muscle queued
+[03/04/18 17:43:15.919] :  merger7_muscle queued
+[03/04/18 17:43:15.919] :  merger8_muscle queued
+[03/04/18 17:43:15.929] :  merger0_muscle queued
+[03/04/18 17:43:15.929] :  merger1_muscle queued
+[03/04/18 17:43:15.929] :  merger2_muscle queued
+[03/04/18 17:43:15.929] :  merger3_muscle queued
+[03/04/18 17:43:15.930] :  merger4_muscle queued
+[03/04/18 17:43:15.930] :  merger5_muscle queued
+[03/04/18 17:43:15.930] :  merger6_muscle queued
+[03/04/18 17:43:15.930] :  merger7_muscle queued
+[03/04/18 17:43:15.930] :  merger8_muscle queued
+[03/04/18 17:43:15.933] :  merger0_muscle queued
+[03/04/18 17:43:15.933] :  merger1_muscle queued
+[03/04/18 17:43:15.933] :  merger2_muscle queued
+[03/04/18 17:43:15.933] :  merger3_muscle queued
+[03/04/18 17:43:15.933] :  merger4_muscle queued
+[03/04/18 17:43:15.933] :  merger5_muscle queued
+[03/04/18 17:43:15.934] :  merger6_muscle queued
+[03/04/18 17:43:15.934] :  merger7_muscle queued
+[03/04/18 17:43:15.934] :  merger8_muscle queued
+[03/04/18 17:43:15.942] :  merger0_muscle queued
+[03/04/18 17:43:15.942] :  merger1_muscle queued
+[03/04/18 17:43:15.942] :  merger2_muscle queued
+[03/04/18 17:43:15.943] :  merger3_muscle queued
+[03/04/18 17:43:15.943] :  merger4_muscle queued
+[03/04/18 17:43:15.943] :  merger5_muscle queued
+[03/04/18 17:43:15.943] :  merger6_muscle queued
+[03/04/18 17:43:15.943] :  merger7_muscle queued
+[03/04/18 17:43:15.943] :  merger8_muscle queued
+[03/04/18 17:43:15.952] :  merger0_muscle queued
+[03/04/18 17:43:15.952] :  merger1_muscle queued
+[03/04/18 17:43:15.952] :  merger2_muscle queued
+[03/04/18 17:43:15.952] :  merger3_muscle queued
+[03/04/18 17:43:15.952] :  merger4_muscle queued
+[03/04/18 17:43:15.952] :  merger5_muscle queued
+[03/04/18 17:43:15.952] :  merger6_muscle queued
+[03/04/18 17:43:15.952] :  merger7_muscle queued
+[03/04/18 17:43:15.952] :  merger8_muscle queued
+[03/04/18 17:43:15.966] :  merger0_muscle queued
+[03/04/18 17:43:15.966] :  merger1_muscle queued
+[03/04/18 17:43:15.966] :  merger2_muscle queued
+[03/04/18 17:43:15.966] :  merger3_muscle queued
+[03/04/18 17:43:15.966] :  merger4_muscle queued
+[03/04/18 17:43:15.967] :  merger5_muscle queued
+[03/04/18 17:43:15.967] :  merger6_muscle queued
+[03/04/18 17:43:15.967] :  merger7_muscle queued
+[03/04/18 17:43:15.967] :  merger8_muscle queued
+[03/04/18 17:43:15.967] :  align8_mafft (9451066) completed
+[03/04/18 17:43:15.967] :  align0_mafft (7526119) started
+[03/04/18 17:44:05.342] :  align0_mafft (7526119) completed
+[03/04/18 17:44:05.342] :  align1_mafft (3329878) started
+[03/04/18 17:44:27.61] :  align1_mafft (3329878) completed
+[03/04/18 17:44:27.62] :  align2_mafft (4903084) started
+[03/04/18 17:44:32.574] :  align2_mafft (4903084) completed
+[03/04/18 17:44:32.574] :  align3_mafft (1336387) started
+[03/04/18 17:44:40.540] :  align3_mafft (1336387) completed
+[03/04/18 17:44:40.541] :  align4_mafft (6783477) started
+[03/04/18 17:44:53.559] :  align4_mafft (6783477) completed
+[03/04/18 17:44:53.559] :  align5_mafft (7898576) started
+[03/04/18 17:44:55.849] :  align5_mafft (7898576) completed
+[03/04/18 17:44:55.849] :  align6_mafft (6420905) started
+[03/04/18 17:44:56.61] :  align6_mafft (6420905) completed
+[03/04/18 17:44:56.61] :  align7_mafft (2535862) started
+[03/04/18 17:44:58.920] :  align7_mafft (2535862) completed
+[03/04/18 17:44:58.920] :  align8_mafft (4870291) started
+[03/04/18 17:45:02.369] :  merger0_muscle queued
+[03/04/18 17:45:02.369] :  merger1_muscle queued
+[03/04/18 17:45:02.370] :  merger2_muscle queued
+[03/04/18 17:45:02.370] :  merger3_muscle queued
+[03/04/18 17:45:02.370] :  merger4_muscle queued
+[03/04/18 17:45:02.370] :  merger5_muscle queued
+[03/04/18 17:45:02.370] :  merger6_muscle queued
+[03/04/18 17:45:02.371] :  merger7_muscle queued
+[03/04/18 17:45:02.371] :  merger8_muscle queued
+[03/04/18 17:45:02.385] :  merger0_muscle queued
+[03/04/18 17:45:02.385] :  merger1_muscle queued
+[03/04/18 17:45:02.385] :  merger2_muscle queued
+[03/04/18 17:45:02.385] :  merger3_muscle queued
+[03/04/18 17:45:02.385] :  merger4_muscle queued
+[03/04/18 17:45:02.385] :  merger5_muscle queued
+[03/04/18 17:45:02.386] :  merger6_muscle queued
+[03/04/18 17:45:02.386] :  merger7_muscle queued
+[03/04/18 17:45:02.386] :  merger8_muscle queued
+[03/04/18 17:45:02.396] :  merger0_muscle queued
+[03/04/18 17:45:02.396] :  merger1_muscle queued
+[03/04/18 17:45:02.396] :  merger2_muscle queued
+[03/04/18 17:45:02.396] :  merger3_muscle queued
+[03/04/18 17:45:02.396] :  merger4_muscle queued
+[03/04/18 17:45:02.396] :  merger5_muscle queued
+[03/04/18 17:45:02.397] :  merger6_muscle queued
+[03/04/18 17:45:02.397] :  merger7_muscle queued
+[03/04/18 17:45:02.397] :  merger8_muscle queued
+[03/04/18 17:45:02.408] :  merger0_muscle queued
+[03/04/18 17:45:02.408] :  merger1_muscle queued
+[03/04/18 17:45:02.408] :  merger2_muscle queued
+[03/04/18 17:45:02.409] :  merger3_muscle queued
+[03/04/18 17:45:02.409] :  merger4_muscle queued
+[03/04/18 17:45:02.409] :  merger5_muscle queued
+[03/04/18 17:45:02.409] :  merger6_muscle queued
+[03/04/18 17:45:02.409] :  merger7_muscle queued
+[03/04/18 17:45:02.409] :  merger8_muscle queued
+[03/04/18 17:45:02.425] :  merger0_muscle queued
+[03/04/18 17:45:02.426] :  merger1_muscle queued
+[03/04/18 17:45:02.426] :  merger2_muscle queued
+[03/04/18 17:45:02.426] :  merger3_muscle queued
+[03/04/18 17:45:02.426] :  merger4_muscle queued
+[03/04/18 17:45:02.427] :  merger5_muscle queued
+[03/04/18 17:45:02.427] :  merger6_muscle queued
+[03/04/18 17:45:02.427] :  merger7_muscle queued
+[03/04/18 17:45:02.427] :  merger8_muscle queued
+[03/04/18 17:45:02.427] :  align8_mafft (4870291) completed
+[03/04/18 17:45:02.427] :  align0_mafft (8750128) started
+[03/04/18 17:45:02.427] :  align0_mafft (8750128) completed
+[03/04/18 17:45:02.428] :  align1_mafft (1793157) started
+[03/04/18 17:45:02.428] :  align1_mafft (1793157) completed
+[03/04/18 17:45:02.428] :  align2_mafft (3101578) started
+[03/04/18 17:45:02.428] :  align2_mafft (3101578) completed
+[03/04/18 17:45:02.428] :  align3_mafft (4299228) started
+[03/04/18 17:45:02.428] :  align3_mafft (4299228) completed
+[03/04/18 17:45:02.428] :  align4_mafft (2824132) started
+[03/04/18 17:45:02.428] :  align4_mafft (2824132) completed
+[03/04/18 17:45:02.428] :  align5_mafft (6490453) started
+[03/04/18 17:45:02.429] :  align5_mafft (6490453) completed
+[03/04/18 17:45:02.429] :  align6_mafft (1932532) started
+[03/04/18 17:45:02.429] :  align6_mafft (1932532) completed
+[03/04/18 17:45:02.429] :  align7_mafft (5623721) started
+[03/04/18 17:45:02.429] :  align7_mafft (5623721) completed
+[03/04/18 17:45:02.429] :  align8_mafft (5614183) started
+[03/04/18 17:45:02.429] :  align8_mafft (5614183) completed
+[03/04/18 17:45:02.429] :  align0_mafft (248148) started
+[03/04/18 17:45:02.429] :  align0_mafft (248148) completed
+[03/04/18 17:45:02.430] :  align1_mafft (4544323) started
+[03/04/18 17:45:02.834] :  align1_mafft (4544323) completed
+[03/04/18 17:45:02.834] :  align2_mafft (5756641) started
+[03/04/18 17:45:02.834] :  align2_mafft (5756641) completed
+[03/04/18 17:45:02.834] :  align3_mafft (4584359) started
+[03/04/18 17:45:02.834] :  align3_mafft (4584359) completed
+[03/04/18 17:45:02.834] :  align4_mafft (9091595) started
+[03/04/18 17:45:03.309] :  align4_mafft (9091595) completed
+[03/04/18 17:45:03.309] :  align5_mafft (1918908) started
+[03/04/18 17:45:03.310] :  align5_mafft (1918908) completed
+[03/04/18 17:45:03.310] :  align6_mafft (3580840) started
+[03/04/18 17:45:03.310] :  align6_mafft (3580840) completed
+[03/04/18 17:45:03.311] :  align7_mafft (6620077) started
+[03/04/18 17:45:03.939] :  align7_mafft (6620077) completed
+[03/04/18 17:45:03.939] :  align8_mafft (2327067) started
+[03/04/18 17:45:04.548] :  align8_mafft (2327067) completed
+[03/04/18 17:45:04.548] :  align0_mafft (3466556) started
+[03/04/18 17:45:04.548] :  align0_mafft (3466556) completed
+[03/04/18 17:45:04.548] :  align1_mafft (5842291) started
+[03/04/18 17:45:05.63] :  align1_mafft (5842291) completed
+[03/04/18 17:45:05.63] :  align2_mafft (2440579) started
+[03/04/18 17:45:05.63] :  align2_mafft (2440579) completed
+[03/04/18 17:45:05.63] :  align3_mafft (7589586) started
+[03/04/18 17:45:05.63] :  align3_mafft (7589586) completed
+[03/04/18 17:45:05.63] :  align4_mafft (1821058) started
+[03/04/18 17:45:05.611] :  align4_mafft (1821058) completed
+[03/04/18 17:45:05.611] :  align5_mafft (50168) started
+[03/04/18 17:45:05.612] :  align5_mafft (50168) completed
+[03/04/18 17:45:05.612] :  align6_mafft (4134175) started
+[03/04/18 17:45:05.612] :  align6_mafft (4134175) completed
+[03/04/18 17:45:05.612] :  align7_mafft (3055892) started
+[03/04/18 17:45:06.181] :  align7_mafft (3055892) completed
+[03/04/18 17:45:06.181] :  align8_mafft (8726244) started
+[03/04/18 17:45:06.747] :  align8_mafft (8726244) completed
+[03/04/18 17:45:06.747] :  align0_mafft (1147395) started
+[03/04/18 17:45:07.301] :  align0_mafft (1147395) completed
+[03/04/18 17:45:07.301] :  align1_mafft (3077920) started
+[03/04/18 17:45:08.39] :  align1_mafft (3077920) completed
+[03/04/18 17:45:08.40] :  align2_mafft (3533198) started
+[03/04/18 17:45:08.610] :  align2_mafft (3533198) completed
+[03/04/18 17:45:08.610] :  align3_mafft (2838136) started
+[03/04/18 17:45:08.611] :  align3_mafft (2838136) completed
+[03/04/18 17:45:08.612] :  align4_mafft (9894718) started
+[03/04/18 17:45:09.324] :  align4_mafft (9894718) completed
+[03/04/18 17:45:09.325] :  align5_mafft (8201862) started
+[03/04/18 17:45:09.325] :  align5_mafft (8201862) completed
+[03/04/18 17:45:09.326] :  align6_mafft (7461167) started
+[03/04/18 17:45:09.326] :  align6_mafft (7461167) completed
+[03/04/18 17:45:09.326] :  align7_mafft (4517376) started
+[03/04/18 17:45:09.940] :  align7_mafft (4517376) completed
+[03/04/18 17:45:09.941] :  align8_mafft (1350348) started
+[03/04/18 17:45:09.941] :  align8_mafft (1350348) completed
+[03/04/18 17:45:09.942] :  align0_mafft (4071984) started
+[03/04/18 17:45:11.43] :  align0_mafft (4071984) completed
+[03/04/18 17:45:11.43] :  align1_mafft (9030076) started
+[03/04/18 17:45:12.62] :  align1_mafft (9030076) completed
+[03/04/18 17:45:12.63] :  align2_mafft (9773425) started
+[03/04/18 17:45:12.734] :  align2_mafft (9773425) completed
+[03/04/18 17:45:12.734] :  align3_mafft (7187818) started
+[03/04/18 17:45:12.735] :  align3_mafft (7187818) completed
+[03/04/18 17:45:12.735] :  align4_mafft (2319028) started
+[03/04/18 17:45:13.608] :  align4_mafft (2319028) completed
+[03/04/18 17:45:13.609] :  align5_mafft (1879636) started
+[03/04/18 17:45:14.190] :  align5_mafft (1879636) completed
+[03/04/18 17:45:14.190] :  align6_mafft (3918697) started
+[03/04/18 17:45:14.691] :  align6_mafft (3918697) completed
+[03/04/18 17:45:14.691] :  align7_mafft (493054) started
+[03/04/18 17:45:15.108] :  align7_mafft (493054) completed
+[03/04/18 17:45:15.109] :  align8_mafft (6222853) started
+[03/04/18 17:45:15.580] :  merger0_muscle queued
+[03/04/18 17:45:15.580] :  merger1_muscle queued
+[03/04/18 17:45:15.580] :  merger2_muscle queued
+[03/04/18 17:45:15.581] :  merger3_muscle queued
+[03/04/18 17:45:15.581] :  merger4_muscle queued
+[03/04/18 17:45:15.581] :  merger5_muscle queued
+[03/04/18 17:45:15.581] :  merger6_muscle queued
+[03/04/18 17:45:15.581] :  merger7_muscle queued
+[03/04/18 17:45:15.581] :  merger8_muscle queued
+[03/04/18 17:45:15.597] :  merger0_muscle queued
+[03/04/18 17:45:15.597] :  merger1_muscle queued
+[03/04/18 17:45:15.597] :  merger2_muscle queued
+[03/04/18 17:45:15.597] :  merger3_muscle queued
+[03/04/18 17:45:15.597] :  merger4_muscle queued
+[03/04/18 17:45:15.598] :  merger5_muscle queued
+[03/04/18 17:45:15.598] :  merger6_muscle queued
+[03/04/18 17:45:15.598] :  merger7_muscle queued
+[03/04/18 17:45:15.598] :  merger8_muscle queued
+[03/04/18 17:45:15.616] :  merger0_muscle queued
+[03/04/18 17:45:15.616] :  merger1_muscle queued
+[03/04/18 17:45:15.616] :  merger2_muscle queued
+[03/04/18 17:45:15.616] :  merger3_muscle queued
+[03/04/18 17:45:15.616] :  merger4_muscle queued
+[03/04/18 17:45:15.616] :  merger5_muscle queued
+[03/04/18 17:45:15.616] :  merger6_muscle queued
+[03/04/18 17:45:15.617] :  merger7_muscle queued
+[03/04/18 17:45:15.617] :  merger8_muscle queued
+[03/04/18 17:45:15.617] :  align8_mafft (6222853) completed
+[03/04/18 17:45:15.617] :  align0_mafft (8707308) started
+[03/04/18 17:45:16.290] :  align0_mafft (8707308) completed
+[03/04/18 17:45:16.290] :  align1_mafft (181073) started
+[03/04/18 17:45:17.205] :  align1_mafft (181073) completed
+[03/04/18 17:45:17.206] :  align2_mafft (3804794) started
+[03/04/18 17:45:17.950] :  align2_mafft (3804794) completed
+[03/04/18 17:45:17.951] :  align3_mafft (4364951) started
+[03/04/18 17:45:17.951] :  align3_mafft (4364951) completed
+[03/04/18 17:45:17.951] :  align4_mafft (3625492) started
+[03/04/18 17:45:18.693] :  align4_mafft (3625492) completed
+[03/04/18 17:45:18.694] :  align5_mafft (7952648) started
+[03/04/18 17:45:19.259] :  align5_mafft (7952648) completed
+[03/04/18 17:45:19.259] :  align6_mafft (1152018) started
+[03/04/18 17:45:19.763] :  align6_mafft (1152018) completed
+[03/04/18 17:45:19.763] :  align7_mafft (8427835) started
+[03/04/18 17:45:20.344] :  align7_mafft (8427835) completed
+[03/04/18 17:45:20.344] :  align8_mafft (8462547) started
+[03/04/18 17:45:21.123] :  merger0_muscle queued
+[03/04/18 17:45:21.124] :  merger1_muscle queued
+[03/04/18 17:45:21.124] :  merger2_muscle queued
+[03/04/18 17:45:21.125] :  merger3_muscle queued
+[03/04/18 17:45:21.125] :  merger4_muscle queued
+[03/04/18 17:45:21.125] :  merger5_muscle queued
+[03/04/18 17:45:21.125] :  merger6_muscle queued
+[03/04/18 17:45:21.126] :  merger7_muscle queued
+[03/04/18 17:45:21.126] :  merger8_muscle queued
+[03/04/18 17:45:21.126] :  align8_mafft (8462547) completed
+[03/04/18 17:45:21.126] :  align0_mafft (4020863) started
+[03/04/18 17:45:25.102] :  align0_mafft (4020863) completed
+[03/04/18 17:45:25.103] :  align1_mafft (5949674) started
+[03/04/18 17:45:39.564] :  align1_mafft (5949674) completed
+[03/04/18 17:45:39.564] :  align2_mafft (6022354) started
+[03/04/18 17:45:40.803] :  align2_mafft (6022354) completed
+[03/04/18 17:45:40.803] :  align3_mafft (1667223) started
+[03/04/18 17:45:40.803] :  align3_mafft (1667223) completed
+[03/04/18 17:45:40.803] :  align4_mafft (6194152) started
+[03/04/18 17:46:02.858] :  align4_mafft (6194152) completed
+[03/04/18 17:46:02.858] :  align5_mafft (4770211) started
+[03/04/18 17:46:03.226] :  align5_mafft (4770211) completed
+[03/04/18 17:46:03.227] :  align6_mafft (2824991) started
+[03/04/18 17:46:03.831] :  align6_mafft (2824991) completed
+[03/04/18 17:46:03.831] :  align7_mafft (9215405) started
+[03/04/18 17:46:09.317] :  align7_mafft (9215405) completed
+[03/04/18 17:46:09.318] :  align8_mafft (5119993) started
+[03/04/18 17:46:16.902] :  merger0_muscle queued
+[03/04/18 17:46:16.902] :  merger1_muscle queued
+[03/04/18 17:46:16.902] :  merger2_muscle queued
+[03/04/18 17:46:16.902] :  merger3_muscle queued
+[03/04/18 17:46:16.902] :  merger4_muscle queued
+[03/04/18 17:46:16.902] :  merger5_muscle queued
+[03/04/18 17:46:16.903] :  merger6_muscle queued
+[03/04/18 17:46:16.903] :  merger7_muscle queued
+[03/04/18 17:46:16.903] :  merger8_muscle queued
+[03/04/18 17:46:16.911] :  merger0_muscle queued
+[03/04/18 17:46:16.911] :  merger1_muscle queued
+[03/04/18 17:46:16.911] :  merger2_muscle queued
+[03/04/18 17:46:16.911] :  merger3_muscle queued
+[03/04/18 17:46:16.912] :  merger4_muscle queued
+[03/04/18 17:46:16.912] :  merger5_muscle queued
+[03/04/18 17:46:16.912] :  merger6_muscle queued
+[03/04/18 17:46:16.912] :  merger7_muscle queued
+[03/04/18 17:46:16.912] :  merger8_muscle queued
+[03/04/18 17:46:16.915] :  merger0_muscle queued
+[03/04/18 17:46:16.915] :  merger1_muscle queued
+[03/04/18 17:46:16.915] :  merger2_muscle queued
+[03/04/18 17:46:16.915] :  merger3_muscle queued
+[03/04/18 17:46:16.915] :  merger4_muscle queued
+[03/04/18 17:46:16.916] :  merger5_muscle queued
+[03/04/18 17:46:16.916] :  merger6_muscle queued
+[03/04/18 17:46:16.916] :  merger7_muscle queued
+[03/04/18 17:46:16.916] :  merger8_muscle queued
+[03/04/18 17:46:16.924] :  merger0_muscle queued
+[03/04/18 17:46:16.924] :  merger1_muscle queued
+[03/04/18 17:46:16.924] :  merger2_muscle queued
+[03/04/18 17:46:16.924] :  merger3_muscle queued
+[03/04/18 17:46:16.925] :  merger4_muscle queued
+[03/04/18 17:46:16.925] :  merger5_muscle queued
+[03/04/18 17:46:16.925] :  merger6_muscle queued
+[03/04/18 17:46:16.925] :  merger7_muscle queued
+[03/04/18 17:46:16.925] :  merger8_muscle queued
+[03/04/18 17:46:16.932] :  merger0_muscle queued
+[03/04/18 17:46:16.932] :  merger1_muscle queued
+[03/04/18 17:46:16.932] :  merger2_muscle queued
+[03/04/18 17:46:16.933] :  merger3_muscle queued
+[03/04/18 17:46:16.933] :  merger4_muscle queued
+[03/04/18 17:46:16.933] :  merger5_muscle queued
+[03/04/18 17:46:16.933] :  merger6_muscle queued
+[03/04/18 17:46:16.933] :  merger7_muscle queued
+[03/04/18 17:46:16.933] :  merger8_muscle queued
+[03/04/18 17:46:16.937] :  merger0_muscle queued
+[03/04/18 17:46:16.937] :  merger1_muscle queued
+[03/04/18 17:46:16.937] :  merger2_muscle queued
+[03/04/18 17:46:16.937] :  merger3_muscle queued
+[03/04/18 17:46:16.938] :  merger4_muscle queued
+[03/04/18 17:46:16.938] :  merger5_muscle queued
+[03/04/18 17:46:16.938] :  merger6_muscle queued
+[03/04/18 17:46:16.938] :  merger7_muscle queued
+[03/04/18 17:46:16.938] :  merger8_muscle queued
+[03/04/18 17:46:16.943] :  merger0_muscle queued
+[03/04/18 17:46:16.943] :  merger1_muscle queued
+[03/04/18 17:46:16.943] :  merger2_muscle queued
+[03/04/18 17:46:16.943] :  merger3_muscle queued
+[03/04/18 17:46:16.943] :  merger4_muscle queued
+[03/04/18 17:46:16.943] :  merger5_muscle queued
+[03/04/18 17:46:16.943] :  merger6_muscle queued
+[03/04/18 17:46:16.943] :  merger7_muscle queued
+[03/04/18 17:46:16.943] :  merger8_muscle queued
+[03/04/18 17:46:16.950] :  merger0_muscle queued
+[03/04/18 17:46:16.950] :  merger1_muscle queued
+[03/04/18 17:46:16.950] :  merger2_muscle queued
+[03/04/18 17:46:16.951] :  merger3_muscle queued
+[03/04/18 17:46:16.951] :  merger4_muscle queued
+[03/04/18 17:46:16.951] :  merger5_muscle queued
+[03/04/18 17:46:16.951] :  merger6_muscle queued
+[03/04/18 17:46:16.951] :  merger7_muscle queued
+[03/04/18 17:46:16.951] :  merger8_muscle queued
+[03/04/18 17:46:16.962] :  merger0_muscle queued
+[03/04/18 17:46:16.962] :  merger1_muscle queued
+[03/04/18 17:46:16.962] :  merger2_muscle queued
+[03/04/18 17:46:16.963] :  merger3_muscle queued
+[03/04/18 17:46:16.963] :  merger4_muscle queued
+[03/04/18 17:46:16.963] :  merger5_muscle queued
+[03/04/18 17:46:16.963] :  merger6_muscle queued
+[03/04/18 17:46:16.963] :  merger7_muscle queued
+[03/04/18 17:46:16.963] :  merger8_muscle queued
+[03/04/18 17:46:16.963] :  align8_mafft (5119993) completed
+[03/04/18 17:46:16.963] :  align0_mafft (4028608) started
+[03/04/18 17:46:16.963] :  align0_mafft (4028608) completed
+[03/04/18 17:46:16.963] :  align1_mafft (924520) started
+[03/04/18 17:46:16.963] :  align1_mafft (924520) completed
+[03/04/18 17:46:16.963] :  align2_mafft (4159199) started
+[03/04/18 17:46:16.963] :  align2_mafft (4159199) completed
+[03/04/18 17:46:16.963] :  align3_mafft (8163861) started
+[03/04/18 17:46:16.964] :  align3_mafft (8163861) completed
+[03/04/18 17:46:16.964] :  align4_mafft (3102634) started
+[03/04/18 17:46:16.964] :  align4_mafft (3102634) completed
+[03/04/18 17:46:16.964] :  align5_mafft (6816047) started
+[03/04/18 17:46:16.964] :  align5_mafft (6816047) completed
+[03/04/18 17:46:16.964] :  align6_mafft (5685551) started
+[03/04/18 17:46:16.964] :  align6_mafft (5685551) completed
+[03/04/18 17:46:16.964] :  align7_mafft (7904888) started
+[03/04/18 17:46:16.964] :  align7_mafft (7904888) completed
+[03/04/18 17:46:16.964] :  align8_mafft (2677676) started
+[03/04/18 17:46:16.964] :  align8_mafft (2677676) completed
+[03/04/18 17:46:16.964] :  align0_mafft (8196897) started
+[03/04/18 17:46:16.964] :  align0_mafft (8196897) completed
+[03/04/18 17:46:16.965] :  align1_mafft (8553960) started
+[03/04/18 17:46:16.965] :  align1_mafft (8553960) completed
+[03/04/18 17:46:16.965] :  align2_mafft (6551737) started
+[03/04/18 17:46:16.965] :  align2_mafft (6551737) completed
+[03/04/18 17:46:16.965] :  align3_mafft (8913943) started
+[03/04/18 17:46:16.965] :  align3_mafft (8913943) completed
+[03/04/18 17:46:16.965] :  align4_mafft (5543994) started
+[03/04/18 17:46:16.965] :  align4_mafft (5543994) completed
+[03/04/18 17:46:16.965] :  align5_mafft (8457778) started
+[03/04/18 17:46:16.965] :  align5_mafft (8457778) completed
+[03/04/18 17:46:16.965] :  align6_mafft (5829104) started
+[03/04/18 17:46:16.965] :  align6_mafft (5829104) completed
+[03/04/18 17:46:16.965] :  align7_mafft (5450614) started
+[03/04/18 17:46:16.965] :  align7_mafft (5450614) completed
+[03/04/18 17:46:16.965] :  align8_mafft (4506822) started
+[03/04/18 17:46:16.966] :  align8_mafft (4506822) completed
+[03/04/18 17:46:16.966] :  align0_mafft (310777) started
+[03/04/18 17:46:16.966] :  align0_mafft (310777) completed
+[03/04/18 17:46:16.966] :  align1_mafft (163238) started
+[03/04/18 17:46:16.966] :  align1_mafft (163238) completed
+[03/04/18 17:46:16.966] :  align2_mafft (9608535) started
+[03/04/18 17:46:16.966] :  align2_mafft (9608535) completed
+[03/04/18 17:46:16.966] :  align3_mafft (3058712) started
+[03/04/18 17:46:16.966] :  align3_mafft (3058712) completed
+[03/04/18 17:46:16.966] :  align4_mafft (520946) started
+[03/04/18 17:46:16.966] :  align4_mafft (520946) completed
+[03/04/18 17:46:16.966] :  align5_mafft (1022638) started
+[03/04/18 17:46:16.966] :  align5_mafft (1022638) completed
+[03/04/18 17:46:16.966] :  align6_mafft (3178062) started
+[03/04/18 17:46:16.967] :  align6_mafft (3178062) completed
+[03/04/18 17:46:16.967] :  align7_mafft (3882541) started
+[03/04/18 17:46:16.967] :  align7_mafft (3882541) completed
+[03/04/18 17:46:16.967] :  align8_mafft (2510744) started
+[03/04/18 17:46:16.967] :  align8_mafft (2510744) completed
+[03/04/18 17:46:16.967] :  align0_mafft (2284669) started
+[03/04/18 17:46:16.967] :  align0_mafft (2284669) completed
+[03/04/18 17:46:16.967] :  align1_mafft (7025045) started
+[03/04/18 17:46:16.967] :  align1_mafft (7025045) completed
+[03/04/18 17:46:16.967] :  align2_mafft (16026) started
+[03/04/18 17:46:16.967] :  align2_mafft (16026) completed
+[03/04/18 17:46:16.967] :  align3_mafft (8249527) started
+[03/04/18 17:46:16.967] :  align3_mafft (8249527) completed
+[03/04/18 17:46:16.967] :  align4_mafft (4332633) started
+[03/04/18 17:46:16.967] :  align4_mafft (4332633) completed
+[03/04/18 17:46:16.967] :  align5_mafft (904026) started
+[03/04/18 17:46:16.968] :  align5_mafft (904026) completed
+[03/04/18 17:46:16.968] :  align6_mafft (3230292) started
+[03/04/18 17:46:16.968] :  align6_mafft (3230292) completed
+[03/04/18 17:46:16.968] :  align7_mafft (4405827) started
+[03/04/18 17:46:16.968] :  align7_mafft (4405827) completed
+[03/04/18 17:46:16.968] :  align8_mafft (1026376) started
+[03/04/18 17:46:16.978] :  merger0_muscle queued
+[03/04/18 17:46:16.978] :  merger1_muscle queued
+[03/04/18 17:46:16.978] :  merger2_muscle queued
+[03/04/18 17:46:16.978] :  merger3_muscle queued
+[03/04/18 17:46:16.979] :  merger4_muscle queued
+[03/04/18 17:46:16.979] :  merger5_muscle queued
+[03/04/18 17:46:16.979] :  merger6_muscle queued
+[03/04/18 17:46:16.979] :  merger7_muscle queued
+[03/04/18 17:46:16.979] :  merger8_muscle queued
+[03/04/18 17:46:16.979] :  align8_mafft (1026376) completed
+[03/04/18 17:46:16.979] :  align0_mafft (9342805) started
+[03/04/18 17:46:16.979] :  align0_mafft (9342805) completed
+[03/04/18 17:46:16.980] :  align1_mafft (2840225) started
+[03/04/18 17:46:16.980] :  align1_mafft (2840225) completed
+[03/04/18 17:46:16.980] :  align2_mafft (5235084) started
+[03/04/18 17:46:16.980] :  align2_mafft (5235084) completed
+[03/04/18 17:46:16.980] :  align3_mafft (9430602) started
+[03/04/18 17:46:16.980] :  align3_mafft (9430602) completed
+[03/04/18 17:46:16.980] :  align4_mafft (9359704) started
+[03/04/18 17:46:16.980] :  align4_mafft (9359704) completed
+[03/04/18 17:46:16.980] :  align5_mafft (5334503) started
+[03/04/18 17:46:16.980] :  align5_mafft (5334503) completed
+[03/04/18 17:46:16.980] :  align6_mafft (913957) started
+[03/04/18 17:46:16.980] :  align6_mafft (913957) completed
+[03/04/18 17:46:16.980] :  align7_mafft (9425630) started
+[03/04/18 17:46:16.980] :  align7_mafft (9425630) completed
+[03/04/18 17:46:16.981] :  align8_mafft (4217064) started
+[03/04/18 17:46:16.981] :  align8_mafft (4217064) completed
+[03/04/18 17:46:16.981] :  align0_mafft (499540) started
+[03/04/18 17:46:16.981] :  align0_mafft (499540) completed
+[03/04/18 17:46:16.981] :  align1_mafft (8300535) started
+[03/04/18 17:46:16.981] :  align1_mafft (8300535) completed
+[03/04/18 17:46:16.981] :  align2_mafft (3271009) started
+[03/04/18 17:46:16.981] :  align2_mafft (3271009) completed
+[03/04/18 17:46:16.981] :  align3_mafft (9879043) started
+[03/04/18 17:46:16.981] :  align3_mafft (9879043) completed
+[03/04/18 17:46:16.982] :  align4_mafft (2686110) started
+[03/04/18 17:46:16.982] :  align4_mafft (2686110) completed
+[03/04/18 17:46:16.982] :  align5_mafft (7071387) started
+[03/04/18 17:46:16.982] :  align5_mafft (7071387) completed
+[03/04/18 17:46:16.982] :  align6_mafft (7176181) started
+[03/04/18 17:46:16.982] :  align6_mafft (7176181) completed
+[03/04/18 17:46:16.982] :  align7_mafft (890775) started
+[03/04/18 17:46:16.982] :  align7_mafft (890775) completed
+[03/04/18 17:46:16.982] :  align8_mafft (9614413) started
+[03/04/18 17:46:16.982] :  align8_mafft (9614413) completed
+[03/04/18 17:46:16.982] :  align0_mafft (2077476) started
+[03/04/18 17:46:16.982] :  align0_mafft (2077476) completed
+[03/04/18 17:46:16.982] :  align1_mafft (6482619) started
+[03/04/18 17:46:16.982] :  align1_mafft (6482619) completed
+[03/04/18 17:46:16.982] :  align2_mafft (9563924) started
+[03/04/18 17:46:16.983] :  align2_mafft (9563924) completed
+[03/04/18 17:46:16.983] :  align3_mafft (6627808) started
+[03/04/18 17:46:16.983] :  align3_mafft (6627808) completed
+[03/04/18 17:46:16.983] :  align4_mafft (4450623) started
+[03/04/18 17:46:16.983] :  align4_mafft (4450623) completed
+[03/04/18 17:46:16.983] :  align5_mafft (5164862) started
+[03/04/18 17:46:16.983] :  align5_mafft (5164862) completed
+[03/04/18 17:46:16.983] :  align6_mafft (2969915) started
+[03/04/18 17:46:16.983] :  align6_mafft (2969915) completed
+[03/04/18 17:46:16.983] :  align7_mafft (62104) started
+[03/04/18 17:46:16.983] :  align7_mafft (62104) completed
+[03/04/18 17:46:16.983] :  align8_mafft (6360899) started
+[03/04/18 17:46:16.983] :  align8_mafft (6360899) completed
+[03/04/18 17:46:16.984] :  align0_mafft (8397533) started
+[03/04/18 17:46:23.774] :  align0_mafft (8397533) completed
+[03/04/18 17:46:23.774] :  align1_mafft (6137664) started
+[03/04/18 17:46:28.485] :  align1_mafft (6137664) completed
+[03/04/18 17:46:28.485] :  align2_mafft (9435483) started
+[03/04/18 17:46:30.639] :  align2_mafft (9435483) completed
+[03/04/18 17:46:30.639] :  align3_mafft (423010) started
+[03/04/18 17:46:32.296] :  align3_mafft (423010) completed
+[03/04/18 17:46:32.296] :  align4_mafft (1809273) started
+[03/04/18 17:46:35.451] :  align4_mafft (1809273) completed
+[03/04/18 17:46:35.451] :  align5_mafft (9575652) started
+[03/04/18 17:46:36.302] :  align5_mafft (9575652) completed
+[03/04/18 17:46:36.302] :  align6_mafft (9269818) started
+[03/04/18 17:46:37.786] :  align6_mafft (9269818) completed
+[03/04/18 17:46:37.787] :  align7_mafft (3721242) started
+[03/04/18 17:46:39.157] :  align7_mafft (3721242) completed
+[03/04/18 17:46:39.157] :  align8_mafft (7229722) started
+[03/04/18 17:46:40.662] :  merger0_muscle queued
+[03/04/18 17:46:40.662] :  merger1_muscle queued
+[03/04/18 17:46:40.662] :  merger2_muscle queued
+[03/04/18 17:46:40.662] :  merger3_muscle queued
+[03/04/18 17:46:40.662] :  merger4_muscle queued
+[03/04/18 17:46:40.662] :  merger5_muscle queued
+[03/04/18 17:46:40.663] :  merger6_muscle queued
+[03/04/18 17:46:40.663] :  merger7_muscle queued
+[03/04/18 17:46:40.663] :  merger8_muscle queued
+[03/04/18 17:46:40.670] :  merger0_muscle queued
+[03/04/18 17:46:40.670] :  merger1_muscle queued
+[03/04/18 17:46:40.671] :  merger2_muscle queued
+[03/04/18 17:46:40.671] :  merger3_muscle queued
+[03/04/18 17:46:40.671] :  merger4_muscle queued
+[03/04/18 17:46:40.671] :  merger5_muscle queued
+[03/04/18 17:46:40.671] :  merger6_muscle queued
+[03/04/18 17:46:40.671] :  merger7_muscle queued
+[03/04/18 17:46:40.671] :  merger8_muscle queued
+[03/04/18 17:46:40.689] :  merger0_muscle queued
+[03/04/18 17:46:40.689] :  merger1_muscle queued
+[03/04/18 17:46:40.690] :  merger2_muscle queued
+[03/04/18 17:46:40.690] :  merger3_muscle queued
+[03/04/18 17:46:40.690] :  merger4_muscle queued
+[03/04/18 17:46:40.690] :  merger5_muscle queued
+[03/04/18 17:46:40.690] :  merger6_muscle queued
+[03/04/18 17:46:40.690] :  merger7_muscle queued
+[03/04/18 17:46:40.690] :  merger8_muscle queued
+[03/04/18 17:46:40.703] :  merger0_muscle queued
+[03/04/18 17:46:40.704] :  merger1_muscle queued
+[03/04/18 17:46:40.704] :  merger2_muscle queued
+[03/04/18 17:46:40.704] :  merger3_muscle queued
+[03/04/18 17:46:40.704] :  merger4_muscle queued
+[03/04/18 17:46:40.704] :  merger5_muscle queued
+[03/04/18 17:46:40.704] :  merger6_muscle queued
+[03/04/18 17:46:40.704] :  merger7_muscle queued
+[03/04/18 17:46:40.704] :  merger8_muscle queued
+[03/04/18 17:46:40.718] :  merger0_muscle queued
+[03/04/18 17:46:40.719] :  merger1_muscle queued
+[03/04/18 17:46:40.719] :  merger2_muscle queued
+[03/04/18 17:46:40.719] :  merger3_muscle queued
+[03/04/18 17:46:40.719] :  merger4_muscle queued
+[03/04/18 17:46:40.719] :  merger5_muscle queued
+[03/04/18 17:46:40.719] :  merger6_muscle queued
+[03/04/18 17:46:40.719] :  merger7_muscle queued
+[03/04/18 17:46:40.720] :  merger8_muscle queued
+[03/04/18 17:46:40.740] :  merger0_muscle queued
+[03/04/18 17:46:40.741] :  merger1_muscle queued
+[03/04/18 17:46:40.741] :  merger2_muscle queued
+[03/04/18 17:46:40.741] :  merger3_muscle queued
+[03/04/18 17:46:40.741] :  merger4_muscle queued
+[03/04/18 17:46:40.741] :  merger5_muscle queued
+[03/04/18 17:46:40.741] :  merger6_muscle queued
+[03/04/18 17:46:40.741] :  merger7_muscle queued
+[03/04/18 17:46:40.741] :  merger8_muscle queued
+[03/04/18 17:46:40.757] :  merger0_muscle queued
+[03/04/18 17:46:40.758] :  merger1_muscle queued
+[03/04/18 17:46:40.758] :  merger2_muscle queued
+[03/04/18 17:46:40.758] :  merger3_muscle queued
+[03/04/18 17:46:40.758] :  merger4_muscle queued
+[03/04/18 17:46:40.758] :  merger5_muscle queued
+[03/04/18 17:46:40.758] :  merger6_muscle queued
+[03/04/18 17:46:40.759] :  merger7_muscle queued
+[03/04/18 17:46:40.759] :  merger8_muscle queued
+[03/04/18 17:46:40.782] :  merger0_muscle queued
+[03/04/18 17:46:40.782] :  merger1_muscle queued
+[03/04/18 17:46:40.782] :  merger2_muscle queued
+[03/04/18 17:46:40.782] :  merger3_muscle queued
+[03/04/18 17:46:40.782] :  merger4_muscle queued
+[03/04/18 17:46:40.782] :  merger5_muscle queued
+[03/04/18 17:46:40.782] :  merger6_muscle queued
+[03/04/18 17:46:40.783] :  merger7_muscle queued
+[03/04/18 17:46:40.783] :  merger8_muscle queued
+[03/04/18 17:46:40.796] :  merger0_muscle queued
+[03/04/18 17:46:40.796] :  merger1_muscle queued
+[03/04/18 17:46:40.796] :  merger2_muscle queued
+[03/04/18 17:46:40.796] :  merger3_muscle queued
+[03/04/18 17:46:40.796] :  merger4_muscle queued
+[03/04/18 17:46:40.796] :  merger5_muscle queued
+[03/04/18 17:46:40.797] :  merger6_muscle queued
+[03/04/18 17:46:40.797] :  merger7_muscle queued
+[03/04/18 17:46:40.797] :  merger8_muscle queued
+[03/04/18 17:46:40.810] :  merger0_muscle queued
+[03/04/18 17:46:40.811] :  merger1_muscle queued
+[03/04/18 17:46:40.811] :  merger2_muscle queued
+[03/04/18 17:46:40.811] :  merger3_muscle queued
+[03/04/18 17:46:40.811] :  merger4_muscle queued
+[03/04/18 17:46:40.811] :  merger5_muscle queued
+[03/04/18 17:46:40.811] :  merger6_muscle queued
+[03/04/18 17:46:40.811] :  merger7_muscle queued
+[03/04/18 17:46:40.811] :  merger8_muscle queued
+[03/04/18 17:46:40.829] :  merger0_muscle queued
+[03/04/18 17:46:40.829] :  merger1_muscle queued
+[03/04/18 17:46:40.829] :  merger2_muscle queued
+[03/04/18 17:46:40.829] :  merger3_muscle queued
+[03/04/18 17:46:40.830] :  merger4_muscle queued
+[03/04/18 17:46:40.830] :  merger5_muscle queued
+[03/04/18 17:46:40.830] :  merger6_muscle queued
+[03/04/18 17:46:40.830] :  merger7_muscle queued
+[03/04/18 17:46:40.830] :  merger8_muscle queued
+[03/04/18 17:46:40.840] :  merger0_muscle queued
+[03/04/18 17:46:40.840] :  merger1_muscle queued
+[03/04/18 17:46:40.840] :  merger2_muscle queued
+[03/04/18 17:46:40.840] :  merger3_muscle queued
+[03/04/18 17:46:40.840] :  merger4_muscle queued
+[03/04/18 17:46:40.840] :  merger5_muscle queued
+[03/04/18 17:46:40.841] :  merger6_muscle queued
+[03/04/18 17:46:40.841] :  merger7_muscle queued
+[03/04/18 17:46:40.841] :  merger8_muscle queued
+[03/04/18 17:46:40.856] :  merger0_muscle queued
+[03/04/18 17:46:40.856] :  merger1_muscle queued
+[03/04/18 17:46:40.856] :  merger2_muscle queued
+[03/04/18 17:46:40.856] :  merger3_muscle queued
+[03/04/18 17:46:40.856] :  merger4_muscle queued
+[03/04/18 17:46:40.856] :  merger5_muscle queued
+[03/04/18 17:46:40.856] :  merger6_muscle queued
+[03/04/18 17:46:40.856] :  merger7_muscle queued
+[03/04/18 17:46:40.856] :  merger8_muscle queued
+[03/04/18 17:46:40.856] :  align8_mafft (7229722) completed
+[03/04/18 17:46:40.857] :  align0_mafft (8216161) started
+[03/04/18 17:46:48.405] :  align0_mafft (8216161) completed
+[03/04/18 17:46:48.405] :  align1_mafft (1255002) started
+[03/04/18 17:46:57.239] :  align1_mafft (1255002) completed
+[03/04/18 17:46:57.239] :  align2_mafft (3995309) started
+[03/04/18 17:47:01.395] :  align2_mafft (3995309) completed
+[03/04/18 17:47:01.395] :  align3_mafft (627609) started
+[03/04/18 17:47:01.634] :  align3_mafft (627609) completed
+[03/04/18 17:47:01.634] :  align4_mafft (6451983) started
+[03/04/18 17:47:08.613] :  align4_mafft (6451983) completed
+[03/04/18 17:47:08.613] :  align5_mafft (1121285) started
+[03/04/18 17:47:10.607] :  align5_mafft (1121285) completed
+[03/04/18 17:47:10.607] :  align6_mafft (5712290) started
+[03/04/18 17:47:13.994] :  align6_mafft (5712290) completed
+[03/04/18 17:47:13.994] :  align7_mafft (51454) started
+[03/04/18 17:47:19.119] :  align7_mafft (51454) completed
+[03/04/18 17:47:19.120] :  align8_mafft (5612424) started
+[03/04/18 17:47:22.372] :  merger0_muscle queued
+[03/04/18 17:47:22.373] :  merger1_muscle queued
+[03/04/18 17:47:22.373] :  merger2_muscle queued
+[03/04/18 17:47:22.373] :  merger3_muscle queued
+[03/04/18 17:47:22.373] :  merger4_muscle queued
+[03/04/18 17:47:22.373] :  merger5_muscle queued
+[03/04/18 17:47:22.373] :  merger6_muscle queued
+[03/04/18 17:47:22.373] :  merger7_muscle queued
+[03/04/18 17:47:22.373] :  merger8_muscle queued
+[03/04/18 17:47:22.391] :  merger0_muscle queued
+[03/04/18 17:47:22.392] :  merger1_muscle queued
+[03/04/18 17:47:22.392] :  merger2_muscle queued
+[03/04/18 17:47:22.392] :  merger3_muscle queued
+[03/04/18 17:47:22.392] :  merger4_muscle queued
+[03/04/18 17:47:22.392] :  merger5_muscle queued
+[03/04/18 17:47:22.392] :  merger6_muscle queued
+[03/04/18 17:47:22.392] :  merger7_muscle queued
+[03/04/18 17:47:22.392] :  merger8_muscle queued
+[03/04/18 17:47:22.392] :  align8_mafft (5612424) completed
+[03/04/18 17:47:22.392] :  merger0_muscle (8026958) started
+[03/04/18 17:47:22.424] :  merger0_muscle (8026958) completed
+[03/04/18 17:47:22.425] :  merger1_muscle (7837070) started
+[03/04/18 17:47:22.457] :  merger1_muscle (7837070) completed
+[03/04/18 17:47:22.457] :  merger2_muscle (904435) started
+[03/04/18 17:47:22.487] :  merger2_muscle (904435) completed
+[03/04/18 17:47:22.487] :  merger3_muscle (5027539) started
+[03/04/18 17:47:22.487] :  merger3_muscle (5027539) completed
+[03/04/18 17:47:22.487] :  merger4_muscle (3660764) started
+[03/04/18 17:47:22.496] :  merger4_muscle (3660764) completed
+[03/04/18 17:47:22.496] :  merger5_muscle (3422685) started
+[03/04/18 17:47:22.496] :  merger5_muscle (3422685) completed
+[03/04/18 17:47:22.496] :  merger6_muscle (3120247) started
+[03/04/18 17:47:22.496] :  merger6_muscle (3120247) completed
+[03/04/18 17:47:22.496] :  merger7_muscle (2028296) started
+[03/04/18 17:47:22.509] :  merger7_muscle (2028296) completed
+[03/04/18 17:47:22.509] :  merger8_muscle (1980277) started
