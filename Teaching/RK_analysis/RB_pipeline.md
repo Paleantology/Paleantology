@@ -62,5 +62,58 @@ You can either complete this step on your personal machine, or on LONI. I've put
 
 This will give you some output in the form of RAxML_*. You'll look for the file RAxML_bestTree.startingtree. Move this file into the data directory. 
 
-Now, you're ready to execute the revbayes analysis. Make sure all the files (including the starting tree, if you ran it on your personal machine) are on LONI. Submit the revbayes.sh file.
+7. You'll also need to create two accessory files, taxa.tsv and FossInt.tsv. Taxa is all the taxa on the tree (morphology + mol + just dates), FossInt is the age of all the fossils.
+
+I've created two scripts that write these files. They are in the scripts directory of the main repo - feel free to move them into the scripts directory of the RK_analysis folder, if that's easier for you. 
+
+```python
+
+../../Scripts/TaxonListParser.py -h
+usage: TaxonListParser.py [-h] [--mol MOL] [--morph MORPH] [--foss FOSS]
+                          [--ages AGES] [--output OUTPUT]
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --mol MOL        Path to nexus or fasta file containing molecular data.
+                   Should end in .nex, .fasta or .fa.
+  --morph MORPH    Path to nexus-formatted file containing morphological data.
+                   Should end in .nex.
+  --foss FOSS      Path to TSV or CSV file containing the fossils you'd like
+                   to include in the analysis
+  --ages AGES      Path to data ages TSV or CSV file containing ages of non-
+                   contemporaneous tips, if any exist in your analysis.
+  --output OUTPUT  Path to where you'd like to write output
+
+```
+
+So the arguments you'll provide are: one of the molecular data files (does not matter which), the morphological data matrix, one of the fossil files you made (you'll need to run this step for EACH FBD analysis you execute), and the path to the FossilTRNS file, and where you want to put the output (I'd put it in data, but whatever's fine). The FBD analysis assumes it is in the data folder, and is called taxa.tsv.
+
+For example: 
+
+```
+../../Scripts/TaxonListParser.py --mol Data/18s.nex --morph Data/AntMegaMatrixMinusAmbig.nex --foss Data/Tribe_max.tsv --ages ../../Data/Morph/FossilTNRS.csv --output taxa.tsv
+```
+
+generates the taxon list file for that Tribe_max file you sent.
+
+FossInterval works like this:
+
+```
+usage: FossInterval.py [-h] [--set SET] [--ages AGES] [--output OUTPUT]
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --set SET        Path to the taxon TSV or CSV file containing all fossils
+                   and all tips on the tree.
+  --ages AGES      Path to data ages TSV or CSV file containing ages of non-
+                   contemporaneous tips, if any exist in your analysis.
+  --output OUTPUT  Path to where you'd like to write output
+```
+  
+ So you'll provide the foss set you made, the FossTRNS file and the output you'd like to write. The FBD analysis assumes it is in the data folder, and is called FossInt.tsv.
+ 
+ 
+8. Now, you're ready to execute the revbayes analysis. Make sure all the files (including the starting tree, if you ran it on your personal machine) are on LONI. Submit the revbayes.sh file.
+
+
 
