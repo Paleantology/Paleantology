@@ -14,7 +14,7 @@
 ##module unload mvapich2/2.0/INTEL-14.0.2
 ##module load openmpi/1.8.1/INTEL-14.0.2
 
-datapath=/work/amwright/Paleantology/Data/Morph
+datapath=/work/yourUserName/Paleantology/Teaching/RK_analysis
 cd $datapath
 
-mpirun -np 20 -hostfile $PBS_NODEFILE ~/rb-mpi scripts/mcmc_TEFBD.Rev
+~/rb scripts/mcmc_TEFBD.Rev
