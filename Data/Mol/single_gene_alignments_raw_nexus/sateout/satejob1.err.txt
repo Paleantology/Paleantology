@@ -1,2 +1,0 @@
-PASTA ERROR: PASTA is exiting because of an error:
-The tree file "starting.tre" does not exist 
