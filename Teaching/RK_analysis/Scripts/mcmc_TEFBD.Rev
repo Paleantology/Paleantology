@@ -44,13 +44,13 @@ mni = 1
 n_taxa <- taxa.size()
 n_branches <- 2 * n_taxa - 2
 # Load the model files
-source("scripts/model_FBDP_TEFBD.Rev") # FBD tree prior
+source("Scripts/model_FBDP_TEFBD.Rev") # FBD tree prior
 
-source("scripts/model_UExp_TEFBD.Rev") # UExp relaxed clock
+source("Scripts/model_UExp_TEFBD.Rev") # UExp relaxed clock
 
-source("scripts/model_GTRG_TEFBD.Rev") # Molecular substitution model (GTR+G)
+source("Scripts/model_GTRG_TEFBD.Rev") # Molecular substitution model (GTR+G)
 
-#source("scripts/model_Morph_TEFBD.Rev") # Morphological character change model
+#source("Scripts/model_Morph_TEFBD.Rev") # Morphological character change model
 
 
 ########
