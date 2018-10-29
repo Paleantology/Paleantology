@@ -1,0 +1,8 @@
+*.log
+*.trees
+*.p
+*.t
+*.vstat
+*.trprobs
+*.tstat
+*.ckp
