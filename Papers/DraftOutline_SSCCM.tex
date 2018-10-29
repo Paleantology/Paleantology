@@ -7,16 +7,24 @@
 \date{Today}
 \maketitle
 
+\section{Abstract}
+
+Morphological data is challenging to model due to the arbitrary properties of morphological character codings. 
+The Mk model, a generalization of the Jukes-Cantor model, assumes a that there is an equal rate of forward and backwards transitions in morphological traits.
+In this study, we used an expanded combined set of two ant (Formicidae) data matrices, composed of one extinct-extant matrix and one extant matrix to estimate a phylogeny for the group.
+We use this large matrix to explore methods for relaxing the transition rate symmetry of the Mk model, and introduce the Site Heterogeneous Discrete Morphology (SHDM) to allow equilibrium character frequencies to vary. 
+Using a symmetric Dirichlet process as a prior of this modeling allows for the difference in stationary frequency of characters to be expressed more accurately than if expressed with a parsimony method such a generalized Jukes-Cantor model.
+
 \section{Introduction}
 \subsection{Bayesian Modeling of Morphology}
 	Recent interest in using Bayesian methods to model morphological evolution to estimate phylogenetic trees has spurred many studies into how well the existing toolkit performs, particularly in relation to parsimony methods.
-	However, there has been little work expanding that toolkit. 
+	However, there has been little work expanding the toolkit of methods available to researchers estimating trees from morphological data. 
 	The most common way to perform likelihood or Bayesian phylogenetic analysis using morphological data is by applying a model of morphological evolution called the Mk model.
 	Many workers using morphological data have raised questions about the realism of this model.
 	In this paper, we will discuss methodological advancements aimed at improving the realism of the model. \par
 	The Mk model was introduced by Lewis in 2001.
-	As a generalization of the Jukes-Cantor model, it makes the same set of assumptions: that change between any two states is equally likely, that the stationary character frequencies of every character are the same, and that each character is always in one of \textit{k} states.
-	The model also makes the Markovian assumption that a character can change instantaneously, regardless of previous states. 
+	As a generalization of the Jukes-Cantor model, it makes the same set of assumptions: that change between any two states is equally likely, that the stationary character frequencies of every character are the same, and that each character is always in one of \textit{k} known states.
+	The model also makes the Markovian assumption that a character can change instantaneously, regardless of previous states, or multiply along a branch. 
 	Any one of these assumptions may strike a reader as problematic for their particular dataset. \par
 	Heterogeneity in the evolutionary process is difficult to accommodate in morphological data. 
 	Making concrete \textit{a priori} statements about the relative probabilities of transitions between character states in a morphological character matrix is challenging. 
@@ -32,18 +40,18 @@ The probability of observing a change in a character is dependent not only on th
 Even if a character has a low probability of changing, change in that character may still be observed many times if the stationary frequency of that character is high (i.e., the character is observed many times). 
 Likewise, a highly-probable change may be seen relatively rarely if the starting character is observed rarely. 
 Therefore, relaxing the assumption of equal stationary frequencies has been a way of changing the probabilities of observing different changes without making strong \textit{a priori} statements about transition probabilities. \par
-In the case of binary data, the prior used was a Beta prior (the Dirichlet is a generalization of the Beta distribution), which operated in a fashion similar to gamma-distributed rate variation: the distribution is discretized into a user-specified number of categories, the median forward and backward transition rate are calculated for each category, and the likelihood of the character is calculated over each category and summed to form the total likelihood. 
-For binary data, the state frequencies are integrated out of the likelihood, making the symmetric Dirichlet a prior.
-For multistate data, the state frequencies are drawn from a Dirichlet distribution.
+In the case of binary data, MrBayes implemented a Beta prior (the Dirichlet is a generalization of the Beta distribution for non-binary data), which operated in a fashion similar to gamma-distributed rate variation: the distribution is discretized into a user-specified number of categories, the median forward and backward transition rate are calculated for each category, and the likelihood of the character is calculated over each category and summed to form the total likelihood. 
+For binary data, the state frequencies are integrated out of the likelihood, making the symmetric Dirichlet hyperprior actually a prior.
+For multistate data, the state frequencies are drawn from a Dirichlet distribution, as the Dirichlet is a multi-state generalization of the Beta distribution.
 The parameter was referred to as a hyperprior because users can place a distribution on the parameter to the Beta distribution, and because the state frequencies are not integrated out of the likelihood function for multistate data. 
-As implemented in MrBayes, the Beta distribution was assumed to be symmetric, meaning that if there were characters for which the stationary frequency of 0 is high, there would also be corresponding characters for which the stationary frequency of 1 is high.\par
+As implemented in MrBayes, the Beta distribution was assumed to be symmetric, meaning that if there was a class of characters for which the stationary frequency of 0 is high, there would also be corresponding class of characters for which the stationary frequency of 1 is high.\par
 This is a very useful model extension for morphological evolution.
 There are clear contexts to improve this concept by borrowing from the molecular literature.
 The CAT model of Lartillot represents one way forward. 
-This model, implemented in PhyloBayes, uses a Dirichlet process to assign individual sites to categories, which differ in their stationary frequencies. 
+This model, implemented in PhyloBayes, uses a Dirichlet process prior to assign individual sites to categories, which differ in their stationary frequencies. 
 In this model, the number of such categories that describe the data is a free parameter. 
 The use of a Dirichlet prior allows for flexibility in the number of states, as opposed to a Beta prior which is limited to binary data.
-However, many datasets that have been analyzed under the CAT model are phylogenomic datasets of thousands of loci, as compared to small morphology datasets.\par
+However, many datasets that have been analyzed under the CAT model are phylogenomic datasets of thousands of loci, as compared to data-limited morphology datasets.\par
 In RevBayes, we have implemented a number of useful extensions to the Dirichlet prior of MrBayes, and a constrained version of the CAT model. 
 Our extension to the symmetric Beta prior allows for the Beta distribution to be asymmetrical.
 This removes the need for there to be equal numbers of characters with high stationary frequencies for a character state as there are characters with low stationary frequencies for that same character state.
@@ -57,15 +65,15 @@ Ants are ecologically crucial organisms as both interacting partners for a varie
 As such, they have attracted much work in the world of molecular systematics.
 Ants have also have a rich fossil record, with most subfamilies being represented. 
 This fossil record has been used for systematic work, as well as a variety of other ecological and evolutionary questions.\par
-The monophyly of major subfamilies has been consistently supported by most molecular and morphological studies, with the exception of the Cerapachyinae. 
+The monophyly of major subfamilies has been consistently supported by most molecular studies, with the exception of the Cerapachyinae. 
 Molecular systematics had originally shaken up the ant tree of life considerably, breaking up clades considered to be monophyletic based on morphological work.
 For example, based on morphological work, six current subfamilies had been previously considered to be a single subfamily, the Ponerinae, until molecular evidence indicated that two of the clades (Ectatomminae and Heteroponerinae) within that subfamily were demonstrated to be more closely related to other ants on the tree.
-The Ponerinae was then broken into six distinct subfamilies, one of which is called Ponerinae. 
+The Ponerinae was then broken into six distinct subfamilies, one of which is also called Ponerinae. 
 Recent molecular work has continued to support these six subfamilies as monophyletic, though their relationships to one another remain poorly supported. \par
 Excellent morphological matrices on the ingroup of the Formicidae have been available since the early '90s. 
 Recent morphological matrices have expanded the sampling of ants from in the large Ponerine family, which was previously undersampled.
 Sampling of fossil ants was also expanded to include specimens from the Cretaceous.
-These ants were concluded to be stem lineages, and some did not demonstrate any particular taxonomic affinity. 
+These ants were concluded to be stem lineages, and some did not demonstrate any particular taxonomic affinity based on character data and phylogenetic placement. 
 Even with expanded taxon sampling in the Ponerinae, there is still conflict between the molecular and morphological estimates of phylogenetic relationships. \par
 In this study, we combine the extant matrices of Keller, and the extinct-extant matrix of Barden and Grimaldi to expand the taxon and character sampling.  
 This dataset has interesting properties.
@@ -105,25 +113,27 @@ Most of these changes simply involved changing the terminology used in reference
 For example, Barden and Grimaldi's character 15 is the same as Keller's character 47, but the two matrices had inverse character codings relative to one another.
 The remainder of the changes were changing binary characters to a multistate in cases where one author had more states than the other. 
 We will refer to this dataset as the combined dataset. \par
-To test the SHDM model, we used several permutations of these data.
-First, to test the binary version of the model, we used Barden and Grimaldi's dataset with the multistate characters removed.
-This dataset was chosen because the dataset size and completeness is very typical to a morpholgoical dataset, particularly one involving fossils.
-We used this to test the SHDM model.
-We used the combined matrix to also test the full SHDM model.
-Lastly, we used the combined matrix, stripped of multi-state characters to test the binary model on a larger dataset.
-The two datasets including both multistate and binary characters were used to examine the effect of dataset size on the ability to estimate model parameters. \par
+We tested the SHDM model on both binary and binary + multistate datasets.
+First, to test the model on binary-only datasets, we used Barden and Grimaldi's dataset with the multistate characters removed.
+This dataset was chosen because the dataset size and completeness is very typical to a morphological dataset, particularly one involving fossils.
+We also used the combined matrix, stripped of multistate characters to test the model to look at the effect of estimating a larger tree using more characters.
+In both cases, we performed Bayes Factor model fitting to determine how many discrete Beta categories best model the data. \par
+To test the full SHDM model, we used both the Barden-Grimaldi dataset and the combined dataset.
+In testing the SHDM model, we modeled the binary and multistate characters together.
+This allowed us to both examine the impact of allowing character frequencies to be drawn from a Dirichlet, and to examine the effect of adding more data to the phylogenetic question. 
+\par
 
 \subsubsection{Simulated Matrices}
 
 To test the performance of the SHDM model on idealized datasets, we used RevBayes to simulate five sets of 100 replicates of morphological data.
 The first two sets of simulations were based on Barden and Grimaldi's dataset size and tree.
-Under this set of conditions, datasets of 41 taxa and 42 characters were generated in RevBayes.
+Under this set of conditions, datasets of 41 taxa and 42 characters were simulated in RevBayes.
 In one set, only binary characters were evolved under the Beta model.
-In the other, both binary and mutistate characters were evolved.
-For both datasets, the binary or Dirichlet distribution was discretized into four categories.
-We also created one set of 100 replicates that was generated under a strict Mk model with no state frequency variation to see if the model will overfit state frequency variation where none exists.\par
+In the other, both binary and mutistate characters were evolved under the Dirichlet prior.
+For both datasets, the beta or Dirichlet distribution was discretized into four categories.
+\par
 The other set of two simulations was based on the full datasets.
-One set of 139 binary characters was generated for the full 105 taxa under the binary model; a second set including multistate characters was generated under the SHDM model.
+One set of 139 binary characters was generated for the full 105 taxa under the binary model; a second set including multistate characters was generated under the SHDM model, with the distribution discretized into four categories.
 The tree used to generate the data was the tree estimated from the combined empirical dataset using the SHDM. \par
 
 \subsection{Phylogenetic Analyses}
@@ -133,39 +143,53 @@ Trees were estimated from each empirical dataset using multiple models of evolut
 The Mk model was used for each dataset, with an appropriately-sized Q-matrix.
 For the binary-only datasets, the binary model was used.
 The datasets containing both binary and multistate characters were analyzed using the SHDM, with the dimensionality of the Dirichlet process being equal to the largest number of character states. 
-Each dataset was run under several different numbers of discrete state frequency variation categories, from two to eight categories.
+Each dataset was run under several different numbers of discrete state frequency variation categories, from two to six categories.
 All datasets were corrected for not observing invariant characters. \par
 For the binary datasets, Bayes Factor model fitting was used to assess what the optimal number of discrete categories were.
 We used stepping-stone model fitting to calculate the marginal likelihood.
 We first ran an MCMC analysis to determine how many generations are required to attain convergence (about one million).
-Each of the 50 stepping stones was then run for one million generations.
+Each of the 75 stepping stones was then run for one million generations.
 Due to computational limits, for the multistate datasets, we used the mean of the MCMC distribution to compare across different discretizations of the model. \par
 
 
 \subsubsection{Simulated Data}
 
 Because the true tree cannot be known from empirical data, we used simulated data to observe the effect this model has on accuracy of estimation, and to see if it is possible to detect the true number of discrete categories of state frequency variation.
-To this end, for each replicate, all datasets were estimated in RevBayes using the true model.
-Trees were also estimated from all datasets without allowing any state frequency variation (i.e., the Mk model) to simulate the effect of excluding variation (underparameterizing the data) completely.
-Lastly, every dataset was run under the correct model (either the binary model or the SHDM model), but with a misspecified number of categories.
-The number of categories ran from two to eight.
-These categories were chosen because they run from half the true number to double the true number. 
-In total, each dataset was run under one true model and eight misspecified models. \par
+To this end, we estimated trees for each replicate under the true model.
+We also estimated trees for each replicate under 5 misspecified models: the Mk model, 2 and 3 category models (underparameterized models), and 5 and 6 category models (overparameterized models). \par
+
 
 \section{Results}
 
 \subsection{Empirical Phylogenetic Analyses}
-\subsection{Binary Data}
 
 The marginal likelihood comparisons for the Barden and Grimaldi dataset, when multistate characters are removed can be seen in Fig. 1a.
 The marginal likelihood comparisons for the combined dataset with the multistate characters removed can be seen in Fig. 1b.
-
-
-
-
+\textbf{Barden Dataset}
 	a) Best fit model?
 	b) Tree comparisons, esp. branch lengths. No asc. bias correction + misspecified model, no correction + misspecified model, correction + correct model, correction + misspecified model 
 	c) Tree set visualization comparisons
+\textbf{Keller Dataset}
+	a) Best fit model?
+	b) Tree comparisons, esp. branch lengths. No asc. bias correction + misspecified model, no correction + misspecified model, correction + correct model, correction + misspecified model 
+	c) Tree set visualization comparisons
+\textbf{Combined Dataset}
+	a) Best fit model?
+
+	b) Tree comparisons, esp. branch lengths. No asc. bias correction + misspecified model, no correction + misspecified model, correction + correct model, correction + misspecified model 
+	c) Tree set visualization comparisons
+
+\subsection{Simulated Phylogenetic Analyses}
+\subsection{Binary 4-cat small}
+
+\subsection{MS4cat small}
+
+\subsection{MS4cat large}
+
+
+
+
+
 	
 \section{Discussion}	
 
