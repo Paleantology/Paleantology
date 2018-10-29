@@ -6,3 +6,5 @@
 *.trprobs
 *.tstat
 *.ckp
+Papers/*.pdf
+.texpadtmp
