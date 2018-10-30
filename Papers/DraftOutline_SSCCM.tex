@@ -1,5 +1,6 @@
 \documentclass[]{article}
 \usepackage{amsmath} 
+\usepackage{natbib}
 
 \begin{document}
 
@@ -91,33 +92,40 @@ We also perform simulations to demonstrate that the true number of transition ra
 
 \subsection{Modeling site-heterogeneous state frequencies}
 
+We model morphological character evolution using the Mk model \citep{lewis2001likelihood}, and additionally account for site-specific heterogeneity in substitution rates among character states by allowing the equilibrium state frequencies $\pi$ to vary among sites, such that each site $i$ has its own state frequency vector $\pi_i$.
+
 \subsubsection{Discretized beta model}
-We model site-specific state frequencies by assuming the state frequency $\pi_i$ at site $i$ is drawn from a Beta prior distribution with hyperparameters $\alpha,\beta$.
+We model site-specific binary state frequencies by assuming the state frequencies $\pi_i$ are drawn from a 2-dimensional Dirichlet (Beta) prior distribution with hyperparameters $\alpha,\beta$.
 Then, the likelihood of the data $D$ is computed by marginalizing over the value for $\pi_i$ at each site.
 
-\begin{equation}\label{continuous-likelihood}
+\begin{equation} \label{continuous-likelihood}
 f(D\mid \alpha,\beta) = \prod_{i=1}^n\int_0^1 f(D_i \mid \pi_i)f(\pi_i \mid \alpha,\beta)d\pi_i
 \end{equation}
 
 To simplify the computation, we approximate this integrated likelihood by assuming $\pi_i$ is drawn from a mixture distribution, where the mixture categories are defined deterministically by discretizing a Beta distribution into $k$ bins whose boundaries are defined using $k-1$ quantiles.
-The the value of mixture category $j$ is indicated by $\beta_j$ and is computed as the interquantile median of the $j$-th bin.
-In other words, $\beta_j = I^{-1}_{(2j-1)/2k}(\alpha,\beta)$, where $I_x(\alpha,\beta)$ is the regularized incomplete Beta function.
+The the value of mixture category $j$ is indicated by $\phi_j$ and is computed as the interquantile median of the $j$-th bin.
+In other words, $\phi_j = I^{-1}_{(2j-1)/2k}(\alpha,\beta)$, where $I_x(\alpha,\beta)$ is the regularized incomplete Beta function.
 The mixing proportion is $1/k$ for each category.
 Then the likelihood is computed by summing over the $k$ discrete mixture categories for $\pi_i$ at each site.
 
-\begin{equation}\label{discretized-likelihood}
-f(D\mid \alpha,\beta) = \prod_{i=1}^n\frac{1}{k}\sum_{j=1}^k f(D_i \mid \pi_i = \beta_j)
+\begin{equation} \label{discretized-likelihood}
+f(D\mid \alpha,\beta) = \prod_{i=1}^n\frac{1}{k}\sum_{j=1}^k f(D_i \mid \pi_i = \phi_j)
 \end{equation}
 
 Note that in the limit as the number of mixture categories approaches infinity, equation \ref{discretized-likelihood} is identical to equation \ref{continuous-likelihood}.
 
-\subsubsection{Site-heterogeneous discrete multistate model}
+\subsubsection{Site-heterogeneous multistate model}
 
 When analyzing multistate character data with $S$ character states, we assume the state frequencies $\pi_i$ at each site $i$ are drawn from a Dirichlet distribution with concentration parameters $\alpha_1,\ldots,\alpha_S$.
 Again, we use a mixture distribution to simplify the computation, but instead of defining the mixture categories using a discretized Dirichlet distribution, the value $\delta_j$ of mixture category $j$ is assumed to be drawn from the same underlying Dirichlet distribution with parameters $\alpha_1,\ldots,\alpha_S$.
 The mixing proportions are $\theta_j$, which are themselves drawn from a uniform Dirichlet prior distribution.
 
 $$f(D\mid \delta_1,\ldots,\delta_k,\theta_1,\ldots,\theta_k) = \prod_{i=1}^n \sum_{j=1}^k  f(D_i \mid \pi_i = \delta_j)\theta_j$$
+
+\subsubsection{Model comparison}
+
+The appropriate number of categories $k$ is selected by comparing estimates of the marginal likelihood under different values for $k$.
+Marginal likelihoods were estimated using the steppingstone sampling method \citep{xie2010improving} implemented in RevBayes.
 
 \subsection{Data Matrices}
 \subsubsection{Empirical Matrices}
@@ -232,5 +240,7 @@ The marginal likelihood comparisons for the combined dataset with the multistate
 
 \section{Ackno}	
 
+\bibliographystyle{plain}
+\bibliography{bibliography}
 
 \end{document}
