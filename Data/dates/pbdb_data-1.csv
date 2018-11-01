@@ -1,0 +1,867 @@
+Data Provider,The Paleobiology Database,,,,,,,,,,,,,,,,,,,,,,,
+Data Source,The Paleobiology Database,,,,,,,,,,,,,,,,,,,,,,,
+Data License,Creative Commons CC-BY,,,,,,,,,,,,,,,,,,,,,,,
+License URL,http://creativecommons.org/licenses/by/4.0/,,,,,,,,,,,,,,,,,,,,,,,
+Documentation URL,http://paleobiodb.org/data1.2/specs/list_doc.html,,,,,,,,,,,,,,,,,,,,,,,
+Data URL,http://paleobiodb.org/data1.2/specs/list.csv?datainfo&rowcount&base_name=Formicidae,,,,,,,,,,,,,,,,,,,,,,,
+Access Time,Thu 2018-11-01 15:47:50 GMT,,,,,,,,,,,,,,,,,,,,,,,
+Title,PBDB Data Service,,,,,,,,,,,,,,,,,,,,,,,
+Parameters:,,,,,,,,,,,,,,,,,,,,,,,,
+,base_name,Formicidae,,,,,,,,,,,,,,,,,,,,,,
+,timerule,major,,,,,,,,,,,,,,,,,,,,,,
+,taxon_status,all,,,,,,,,,,,,,,,,,,,,,,
+Elapsed Time,0.0764,,,,,,,,,,,,,,,,,,,,,,,
+Records Found,850,,,,,,,,,,,,,,,,,,,,,,,
+Records Returned,850,,,,,,,,,,,,,,,,,,,,,,,
+Records:,,,,,,,,,,,,,,,,,,,,,,,,
+specimen_no,record_type,flags,occurrence_no,reid_no,collection_no,specimen_id,is_type,specimen_side,specimen_part,specimen_sex,n_measured,measurement_source,magnification,comments,identified_name,identified_rank,identified_no,difference,accepted_name,accepted_rank,accepted_no,max_ma,min_ma,reference_no
+19436,spm,,911782,0,,NSM-P1-7417,holotype,,forewing,,1,text,,,Aphaenogaster (Deromyrma) n. sp. avita,species,175208,recombined as,Paraphaenogaster avita,species,175208,15.97,13.82,34858
+19443,spm,,911788,0,,UAF-GS1,,,wing,,1,text,,Estimate; tip of wing lost,Dolichoderinae indet.,subfamily,70729,,Dolichoderinae,subfamily,70729,7.246,5.333,34859
+19444,spm,,911788,0,,UAS-GS20,,,wing,,1,text,,Estimate; tip of wing lost,Dolichoderinae indet.,subfamily,70729,,Dolichoderinae,subfamily,70729,7.246,5.333,34859
+19445,spm,,911789,0,,UAF-GS19,,,wing,,1,text,,Estimate from incomplete specimen,Myrmicinae indet.,subfamily,70731,,Myrmicinae,subfamily,70731,7.246,5.333,34859
+19446,spm,,911790,0,,UAF-GS23,,,forewing,,1,text,,Estimate from incomplete specimen,Aphaenogaster sp.,genus,71536,,Aphaenogaster,genus,71536,7.246,5.333,34859
+19447,spm,,911791,0,,UAF-GS25,,,forewing,,1,text,,Estimate from incomplete specimen,Messor sp.,genus,175212,,Messor,genus,175212,7.246,5.333,34859
+19962,spm,,915749,0,,SFU Q-0271,,,wing,,1,text,,"Based on wingspan of ""approximately 50 mm""",Formicidae indet.,family,70728,,Formicidae,family,70728,56,47.8,35069
+19963,spm,,915749,0,,SFU Q-0271,,,body,,1,text,,,Formicidae indet.,family,70728,,Formicidae,family,70728,56,47.8,35069
+19964,spm,,915749,0,,SFU Q-0007,,,body,,1,text,,,Formicidae indet.,family,70728,,Formicidae,family,70728,56,47.8,35069
+19965,spm,,915749,0,,SFU Q-0400,,,body,,1,text,,,Formicidae indet.,family,70728,,Formicidae,family,70728,56,47.8,35069
+21438,spm,,939610,0,,DMNS 9041,holotype,,body,,1,text,,,Titanomyrma n. sp. lubei,species,184422,,Titanomyrma lubei,species,184422,50.3,46.2,35980
+21439,spm,,939610,0,,DMNS 9041,holotype,,forewing,,1,text,,,Titanomyrma n. sp. lubei,species,184422,,Titanomyrma lubei,species,184422,50.3,46.2,35980
+21440,spm,N,,0,,,holotype,,body,,1,text,,,UNKNOWN,species,184424,recombined as,Titanomyrma simillima,species,184425,,,35980
+21832,spm,,942686,0,,GZG.W.14552,holotype,right,forewing,,1,text,,,n. gen. Camponotites n. sp. silvestris,species,185335,,Camponotites silvestris,species,185335,3.6,2.588,51248
+21833,spm,,942686,0,,GZG.W.14552,holotype,left,hindwing,,1,text,,,n. gen. Camponotites n. sp. silvestris,species,185335,,Camponotites silvestris,species,185335,3.6,2.588,51248
+21834,spm,,942686,0,,GZG.W.14552,holotype,,body,,1,text,,Width based on mesosoma,n. gen. Camponotites n. sp. silvestris,species,185335,,Camponotites silvestris,species,185335,3.6,2.588,51248
+21835,spm,,942687,0,,TU CI P In 191,holotype,,forewing,,1,text,,Length 22-23 mm from 20.5 mm fragment,Camponotites n. sp. steinbachi,species,185336,,Camponotites steinbachi,species,185336,3.6,2.588,36140
+21836,spm,,942687,0,,TU CI P In 191,holotype,,hindwing,,1,text,,,Camponotites n. sp. steinbachi,species,185336,,Camponotites steinbachi,species,185336,3.6,2.588,36140
+22354,spm,,949213,0,,MNHN A32915,holotype,,body,,1,text,,,Platythyrea n. sp. dlusskyi,species,187155,,Platythyrea dlusskyi,species,187155,55.8,48.6,36397
+22355,spm,,633380,24900,,MNHN A32917,holotype,,body,,1,text,,,Ponerinae indet.,subfamily,71998,,Ponerinae,subfamily,71998,56,47.8,36397
+23098,spm,,950431,0,,NJ-1029,holotype,,Head,,1,text,,,n. gen. Kyromyrma n. sp. neffi,species,187514,,Kyromyrma neffi,species,187514,93.9,89.8,36433
+23099,spm,,950431,0,,NJ-1029,holotype,,Eye,,1,text,,,n. gen. Kyromyrma n. sp. neffi,species,187514,,Kyromyrma neffi,species,187514,93.9,89.8,36433
+23100,spm,,950431,0,,NJ-1029,holotype,,Antenna Scape,,1,text,,,n. gen. Kyromyrma n. sp. neffi,species,187514,,Kyromyrma neffi,species,187514,93.9,89.8,36433
+23101,spm,,950431,0,,NJ-1029,holotype,,Mandible,,1,text,,,n. gen. Kyromyrma n. sp. neffi,species,187514,,Kyromyrma neffi,species,187514,93.9,89.8,36433
+23102,spm,,950431,0,,NJ-1029,holotype,,Alitrunk,,1,text,,,n. gen. Kyromyrma n. sp. neffi,species,187514,,Kyromyrma neffi,species,187514,93.9,89.8,36433
+23103,spm,,950431,0,,NJ-1029,holotype,,Gaster,,1,text,,,n. gen. Kyromyrma n. sp. neffi,species,187514,,Kyromyrma neffi,species,187514,93.9,89.8,36433
+23220,spm,,955042,0,,BU 351,holotype,,Head,,1,text,,,n. gen. Sphecomyrmodes n. sp. orientalis,species,190428,recombined as,Gerontoformica orientalis,species,190428,99.6,93.5,36535
+23221,spm,,955042,0,,BU 351,holotype,,Mesosoma,,1,text,,,n. gen. Sphecomyrmodes n. sp. orientalis,species,190428,recombined as,Gerontoformica orientalis,species,190428,99.6,93.5,36535
+23222,spm,,955042,0,,BU 351,holotype,,Petiole,,1,text,,,n. gen. Sphecomyrmodes n. sp. orientalis,species,190428,recombined as,Gerontoformica orientalis,species,190428,99.6,93.5,36535
+23223,spm,,955042,0,,BU 351,holotype,,Gaster,,1,text,,,n. gen. Sphecomyrmodes n. sp. orientalis,species,190428,recombined as,Gerontoformica orientalis,species,190428,99.6,93.5,36535
+23224,spm,,955028,0,,NJ-1023,holotype,,Head,,1,text,,Measurement is with mandibles closed,Sphecomyrma n. sp. mesaki,species,214645,,Sphecomyrma mesaki,species,214645,93.9,89.8,36535
+23225,spm,,955028,0,,NJ-1023,holotype,,Eye,,1,text,,,Sphecomyrma n. sp. mesaki,species,214645,,Sphecomyrma mesaki,species,214645,93.9,89.8,36535
+23226,spm,,955028,0,,NJ-1023,holotype,,Antenna Scape,,1,text,,,Sphecomyrma n. sp. mesaki,species,214645,,Sphecomyrma mesaki,species,214645,93.9,89.8,36535
+23227,spm,,955028,0,,NJ-1023,holotype,,Mesosoma,,1,text,,,Sphecomyrma n. sp. mesaki,species,214645,,Sphecomyrma mesaki,species,214645,93.9,89.8,36535
+23228,spm,,955026,0,,NJ-943B,,,Head,,1,text,,,Sphecomyrma freyi,species,214622,,Sphecomyrma freyi,species,214622,93.9,89.8,36535
+23229,spm,,955026,0,,NJ-943B,,,Mesosoma,,1,text,,,Sphecomyrma freyi,species,214622,,Sphecomyrma freyi,species,214622,93.9,89.8,36535
+23230,spm,,955026,0,,NJ-943A,,,Mesosoma,,1,text,,,Sphecomyrma freyi,species,214622,,Sphecomyrma freyi,species,214622,93.9,89.8,36535
+23231,spm,,955026,0,,NJ-943B,,,Petiole,,1,text,,,Sphecomyrma freyi,species,214622,,Sphecomyrma freyi,species,214622,93.9,89.8,36535
+23232,spm,,955026,0,,NJ-943A,,,Petiole,,1,text,,,Sphecomyrma freyi,species,214622,,Sphecomyrma freyi,species,214622,93.9,89.8,36535
+23233,spm,,955026,0,,NJ-943A,,,Gaster,,1,text,,,Sphecomyrma freyi,species,214622,,Sphecomyrma freyi,species,214622,93.9,89.8,36535
+23234,spm,,955027,0,,NJ-942,,,hindwing,,1,text,,,Sphecomyrma sp.,genus,152121,,Sphecomyrma,genus,152121,93.9,89.8,36535
+23235,spm,,955027,0,,NJ-942,,,Mesosoma,,1,text,,,Sphecomyrma sp.,genus,152121,,Sphecomyrma,genus,152121,93.9,89.8,36535
+23236,spm,,955027,0,,NJ-942,,,Petiole,,1,text,,,Sphecomyrma sp.,genus,152121,,Sphecomyrma,genus,152121,93.9,89.8,36535
+23237,spm,,955027,0,,NJ-942,,,Gaster,,1,text,,,Sphecomyrma sp.,genus,152121,,Sphecomyrma,genus,152121,93.9,89.8,36535
+23238,spm,,955027,0,,NJ-942,,,antenna,,1,text,,,Sphecomyrma sp.,genus,152121,,Sphecomyrma,genus,152121,93.9,89.8,36535
+23239,spm,,955025,0,,NJ-941,,,Head,,1,text,,Measurement is with mandibles closed,n. gen. Brownimecia n. sp. clavata,species,214648,,Brownimecia clavata,species,214648,93.9,89.8,36535
+23240,spm,,955025,0,,NJ-941,,,Eye,,1,text,,,n. gen. Brownimecia n. sp. clavata,species,214648,,Brownimecia clavata,species,214648,93.9,89.8,36535
+23241,spm,,955025,0,,NJ-941,,,Trunk,,1,text,,,n. gen. Brownimecia n. sp. clavata,species,214648,,Brownimecia clavata,species,214648,93.9,89.8,36535
+23242,spm,,955025,0,,NJ-941,,,Petiole,,1,text,,,n. gen. Brownimecia n. sp. clavata,species,214648,,Brownimecia clavata,species,214648,93.9,89.8,36535
+23243,spm,,955044,0,,BU-014,holotype,,Head,,1,text,,,n. gen. Myanmyrma n. sp. gracilis,species,190432,,Myanmyrma gracilis,species,190432,99.6,93.5,36535
+23244,spm,,955044,0,,BU-014,holotype,,Mandible,,1,text,,,n. gen. Myanmyrma n. sp. gracilis,species,190432,,Myanmyrma gracilis,species,190432,99.6,93.5,36535
+23245,spm,,955044,0,,BU-014,holotype,,antenna,,1,text,,,n. gen. Myanmyrma n. sp. gracilis,species,190432,,Myanmyrma gracilis,species,190432,99.6,93.5,36535
+23246,spm,,955044,0,,BU-014,holotype,,Antenna Scape,,1,text,,,n. gen. Myanmyrma n. sp. gracilis,species,190432,,Myanmyrma gracilis,species,190432,99.6,93.5,36535
+23247,spm,,955044,0,,BU-014,holotype,,Mesosoma,,1,text,,,n. gen. Myanmyrma n. sp. gracilis,species,190432,,Myanmyrma gracilis,species,190432,99.6,93.5,36535
+23248,spm,,955044,0,,BU-014,holotype,,Petiole,,1,text,,,n. gen. Myanmyrma n. sp. gracilis,species,190432,,Myanmyrma gracilis,species,190432,99.6,93.5,36535
+23249,spm,,955044,0,,BU-014,holotype,,Gaster,,1,text,,,n. gen. Myanmyrma n. sp. gracilis,species,190432,,Myanmyrma gracilis,species,190432,99.6,93.5,36535
+23250,spm,,955118,0,,TMP 8.89.7,holotype,,Head,,1,text,,,n. gen. Cananeuretus n. sp. occidentalis,species,190466,,Cananeuretus occidentalis,species,190466,83.5,70.6,36535
+23251,spm,,955118,0,,TMP 8.89.7,holotype,,Antenna Scape,,1,text,,,n. gen. Cananeuretus n. sp. occidentalis,species,190466,,Cananeuretus occidentalis,species,190466,83.5,70.6,36535
+23252,spm,,955118,0,,TMP 8.89.7,holotype,,Mesosoma,,1,text,,,n. gen. Cananeuretus n. sp. occidentalis,species,190466,,Cananeuretus occidentalis,species,190466,83.5,70.6,36535
+24690,spm,,967510,0,,PIN 3130/113,holotype,,body,,1,text,,,n. gen. Cretomyrma n. sp. arnoldii,species,195450,,Cretomyrma arnoldii,species,195450,85.8,83.5,37059
+24691,spm,,967510,0,,PIN 3130/113,holotype,,front leg,,1,text,,,n. gen. Cretomyrma n. sp. arnoldii,species,195450,,Cretomyrma arnoldii,species,195450,85.8,83.5,37059
+24692,spm,,967510,0,,PIN 3130/113,holotype,,hind tibia,,1,text,,,n. gen. Cretomyrma n. sp. arnoldii,species,195450,,Cretomyrma arnoldii,species,195450,85.8,83.5,37059
+24693,spm,,967485,0,,PIN 3311/363,holotype,,middle femur,,1,text,,,Cretomyrma n. sp. unicornis,species,195451,,Cretomyrma unicornis,species,195451,85.8,83.5,37059
+24694,spm,,967485,0,,PIN 3311/363,holotype,,middle tibia,,1,text,,,Cretomyrma n. sp. unicornis,species,195451,,Cretomyrma unicornis,species,195451,85.8,83.5,37059
+24697,spm,,967486,0,,PIN 3311/364,holotype,,forewing,,1,text,,,n. gen. Palaeomyrmex n. sp. zherichini,species,195452,recombined as,Dlusskyidris zherichini,species,195452,85.8,83.5,37059
+24698,spm,,967486,0,,PIN 3311/364,holotype,,body,,1,text,,,n. gen. Palaeomyrmex n. sp. zherichini,species,195452,recombined as,Dlusskyidris zherichini,species,195452,85.8,83.5,37059
+26303,spm,,979564,0,,USNM 66932,,,body,,1,,,,n. gen. Eoformica n. sp. eocenica,species,199804,subjective synonym of,Eoformica pinguis,species,206619,50.3,46.2,5045
+26304,spm,,979564,0,,USNM 66932,,,thorax,,1,,,,n. gen. Eoformica n. sp. eocenica,species,199804,subjective synonym of,Eoformica pinguis,species,206619,50.3,46.2,5045
+26305,spm,,979564,0,,USNM 66932,,,abdomen,,1,,,,n. gen. Eoformica n. sp. eocenica,species,199804,subjective synonym of,Eoformica pinguis,species,206619,50.3,46.2,5045
+26701,spm,,980375,0,,MeI 3643,holotype,,forewing,female,1,text,,female,Oecophylla n. sp. longiceps,species,200597,,Oecophylla longiceps,species,200597,48.6,40.4,37721
+26702,spm,,980375,0,,MeI 890,paratype,,forewing,female,1,text,,female,Oecophylla n. sp. longiceps,species,200597,,Oecophylla longiceps,species,200597,48.6,40.4,37721
+26703,spm,,980375,0,,MeI 6220,paratype,,forewing,female,1,text,,female,Oecophylla n. sp. longiceps,species,200597,,Oecophylla longiceps,species,200597,48.6,40.4,37721
+26704,spm,,980375,0,,MeI 6803,paratype,,forewing,female,1,text,,female,Oecophylla n. sp. longiceps,species,200597,,Oecophylla longiceps,species,200597,48.6,40.4,37721
+26705,spm,,980375,0,,MeI 7636,paratype,,body,male,1,text,,male,Oecophylla n. sp. longiceps,species,200597,,Oecophylla longiceps,species,200597,48.6,40.4,37721
+26706,spm,,980375,0,,MeI 7636,paratype,,forewing,male,1,text,,male,Oecophylla n. sp. longiceps,species,200597,,Oecophylla longiceps,species,200597,48.6,40.4,37721
+26707,spm,,980376,0,,PE-2000/8,holotype,,forewing,female,1,text,,female,Oecophylla n. sp. eckfeldiana,species,200598,,Oecophylla eckfeldiana,species,200598,48.6,40.4,37721
+26708,spm,,1101409,0,,NHMM PE-1994/159,paratype,,forewing,female,1,text,,female,Oecophylla eckfeldiana,species,200598,,Oecophylla eckfeldiana,species,200598,48.6,40.4,37721
+26723,spm,,1211780,0,,UMJG&P 77.625,holotype,,forewing,,1,text,,,Formica n. sp. obesa,species,200595,recombined as,Oecophylla obesa,species,200595,12.7,11.608,51760
+26724,spm,,1211780,0,,UMJG&P 77.625,holotype,,body,,1,text,,Using 12 linie per inch,Formica n. sp. obesa,species,200595,recombined as,Oecophylla obesa,species,200595,12.7,11.608,37344
+26725,spm,,1211781,0,,UMJG&P 77.646a,holotype,,forewing,,1,text,,Using 12 linie per inch,Formica pinguis,species,200630,subjective synonym of,Oecophylla obesa,species,200595,12.7,11.608,37344
+26726,spm,,980394,0,,F. pinguis oeningensis Carlsruhe,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Formica pinguis,species,200630,subjective synonym of,Oecophylla obesa,species,200595,12.7,11.608,37344
+26727,spm,,980399,0,,F. procera Seyfried coll,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Formica procera,species,200632,,Formica procera,species,200632,12.7,11.608,37344
+26728,spm,,980400,0,,SMNK Inv. 1182,,,forewing,,1,text,,,Formica lignitum,species,200633,recombined as,Camponotus lignitus,species,200633,12.7,11.608,56453
+26729,spm,,980400,0,,SMNK Inv. 1182,,,body,,1,text,,,Formica lignitum,species,200633,recombined as,Camponotus lignitus,species,200633,12.7,11.608,56453
+26751,spm,,980520,0,,,,,forewing,,1,text,,Using 12 linie per inch,Formica gravida,species,200669,,Formica gravida,species,200669,12.7,11.608,37344
+26752,spm,,980520,0,,,,,body,,1,text,,Using 12 linie per inch; width of thorax,Formica gravida,species,200669,,Formica gravida,species,200669,12.7,11.608,37344
+26753,spm,,980521,0,,F. longicollis Carlsruhe type,holotype,,wing,,1,text,,Using 12 linie per inch,Formica n. sp. longicollis,species,200670,,Formica longicollis,species,200670,12.7,11.608,37344
+26754,spm,,980521,0,,F. longicollis Carlsruhe type,holotype,,body,,1,text,,Using 12 linie per inch,Formica n. sp. longicollis,species,200670,,Formica longicollis,species,200670,12.7,11.608,37344
+26755,spm,,1211774,0,,UMJG&P 77.632,holotype,,body,,1,text,,,Formica n. sp. indurata,species,200671,recombined as,Camponotus induratus,species,200671,12.7,11.608,37344
+26756,spm,,980523,0,,,,,body,,1,text,,Using 12 linie per inch; width of thorax,Formica heraclea,species,200673,recombined as,Camponotus heracleus,species,200673,12.7,11.608,37344
+26757,spm,,980525,0,,F. pinguicula Seyfried coll,,,body,,1,text,,Using 12 linie per inch; width of thorax,Formica pinguicula,species,200675,recombined as,Camponotus pinguiculus,species,200675,12.7,11.608,37344
+26758,spm,,1211796,0,,UMJG&P 77.536,holotype,,forewing,,1,text,,,Formica obscura,species,200677,,Formica obscura,species,200677,12.7,11.608,37344
+26759,spm,,980529,0,,F. primordialis Oeningen type,holotype,,forewing,,1,text,,Using 12 linie per inch,Formica n. sp. primordialis,species,200679,,Formica primordialis,species,200679,12.7,11.608,37344
+26760,spm,,980529,0,,F. primordialis Oeningen type,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Formica n. sp. primordialis,species,200679,,Formica primordialis,species,200679,12.7,11.608,37344
+26761,spm,,980530,0,,F. primordialis worker,,,head,,1,text,,Using 12 linie per inch,Formica primordialis,species,200679,,Formica primordialis,species,200679,12.7,11.608,37344
+26762,spm,,980530,0,,F. primordialis worker,,,body,,1,text,,Using 12 linie per inch,Formica primordialis,species,200679,,Formica primordialis,species,200679,12.7,11.608,37344
+26763,spm,,980531,0,,F. immersa Oeningen type,holotype,,wing,,1,text,,Using 12 linie per inch,Formica n. sp. immersa,species,200680,,Formica immersa,species,200680,12.7,11.608,37344
+26764,spm,,980531,0,,F. immersa Oeningen type,holotype,,body,,1,text,,Using 12 linie per inch,Formica n. sp. immersa,species,200680,,Formica immersa,species,200680,12.7,11.608,37344
+26765,spm,,1211821,0,,UMJG&P 77.584,holotype,,hindwing,,1,text,,,Formica n. sp. longiventris,species,200681,recombined as,Casaleia longiventris,species,200681,12.7,11.608,51760
+26766,spm,,1211821,0,,UMJG&P 77.584,holotype,,body,,1,text,,,Formica n. sp. longiventris,species,200681,recombined as,Casaleia longiventris,species,200681,12.7,11.608,51760
+26767,spm,,1211841,0,,UMJG&P 77.646c,holotype,,body,,1,text,,Using 144 linie per German foot (0.324 m); width of thorax,Formica n. sp. obtecta,species,200683,nomen dubium,Formicidae,family,70728,12.7,11.608,37344
+26768,spm,,980534,0,,,,,body,,1,text,,Using 12 linie per inch; width of thorax,Formica macrophthalma,species,200685,,Formica macrophthalma,species,200685,12.7,11.608,37344
+26769,spm,,1211801,0,,UMJG&P 77.646e,,,forewing,,1,text,,,Formica n. sp. ophthalmica,species,200686,recombined as,Lasius ophthalmicus,species,200686,12.7,11.608,37344
+26770,spm,,1211801,0,,UMJG&P 77.646e,holotype,,body,,1,text,,,Formica n. sp. ophthalmica,species,200686,recombined as,Lasius ophthalmicus,species,200686,12.7,11.608,51760
+26771,spm,,980537,0,,F. macrocephala oeningensis type,,,body,,1,text,,Using 12 linie per inch,Formica macrocephala,species,200688,,Formica macrocephala,species,200688,12.7,11.608,37344
+26772,spm,,1211802,30067,,F. macrocephala radobojana type,,,body,,1,text,,Using 144 linie per German foot (0.324 m),Lasius ophthalmicus,species,296210,,Lasius ophthalmicus,species,200686,12.7,11.608,37344
+26773,spm,,980541,0,,F. lavateri Oeningen type,holotype,,body,,1,text,,Using 12 linie per inch,Formica n. sp. lavateri,species,200692,,Formica lavateri,species,200692,12.7,11.608,37344
+26774,spm,,980542,0,,F. seuberti Oeningen type,holotype,,wing,,1,text,,Using 12 linie per inch,Formica n. sp. seuberti,species,200696,,Formica seuberti,species,200696,12.7,11.608,37344
+26775,spm,,980542,0,,F. seuberti Oeningen type,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Formica n. sp. seuberti,species,200696,,Formica seuberti,species,200696,12.7,11.608,37344
+26776,spm,,1211787,0,,UMJG&P 77.566,holotype,,forewing,,1,text,,,Formica n. sp. ungeri,species,200697,,Formica ungeri,species,200697,12.7,11.608,51760
+26777,spm,,1211787,0,,UMJG&P 77.566,holotype,,body,,1,text,,,Formica n. sp. ungeri,species,200697,,Formica ungeri,species,200697,12.7,11.608,51760
+26778,spm,,1211788,0,,UMJG&P 77.510,holotype,,forewing,,1,text,,Using 12 linie per inch,Formica n. sp. redtenbacheri,species,200698,subjective synonym of,Formica ungeri,species,200697,12.7,11.608,37344
+26779,spm,,1211788,0,,UMJG&P 77.510,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Formica n. sp. redtenbacheri,species,200698,subjective synonym of,Formica ungeri,species,200697,12.7,11.608,37344
+26780,spm,,1211788,0,,F. redtenbacheri neutra type,holotype,,body,,1,text,,Using 12 linie per inch,Formica n. sp. redtenbacheri,species,200698,subjective synonym of,Formica ungeri,species,200697,12.7,11.608,37344
+26781,spm,,1211811,0,,UMJG&P 77.635,holotype,,forewing,,1,text,,,Formica n. sp. globularis,species,200701,recombined as,Lasius globularis,species,200701,12.7,11.608,51760
+26782,spm,,1211811,0,,UMJG&P 77.635,holotype,,body,,1,text,,,Formica n. sp. globularis,species,200701,recombined as,Lasius globularis,species,200701,12.7,11.608,51760
+26783,spm,,980547,0,,F. globiventris Alberti type,holotype,,wing,,1,text,,Using 12 linie per inch,Formica n. sp. globiventris,species,200703,,Formica globiventris,species,200703,12.7,11.608,37344
+26784,spm,,980547,0,,F. globiventris Alberti type,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Formica n. sp. globiventris,species,200703,,Formica globiventris,species,200703,12.7,11.608,37344
+26785,spm,,1211805,0,,UMJG&P 77.580,holotype,,forewing,,1,text,,,Formica n. sp. longaeva,species,200705,recombined as,Lasius longaevus,species,200705,12.7,11.608,51760
+26786,spm,,1211762,0,,UMJG&P 77.645a,holotype,,body,female,1,text,,,Formica n. sp. ocella,species,200708,recombined as,Emplastus ocellus,species,200708,12.7,11.608,51760
+26787,spm,,1211762,0,,UMJG&P 77.546b,holotype,,body,male,1,text,,,Formica n. sp. ocella,species,200708,recombined as,Emplastus ocellus,species,200708,12.7,11.608,51760
+26788,spm,,1211815,0,,UMJG&P 77.499,holotype,,forewing,male,1,text,,,Formica n. sp. occultata,species,200715,recombined as,Lasius occultatus,species,200715,12.7,11.608,51760
+26789,spm,,1211815,0,,UMJG&P 77.499,,,body,male,1,text,,,Formica n. sp. occultata,species,200715,recombined as,Lasius occultatus,species,200715,12.7,11.608,51760
+26791,spm,,1211808,0,,UMJG&P 77.503,holotype,,forewing,,1,text,,,Formica n. sp. longipennis,species,200720,recombined as,Lasius longipennis,species,200720,12.7,11.608,51760
+26792,spm,,1211808,0,,UMJG&P 77.503,holotype,,body,,1,text,,,Formica n. sp. longipennis,species,200720,recombined as,Lasius longipennis,species,200720,12.7,11.608,51760
+26793,spm,,1211816,0,,UMJG&P 77.543,holotype,,forewing,,1,text,,,Formica n. sp. minutula,species,200722,subjective synonym of,Lasius occultatus,species,200715,12.7,11.608,51760
+26794,spm,,1211817,0,,UMJG&P 77.644b,holotype,,forewing,,1,text,,,Formica n. sp. pumila,species,200723,subjective synonym of,Lasius occultatus,species,200715,12.7,11.608,51760
+26795,spm,,1211817,0,,UMJG&P 77.644b,holotype,,body,,1,text,,,Formica n. sp. pumila,species,200723,subjective synonym of,Lasius occultatus,species,200715,12.7,11.608,51760
+26796,spm,,1211763,0,,F. imhoffii Radoboj type,holotype,,forewing,,1,text,,Using 12 linie per inch,Formica n. sp. imhoffii,species,200724,recombined as,Liometopum imhoffii,species,200724,12.7,11.608,37344
+26797,spm,,1211763,0,,F. imhoffii Radoboj type,holotype,,body,,1,text,,Using 12 linie per inch,Formica n. sp. imhoffii,species,200724,recombined as,Liometopum imhoffii,species,200724,12.7,11.608,37344
+26798,spm,,1211764,0,,UMJG&P 77.594,holotype,,hindwing,,1,text,,Using 12 linie per inch; oberflugel,Formica n. sp. schmidtii,species,200725,subjective synonym of,Liometopum imhoffii,species,200724,12.7,11.608,37344
+26799,spm,,1211764,0,,UMJG&P 77.594,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Formica n. sp. schmidtii,species,200725,subjective synonym of,Liometopum imhoffii,species,200724,12.7,11.608,37344
+26800,spm,,980552,0,,F. primitiva Oeningen type,holotype,,forewing,,1,text,,Using 12 linie per inch,Formica n. sp. primitiva,species,200726,,Formica primitiva,species,200726,12.7,11.608,37344
+26801,spm,,980552,0,,F. primitiva Oeningen type,holotype,,body,,1,text,,Using 12 linie per inch,Formica n. sp. primitiva,species,200726,,Formica primitiva,species,200726,12.7,11.608,37344
+26802,spm,,980553,0,,,,,body,,1,text,,Using 12 linie per inch; width of thorax,Formica demersa,species,200727,,Formica demersa,species,200727,12.7,11.608,37344
+26803,spm,,980555,0,,,,,body,,1,text,,Using 12 linie per inch,Formica orbata,species,200728,,Formica orbata,species,200728,12.7,11.608,37344
+26804,spm,,1211843,0,,UMJG&P 77.646f,holotype,,body,,1,text,,,Formica n. sp. obvoluta,species,200729,nomen dubium,Formicidae,family,70728,12.7,11.608,37344
+26805,spm,,1211789,0,,UMJG&P 77.645g,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Formica n. sp. acuminata,species,200730,subjective synonym of,Formica ungeri,species,200697,12.7,11.608,37344
+26806,spm,,980558,0,,F. pulchella Seyfried type,holotype,,wing,,1,text,,Using 12 linie per inch,Formica n. sp. pulchella,species,200731,,Formica pulchella,species,200731,12.7,11.608,37344
+26807,spm,,980558,0,,F. pulchella Seyfried type,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Formica n. sp. pulchella,species,200731,,Formica pulchella,species,200731,12.7,11.608,37344
+26808,spm,,1211840,0,,UMJG&P 77.646d,holotype,,body,,1,text,,Using 144 linie per German foot (0.324 m); width of thorax,Formica n. sp. oculata,species,200732,nomen dubium,Formicidae,family,70728,12.7,11.608,37344
+26809,spm,,1211825,0,,UMJG&P 77.582,holotype,,forewing,,1,text,,,Formica n. sp. atavina,species,200733,recombined as,Ponerites atavinus,species,200733,12.7,11.608,51760
+26810,spm,,1211825,0,,UMJG&P 77.582,holotype,,body,,1,text,,,Formica n. sp. atavina,species,200733,recombined as,Ponerites atavinus,species,200733,12.7,11.608,51760
+26811,spm,,1211818,0,,UMJG&P 77.565,holotype,,forewing,,1,text,,,Formica n. sp. obliterata,species,200734,subjective synonym of,Lasius occultatus,species,200715,12.7,11.608,51760
+26812,spm,,980574,0,,P. fuliginosa Seyfried coll,,,forewing,,1,text,,Using 12 linie per inch,Ponera fuliginosa,species,200738,recombined as,Poneropsis fuliginosa,species,200738,12.7,11.608,37344
+26813,spm,,980574,0,,P. fuliginosa Seyfried coll,,,body,,1,text,,Using 12 linie per inch; width of thorax,Ponera fuliginosa,species,200738,recombined as,Poneropsis fuliginosa,species,200738,12.7,11.608,37344
+26814,spm,,1211766,0,,UMJG&P 77.638,holotype,,forewing,,1,text,,Using 12 linie per inch,Ponera n. sp. affinis,species,200739,subjective synonym of,Liometopum imhoffii,species,200724,12.7,11.608,37344
+26815,spm,,1211766,0,,UMJG&P 77.638,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Ponera n. sp. affinis,species,200739,subjective synonym of,Liometopum imhoffii,species,200724,12.7,11.608,37344
+26816,spm,,980570,0,,P. croatica Wien type,holotype,,forewing,,1,text,,Using 12 linie per inch,Ponera n. sp. croatica,species,200740,nomen dubium,Formicidae,family,70728,12.7,11.608,37344
+26817,spm,,980570,0,,P. croatica Wien type,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Ponera n. sp. croatica,species,200740,nomen dubium,Formicidae,family,70728,12.7,11.608,37344
+26818,spm,,980575,0,,P. longaeva Seyfried type,holotype,,wing,,1,text,,Using 12 linie per inch,Ponera n. sp. longaeva,species,200741,recombined as,Poneropsis longaeva,species,200741,12.7,11.608,37344
+26819,spm,,980575,0,,P. longaeva Seyfried type,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Ponera n. sp. longaeva,species,200741,recombined as,Poneropsis longaeva,species,200741,12.7,11.608,37344
+26820,spm,,980581,0,,P. crassinervis Parschlug type,holotype,,wing,,1,text,,Using 12 linie per inch,Ponera n. sp. crassinervis,species,200743,recombined as,Poneropsis crassinervis,species,200743,13.65,12.7,37344
+26821,spm,,1211790,0,,P. elongatula Radoboj type,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Ponera n. sp. elongatula,species,200744,subjective synonym of,Formica ungeri,species,200697,12.7,11.608,37344
+26822,spm,,980576,0,,P. ventrosa Seyfried type,holotype,,wing,,1,text,,Using Pongracz's measurements,Ponera ventrosa,species,200745,recombined as,Poneropsis ventrosa,species,200745,12.7,11.608,37344
+26823,spm,,980571,0,,P. globosa Zurich type,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Ponera n. sp. globosa,species,200746,recombined as,Poneropsis globosa,species,200746,12.7,11.608,37344
+26824,spm,,980583,0,,I. nigra Seyfried coll,,,body,,1,text,,Using 12 linie per inch,Imhoffia nigra,species,200761,,Imhoffia nigra,species,200761,12.7,11.608,37344
+26825,spm,,1211773,0,,UMJG&P 210 962,holotype,,forewing,,1,text,,,Attopsis n. sp. longipennis,species,200763,,Attopsis longipennis,species,200763,12.7,11.608,51760
+26826,spm,,1211773,0,,UMJG&P 210 962,holotype,,body,,1,text,,,Attopsis n. sp. longipennis,species,200763,,Attopsis longipennis,species,200763,12.7,11.608,51760
+26827,spm,,1211783,0,,A. nigra Radoboj type,holotype,,forewing,,1,text,,Using 12 linie per inch,Attopsis n. sp. nigra,species,200781,subjective synonym of,Oecophylla obesa,species,200595,12.7,11.608,37344
+26828,spm,,1299042,0,,SMNK Inv. 1215,holotype,,wing,,1,text,,Assuming Pongracz was describing the holotype,Myrmica macrocephala,species,200765,nomen dubium,Myrmica,genus,152089,12.7,11.608,56453
+26829,spm,,1299042,0,,M. macrocephala Oeningen type,holotype,,body,,1,text,,Assuming Pongracz was describing the holotype,Myrmica macrocephala,species,200765,nomen dubium,Myrmica,genus,152089,12.7,11.608,56453
+26830,spm,,1211829,0,,M. tertiaria radobojensis type,holotype,,forewing,,1,text,,Using 144 linie per German foot (0.324 m),Myrmica tertiaria,species,200766,recombined as,Paraphaenogaster tertiaria,species,200766,12.7,11.608,37344
+26831,spm,,1211829,0,,M. tertiaria radobojensis type,holotype,,body,,1,text,,Using 144 linie per German foot (0.324 m),Myrmica tertiaria,species,200766,recombined as,Paraphaenogaster tertiaria,species,200766,12.7,11.608,37344
+26832,spm,,980601,0,,M. obsoleta Parschlug type,holotype,,wing,,1,text,,Using 12 linie per inch,Myrmica n. sp. obsoleta,species,200767,nomen dubium,Myrmica,genus,152089,13.65,12.7,37344
+26833,spm,,980597,0,,M. rugiceps Oeningen type,holotype,,wing,,1,text,,Using 12 linie per inch,Myrmica n. sp. rugiceps,species,200768,recombined as,Carebara rugiceps,species,200768,12.7,11.608,37344
+26834,spm,,980597,0,,M. rugiceps Oeningen type,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Myrmica n. sp. rugiceps,species,200768,recombined as,Carebara rugiceps,species,200768,12.7,11.608,37344
+26835,spm,,980602,0,,M. aemula Parschlug type,holotype,,wing,,1,text,,Using 12 linie per inch,Myrmica n. sp. aemula,species,200769,nomen dubium,Myrmica,genus,152089,13.65,12.7,37344
+26836,spm,,1211778,0,,UMJG&P 77.482,holotype,,forewing,,1,text,,,Myrmica n. sp. bremii,species,200770,recombined as,Gesomyrmex bremii,species,200770,12.7,11.608,51760
+26837,spm,,980598,0,,M. molassica Oeningen type,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Myrmica n. sp. molassica,species,200771,nomen dubium,Myrmica,genus,152089,12.7,11.608,37344
+26838,spm,,980594,0,,M. angusticollis Lavater type,holotype,,body,,1,text,,Using 12 linie per inch; width of thorax,Myrmica n. sp. angusticollis,species,200772,nomen dubium,Myrmica,genus,152089,12.7,11.608,37344
+26839,spm,,1211830,0,,UMJG&P 211 032,holotype,,forewing,,1,text,,,Myrmica n. sp. jurinei,species,200773,recombined as,Paraphaenogaster jurinei,species,200773,12.7,11.608,51760
+26840,spm,,1211830,0,,UMJG&P 211 032,holotype,,hindwing,,1,text,,,Myrmica n. sp. jurinei,species,200773,recombined as,Paraphaenogaster jurinei,species,200773,12.7,11.608,51760
+26852,spm,,1211834,0,,M. pusilla Radoboj type,holotype,,body,,1,text,,,Myrmica n. sp. pusilla,species,200774,recombined as,Myrmecites pusillus,species,200774,12.7,11.608,37344
+27125,spm,,983220,0,,C. oeningensis Carlsruhe type,holotype,,forewing,,1,text,,Using 12 linie per inch,Cephites n. sp. oeningensis,species,201786,,Cephites oeningensis,species,201786,12.7,11.608,37344
+27126,spm,,983220,0,,C. oeningensis Carlsruhe type,holotype,,body,,1,text,,Using 12 linie per inch,Cephites n. sp. oeningensis,species,201786,,Cephites oeningensis,species,201786,12.7,11.608,37344
+27127,spm,,983219,0,,C. fragilis Seyfried type,holotype,,wing,,1,text,,Using 12 linie per inch,Cephites n. sp. fragilis,species,201787,,Cephites fragilis,species,201787,12.7,11.608,37344
+27128,spm,,983219,0,,C. fragilis Seyfried type,holotype,,body,,1,text,,Using 12 linie per inch,Cephites n. sp. fragilis,species,201787,,Cephites fragilis,species,201787,12.7,11.608,37344
+27723,spm,,990787,0,,BP/2/28072a/2,holotype,,forewing,,1,text,,,n. gen. Afropone n. sp. oculata,species,204269,,Afropone oculata,species,204269,93.9,89.8,38353
+27724,spm,,990787,0,,BP/2/28072a/2,holotype,,body,,1,text,,,n. gen. Afropone n. sp. oculata,species,204269,,Afropone oculata,species,204269,93.9,89.8,38353
+27725,spm,,990786,0,,BP/2/26628/1,holotype,,forewing,,1,text,,,Afropone ? n. sp. orapa,species,204270,,Afropone orapa,species,204270,93.9,89.8,38353
+27726,spm,,990786,0,,BP/2/26628/1,holotype,,head,,1,text,,,Afropone ? n. sp. orapa,species,204270,,Afropone orapa,species,204270,93.9,89.8,38353
+27727,spm,,990785,0,,BP/2/26501,holotype,,body,,1,text,,,n. gen. Afromyrma n. sp. petrosa,species,204272,,Afromyrma petrosa,species,204272,93.9,89.8,38353
+27826,spm,,993552,0,,UCCIPR L-18 F-749,holotype,,body,,1,text,,,n. gen. Ypresiomyrma n. sp. orbiculata,species,204817,,Ypresiomyrma orbiculata,species,204817,56,47.8,38422
+28393,spm,,999157,0,,,holotype,,body,,1,text,,,Camponotus n. sp. vetus,species,206618,,Camponotus vetus,species,206618,50.3,46.2,5133
+28394,spm,,999157,0,,,holotype,,thorax,,1,text,,,Camponotus n. sp. vetus,species,206618,,Camponotus vetus,species,206618,50.3,46.2,5133
+28395,spm,,999157,0,,,holotype,,abdomen,,1,text,,,Camponotus n. sp. vetus,species,206618,,Camponotus vetus,species,206618,50.3,46.2,5133
+28396,spm,,999158,0,,,holotype,,body,,1,text,,,Liometopum n. sp. pingue,species,206619,recombined as,Eoformica pinguis,species,206619,50.3,46.2,5133
+28397,spm,,999158,0,,,holotype,,thorax,,1,text,,,Liometopum n. sp. pingue,species,206619,recombined as,Eoformica pinguis,species,206619,50.3,46.2,5133
+28851,spm,,1000023,0,,Hayden Coll 14692,holotype,,body,,1,text,,,Lasius n. sp. terreus,species,206864,subjective synonym of,Eoformica pinguis,species,206619,50.3,46.2,5135
+28852,spm,,1000023,0,,Hayden Coll 14692,holotype,,antennae,,1,text,,,Lasius n. sp. terreus,species,206864,subjective synonym of,Eoformica pinguis,species,206619,50.3,46.2,5135
+28853,spm,,1000024,0,,Richardson coll 53,,,body,,1,text,,,Myrmica sp.,genus,152089,,Myrmica,genus,152089,50.3,46.2,5135
+29067,spm,,1000298,0,,M. tenera d4 type,holotype,,wing,,1,text,,,Mutilla n. sp. tenera,species,207318,nomen dubium,Formicidae,family,70728,33.9,28.4,38738
+29068,spm,,1000298,0,,M. tenera d4 type,holotype,,body,,1,text,,,Mutilla n. sp. tenera,species,207318,nomen dubium,Formicidae,family,70728,33.9,28.4,38738
+29070,spm,,1000299,0,,C. vehemens d4 type,holotype,,wing,,1,text,,,Camponotus n. sp. vehemens,species,207320,,Camponotus vehemens,species,207320,33.9,28.4,38738
+29071,spm,,1000299,0,,C. vehemens d4 type,holotype,,body,,1,text,,,Camponotus n. sp. vehemens,species,207320,,Camponotus vehemens,species,207320,33.9,28.4,38738
+29072,spm,,1000324,0,,C. miserabilis d2 type,holotype,,wing,,1,text,,,Camponotus n. sp. miserabilis,species,207321,subjective synonym of,Camponotus vehemens,species,207320,33.9,28.4,38738
+29073,spm,,1000324,0,,C. miserabilis d2 type,holotype,,body,,1,text,,,Camponotus n. sp. miserabilis,species,207321,subjective synonym of,Camponotus vehemens,species,207320,33.9,28.4,38738
+29074,spm,,1000325,0,,C. compactus d2 type,holotype,,wing,,1,text,,,Camponotus n. sp. compactus,species,207322,,Camponotus compactus,species,207322,33.9,28.4,38738
+29075,spm,,1000325,0,,C. compactus d2 type,holotype,,body,,1,text,,,Camponotus n. sp. compactus,species,207322,,Camponotus compactus,species,207322,33.9,28.4,38738
+29076,spm,,1000326,0,,O. praeclara d2 type,holotype,,wing,,1,text,,,Oecophylla n. sp. praeclara,species,207323,,Oecophylla praeclara,species,207323,33.9,28.4,38738
+29077,spm,,1000327,0,,H. explicans d2 type,holotype,,forewing,,1,text,,,Hypoclinea n. sp. explicans,species,207326,recombined as,Dolichoderus explicans,species,207326,33.9,28.4,38738
+29078,spm,,1000327,0,,H. explicans d2 type,holotype,,body,,1,text,,,Hypoclinea n. sp. explicans,species,207326,recombined as,Dolichoderus explicans,species,207326,33.9,28.4,38738
+29079,spm,,1000328,26277,,Foerster longipennis d2 specimen,,,forewing,,1,text,,,Solenopsis superba,species,210979,,Solenopsis superba,species,207335,33.9,28.4,38738
+29080,spm,,1000328,26277,,Foerster longipennis d2 specimen,,,body,,1,text,,,Solenopsis superba,species,210979,,Solenopsis superba,species,207335,33.9,28.4,38738
+29081,spm,,1000301,0,,A. extensa d4 type,holotype,,forewing,,1,text,,,Attopsis n. sp. extensa,species,207328,subjective synonym of,Solenopsis superba,species,207335,33.9,28.4,38738
+29082,spm,,1000301,0,,A. extensa d4 type,holotype,,hindwing,,1,text,,,Attopsis n. sp. extensa,species,207328,subjective synonym of,Solenopsis superba,species,207335,33.9,28.4,38738
+29083,spm,,1000301,0,,A. extensa d4 type,holotype,,body,,1,text,,,Attopsis n. sp. extensa,species,207328,subjective synonym of,Solenopsis superba,species,207335,33.9,28.4,38738
+29084,spm,,1000302,0,,A. moesta d4 type,holotype,,forewing,,1,text,,,Attopsis n. sp. moesta,species,207330,recombined as,Solenopsis moesta,species,207330,33.9,28.4,38738
+29085,spm,,1000302,0,,A. moesta d4 type,holotype,,hindwing,,1,text,,,Attopsis n. sp. moesta,species,207330,recombined as,Solenopsis moesta,species,207330,33.9,28.4,38738
+29086,spm,,1000304,0,,Foerster nigra d4 specimen,,,forewing,,1,text,,,Attopsis cf. nigra,species,200781,subjective synonym of,Oecophylla obesa,species,200595,33.9,28.4,38738
+29087,spm,,1000304,0,,Foerster nigra d4 specimen,,,hindwing,,1,text,,,Attopsis cf. nigra,species,200781,subjective synonym of,Oecophylla obesa,species,200595,33.9,28.4,38738
+29088,spm,,1000304,0,,Foerster nigra d4 specimen,,,body,,1,text,,,Attopsis cf. nigra,species,200781,subjective synonym of,Oecophylla obesa,species,200595,33.9,28.4,38738
+29089,spm,,1000303,26276,,Foerster longipes d4 specimen,,,forewing,,1,text,,,Solenopsis superba,species,210979,,Solenopsis superba,species,207335,33.9,28.4,38738
+29090,spm,,1000303,26276,,Foerster longipes d4 specimen,,,hindwing,,1,text,,,Solenopsis superba,species,210979,,Solenopsis superba,species,207335,33.9,28.4,38738
+29091,spm,,1000303,26276,,Foerster longipes d4 specimen,,,body,,1,text,,,Solenopsis superba,species,210979,,Solenopsis superba,species,207335,33.9,28.4,38738
+29092,spm,,1000305,0,,A. maxima d4 type,holotype,,forewing,,1,text,,,Attopsis n. sp. maxima,species,207333,recombined as,Solenopsis maxima,species,207333,33.9,28.4,38738
+29093,spm,,1000305,0,,A. maxima d4 type,holotype,,body,,1,text,,,Attopsis n. sp. maxima,species,207333,recombined as,Solenopsis maxima,species,207333,33.9,28.4,38738
+29094,spm,,1000329,0,,A. privata d2 type,holotype,,body,,1,text,,,Attopsis n. sp. privata,species,207334,recombined as,Solenopsis privata,species,207334,33.9,28.4,38738
+29095,spm,,1000286,0,,A. superba d3 type,holotype,,body,,1,text,,,Attopsis n. sp. superba,species,207335,recombined as,Solenopsis superba,species,207335,33.9,28.4,38738
+29096,spm,,1000330,0,,A. blanda d2 type,holotype,,body,,1,text,,,Attopsis n. sp. blanda,species,207336,recombined as,Solenopsis blanda,species,207336,33.9,28.4,38738
+29097,spm,,1000331,0,,A. acuta d2 type,holotype,,body,,1,text,,,Attopsis n. sp. acuta,species,207337,subjective synonym of,Solenopsis blanda,species,207336,33.9,28.4,38738
+29098,spm,,1000287,0,,A. valida d3 specimen,,,body,,1,text,,Collection not specified,Attopsis valida,species,207338,recombined as,Solenopsis valida,species,207338,33.9,28.4,38738
+29099,spm,F,1000307,0,,Myrmicites d4 specimen,,,body,,1,text,,,Myrmicites sp.,genus,207457,,Myrmicites,genus,207457,33.9,28.4,38738
+30033,spm,,1002909,0,,GSC 10a,holotype,,wing,,1,text,1,,Formica n. sp. arcana,species,209093,,Formica arcana,species,209093,33.9,23.03,39765
+30034,spm,,1002910,0,,262,,,body,,1,text,,,Liometopum pingue,species,206619,recombined as,Eoformica pinguis,species,206619,50.3,46.2,5136
+30035,spm,,1002911,0,,GSC 8,holotype,,wing,,1,text,1,,Hypoclinea n. sp. obliterata,species,209092,recombined as,Dolichoderus obliteratus,species,209092,33.9,23.03,39765
+30036,spm,,1002924,0,,GSC 33,holotype,,wing,,1,text,,,Aphaenogaster n. sp. longaeva,species,209091,nomen dubium,Myrmicinae,subfamily,70731,33.9,23.03,5136
+30059,spm,,1002934,0,,GSC 7,holotype,,wing,,1,text,,,n. gen. Calyptites n. sp. antediluvianum,species,209081,,Calyptites antediluvianum,species,209081,33.9,23.03,5136
+41797,spm,,1013371,0,,PIN 3730/5,holotype,,body,,1,,,Length between 4-5,n. gen. Baikuris n. sp. mandibularis,species,217814,,Baikuris mandibularis,species,217814,105.3,93.5,39885
+41798,spm,,1013372,0,,PIN 3730/8,holotype,,body,,1,,,,Baikuris n. sp. mirabilis,species,217813,,Baikuris mirabilis,species,217813,105.3,93.5,39885
+41934,spm,,1013490,0,,NHMM 125,,,body,,1,text,,,Lasius sp.,genus,72035,,Lasius,genus,72035,23.03,20.44,39931
+41935,spm,,1013491,0,,NHMM 126,,,body,,1,text,,,Formicinae indet.,tribe,70783,obsolete variant of,Solenopsidini,tribe,70783,23.03,20.44,39931
+41936,spm,,1013491,0,,NHMM 127,,,body,,1,text,,,Formicinae indet.,tribe,70783,obsolete variant of,Solenopsidini,tribe,70783,23.03,20.44,39931
+41937,spm,,1013492,0,,NHMM 71,,,body,,1,text,,,Aphaenogaster ? sp.,genus,71536,,Aphaenogaster,genus,71536,23.03,20.44,39931
+41938,spm,,1013493,0,,NHMM 28,,,forewing,,1,text,,,Myrmicinae indet.,subfamily,70731,,Myrmicinae,subfamily,70731,23.03,20.44,39931
+41939,spm,,1013493,0,,NHMM 74,,,forewing,,1,text,,,Myrmicinae indet.,subfamily,70731,,Myrmicinae,subfamily,70731,23.03,20.44,39931
+41940,spm,,1013493,0,,NHMM 42,,,forewing,,1,text,,,Myrmicinae indet.,subfamily,70731,,Myrmicinae,subfamily,70731,23.03,20.44,39931
+41941,spm,,1013493,0,,NHMM 53,,,forewing,,1,text,,,Myrmicinae indet.,subfamily,70731,,Myrmicinae,subfamily,70731,23.03,20.44,39931
+41942,spm,,1013493,0,,NHMM 79,,,forewing,,1,text,,,Myrmicinae indet.,subfamily,70731,,Myrmicinae,subfamily,70731,23.03,20.44,39931
+41943,spm,,1013493,0,,NHMM 80,,,forewing,,1,text,,,Myrmicinae indet.,subfamily,70731,,Myrmicinae,subfamily,70731,23.03,20.44,39931
+41944,spm,,1013493,0,,NHMM 76,,,forewing,,1,text,,,Myrmicinae indet.,subfamily,70731,,Myrmicinae,subfamily,70731,23.03,20.44,39931
+46449,spm,,1018417,0,,USNM 61415,holotype,,forewing,,1,text,,Length estimated from 5 mm fragment,Dolichoderus n. sp. anglicus,species,222022,recombined as,Britaneuretus anglicus,species,222022,38,33.9,37729
+46450,spm,,1018418,0,,USNM 61416,holotype,,forewing,,1,text,,,Dolichoderus n. sp. ovigerus,species,222023,subjective synonym of,Emplastus britannicus,species,222021,38,33.9,37729
+46451,spm,,1018418,0,,USNM 61416,holotype,,body,,1,text,,,Dolichoderus n. sp. ovigerus,species,222023,subjective synonym of,Emplastus britannicus,species,222021,38,33.9,37729
+46452,spm,,1018419,0,,USNM 61417,holotype,,forewing,,1,text,,,Leptothorax n. sp. gurnetensis,species,222024,recombined as,Leucotaphus gurnetensis,species,222024,38,33.9,37729
+46453,spm,,1018420,0,,USNM 61419,holotype,,forewing,,1,text,,,Oecophylla n. sp. atavina,species,222025,,Oecophylla atavina,species,222025,38,33.9,37729
+46454,spm,,1018420,0,,USNM 61419,holotype,,body,,1,text,,,Oecophylla n. sp. atavina,species,222025,,Oecophylla atavina,species,222025,38,33.9,37729
+46455,spm,,1018421,0,,USNM 61420,holotype,,forewing,,1,text,,,Oecophylla n. sp. perdita,species,222026,subjective synonym of,Oecophylla atavina,species,222025,38,33.9,37729
+46456,spm,,1018421,0,,USNM 61422,,,forewing,,1,text,,,Oecophylla n. sp. perdita,species,222026,subjective synonym of,Oecophylla atavina,species,222025,38,33.9,37729
+46457,spm,,1018422,0,,USNM 61423,,,forewing,,1,text,,,Oecophylla n. sp. megarche,species,222027,,Oecophylla megarche,species,222027,38,33.9,37729
+55183,spm,,1029848,0,,SR93-8-4,holotype,,forewing,,1,text,,,n. gen. Propalosoma n. sp. gutierrezae,species,230537,,Propalosoma gutierrezae,species,230537,56,47.8,40968
+55184,spm,,1029848,0,,SR93-8-4,holotype,,body,,1,text,,,n. gen. Propalosoma n. sp. gutierrezae,species,230537,,Propalosoma gutierrezae,species,230537,56,47.8,40968
+55185,spm,,1029850,0,,UWBM 78047,holotype,,body,,1,text,,,Camponotites n. sp. kraussei,species,230538,,Camponotites kraussei,species,230538,56,47.8,40968
+67845,spm,,1041987,0,,19036,,,forewing,,1,,,,Oecophylla n. sp. bartoniana,species,235514,,Oecophylla bartoniana,species,235514,47.8,41.3,41450
+67846,spm,,1041988,0,,19035,,,forewing,,1,,,,Formica n. sp. heteroptera,species,235515,,Formica heteroptera,species,235515,47.8,41.3,41450
+67847,spm,,1041989,0,,2596,,,wing,,1,,,,Megapterites n. sp. mirabilis,species,235516,recombined as,Formicium mirabile,species,235516,47.8,41.3,41450
+69577,spm,,1042868,0,,Ro A-712,holotype,,body,,1,text,,,Prionomyrmex n. sp. wappleri,species,236186,,Prionomyrmex wappleri,species,236186,28.4,23.03,41794
+69578,spm,,1042867,0,,SMF Mel 2016,holotype,,forewing,,1,text,,,Archimyrmex n. sp. wedmannae,species,236184,,Archimyrmex wedmannae,species,236184,48.6,40.4,41794
+69579,spm,,1042867,0,,SMF Mel 2016,holotype,,body,,1,text,,,Archimyrmex n. sp. wedmannae,species,236184,,Archimyrmex wedmannae,species,236184,48.6,40.4,41794
+76598,spm,,993552,0,,UCCIPR L-18 F-749,holotype,,forewing,female,1,text,,,n. gen. Ypresiomyrma n. sp. orbiculata,species,204817,,Ypresiomyrma orbiculata,species,204817,56,47.8,38422
+76601,spm,,993553,0,,GSC 127632,holotype,,forewing,,1,picture,,,Ypresiomyrma n. sp. bartletti,species,204818,,Ypresiomyrma bartletti,species,204818,56,47.8,38422
+76602,spm,,993553,0,,GSC 127632,holotype,,body,,1,text,,,Ypresiomyrma n. sp. bartletti,species,204818,,Ypresiomyrma bartletti,species,204818,56,47.8,38422
+76606,spm,,993554,0,,2003.2.8CDM032,holotype,,forewing,female,1,picture,,,n. gen. Avitomyrmex n. sp. elongatus,species,204822,,Avitomyrmex elongatus,species,204822,56,47.8,38422
+76607,spm,,993554,0,,2003.2.8CDM032,holotype,,body,female,1,text,,,n. gen. Avitomyrmex n. sp. elongatus,species,204822,,Avitomyrmex elongatus,species,204822,56,47.8,38422
+76609,spm,,993555,0,,UCCIPRL-18 F-850,holotype,,forewing,female,1,text,,,Avitomyrmex n. sp. mastax,species,204823,,Avitomyrmex mastax,species,204823,56,47.8,38422
+76610,spm,,993555,0,,UCCIPRL-18 F-850,holotype,,body,female,1,text,,,Avitomyrmex n. sp. mastax,species,204823,,Avitomyrmex mastax,species,204823,56,47.8,38422
+76614,spm,,1154827,0,,2003.2.11 CDM 035,holotype,,body,,1,text,,worker,Avitomyrmex n. sp. systenus,species,204824,,Avitomyrmex systenus,species,204824,56,47.8,38422
+76615,spm,,993557,0,,UCCIPR L-18 F-844,holotype,,body,female,1,text,,,n. gen. Macabeemyrma n. sp. ovata,species,204826,,Macabeemyrma ovata,species,204826,56,47.8,38422
+76617,spm,,993558,0,,UCCIPR L-18 F-974,holotype,,body,,1,text,,worker,n. gen. Myrmeciites n. sp. herculeanus,species,204828,,Myrmeciites herculeanus,species,204828,56,47.8,38422
+76618,spm,F,993560,0,,2003.2.9 CDM 033,,,forewing,male,1,text,,,Myrmeciites sp.,genus,204827,,Myrmeciites,genus,204827,56,47.8,38422
+76619,spm,F,993560,0,,2003.2.9 CDM 033,,,body,male,1,text,,,Myrmeciites sp.,genus,204827,,Myrmeciites,genus,204827,56,47.8,38422
+76620,spm,F,993561,0,,SR05-03-01,,,body,,1,text,,worker,Myrmeciites sp.,genus,204827,,Myrmeciites,genus,204827,56,47.8,38422
+76621,spm,,993559,0,,UCCIPR L-18 F-999,holotype,,body,female,1,text,,,Myrmeciites ? n. sp. goliath,species,204930,,Myrmeciites goliath,species,204930,56,47.8,38422
+76622,spm,,993562,0,,2003.2.10 CDM 034,holotype,,forewing,,1,text,,,Myrmeciites ? n. sp. tabanifluviensis,species,204936,,Myrmeciites tabanifluviensis,species,204936,56,47.8,38422
+76623,spm,,993562,0,,2003.2.10 CDM 034,holotype,,body,,1,text,,,Myrmeciites ? n. sp. tabanifluviensis,species,204936,,Myrmeciites tabanifluviensis,species,204936,56,47.8,38422
+77775,spm,,1053931,0,,,holotype,,forewing,,1,text,,,Formica n. sp. eoptera,species,241141,,Formica eoptera,species,241141,37.2,33.9,42241
+78156,spm,,1054221,0,,s82628,,,forewing,,1,text,,,Myopopone n. sp. sinensis,species,241337,,Myopopone sinensis,species,241337,20.44,15.97,16579
+78157,spm,,1054221,0,,s82628,,,body,,1,text,,,Myopopone n. sp. sinensis,species,241337,,Myopopone sinensis,species,241337,20.44,15.97,16579
+78158,spm,,1054153,0,,820055,,,body,,1,text,,,Leptogenys n. sp. lacerata,species,241339,,Leptogenys lacerata,species,241339,20.44,15.97,16579
+78159,spm,,1054238,0,,750124,,,body,,1,text,,,Leptogenys chinensis,species,241338,,Leptogenys chinensis,species,241338,20.44,15.97,16579
+78160,spm,,1054154,0,,820065,holotype,,forewing,,1,text,,,Euponera n. sp. nubeculata,species,241340,recombined as,Pachycondyla nubeculata,species,241340,20.44,15.97,16579
+78161,spm,,1054154,0,,820065,holotype,,body,,1,text,,,Euponera n. sp. nubeculata,species,241340,recombined as,Pachycondyla nubeculata,species,241340,20.44,15.97,16579
+78162,spm,,1054155,0,,820115,holotype,,forewing,,1,text,,,Euponera ? n. sp. minutansata,species,241341,recombined as,Pachycondyla minutansata,species,241341,20.44,15.97,16579
+78163,spm,,1054155,0,,820115,holotype,,body,,1,text,,,Euponera ? n. sp. minutansata,species,241341,recombined as,Pachycondyla minutansata,species,241341,20.44,15.97,16579
+78164,spm,,1054156,0,,820039,holotype,,forewing,,1,text,,,n. gen. Miosolenopsis n. sp. fossilis,species,71534,,Miosolenopsis fossilis,species,71534,20.44,15.97,16579
+78165,spm,,1054156,0,,820039,holotype,,body,,1,text,,,n. gen. Miosolenopsis n. sp. fossilis,species,71534,,Miosolenopsis fossilis,species,71534,20.44,15.97,16579
+78166,spm,,1054191,0,,79047,holotype,,forewing,,1,text,,,Paraphaenogaster n. sp. shanwangensis,species,72034,,Paraphaenogaster shanwangensis,species,72034,20.44,15.97,16579
+78167,spm,,1054191,0,,79047,holotype,,hindwing,,1,text,,,Paraphaenogaster n. sp. shanwangensis,species,72034,,Paraphaenogaster shanwangensis,species,72034,20.44,15.97,16579
+78168,spm,,1054191,0,,79047,holotype,,body,,1,text,,,Paraphaenogaster n. sp. shanwangensis,species,72034,,Paraphaenogaster shanwangensis,species,72034,20.44,15.97,16579
+78169,spm,,1054157,0,,830136,holotype,,forewing,,1,text,,,Aphaenogaster (Sinaphaenogaster) n. sp. lapidescens,species,241343,recombined as,Paraphaenogaster lapidescens,species,241343,20.44,15.97,16579
+78170,spm,,1054157,0,,830136,holotype,,body,,1,text,,,Aphaenogaster (Sinaphaenogaster) n. sp. lapidescens,species,241343,recombined as,Paraphaenogaster lapidescens,species,241343,20.44,15.97,16579
+78171,spm,,1054158,0,,830080,holotype,,forewing,,1,text,,,Aphaenogaster (Deromyrma) n. sp. paludosa,species,241344,recombined as,Paraphaenogaster paludosa,species,241344,20.44,15.97,16579
+78172,spm,,1054158,0,,830080,holotype,,body,,1,text,,,Aphaenogaster (Deromyrma) n. sp. paludosa,species,241344,recombined as,Paraphaenogaster paludosa,species,241344,20.44,15.97,16579
+78173,spm,,1054192,0,,79054,holotype,,forewing,,1,text,,,n. gen. Heteromyrmex n. sp. atopogaster,species,71539,recombined as,Zhangidris atopogaster,species,71539,20.44,15.97,16579
+78174,spm,,1054192,0,,79054,holotype,,body,,1,text,,,n. gen. Heteromyrmex n. sp. atopogaster,species,71539,recombined as,Zhangidris atopogaster,species,71539,20.44,15.97,16579
+78175,spm,,1054193,0,,Beijing Museum of Natural History 79087,holotype,,forewing,,1,text,,,Liometopum n. sp. jiaoyanshanense,species,71171,recombined as,Dolichoderus jiaoyanshanensis,species,71171,20.44,15.97,16579
+78176,spm,,1054193,0,,Beijing Museum of Natural History 79087,holotype,,body,,1,text,,,Liometopum n. sp. jiaoyanshanense,species,71171,recombined as,Dolichoderus jiaoyanshanensis,species,71171,20.44,15.97,16579
+78177,spm,,1054222,0,,s82625,holotype,,forewing,,1,text,,,Dolichoderus n. sp. evolans,species,241345,,Dolichoderus evolans,species,241345,20.44,15.97,16579
+78178,spm,,1054222,0,,s82625,holotype,,body,,1,text,,,Dolichoderus n. sp. evolans,species,241345,,Dolichoderus evolans,species,241345,20.44,15.97,16579
+78179,spm,,1054223,0,,s82627,holotype,,body,,1,text,,,Dolichoderus n. sp. lacinius,species,241346,,Dolichoderus lacinius,species,241346,20.44,15.97,16579
+78180,spm,,1054224,0,,s82626,holotype,,forewing,,1,text,,,Technomyrmex n. sp. septentrionalis,species,241347,,Technomyrmex septentrionalis,species,241347,20.44,15.97,16579
+78181,spm,,1054224,0,,s82626,holotype,,body,,1,text,,,Technomyrmex n. sp. septentrionalis,species,241347,,Technomyrmex septentrionalis,species,241347,20.44,15.97,16579
+78182,spm,,1054161,0,,830127,holotype,,forewing,,1,text,,,Iridomyrmex n. sp. shandongicus,species,241348,,Iridomyrmex shandongicus,species,241348,20.44,15.97,16579
+78183,spm,,1054161,0,,830127,holotype,,hindwing,,1,text,,,Iridomyrmex n. sp. shandongicus,species,241348,,Iridomyrmex shandongicus,species,241348,20.44,15.97,16579
+78184,spm,,1054161,0,,830127,holotype,,body,,1,text,,,Iridomyrmex n. sp. shandongicus,species,241348,,Iridomyrmex shandongicus,species,241348,20.44,15.97,16579
+78185,spm,,1054194,0,,79036,holotype,,forewing,,1,text,,,Liometopum n. sp. potamophilum,species,241349,,Liometopum potamophilum,species,241349,20.44,15.97,16579
+78186,spm,,1054194,0,,79036,holotype,,body,,1,text,,,Liometopum n. sp. potamophilum,species,241349,,Liometopum potamophilum,species,241349,20.44,15.97,16579
+78187,spm,,1054162,0,,820170,holotype,,forewing,,1,text,,,Liometopum n. sp. eremicum,species,241350,,Liometopum eremicum,species,241350,20.44,15.97,16579
+78188,spm,,1054162,0,,820170,holotype,,body,,1,text,,,Liometopum n. sp. eremicum,species,241350,,Liometopum eremicum,species,241350,20.44,15.97,16579
+78189,spm,,1054225,0,,s82629,holotype,,forewing,,1,text,,,Alloiomma n. sp. changweiensis,species,71541,,Alloiomma changweiensis,species,71541,20.44,15.97,16579
+78190,spm,,1054225,0,,s82629,holotype,,body,,1,text,,,Alloiomma n. sp. changweiensis,species,71541,,Alloiomma changweiensis,species,71541,20.44,15.97,16579
+78191,spm,,1054195,0,,79051,holotype,,forewing,,1,text,,,Tapinoma ? n. sp. baculum,species,241351,,Tapinoma baculum,species,241351,20.44,15.97,16579
+78192,spm,,1054195,0,,79051,holotype,,body,,1,text,,,Tapinoma ? n. sp. baculum,species,241351,,Tapinoma baculum,species,241351,20.44,15.97,16579
+78193,spm,,1054226,0,,s82636,holotype,,forewing,,1,text,,,n. gen. Elaphrodites n. sp. scutulatus,species,71543,,Elaphrodites scutulatus,species,71543,20.44,15.97,16579
+78194,spm,,1054226,0,,s82636,holotype,,body,,1,text,,,n. gen. Elaphrodites n. sp. scutulatus,species,71543,,Elaphrodites scutulatus,species,71543,20.44,15.97,16579
+78195,spm,,1054163,0,,820094,holotype,,forewing,,1,text,,,Elaphrodites n. sp. mutatus,species,241352,,Elaphrodites mutatus,species,241352,20.44,15.97,16579
+78196,spm,,1054163,0,,820094,holotype,,body,,1,text,,,Elaphrodites n. sp. mutatus,species,241352,,Elaphrodites mutatus,species,241352,20.44,15.97,16579
+78197,spm,,1054196,0,,79058,holotype,,forewing,,1,text,,,Formica n. sp. linquensis,species,241353,,Formica linquensis,species,241353,20.44,15.97,16579
+78198,spm,,1054196,0,,79058,holotype,,body,,1,text,,,Formica n. sp. linquensis,species,241353,,Formica linquensis,species,241353,20.44,15.97,16579
+78199,spm,,1054164,0,,820020,holotype,,forewing,,1,text,,,Formica n. sp. ceps,species,241354,,Formica ceps,species,241354,20.44,15.97,16579
+78200,spm,,1054164,0,,820020,holotype,,body,,1,text,,,Formica n. sp. ceps,species,241354,,Formica ceps,species,241354,20.44,15.97,16579
+78201,spm,,1054165,0,,820160,holotype,,body,,1,text,,,Formica n. sp. ovala,species,241355,,Formica ovala,species,241355,20.44,15.97,16579
+78202,spm,,1054197,0,,79030,,,forewing,,1,text,,,Lasius vetulus,species,234235,,Lasius vetulus,species,234235,20.44,15.97,16579
+78203,spm,,1054197,0,,79030,,,body,,1,text,,,Lasius vetulus,species,234235,,Lasius vetulus,species,234235,20.44,15.97,16579
+78204,spm,,1054168,0,,820143,holotype,,forewing,,1,text,,,Lasius n. sp. mordicus,species,241357,,Lasius mordicus,species,241357,20.44,15.97,16579
+78205,spm,,1054168,0,,820143,holotype,,body,,1,text,,,Lasius n. sp. mordicus,species,241357,,Lasius mordicus,species,241357,20.44,15.97,16579
+78206,spm,,1054198,0,,79121,holotype,,forewing,,1,text,,,Lasius n. sp. validus,species,241358,,Lasius validus,species,241358,20.44,15.97,16579
+78207,spm,,1054198,0,,79121,holotype,,hindwing,,1,text,,,Lasius n. sp. validus,species,241358,,Lasius validus,species,241358,20.44,15.97,16579
+78208,spm,,1054199,0,,79055,holotype,,body,,1,text,,,Lasius ? n. sp. truncatus,species,241359,,Lasius truncatus,species,241359,20.44,15.97,16579
+78209,spm,,1054169,0,,820182,holotype,,forewing,,1,text,,,n. gen. Tylolasius n. sp. inflatus,species,71545,recombined as,Lasius inflatus,species,71545,20.44,15.97,16579
+78210,spm,,1054169,0,,820182,holotype,,body,,1,text,,,n. gen. Tylolasius n. sp. inflatus,species,71545,recombined as,Lasius inflatus,species,71545,20.44,15.97,16579
+78211,spm,,1054200,0,,79069,holotype,,forewing,,1,text,,,Rabidia n. sp. xiejiaheensis,species,70778,recombined as,Camponotites xiejiaheensis,species,70778,20.44,15.97,16579
+78212,spm,,1054200,0,,79069,holotype,,body,,1,text,,,Rabidia n. sp. xiejiaheensis,species,70778,recombined as,Camponotites xiejiaheensis,species,70778,20.44,15.97,16579
+78213,spm,,1054185,0,,Dong12Nan,holotype,,forewing,,1,text,,,Camponotus n. sp. shanwangense,species,70784,corrected to,Camponotus shanwangensis,species,70784,20.44,15.97,16579
+78214,spm,,1054185,0,,Dong12Nan,holotype,,body,,1,text,,,Camponotus n. sp. shanwangense,species,70784,corrected to,Camponotus shanwangensis,species,70784,20.44,15.97,16579
+78215,spm,,1054230,0,,s82606,holotype,,forewing,,1,text,,,Camponotus n. sp. gracilis,species,241361,,Camponotus gracilis,species,241361,20.44,15.97,16579
+78216,spm,,1054230,0,,s82606,holotype,,body,,1,text,,,Camponotus n. sp. gracilis,species,241361,,Camponotus gracilis,species,241361,20.44,15.97,16579
+78217,spm,,1054231,0,,s82603,holotype,,forewing,,1,text,,,Camponotus n. sp. ampullosus,species,241362,,Camponotus ampullosus,species,241362,20.44,15.97,16579
+78218,spm,,1054231,0,,s82603,holotype,,body,,1,text,,,Camponotus n. sp. ampullosus,species,241362,,Camponotus ampullosus,species,241362,20.44,15.97,16579
+78219,spm,,1054202,0,,79042,holotype,,forewing,,1,text,,,Camponotus n. sp. curviansatus,species,241363,,Camponotus curviansatus,species,241363,20.44,15.97,16579
+78220,spm,,1054202,0,,79042,holotype,,body,,1,text,,,Camponotus n. sp. curviansatus,species,241363,,Camponotus curviansatus,species,241363,20.44,15.97,16579
+78221,spm,,1054204,0,,79052,holotype,,forewing,,1,text,,,Camponotus n. sp. longus,species,241365,,Camponotus longus,species,241365,20.44,15.97,16579
+78222,spm,,1054204,0,,79052,holotype,,body,,1,text,,,Camponotus n. sp. longus,species,241365,,Camponotus longus,species,241365,20.44,15.97,16579
+78223,spm,,1054173,0,,820172,holotype,,forewing,,1,text,,,Camponotus n. sp. plenus,species,241367,,Camponotus plenus,species,241367,20.44,15.97,16579
+78224,spm,,1054173,0,,820172,holotype,,body,,1,text,,,Camponotus n. sp. plenus,species,241367,,Camponotus plenus,species,241367,20.44,15.97,16579
+78225,spm,,1054205,0,,79128,holotype,,forewing,,1,text,,,Camponotus n. sp. microthoracus,species,241368,,Camponotus microthoracus,species,241368,20.44,15.97,16579
+78226,spm,,1054205,0,,79128,holotype,,body,,1,text,,,Camponotus n. sp. microthoracus,species,241368,,Camponotus microthoracus,species,241368,20.44,15.97,16579
+78227,spm,,1054234,0,,s82621,holotype,,forewing,,1,text,,,Camponotus n. sp. ambon,species,241370,,Camponotus ambon,species,241370,20.44,15.97,16579
+78228,spm,,1054234,0,,s82621,holotype,,body,,1,text,,,Camponotus n. sp. ambon,species,241370,,Camponotus ambon,species,241370,20.44,15.97,16579
+78229,spm,,1054206,0,,79051,holotype,,forewing,,1,text,,,n. gen. Shanwangella n. sp. palaeoptera,species,71547,recombined as,Camponotus palaeopterus,species,71547,20.44,15.97,16579
+78230,spm,,1054206,0,,79051,holotype,,body,,1,text,,,n. gen. Shanwangella n. sp. palaeoptera,species,71547,recombined as,Camponotus palaeopterus,species,71547,20.44,15.97,16579
+92739,spm,,1073943,0,,"IPB-WAPPLER-1a,b",holotype,,body,,1,text,,,Polyrhachis n. sp. annosus,species,247354,,Polyrhachis annosus,species,247354,7.246,5.333,42983
+104076,spm,,1089582,0,,FIS MeI 5565,holotype,,forewing,female,1,text,,,Casaleia n. sp. eocenica,species,251956,,Casaleia eocenica,species,251956,48.6,40.4,43781
+104077,spm,,1089582,0,,FIS MeI 5565,holotype,,body,female,1,text,,,Casaleia n. sp. eocenica,species,251956,,Casaleia eocenica,species,251956,48.6,40.4,43781
+104078,spm,,1089583,30654,,FIS MeI 400,holotype,,body,female,1,text,,,n. gen. Pseudectatomma n. sp. eocenica,species,251960,,Pseudectatomma eocenica,species,251960,48.6,40.4,43781
+104079,spm,,1089584,0,,FIS MeI 5762,holotype,,body,female,1,text,,,Pseudectatomma n. sp. striatula,species,251961,,Pseudectatomma striatula,species,251961,48.6,40.4,43781
+104080,spm,,1089585,0,,FIS MeI 10889,holotype,,body,female,1,text,,,Pachycondyla n. sp. eocenica,species,251962,,Pachycondyla eocenica,species,251962,48.6,40.4,43781
+104081,spm,,1089586,0,,FIS MeI 11958,holotype,,forewing,female,1,text,,,Pachycondyla n. sp. lutzi,species,251963,,Pachycondyla lutzi,species,251963,48.6,40.4,43781
+104082,spm,,1089586,0,,FIS MeI 1361,paratype,,forewing,female,1,text,,,Pachycondyla n. sp. lutzi,species,251963,,Pachycondyla lutzi,species,251963,48.6,40.4,43781
+104083,spm,,1089587,0,,FIS MeI 4744,holotype,,body,female,1,text,,,Pachycondyla ? n. sp. messeliana,species,251964,,Pachycondyla messeliana,species,251964,48.6,40.4,43781
+104084,spm,,1089588,0,,FIS MeI 12250,paratype,,forewing,female,1,text,,,Pachycondyla n. sp. minuta,species,251965,replaced by,Pachycondyla parvula,species,326842,48.6,40.4,43781
+104085,spm,,1089588,0,,FIS MeI 10638,holotype,,body,female,1,text,,,Pachycondyla n. sp. minuta,species,251965,replaced by,Pachycondyla parvula,species,326842,48.6,40.4,43781
+104086,spm,,1089589,0,,FIS MeI 1893,holotype,,body,female,1,text,,,Pachycondyla n. sp. petiolosa,species,251967,,Pachycondyla petiolosa,species,251967,48.6,40.4,43781
+104087,spm,,1089589,0,,FIS MeI 1427,paratype,,forewing,female,1,text,,,Pachycondyla n. sp. petiolosa,species,251967,,Pachycondyla petiolosa,species,251967,48.6,40.4,43781
+104088,spm,,1089590,0,,FIS MeI 12273,holotype,,body,,1,text,,,Pachycondyla n. sp. petrosa,species,251966,,Pachycondyla petrosa,species,251966,48.6,40.4,43781
+104089,spm,,1089591,0,,FIS MeI 10841,holotype,,forewing,female,1,text,,,Protopone n. sp. germanica,species,251969,,Protopone germanica,species,251969,48.6,40.4,43781
+104090,spm,,1089591,0,,FIS MeI 10841,holotype,,body,female,1,text,,,Protopone n. sp. germanica,species,251969,,Protopone germanica,species,251969,48.6,40.4,43781
+104091,spm,,1089593,0,,FIS MeI 8790,holotype,,body,female,1,text,,,Protopone n. sp. magna,species,251971,,Protopone magna,species,251971,48.6,40.4,43781
+104092,spm,,1089594,0,,FIS MeI 2334,holotype,,body,female,1,text,,,Protopone n. sp. oculata,species,251972,,Protopone oculata,species,251972,48.6,40.4,43781
+104093,spm,,1089595,0,,FIS MeI 5329,holotype,,body,female,1,text,,,Protopone n. sp. sepulta,species,251973,,Protopone sepulta,species,251973,48.6,40.4,43781
+104094,spm,,1089596,0,,FIS MeI 7679,holotype,,body,female,1,text,,,Protopone n. sp. vetula,species,251974,,Protopone vetula,species,251974,48.6,40.4,43781
+104095,spm,,1089597,0,,FIS MeI 10860,holotype,,body,female,1,text,,,n. gen. Cephalopone n. sp. potens,species,251976,,Cephalopone potens,species,251976,48.6,40.4,43781
+104096,spm,,1089597,0,,FIS MeI 11830,paratype,,forewing,female,1,text,,,n. gen. Cephalopone n. sp. potens,species,251976,,Cephalopone potens,species,251976,48.6,40.4,43781
+104097,spm,,1089598,0,,FIS MeI 5361,holotype,,forewing,female,1,text,,,Cephalopone n. sp. grandis,species,251977,,Cephalopone grandis,species,251977,48.6,40.4,43781
+104098,spm,,1089598,0,,FIS MeI 5361,holotype,,body,female,1,text,,,Cephalopone n. sp. grandis,species,251977,,Cephalopone grandis,species,251977,48.6,40.4,43781
+104099,spm,,1089599,0,,FIS MeI 2407,holotype,,body,female,1,text,,,n. gen. Cyrtopone n. sp. microcephala,species,251979,,Cyrtopone microcephala,species,251979,48.6,40.4,43781
+104100,spm,,1089600,0,,FIS MeI 6075,holotype,,body,female,1,text,,,Cyrtopone n. sp. curiosa,species,251980,,Cyrtopone curiosa,species,251980,48.6,40.4,43781
+104101,spm,,1089601,0,,FIS MeI 10167,holotype,,body,female,1,text,,,Cyrtopone n. sp. elongata,species,251981,,Cyrtopone elongata,species,251981,48.6,40.4,43781
+104102,spm,,1089602,0,,FIS MeI 1392,holotype,,body,female,1,text,,,Cyrtopone n. sp. striata,species,251982,,Cyrtopone striata,species,251982,48.6,40.4,43781
+104103,spm,,1089603,0,,FIS MeI 4808,holotype,,body,female,1,text,,,n. gen. Messelepone n. sp. leptogenoides,species,251984,,Messelepone leptogenoides,species,251984,48.6,40.4,43781
+104104,spm,,1089603,0,,FIS MeI 7198,paratype,,body,male,1,text,,,n. gen. Messelepone n. sp. leptogenoides,species,251984,,Messelepone leptogenoides,species,251984,48.6,40.4,43781
+106129,spm,,1097944,0,,,holotype,,body,,1,text,,,n. gen. Ameghinoia n. sp. piatnitzkyi,species,255874,recombined as,Archimyrmex piatnitzkyi,species,255874,47.8,41.3,44403
+106130,spm,,1097952,0,,UCM 15174,holotype,,body,,1,text,,,n. gen. Archimyrmex n. sp. rostratus,species,204945,,Archimyrmex rostratus,species,204945,50.3,46.2,44405
+106131,spm,,1097959,0,,MCZ 2940,holotype,,forewing,,1,text,,,n. gen. Pseudocamponotus n. sp. elkoanus,species,255887,,Pseudocamponotus elkoanus,species,255887,37.2,28.4,4971
+106132,spm,,1097959,0,,MCZ 2940,holotype,,body,,1,text,,,n. gen. Pseudocamponotus n. sp. elkoanus,species,255887,,Pseudocamponotus elkoanus,species,255887,37.2,28.4,4971
+106133,spm,,1098273,0,,USNM 495959,holotype,,body,female,1,text,,,Mianeuretus n. sp. eocenicus,species,256043,,Mianeuretus eocenicus,species,256043,50.3,46.2,44418
+106134,spm,,1098274,0,,USNM 495907,holotype,,body,female,1,text,,,n. gen. Proiridomyrmex n. sp. vetulus,species,256044,,Proiridomyrmex vetulus,species,256044,50.3,46.2,44418
+106135,spm,,1098275,0,,USNM 495905,holotype,,body,female,1,text,,,Dolichoderus n. sp. kohlsi,species,256045,,Dolichoderus kohlsi,species,256045,50.3,46.2,44418
+106136,spm,,1098277,0,,USNM 495916,holotype,,body,female,1,text,,,n. gen. Myrmecites n. sp. rotundiceps,species,256047,,Myrmecites rotundiceps,species,256047,50.3,46.2,44418
+106137,spm,,1098278,0,,USNM 495933,holotype,,body,,1,text,,,n. gen. Solenopsites n. sp. minutus,species,256048,,Solenopsites minutus,species,256048,50.3,46.2,44418
+106138,spm,,1098279,0,,USNM 495919,holotype,,body,female,1,text,,,n. gen. Ponerites n. sp. eocenicus,species,256049,,Ponerites eocenicus,species,256049,50.3,46.2,44418
+106139,spm,,1098344,0,,USNM 495896,holotype,,body,,1,text,,,Ponerites n. sp. coloradensis,species,256050,,Ponerites coloradensis,species,256050,50.3,46.2,44418
+106140,spm,,1098344,0,,USNM 495895,paratype,,body,,1,text,,,Ponerites n. sp. coloradensis,species,256050,,Ponerites coloradensis,species,256050,50.3,46.2,44418
+106141,spm,,1098345,0,,USNM 495991A,holotype,,forewing,female,1,text,,,Ponerites n. sp. hypoponeroides,species,256051,,Ponerites hypoponeroides,species,256051,46.2,40.4,44418
+106142,spm,,1098345,0,,USNM 495991A,holotype,,body,female,1,text,,,Ponerites n. sp. hypoponeroides,species,256051,,Ponerites hypoponeroides,species,256051,46.2,40.4,44418
+106143,spm,,1098281,0,,USNM 495917,holotype,,body,male,1,text,,,Eoformica n. sp. magna,species,256054,,Eoformica magna,species,256054,50.3,46.2,44418
+106144,spm,,1098282,0,,USNM 495940,holotype,,body,male,1,text,,,Eoformica n. sp. globularis,species,256055,,Eoformica globularis,species,256055,50.3,46.2,44418
+106145,spm,,1098356,0,,SR-94-5-7,holotype,,body,male,1,text,,,n. gen. Klondikia n. sp. whiteae,species,256056,,Klondikia whiteae,species,256056,56,47.8,44418
+106146,spm,,1098357,0,,SR-94-4-24,paratype,,body,female,1,text,,,Klondikia whiteae,species,256056,,Klondikia whiteae,species,256056,56,47.8,44418
+106147,spm,,1098358,0,,USNM 495879,holotype,,body,female,1,text,,,n. gen. Kohlsimyrma n. sp. laticeps,species,256057,,Kohlsimyrma laticeps,species,256057,50.3,46.2,44418
+106148,spm,,1098359,0,,USNM 495878,holotype,,body,female,1,text,,,Kohlsimyrma n. sp. longiceps,species,256058,,Kohlsimyrma longiceps,species,256058,50.3,46.2,44418
+106149,spm,,1098283,0,,USNM 495906,holotype,,body,female,1,text,,,Kohlsimyrma n. sp. gracilis,species,256059,,Kohlsimyrma gracilis,species,256059,50.3,46.2,44418
+106156,spm,,1098367,0,,,holotype,,forewing,,1,text,,,Myrmica n. sp. archaica,species,256092,recombined as,Aphaenogaster archaica,species,256092,28.4,23.03,44433
+106157,spm,,1098367,0,,,holotype,,body,,1,text,,,Myrmica n. sp. archaica,species,256092,recombined as,Aphaenogaster archaica,species,256092,28.4,23.03,44433
+106158,spm,,1098368,0,,,,,body,,1,text,,,"""Myrmica"" sp.",genus,152089,,Myrmica,genus,152089,28.4,23.03,44433
+106159,spm,,1098369,0,,,,,body,,1,text,,,"""Tapinoma"" sp.",genus,72032,,Tapinoma,genus,72032,28.4,23.03,44433
+106160,spm,,1098371,0,,,holotype,,forewing,,1,text,,,Formica n. sp. bauckhorni,species,256093,,Formica bauckhorni,species,256093,28.4,23.03,44433
+106161,spm,,1098371,0,,,holotype,,body,,1,text,,,Formica n. sp. bauckhorni,species,256093,,Formica bauckhorni,species,256093,28.4,23.03,44433
+106172,spm,,1098378,0,,NHMW 367/1960,holotype,,forewing,,1,text,,,Aphaenogaster n. sp. pannonicus,species,256104,recombined as,Paraphaenogaster pannonica,species,256104,7.246,5.333,44435
+106173,spm,,1098379,0,,NHMW 368/1960,holotype,,forewing,,1,text,,,Camponotus n. sp. ullrichi,species,256105,,Camponotus ullrichi,species,256105,7.246,5.333,44435
+106177,spm,,1211823,0,,UMJG&P 77.544,holotype,,body,,1,text,,,Formica n. sp. gracilis,species,256194,replaced by,Ponerites gracilior,species,297322,12.7,11.608,51760
+106178,spm,,1211842,0,,UMJG&P 77.541,,,body,,1,text,,,Formica n. sp. fragilis,species,256195,nomen dubium,Formicinae,subfamily,234234,12.7,11.608,38709
+106179,spm,,1211842,0,,UMJG&P 77.541,,,forewing,,1,text,,,Formica n. sp. fragilis,species,256195,nomen dubium,Formicinae,subfamily,234234,12.7,11.608,38709
+106180,spm,,1211776,0,,NHMW 1852.XXIX.4,,,body,,1,text,,,Camponotus induratus,species,200672,,Camponotus induratus,species,200671,12.7,11.608,38709
+106181,spm,,1211837,0,,,holotype,,forewing,,1,text,,,Formica n. sp. freyeri,species,256196,recombined as,Lonchomyrmex freyeri,species,256196,12.7,11.608,51760
+106182,spm,,1211793,0,,,,,forewing,,1,text,,,Formica n. sp. oblita,species,256197,subjective synonym of,Formica ungeri,species,200697,12.7,11.608,38709
+106183,spm,,1211793,0,,,,,body,,1,text,,,Formica n. sp. oblita,species,256197,subjective synonym of,Formica ungeri,species,200697,12.7,11.608,38709
+106184,spm,,1211812,0,,,,,forewing,,1,text,,,Formica capito,species,256198,subjective synonym of,Lasius globularis,species,200701,12.7,11.608,38709
+106185,spm,,1211812,0,,,,,body,,1,text,,,Formica capito,species,256198,subjective synonym of,Lasius globularis,species,200701,12.7,11.608,38709
+106186,spm,,1211791,0,,UMJG&P 77.574,holotype,,forewing,,1,text,,,Formica n. sp. kollari,species,256199,subjective synonym of,Formica ungeri,species,200697,12.7,11.608,38709
+106187,spm,,1211791,0,,UMJG&P 77.574,holotype,,body,,1,text,,,Formica n. sp. kollari,species,256199,subjective synonym of,Formica ungeri,species,200697,12.7,11.608,38709
+106188,spm,,1211843,0,,UMJG&P 77.646f,,,forewing,,1,text,,,Formica n. sp. obvoluta,species,200729,nomen dubium,Formicidae,family,70728,12.7,11.608,38709
+106189,spm,,1211792,0,,,,,forewing,,1,text,,,Formica n. sp. aemula,species,256200,subjective synonym of,Formica ungeri,species,200697,12.7,11.608,38709
+106190,spm,,1211792,0,,,,,body,,1,text,,,Formica n. sp. aemula,species,256200,subjective synonym of,Formica ungeri,species,200697,12.7,11.608,38709
+106191,spm,,1211822,0,,NHMW 1852.XXIX.33,holotype,,body,,1,text,,,Poneropsis n. sp. elongata,species,256202,recombined as,Ponerites elongatus,species,256202,12.7,11.608,51760
+106192,spm,,1098616,0,,,,,body,,1,text,,,Poneropsis n. sp. escheri,species,256203,,Poneropsis escheri,species,256203,12.7,11.608,38709
+106193,spm,,1211767,0,,,,,forewing,,1,text,,,Poneropsis n. sp. lugubris,species,256205,subjective synonym of,Liometopum imhoffii,species,200724,12.7,11.608,38709
+106194,spm,,1211767,0,,,,,body,,1,text,,,Poneropsis n. sp. lugubris,species,256205,subjective synonym of,Liometopum imhoffii,species,200724,12.7,11.608,38709
+106195,spm,,1211800,0,,,,,body,,1,text,,,Poneropsis anthracina,species,256206,recombined as,Lasius anthracinus,species,256206,12.7,11.608,38709
+106196,spm,,1211826,0,,UMJG&P 77.589,holotype,,forewing,,1,text,,,Poneropsis n. sp. tenuis,species,256208,recombined as,Ponerites tenuis,species,256208,12.7,11.608,51760
+106197,spm,,1211826,0,,UMJG&P 77.589,holotype,,body,,1,text,,,Poneropsis n. sp. tenuis,species,256208,recombined as,Ponerites tenuis,species,256208,12.7,11.608,51760
+106198,spm,,1098649,0,,,,,forewing,,1,text,,,Poneropsis n. sp. pallida,species,256209,nomen dubium,Ponerinae,subfamily,71998,12.7,11.608,38709
+106199,spm,,1098649,0,,,,,body,,1,text,,,Poneropsis n. sp. pallida,species,256209,nomen dubium,Ponerinae,subfamily,71998,12.7,11.608,38709
+106200,spm,,1211768,0,,,,,body,,1,text,,,Poneropsis n. sp. livida,species,256212,subjective synonym of,Liometopum imhoffii,species,200724,12.7,11.608,38709
+106201,spm,,1211769,0,,,,,forewing,,1,text,,,Poneropsis n. sp. morio,species,256213,subjective synonym of,Liometopum imhoffii,species,200724,12.7,11.608,38709
+106202,spm,,1211769,0,,,,,body,,1,text,,,Poneropsis n. sp. morio,species,256213,subjective synonym of,Liometopum imhoffii,species,200724,12.7,11.608,38709
+106203,spm,,1098652,0,,,,,forewing,,1,text,,,Poneropsis n. sp. brunascens,species,256214,nomen dubium,Liometopum,genus,70730,12.7,11.608,38709
+106204,spm,,1098652,0,,,,,body,,1,text,,,Poneropsis n. sp. brunascens,species,256214,nomen dubium,Liometopum,genus,70730,12.7,11.608,38709
+106205,spm,,1098621,0,,,,,body,,1,text,,,Poneropsis n. sp. stygia,species,256215,,Poneropsis stygia,species,256215,12.7,11.608,38709
+106206,spm,,1098623,0,,UMJG&P 77.561,,,forewing,,1,text,,,Attopsis n. sp. longipes,species,207332,,Attopsis longipes,species,207332,12.7,11.608,38709
+106207,spm,,1098623,0,,UMJG&P 77.561,,,body,,1,text,,,Attopsis n. sp. longipes,species,207332,,Attopsis longipes,species,207332,12.7,11.608,38709
+106208,spm,,1098626,0,,UMJG&P 77.624,holotype,,forewing,,1,text,,,Myrmica n. sp. bicolor,species,256217,subjective synonym of,Paraphaenogaster tertiaria,species,200766,12.7,11.608,51760
+106209,spm,,1098626,0,,UMJG&P 77.624,holotype,,body,,1,text,,,Myrmica n. sp. bicolor,species,256217,subjective synonym of,Paraphaenogaster tertiaria,species,200766,12.7,11.608,38709
+106210,spm,,1098653,0,,,,,body,,1,text,,,Myrmica n. sp. venusta,species,256218,nomen dubium,Formicidae,family,70728,12.7,11.608,38709
+106211,spm,,1211833,0,,,,,forewing,,1,text,,,Myrmica n. sp. concinna,species,256219,subjective synonym of,Paraphaenogaster jurinei,species,200773,12.7,11.608,38709
+106212,spm,,1211833,0,,,,,body,,1,text,,,Myrmica n. sp. concinna,species,256219,subjective synonym of,Paraphaenogaster jurinei,species,200773,12.7,11.608,38709
+106215,spm,,1098669,0,,,,,forewing,,1,text,,,Ponera n. sp. umbra,species,256237,recombined as,Ponerites umbrus,species,256237,15.97,11.608,44457
+106216,spm,,1098669,0,,,,,body,,1,text,,,Ponera n. sp. umbra,species,256237,recombined as,Ponerites umbrus,species,256237,15.97,11.608,44457
+106217,spm,,1098666,0,,PIN 3546/1,holotype,,forewing,,1,text,,,Lasius n. sp. martynovi,species,256234,recombined as,Formica martynovi,species,256234,12.7,11.608,44457
+106218,spm,,1098671,0,,BMNH I.8675,holotype,,body,,1,text,,,Euponera (Mesoponera) n. sp. crawleyi,species,256240,recombined as,Ponerites crawleyi,species,256240,38,33.9,5061
+106222,spm,,1098678,0,,BMNH I.8517,holotype,,forewing,,1,text,,,Leucotaphus n. sp. cockerelli,species,256246,recombined as,Camponotus cockerelli,species,256246,38,33.9,5061
+106223,spm,,1098678,0,,BMNH I.8517,holotype,,body,,1,text,,,Leucotaphus n. sp. cockerelli,species,256246,recombined as,Camponotus cockerelli,species,256246,38,33.9,51864
+106224,spm,,1098674,0,,BMNH I.10097,,,forewing,,1,text,,,Leucotaphus n. sp. donisthorpei,species,298458,,Leucotaphus donisthorpei,species,298458,38,33.9,5061
+106225,spm,,1098674,0,,BMNH I.10097,,,body,,1,text,,,Leucotaphus n. sp. donisthorpei,species,298458,,Leucotaphus donisthorpei,species,298458,38,33.9,5061
+106226,spm,,1018422,0,,BMNH I.8702,,,body,female,1,text,,,Oecophylla n. sp. megarche,species,222027,,Oecophylla megarche,species,222027,38,33.9,5061
+106227,spm,,1018422,0,,BMNH I.8711,,,body,female,1,text,,,Oecophylla n. sp. megarche,species,222027,,Oecophylla megarche,species,222027,38,33.9,5061
+106228,spm,,1098680,0,,BMNH I.9551,holotype,,body,,1,text,,,Camponotus (Colobopsis) n. sp. brodiei,species,256248,nomen dubium,Formicidae,family,70728,38,33.9,5061
+106229,spm,,1098700,0,,,holotype,,body,,1,text,,,Camponotus n. sp. novotnyi,species,256256,,Camponotus novotnyi,species,256256,33.9,28.1,44459
+106232,spm,,1098704,0,,,holotype,,forewing,,1,text,,,Formica n. sp. cantalica,species,256262,,Formica cantalica,species,256262,11.62,7.246,44460
+106233,spm,,1098704,0,,,holotype,,body,,1,text,,,Formica n. sp. cantalica,species,256262,,Formica cantalica,species,256262,11.62,7.246,44460
+106240,spm,,1098725,0,,Piton 44,holotype,,forewing,,1,text,,,Formica n. sp. auxillacensis,species,256270,,Formica auxillacensis,species,256270,7.246,5.333,44460
+106243,spm,,1098709,0,,Musee Rames 1,holotype,,forewing,,1,text,,,Lasius n. sp. crispus,species,256274,,Lasius crispus,species,256274,11.62,7.246,44461
+106244,spm,,1098703,0,,,holotype,,body,,1,text,,,Camponotus n. sp. obesus,species,256261,,Camponotus obesus,species,256261,11.62,7.246,44460
+106247,spm,,1098714,0,,,holotype,,forewing,,1,text,,,Lasius n. sp. chambonensis,species,256277,,Lasius chambonensis,species,256277,3.6,2.588,44461
+106248,spm,,1098718,0,,Theobald 11,holotype,,body,,1,text,,,Formica n. sp. pitoni,species,256278,,Formica pitoni,species,256278,3.6,2.588,44461
+106249,spm,,1098719,0,,Theobald 7,holotype,,body,,1,text,,,Erebomyrma antiqua,species,230704,recombined as,Carebara antiqua,species,256035,3.6,2.588,44461
+106250,spm,,1098728,0,,,holotype,,forewing,,1,text,,,Formica n. sp. maculipennis,species,256279,,Formica maculipennis,species,256279,7.246,5.333,44461
+106341,spm,,1097983,0,,MCZ 2876,holotype,,body,,1,text,,,n. gen. Archiponera n. sp. wheeleri,species,255888,,Archiponera wheeleri,species,255888,37.2,33.9,4971
+106342,spm,,1097977,0,,MCZ 2877,,,forewing,,1,text,,,Archiponera wheeleri,species,255888,,Archiponera wheeleri,species,255888,37.2,33.9,4971
+106343,spm,,1097977,0,,MCZ 2877,,,body,,1,text,,,Archiponera wheeleri,species,255888,,Archiponera wheeleri,species,255888,37.2,33.9,4971
+106344,spm,,1097984,0,,MCZ 2899,holotype,,forewing,,1,text,,,Pseudomyrma n. sp. extincta,species,255890,recombined as,Pseudomyrmex extinctus,species,255890,37.2,33.9,4971
+106345,spm,,1097984,0,,MCZ 2899,holotype,,body,,1,text,,,Pseudomyrma n. sp. extincta,species,255890,recombined as,Pseudomyrmex extinctus,species,255890,37.2,33.9,4971
+106346,spm,,1097985,0,,MCZ 2949,holotype,,body,female,1,text,,,Aphaenogaster n. sp. mayri,species,255891,,Aphaenogaster mayri,species,255891,37.2,33.9,4971
+106347,spm,,1097986,0,,MCZ 2917,holotype,,forewing,,1,text,,,Aphaenogaster n. sp. donisthorpei,species,255892,,Aphaenogaster donisthorpei,species,255892,37.2,33.9,4971
+106348,spm,,1097986,0,,MCZ 2917,holotype,,body,,1,text,,,Aphaenogaster n. sp. donisthorpei,species,255892,,Aphaenogaster donisthorpei,species,255892,37.2,33.9,4971
+106349,spm,,1097987,0,,MCZ 2920,holotype,,forewing,,1,text,,,Messor n. sp. sculpturatus,species,255893,,Messor sculpturatus,species,255893,37.2,33.9,4971
+106350,spm,,1097987,0,,MCZ 2920,holotype,,body,,1,text,,,Messor n. sp. sculpturatus,species,255893,,Messor sculpturatus,species,255893,37.2,33.9,4971
+106351,spm,,1097988,0,,MCZ 2918,holotype,,body,female,1,text,,,Pheidole n. sp. tertiaria,species,255894,,Pheidole tertiaria,species,255894,37.2,33.9,4971
+106352,spm,,1097989,0,,MCZ 2922,,,body,,1,text,,,Pogonomyrmex n. sp. fossilis,species,255895,,Pogonomyrmex fossilis,species,255895,37.2,33.9,4971
+106353,spm,,1097990,0,,MCZ 2926,holotype,,body,female,1,text,,,n. gen. Lithomyrmex n. sp. rugosus,species,255898,recombined as,Eulithomyrmex rugosus,species,255898,37.2,33.9,4971
+106354,spm,,1097991,0,,MCZ 2933,holotype,,forewing,female,1,text,,,Lithomyrmex n. sp. striatus,species,255899,recombined as,Eulithomyrmex striatus,species,255899,37.2,33.9,4971
+106355,spm,,1097991,0,,MCZ 2933,holotype,,body,female,1,text,,,Lithomyrmex n. sp. striatus,species,255899,recombined as,Eulithomyrmex striatus,species,255899,37.2,33.9,4971
+106356,spm,,1097991,0,,MCZ 2934,,,body,,1,text,,,Lithomyrmex n. sp. striatus,species,255899,recombined as,Eulithomyrmex striatus,species,255899,37.2,33.9,4971
+106357,spm,,1097992,0,,MCZ 2935,holotype,,forewing,,1,text,,,n. gen. Cephalomyrmex n. sp. rotundatus,species,255900,,Cephalomyrmex rotundatus,species,255900,37.2,33.9,4971
+106358,spm,,1097992,0,,MCZ 2935,holotype,,body,,1,text,,,n. gen. Cephalomyrmex n. sp. rotundatus,species,255900,,Cephalomyrmex rotundatus,species,255900,37.2,33.9,4971
+106359,spm,,1097993,0,,MCZ 2797,holotype,,body,female,1,text,,,n. gen. Mianeuretus n. sp. mirabilis,species,255901,,Mianeuretus mirabilis,species,255901,37.2,33.9,4971
+106360,spm,,1097994,0,,MCZ 2798,holotype,,forewing,female,1,text,,,Dolichoderus (Hypoclinea) n. sp. antiquus,species,255902,recombined as,Dolichoderus antiquus,species,255902,37.2,33.9,4971
+106361,spm,,1097994,0,,MCZ 2798,holotype,,body,female,1,text,,,Dolichoderus (Hypoclinea) n. sp. antiquus,species,255902,recombined as,Dolichoderus antiquus,species,255902,37.2,33.9,4971
+106362,spm,,1097995,0,,MCZ 2801,holotype,,body,female,1,text,,,Dolichoderus n. sp. rohweri,species,256780,,Dolichoderus rohweri,species,255903,37.2,33.9,4971
+106363,spm,,1098079,0,,MCZ 2804,holotype,,body,female,1,text,,,n. gen. Protazteca n. sp. elongata,species,255904,,Protazteca elongata,species,255904,37.2,33.9,4971
+106364,spm,,1098080,0,,MCZ 2823,holotype,,forewing,female,1,text,,,Protazteca n. sp. quadrata,species,255905,,Protazteca quadrata,species,255905,37.2,33.9,4971
+106365,spm,,1098080,0,,MCZ 2823,holotype,,body,female,1,text,,,Protazteca n. sp. quadrata,species,255905,,Protazteca quadrata,species,255905,37.2,33.9,4971
+106366,spm,,1098081,0,,MCZ 2827,holotype,,body,female,1,text,,,Protazteca n. sp. capitata,species,255906,,Protazteca capitata,species,255906,37.2,33.9,4971
+106367,spm,,1098082,0,,MCZ 2829,holotype,,forewing,female,1,text,,,Liometopum n. sp. miocenicum,species,255907,,Liometopum miocenicum,species,255907,37.2,33.9,4971
+106368,spm,,1098082,0,,MCZ 2829,holotype,,body,female,1,text,,,Liometopum n. sp. miocenicum,species,255907,,Liometopum miocenicum,species,255907,37.2,33.9,4971
+106369,spm,,1098083,0,,MCZ 2851,holotype,,forewing,,1,text,,,Liometopum n. sp. scudderi,species,255908,,Liometopum scudderi,species,255908,37.2,33.9,4971
+106370,spm,,1098083,0,,MCZ 2851,holotype,,body,,1,text,,,Liometopum n. sp. scudderi,species,255908,,Liometopum scudderi,species,255908,37.2,33.9,4971
+106371,spm,,1098084,0,,MCZ 2863,holotype,,forewing,,1,text,,,n. gen. Elaeomyrmex n. sp. gracilis,species,255909,,Elaeomyrmex gracilis,species,255909,37.2,33.9,4971
+106372,spm,,1098084,0,,MCZ 2863,holotype,,body,,1,text,,,n. gen. Elaeomyrmex n. sp. gracilis,species,255909,,Elaeomyrmex gracilis,species,255909,37.2,33.9,4971
+106373,spm,,1098085,0,,MCZ 2867,holotype,,forewing,,1,text,,,Elaeomyrmex n. sp. coloradensis,species,255910,,Elaeomyrmex coloradensis,species,255910,37.2,33.9,4971
+106374,spm,,1098085,0,,MCZ 2867,holotype,,body,,1,text,,,Elaeomyrmex n. sp. coloradensis,species,255910,,Elaeomyrmex coloradensis,species,255910,37.2,33.9,4971
+106375,spm,,1098086,0,,MCZ 2872,holotype,,body,female,1,text,,,Iridomyrmex n. sp. florissantius,species,255911,nomen dubium,Iridomyrmex,genus,72031,37.2,33.9,4971
+106376,spm,,1098046,0,,USNM 78799,holotype,,body,female,1,text,,,Iridomyrmex n. sp. obscurans,species,255912,nomen dubium,Iridomyrmex,genus,72031,37.2,33.9,4971
+106377,spm,,1098088,0,,MCZ 2861,holotype,,forewing,,1,text,,,Miomyrmex n. sp. striatus,species,255916,,Miomyrmex striatus,species,255916,37.2,33.9,4971
+106378,spm,,1098088,0,,MCZ 2861,holotype,,body,,1,text,,,Miomyrmex n. sp. striatus,species,255916,,Miomyrmex striatus,species,255916,37.2,33.9,4971
+106379,spm,,1098089,0,,MCZ 2943,holotype,,body,female,1,text,,,n. gen. Petraeomyrmex n. sp. minimus,species,255917,,Petraeomyrmex minimus,species,255917,37.2,33.9,4971
+106380,spm,,1098090,0,,MCZ 2878,holotype,,forewing,female,1,text,,,Formica n. sp. robusta,species,255918,,Formica robusta,species,255918,37.2,33.9,4971
+106381,spm,,1098090,0,,MCZ 2878,holotype,,body,female,1,text,,,Formica n. sp. robusta,species,255918,,Formica robusta,species,255918,37.2,33.9,4971
+106382,spm,,1098091,0,,MCZ 2889,holotype,,body,female,1,text,,,Formica n. sp. cockerelli,species,255919,,Formica cockerelli,species,255919,37.2,33.9,4971
+106383,spm,,1098067,0,,USNM 78801,holotype,,forewing,female,1,text,,,Formica n. sp. grandis,species,255920,,Formica grandis,species,255920,37.2,33.9,4971
+106384,spm,,1098067,0,,USNM 78801,holotype,,body,female,1,text,,,Formica n. sp. grandis,species,255920,,Formica grandis,species,255920,37.2,33.9,4971
+106385,spm,,1098094,0,,MCZ 2897,holotype,,forewing,female,1,text,,,Camponotus n. sp. fuscipennis,species,255924,,Camponotus fuscipennis,species,255924,37.2,33.9,4971
+106386,spm,,1098094,0,,MCZ 2897,holotype,,body,female,1,text,,,Camponotus n. sp. fuscipennis,species,255924,,Camponotus fuscipennis,species,255924,37.2,33.9,4971
+106387,spm,,1098095,0,,MCZ 2898,holotype,,forewing,female,1,text,,,Camponotus n. sp. microcephalus,species,255925,,Camponotus microcephalus,species,255925,37.2,33.9,4971
+106388,spm,,1098095,0,,MCZ 2898,holotype,,body,female,1,text,,,Camponotus n. sp. microcephalus,species,255925,,Camponotus microcephalus,species,255925,37.2,33.9,4971
+106389,spm,,1098096,0,,MCZ 2936,holotype,,body,,1,text,,,Camponotus n. sp. petrifactus,species,255926,,Camponotus petrifactus,species,255926,37.2,33.9,4971
+106419,spm,,1099069,0,,,holotype,,forewing,,1,text,,,Pheidologeton n. sp. bohemicus,species,256530,recombined as,Carebara bohemica,species,256530,16.9,15.97,44517
+106420,spm,,1099070,0,,,holotype,,forewing,,1,text,,,Myrmica n. sp. nebulosa,species,256531,nomen dubium,Myrmica,genus,152089,16.9,15.97,44517
+106421,spm,,1099071,0,,,holotype,,forewing,,1,text,,,Formica n. sp. buphthalma,species,256532,,Formica buphthalma,species,256532,16.9,15.97,44517
+106422,spm,,1099071,0,,,holotype,,body,,1,text,,,Formica n. sp. buphthalma,species,256532,,Formica buphthalma,species,256532,16.9,15.97,44517
+106425,spm,,1099092,0,,IGM MA 127,holotype,,forewing,,1,text,,,Erebomyrma n. sp. thorali,species,256548,recombined as,Carebara thorali,species,256548,28.1,23.03,44519
+106426,spm,,1099092,0,,IGM MA 127,holotype,,body,,1,text,,,Erebomyrma n. sp. thorali,species,256548,recombined as,Carebara thorali,species,256548,28.1,23.03,44519
+106456,spm,,1099919,0,,,holotype,,forewing,,1,text,,,Hypoclinea n. sp. kutschlinica,species,256759,recombined as,Dolichoderus kutschlinicus,species,256759,37.2,33.9,44564
+106457,spm,,1099919,0,,,holotype,,body,,1,text,,,Hypoclinea n. sp. kutschlinica,species,256759,recombined as,Dolichoderus kutschlinicus,species,256759,37.2,33.9,44564
+106458,spm,,1099920,0,,,,,forewing,,1,text,,,Oecophylla obesa,species,200596,,Oecophylla obesa,species,200595,37.2,33.9,44564
+106459,spm,,1099920,0,,,,,body,,1,text,,,Oecophylla obesa,species,200596,,Oecophylla obesa,species,200595,37.2,33.9,44564
+106469,spm,,1100020,0,,UNIVALE CH 0014/2,holotype,,forewing,,1,text,,,n. gen. Fonsecahymen n. sp. stigmata,species,256893,,Fonsecahymen stigmata,species,256893,38,33.9,44582
+106473,spm,,1100045,0,,USNM 80825,holotype,,forewing,,1,text,,,n. gen. Eoponera n. sp. berryi,species,256923,recombined as,Formicium berryi,species,256923,41.3,38,44588
+106474,spm,,1100051,0,,SMF MeI 1006,holotype,,forewing,female,1,text,,Length estimated 40-50 mm from 30 mm fragment,Formicium n. sp. simillimum,species,184425,recombined as,Titanomyrma simillima,species,184425,48.6,40.4,44589
+106475,spm,,1100051,0,,SMF MeI 1006,holotype,,body,female,1,text,,,Formicium n. sp. simillimum,species,184425,recombined as,Titanomyrma simillima,species,184425,48.6,40.4,44589
+106476,spm,,1100051,0,,SMF MeI 339,paratype,,forewing,female,1,text,,,Formicium n. sp. simillimum,species,184425,recombined as,Titanomyrma simillima,species,184425,48.6,40.4,44589
+106477,spm,,1100050,0,,SMF MeI 998,holotype,,forewing,female,1,text,,Length estimated 55-65 mm,Formicium n. sp. giganteum,species,184420,recombined as,Titanomyrma gigantea,species,184420,48.6,40.4,44589
+106488,spm,,1100103,0,,NHMM PE1997/29,holotype,,body,,1,text,,,Gesomyrmex n. sp. germanicus,species,256962,,Gesomyrmex germanicus,species,256962,48.6,40.4,44599
+106489,spm,,1100104,0,,NHMM PE1998/13,paratype,,body,,1,text,,,Gesomyrmex germanicus,species,256962,,Gesomyrmex germanicus,species,256962,48.6,40.4,44599
+106490,spm,,1100104,0,,NHMM PE1998/9,paratype,,body,,1,text,,,Gesomyrmex germanicus,species,256962,,Gesomyrmex germanicus,species,256962,48.6,40.4,44599
+106491,spm,,1100105,0,,NHMM PE2000/14,holotype,,body,,1,text,,,Gesomyrmex n. sp. flavescens,species,256963,,Gesomyrmex flavescens,species,256963,48.6,40.4,44599
+106492,spm,,1100106,0,,SMF MeI 10999,holotype,,body,,1,text,,,Gesomyrmex n. sp. pulcher,species,256964,,Gesomyrmex pulcher,species,256964,48.6,40.4,44599
+106493,spm,,1100107,0,,SMF MeI 2305,holotype,,forewing,,1,text,,,Gesomyrmex n. sp. breviceps,species,256965,,Gesomyrmex breviceps,species,256965,48.6,40.4,44599
+106494,spm,,1100107,0,,SMF MeI 2305,holotype,,body,,1,text,,,Gesomyrmex n. sp. breviceps,species,256965,,Gesomyrmex breviceps,species,256965,48.6,40.4,44599
+106495,spm,,1100107,0,,SMF MeI 11054,paratype,,forewing,,1,text,,,Gesomyrmex n. sp. breviceps,species,256965,,Gesomyrmex breviceps,species,256965,48.6,40.4,44599
+106496,spm,,1100107,0,,SMF MeI 11054,paratype,,body,,1,text,,,Gesomyrmex n. sp. breviceps,species,256965,,Gesomyrmex breviceps,species,256965,48.6,40.4,44599
+106497,spm,,1100107,0,,SMF MeI 13151,paratype,,forewing,,1,text,,,Gesomyrmex n. sp. breviceps,species,256965,,Gesomyrmex breviceps,species,256965,48.6,40.4,44599
+106498,spm,,1100107,0,,SMF MeI 13151,paratype,,body,,1,text,,,Gesomyrmex n. sp. breviceps,species,256965,,Gesomyrmex breviceps,species,256965,48.6,40.4,44599
+106531,spm,,1100263,0,,,holotype,,forewing,,1,text,,,Lasius n. sp. tertiarius,species,257032,,Lasius tertiarius,species,257032,12.7,11.608,44614
+106532,spm,,1100263,0,,,holotype,,hindwing,,1,text,,,Lasius n. sp. tertiarius,species,257032,,Lasius tertiarius,species,257032,12.7,11.608,44614
+106533,spm,,1100263,0,,,holotype,,body,,1,text,,,Lasius n. sp. tertiarius,species,257032,,Lasius tertiarius,species,257032,12.7,11.608,44614
+106541,spm,,1098075,0,,BMNH In.26833,holotype,,forewing,,1,text,,,Tetramorium n. sp. peritulum,species,255922,recombined as,Lasius peritulus,species,255922,37.2,33.9,5012
+106542,spm,,1098075,0,,BMNH In.26833,holotype,,body,,1,text,,,Tetramorium n. sp. peritulum,species,255922,recombined as,Lasius peritulus,species,255922,37.2,33.9,5012
+106543,spm,,1100261,0,,BMNH In.26831,holotype,,forewing,,1,text,,,Formica n. sp. impacta,species,255914,recombined as,Miomyrmex impactus,species,255914,37.2,33.9,5012
+106544,spm,,1100261,0,,BMNH In.26831,holotype,,body,,1,text,,,Formica n. sp. impacta,species,255914,recombined as,Miomyrmex impactus,species,255914,37.2,33.9,5012
+106547,spm,,1100267,0,,,holotype,,wing,,1,text,,,Lasius n. sp. oblongus,species,257035,,Lasius oblongus,species,257035,11.608,5.333,37742
+106548,spm,,1100268,0,,,holotype,,wing,,1,text,,,Lonchomyrmex n. sp. nigritus,species,257036,,Lonchomyrmex nigritus,species,257036,11.608,5.333,37742
+106549,spm,,1100269,29837,,,,,wing,,1,text,,,Pheidologeton n. sp. schossnicensis,species,257037,recombined as,Carebara schossnicensis,species,257037,11.608,5.333,37742
+106556,spm,,1100336,0,,,holotype,,body,,1,text,,,Ponera n. sp. elegantissima,species,257133,,Ponera elegantissima,species,257133,28.4,23.03,44625
+106562,spm,,1100337,0,,,holotype,,body,,1,text,,,Ponera n. sp. rhenana,species,257135,recombined as,Poneropsis rhenana,species,257135,28.4,23.03,44626
+106563,spm,,1100365,0,,CM 16-3079,paratype,,forewing,,1,text,,,Pachycondyla n. sp. rebekkae,species,204819,recombined as,Ypresiomyrma rebekkae,species,204819,56,47.8,44639
+106564,spm,,1100366,0,,MM 1396,paratype,,body,male,1,text,,,Pachycondyla rebekkae,species,204819,recombined as,Ypresiomyrma rebekkae,species,204819,56,47.8,44639
+106565,spm,,1100365,0,,GMUC 1995 8,,,body,female,1,text,,,Pachycondyla n. sp. rebekkae,species,204819,recombined as,Ypresiomyrma rebekkae,species,204819,56,47.8,44639
+106699,spm,,1100547,0,,750135,,,body,,1,text,,,n. gen. Rectorhagas n. sp. dumetorum,species,257300,recombined as,Paraphaenogaster dumetorum,species,257300,20.44,15.97,36942
+106700,spm,,1100548,0,,K0231,holotype,,forewing,,1,text,,,Dolichoderus n. sp. luridivenosus,species,257302,,Dolichoderus luridivenosus,species,257302,20.44,15.97,36942
+106701,spm,,1100548,0,,K0231,holotype,,body,,1,text,,,Dolichoderus n. sp. luridivenosus,species,257302,,Dolichoderus luridivenosus,species,257302,20.44,15.97,36942
+106702,spm,,1100549,0,,S200348,holotype,,forewing,,1,text,,,Dolichoderus n. sp. transversipetiolaris,species,257303,,Dolichoderus transversipetiolaris,species,257303,20.44,15.97,36942
+106703,spm,,1100549,0,,S200348,holotype,,body,,1,text,,,Dolichoderus n. sp. transversipetiolaris,species,257303,,Dolichoderus transversipetiolaris,species,257303,20.44,15.97,36942
+106704,spm,,1100550,0,,K0295,holotype,,forewing,,1,text,,,Liometopum n. sp. lubricum,species,257304,,Liometopum lubricum,species,257304,20.44,15.97,36942
+106705,spm,,1100550,0,,K0295,holotype,,body,,1,text,,,Liometopum n. sp. lubricum,species,257304,,Liometopum lubricum,species,257304,20.44,15.97,36942
+106706,spm,,1100551,0,,K0288,holotype,,forewing,,1,text,,,Alloiomma n. sp. differentialis,species,257305,,Alloiomma differentialis,species,257305,20.44,15.97,36942
+106707,spm,,1100551,0,,K0288,holotype,,body,,1,text,,,Alloiomma n. sp. differentialis,species,257305,,Alloiomma differentialis,species,257305,20.44,15.97,36942
+106708,spm,,1100552,0,,SK000268,holotype,,forewing,,1,text,,,n. gen. Eurymyrmex n. sp. geologicus,species,257306,,Eurymyrmex geologicus,species,257306,20.44,15.97,36942
+106709,spm,,1100552,0,,SK000268,holotype,,body,,1,text,,,n. gen. Eurymyrmex n. sp. geologicus,species,257306,,Eurymyrmex geologicus,species,257306,20.44,15.97,36942
+106710,spm,,1100553,0,,K0267,holotype,,body,,1,text,,,Formica n. sp. flavifemoralis,species,257307,,Formica flavifemoralis,species,257307,20.44,15.97,36942
+106711,spm,,1100554,0,,K0174,holotype,,body,,1,text,,,Camponotus n. sp. pictus,species,257308,,Camponotus pictus,species,257308,20.44,15.97,36942
+106894,spm,,1100731,0,,,holotype,,forewing,,1,text,1,,Formicium n. sp. brodiei,species,184426,,Formicium brodiei,species,184426,38,33.9,35209
+122469,spm,,1098276,0,,USNM 495986,,,body,,1,text,,,Archimyrmex rostratus,species,204945,,Archimyrmex rostratus,species,204945,50.3,46.2,48575
+122470,spm,,1098276,0,,USNM 496002,,,body,,1,text,,,Archimyrmex rostratus,species,204945,,Archimyrmex rostratus,species,204945,50.3,46.2,48575
+124719,spm,,1183421,0,,,holotype,,forewing,,1,text,,,Ponera n. sp. hendersoni,species,255927,recombined as,Protazteca hendersoni,species,255927,37.2,33.9,49121
+124720,spm,,1183421,0,,,holotype,,body,,1,text,,,Ponera n. sp. hendersoni,species,255927,recombined as,Protazteca hendersoni,species,255927,37.2,33.9,49121
+127029,spm,,1193139,0,,JWJ-Bu17,paratype,,body,,1,text,,,Zigrasimecia n. sp. ferox,species,288266,,Zigrasimecia ferox,species,288266,99.6,93.5,50003
+127030,spm,,1193139,0,,JWJ-Bu18a,holotype,,body,,1,text,,,Zigrasimecia n. sp. ferox,species,288266,,Zigrasimecia ferox,species,288266,99.6,93.5,50003
+127093,spm,,1099972,0,,MZ PAN 2177/12,,,forewing,,1,text,,,Iridomyrmex geinitzi,species,210990,recombined as,Yantaromyrmex geinitzi,species,210989,38,33.9,50040
+127094,spm,,1193237,0,,GPI 589,,,forewing,,1,text,,,Yantaromyrmex geinitzi,species,288330,,Yantaromyrmex geinitzi,species,210989,38,33.9,50040
+127095,spm,,1193237,0,,GPI 589,,,body,,1,text,,,Yantaromyrmex geinitzi,species,288330,,Yantaromyrmex geinitzi,species,210989,38,33.9,50040
+127096,spm,,1193240,0,,GPI Scheele 447,holotype,,body,,1,text,,,Yantaromyrmex n. sp. mayrianum,species,288332,,Yantaromyrmex mayrianum,species,288332,38,33.9,50040
+128932,spm,,1200310,0,,JZC Bu300A,holotype,,exoskeleton,,1,text,,,Sphecomyrmodes n. sp. contegus,species,291178,recombined as,Gerontoformica contegus,species,291178,99.6,93.5,50661
+128933,spm,,1200311,0,,JZC Bu324A,holotype,,exoskeleton,,1,text,,,Sphecomyrmodes n. sp. gracilis,species,291179,recombined as,Gerontoformica gracilis,species,291179,99.6,93.5,50661
+128934,spm,,1200312,0,,JZC Bu108A,holotype,,exoskeleton,,1,text,,,Sphecomyrmodes n. sp. magnus,species,291180,recombined as,Gerontoformica magnus,species,291180,99.6,93.5,50661
+128935,spm,,1200313,0,,JZC Bu225,holotype,,exoskeleton,,1,text,,,Sphecomyrmodes n. sp. pilosus,species,291181,recombined as,Gerontoformica pilosus,species,291181,99.6,93.5,50661
+128936,spm,,1200314,0,,JZC Bu223A,holotype,,exoskeleton,,1,text,,,Sphecomyrmodes n. sp. robustus,species,291182,recombined as,Gerontoformica robustus,species,291182,99.6,93.5,50661
+128937,spm,,1200315,0,,JZC Bu1648,holotype,,exoskeleton,,1,text,,,Sphecomyrmodes n. sp. rugosus,species,291183,recombined as,Gerontoformica rugosus,species,291183,99.6,93.5,50661
+128938,spm,,1200316,0,,JZC Bu222A,holotype,,exoskeleton,,1,text,,,Sphecomyrmodes n. sp. spiralis,species,291184,recombined as,Gerontoformica spiralis,species,291184,99.6,93.5,50661
+128939,spm,,1200317,0,,JZC Bu304,holotype,,exoskeleton,,1,text,,,Sphecomyrmodes n. sp. subcuspis,species,291185,recombined as,Gerontoformica subcuspis,species,291185,99.6,93.5,50661
+128940,spm,,1200318,0,,JZC Bu303A,holotype,,body,,1,text,,,Sphecomyrmodes n. sp. tendir,species,291186,recombined as,Gerontoformica tendir,species,291186,99.6,93.5,50661
+129574,spm,,1095861,0,,AMNH Bu-FB80,holotype,,body,female,1,text,,,Haidomyrmex n. sp. scimitarus,species,255309,,Haidomyrmex scimitarus,species,255309,99.6,93.5,44280
+129575,spm,,1095860,0,,JZC-BuXX,holotype,,body,female,1,text,,,Haidomyrmex n. sp. zigrasi,species,255310,,Haidomyrmex zigrasi,species,255310,99.6,93.5,44280
+129577,spm,,1100363,0,,SMNS Do-377-K-1-9,holotype,,body,,1,text,,,Trachymyrmex n. sp. primaevus,species,257175,,Trachymyrmex primaevus,species,257175,20.44,13.82,44637
+129581,spm,,1100303,0,,"SMNS Do-4440, 4434, 3708-a",holotype,,body,,1,text,,,Pheidole n. sp. primigenia,species,257117,,Pheidole primigenia,species,257117,20.44,13.82,44620
+129582,spm,,1351801,0,,,holotype,,body,,1,text,,,Prionomyrmex n. sp. janzeni,species,204944,,Prionomyrmex janzeni,species,204944,38,33.9,44627
+129585,spm,,1100266,0,,SMNS Do-4931-M,holotype,,body,,1,,,,Leptomyrmex n. sp. neotropicus,species,256120,,Leptomyrmex neotropicus,species,256120,20.44,13.82,44684
+129617,spm,,1148319,0,,JZC Bu-159,holotype,,body,female,1,text,,,n. gen. Zigrasimecia n. sp. tonsora,species,271680,,Zigrasimecia tonsora,species,271680,99.6,93.5,47310
+129618,spm,,1098122,0,,SMNS Do-834-K-1,holotype,,body,female,1,text,,,Anochetus n. sp. corayi,species,256020,,Anochetus corayi,species,256020,20.44,13.82,44413
+129619,spm,,1098122,0,,SMNS Do-834-K-1,holotype,,wing,female,1,text,,,Anochetus n. sp. corayi,species,256020,,Anochetus corayi,species,256020,20.44,13.82,44413
+129621,spm,,1100113,0,,SMNS Do-1172-K-1,holotype,,body,,1,text,,,Gnamptogenys n. sp. pristina,species,256969,,Gnamptogenys pristina,species,256969,20.44,13.82,44601
+129622,spm,,1100114,0,,SMNS Do-926-K-1,holotype,,body,,1,text,,,Gnamptogenys n. sp. levinates,species,256970,,Gnamptogenys levinates,species,256970,20.44,13.82,44601
+129623,spm,,1015100,0,,SMNS Do-4112,holotype,,body,,1,picture,,,Paraponera n. sp. dieteri,species,219372,,Paraponera dieteri,species,219372,20.44,13.82,40058
+129756,spm,,1202645,0,,,holotype,,body,female,1,text,,,Andrena n. sp. tertiaria,species,283609,nomen dubium,Formicinae,subfamily,234234,28.4,23.03,50824
+130951,spm,,1098110,0,,SMNS Do-4909-1,holotype,,body,,1,text,,,Strumigenys n. sp. schleeorum,species,256007,,Strumigenys schleeorum,species,256007,20.44,13.82,44409
+130952,spm,,1098111,0,,SMNS Do-3854-1 - 5,holotype,,body,,1,text,,,Strumigenys n. sp. electrina,species,256009,,Strumigenys electrina,species,256009,20.44,13.82,44409
+130953,spm,,1098111,0,,SMNS Do-3854-1 - 5,paratype,,body,,1,text,,,Strumigenys n. sp. electrina,species,256009,,Strumigenys electrina,species,256009,20.44,13.82,44409
+130954,spm,,1098112,0,,H-10-135,holotype,,body,,1,text,,,Acanthognathus n. sp. poinari,species,256008,,Acanthognathus poinari,species,256008,20.44,13.82,44409
+130955,spm,,1100340,0,,,holotype,,body,,1,text,,,Proceratium n. sp. denticulatum,species,257138,,Proceratium denticulatum,species,257138,20.44,13.82,40049
+130956,spm,,1015083,0,,MCZ-25,holotype,,body,,1,text,,,Proceratium n. sp. gibberum,species,219344,,Proceratium gibberum,species,219344,20.44,13.82,40049
+130957,spm,,1015084,0,,H 10-156 K-1 & 2,holotype,,body,,1,text,,,Proceratium n. sp. poinari,species,219343,,Proceratium poinari,species,219343,20.44,13.82,40049
+130958,spm,,1015084,0,,H 10-156 K-1 & 2,holotype,,body,male,1,text,,,Proceratium n. sp. poinari,species,219343,,Proceratium poinari,species,219343,20.44,13.82,40049
+130959,spm,,1015099,0,,H 10-156 B,holotype,,body,,1,text,,,Proceratium dominicanum,species,219352,,Proceratium dominicanum,species,219352,20.44,13.82,40049
+130960,spm,,1015099,0,,H 10-156 B,holotype,,body,male,1,text,,,Proceratium dominicanum,species,219352,,Proceratium dominicanum,species,219352,20.44,13.82,40049
+131265,spm,,1205372,0,,MPVR R-118,holotype,,forewing,,1,text,,,Camponotus n. sp. crozei,species,294957,,Camponotus crozei,species,294957,8.7,5.333,51140
+131266,spm,,1205372,0,,MPVR R-118,holotype,,body,,1,text,,,Camponotus n. sp. crozei,species,294957,,Camponotus crozei,species,294957,8.7,5.333,51140
+131267,spm,,1205373,0,,MPVR R-197,holotype,,hindwing,,1,text,,,Oecophylla n. sp. grandimandibula,species,294958,,Oecophylla grandimandibula,species,294958,8.7,5.333,51140
+131268,spm,,1205373,0,,MPVR R-197,holotype,,body,,1,text,,,Oecophylla n. sp. grandimandibula,species,294958,,Oecophylla grandimandibula,species,294958,8.7,5.333,51140
+132219,spm,,1021791,0,,,holotype,,body,,1,text,,,n. gen. Exocryptocerus n. sp. serratus,species,226335,recombined as,Cephalotes serratus,species,226335,20.44,13.82,40531
+132220,spm,,1021792,0,,,holotype,,body,,1,text,,,Exocryptocerus n. sp. elevatus,species,226336,subjective synonym of,Cephalotes serratus,species,226335,20.44,13.82,40531
+132221,spm,,1021793,0,,,holotype,,body,,1,text,,,Exocryptocerus n. sp. truncatus,species,226337,subjective synonym of,Cephalotes serratus,species,226335,20.44,13.82,40531
+132222,spm,,1021794,0,,,holotype,,body,,1,text,,,Exocryptocerus n. sp. jansei,species,226338,recombined as,Cephalotes jansei,species,226338,20.44,13.82,40531
+132223,spm,,1021795,0,,,holotype,,body,,1,text,,,Zacryptocerus n. sp. integerrimus,species,226341,recombined as,Cephalotes integerrimus,species,226341,20.44,13.82,40531
+132224,spm,,1021796,0,,,holotype,,body,,1,text,,,Zacryptocerus n. sp. squamosus,species,226342,recombined as,Cephalotes squamosus,species,226342,20.44,13.82,40531
+132225,spm,,1021797,0,,,holotype,,body,,1,text,,,Zacryptocerus n. sp. pseudoaztecus,species,226343,subjective synonym of,Cephalotes squamosus,species,226342,20.44,13.82,40531
+132226,spm,,1021803,0,,,holotype,,body,,1,text,,,Zacryptocerus n. sp. obscurus,species,226344,recombined as,Cephalotes obscurus,species,226344,20.44,13.82,40531
+132227,spm,,1021798,0,,,holotype,,body,,1,text,,,Zacryptocerus n. sp. alveolatus,species,226345,recombined as,Cephalotes alveolatus,species,226345,20.44,13.82,40531
+132468,spm,,1208119,0,,BMNH In. 19975,,,forewing,,1,text,,,Lasius occultatus,species,200717,,Lasius occultatus,species,200715,12.7,11.608,51392
+132469,spm,,1208137,0,,,holotype,,forewing,,1,text,,,Liometopum n. sp. antiquum,species,200634,recombined as,Emplastus antiquus,species,200634,12.7,11.608,51392
+132470,spm,,1208137,0,,,holotype,,body,,1,text,,,Liometopum n. sp. antiquum,species,200634,recombined as,Emplastus antiquus,species,200634,12.7,11.608,51392
+132471,spm,,1208116,0,,,,,forewing,,1,text,,,Camponotus ? sp.,genus,70732,,Camponotus,genus,70732,12.7,11.608,51392
+132472,spm,,1208116,0,,,,,body,,1,text,,,Camponotus ? sp.,genus,70732,,Camponotus,genus,70732,12.7,11.608,51392
+132473,spm,,1208143,0,,,,,forewing,,1,text,,,Formica sp.,genus,72033,,Formica,genus,72033,12.7,11.608,51392
+132474,spm,,1208143,0,,,,,body,,1,text,,,Formica sp.,genus,72033,,Formica,genus,72033,12.7,11.608,51392
+133561,spm,,1211775,30066,,UMJG&P 77.644c,,,body,male,1,text,,,Camponotus induratus,species,200672,,Camponotus induratus,species,200671,12.7,11.608,51760
+133562,spm,,1211778,0,,UMJG&P 77.482,holotype,,body,,1,text,,,Myrmica n. sp. bremii,species,200770,recombined as,Gesomyrmex bremii,species,200770,12.7,11.608,51760
+133563,spm,,1211779,0,,NHMW 1852.I.999,holotype,,body,female,1,text,,,n. gen. Heeridris n. sp. croaticus,species,297316,,Heeridris croaticus,species,297316,12.7,11.608,51760
+133564,spm,,1211779,0,,,paratype,,forewing,female,1,text,,,n. gen. Heeridris n. sp. croaticus,species,297316,,Heeridris croaticus,species,297316,12.7,11.608,51760
+133565,spm,,1211785,0,,GBA 2009/016/0430,,,forewing,,1,text,,,Oecophylla obesa,species,200596,,Oecophylla obesa,species,200595,12.7,11.608,51760
+133566,spm,,1211786,0,,NHMW 1852.I.1001,,,forewing,,1,text,,,Oecophylla obesa,species,200596,,Oecophylla obesa,species,200595,12.7,11.608,51760
+133567,spm,,1211797,0,,GBA 2009/016/0355,holotype,,body,female,1,text,,,Formica n. sp. parexsecta,species,297317,,Formica parexsecta,species,297317,12.7,11.608,51760
+133568,spm,,1211798,0,,GBA 2009/016/0074,holotype,,forewing,female,1,text,,,Lasius anthracinus,species,297318,,Lasius anthracinus,species,256206,12.7,11.608,51760
+133569,spm,,1211798,0,,GBA 2009/016/0074,holotype,,body,female,1,text,,,Lasius anthracinus,species,297318,,Lasius anthracinus,species,256206,12.7,11.608,51760
+133570,spm,,1211802,30067,,UMJG&P 77.539,,,forewing,,1,text,,,Lasius ophthalmicus,species,296210,,Lasius ophthalmicus,species,200686,12.7,11.608,51760
+133571,spm,,1211802,30067,,UMJG&P 77.539,,,body,,1,text,,,Lasius ophthalmicus,species,296210,,Lasius ophthalmicus,species,200686,12.7,11.608,51760
+133572,spm,,1211805,0,,UMJG&P 77.580,holotype,,forewing,,1,text,,,Formica n. sp. longaeva,species,200705,recombined as,Lasius longaevus,species,200705,12.7,11.608,51760
+133573,spm,,1211816,0,,UMJG&P 77.543,holotype,,body,,1,text,,,Formica n. sp. minutula,species,200722,subjective synonym of,Lasius occultatus,species,200715,12.7,11.608,51760
+133574,spm,,1211818,0,,UMJG&P 77.565,holotype,,body,,1,text,,,Formica n. sp. obliterata,species,200734,subjective synonym of,Lasius occultatus,species,200715,12.7,11.608,51760
+133575,spm,,1211824,0,,GBA 2009/016/0515,holotype,,forewing,,1,text,,,Ponerites n. sp. oblongiceps,species,297323,,Ponerites oblongiceps,species,297323,12.7,11.608,51760
+133576,spm,,1211824,0,,GBA 2009/016/0515,holotype,,body,,1,text,,,Ponerites n. sp. oblongiceps,species,297323,,Ponerites oblongiceps,species,297323,12.7,11.608,51760
+133577,spm,,1211827,0,,NHMW 1852.XXIX.36a,,,forewing,,1,text,,,Ponerites tenuis,species,297325,,Ponerites tenuis,species,256208,12.7,11.608,51760
+133578,spm,,1211827,0,,NHMW 1852.XXIX.36b,,,forewing,,1,text,,,Ponerites tenuis,species,297325,,Ponerites tenuis,species,256208,12.7,11.608,51760
+133579,spm,,1211827,0,,NHMW 1852.XXIX.36b,,,body,,1,text,,,Ponerites tenuis,species,297325,,Ponerites tenuis,species,256208,12.7,11.608,51760
+133580,spm,,1211828,0,,UMJG&P 77.622,holotype,,body,,1,text,,,Ponera n. sp. nitida,species,200742,recombined as,Ponerites nitidus,species,200742,12.7,11.608,51760
+133581,spm,,1211832,0,,NHMW 1852.XXIX.40,,,forewing,,1,text,,,Paraphaenogaster jurinei,species,297328,,Paraphaenogaster jurinei,species,200773,12.7,11.608,51760
+133582,spm,,1211832,0,,NHMW 1852.XXIX.40,,,body,,1,text,,,Paraphaenogaster jurinei,species,297328,,Paraphaenogaster jurinei,species,200773,12.7,11.608,51760
+133583,spm,,1211835,0,,NHMW 1852.XXIX.41,,,body,,1,text,,,Myrmecites pusillus,species,297329,,Myrmecites pusillus,species,200774,12.7,11.608,51760
+133584,spm,,1211836,0,,NHMW 2014/0130/0001,holotype,,forewing,,1,text,,,Myrmecites n. sp. latus,species,297330,,Myrmecites latus,species,297330,12.7,11.608,51760
+133585,spm,,1211836,0,,NHMW 2014/0130/0001,holotype,,body,,1,text,,,Myrmecites n. sp. latus,species,297330,,Myrmecites latus,species,297330,12.7,11.608,51760
+133586,spm,,1211836,0,,NHMW 1852.I.1012,paratype,,forewing,,1,text,,,Myrmecites n. sp. latus,species,297330,,Myrmecites latus,species,297330,12.7,11.608,51760
+133587,spm,,1211836,0,,NHMW 1852.I.1012,paratype,,body,,1,text,,,Myrmecites n. sp. latus,species,297330,,Myrmecites latus,species,297330,12.7,11.608,51760
+133588,spm,,1211837,0,,,holotype,,body,,1,text,,,Formica n. sp. freyeri,species,256196,recombined as,Lonchomyrmex freyeri,species,256196,12.7,11.608,51760
+133631,spm,,1054193,0,,Beijing Museum of Natural History 80196,,,forewing,,1,text,,,Liometopum n. sp. jiaoyanshanense,species,71171,recombined as,Dolichoderus jiaoyanshanensis,species,71171,20.44,15.97,15210
+133632,spm,,1054193,0,,Beijing Museum of Natural History 80196,,,body,,1,text,,,Liometopum n. sp. jiaoyanshanense,species,71171,recombined as,Dolichoderus jiaoyanshanensis,species,71171,20.44,15.97,15210
+136138,spm,,1098675,0,,BMNH I.9198,holotype,,forewing,,1,text,,,Dolichoderus n. sp. vectensis,species,256243,,Dolichoderus vectensis,species,256243,38,33.9,51864
+136139,spm,,1098675,0,,BMNH I.9198,holotype,,body,,1,text,,,Dolichoderus n. sp. vectensis,species,256243,,Dolichoderus vectensis,species,256243,38,33.9,51864
+136140,spm,,1213178,0,,BMNH In.24934,,,body,,1,text,,,Dolichoderus vectensis,species,256243,,Dolichoderus vectensis,species,256243,38,33.9,51864
+136141,spm,,1018416,0,,USNM 61413,holotype,,forewing,,1,text,,,Dolichoderus n. sp. britannicus,species,222021,recombined as,Emplastus britannicus,species,222021,38,33.9,51864
+136142,spm,,1018416,0,,USNM 61414,paratype,,forewing,,1,text,,,Dolichoderus n. sp. britannicus,species,222021,recombined as,Emplastus britannicus,species,222021,38,33.9,51864
+136143,spm,,1018416,0,,USNM 61414,paratype,,body,,1,text,,,Dolichoderus n. sp. britannicus,species,222021,recombined as,Emplastus britannicus,species,222021,38,33.9,51864
+136144,spm,,1018415,0,,USNM 61411,holotype,,forewing,,1,text,,,Ponera n. sp. hypolitha,species,222020,recombined as,Emplastus hypolithus,species,222020,38,33.9,51864
+136145,spm,,1098676,0,,BMNH I.9755,holotype,,forewing,,1,text,,,Dolichoderus n. sp. gurnetensis,species,256244,recombined as,Emplastus gurnetensis,species,256244,38,33.9,51864
+136146,spm,,1098676,0,,BMNH I.9755,holotype,,body,,1,text,,,Dolichoderus n. sp. gurnetensis,species,256244,recombined as,Emplastus gurnetensis,species,256244,38,33.9,51864
+136147,spm,,1098676,0,,BMNH I.7823,,,forewing,,1,text,,,Dolichoderus n. sp. gurnetensis,species,256244,recombined as,Emplastus gurnetensis,species,256244,38,33.9,51864
+136148,spm,,1213186,0,,BMNH PI II.2784,holotype,,forewing,,1,text,,,Emplastus n. sp. kozlovi,species,298456,,Emplastus kozlovi,species,298456,38,33.9,51864
+136149,spm,,1213188,0,,BMNH In.24794,,,forewing,,1,text,,,Camponotus cockerelli,species,298457,,Camponotus cockerelli,species,256246,38,33.9,51864
+136150,spm,,1213188,0,,BMNH In.24931,,,forewing,,1,text,,,Camponotus cockerelli,species,298457,,Camponotus cockerelli,species,256246,38,33.9,51864
+136151,spm,,1213188,0,,BMNH In.24842,,,forewing,,1,text,,,Camponotus cockerelli,species,298457,,Camponotus cockerelli,species,256246,38,33.9,51864
+136152,spm,,1213188,0,,BMNH In.24881,,,forewing,,1,text,,,Camponotus cockerelli,species,298457,,Camponotus cockerelli,species,256246,38,33.9,51864
+136153,spm,,1213188,0,,BMNH In.25175,,,forewing,,1,text,,,Camponotus cockerelli,species,298457,,Camponotus cockerelli,species,256246,38,33.9,51864
+136154,spm,,1098678,0,,BMNH I.8692,,,forewing,,1,text,,,Leucotaphus n. sp. cockerelli,species,256246,recombined as,Camponotus cockerelli,species,256246,38,33.9,51864
+136155,spm,,1098678,0,,BMNH I.9359,,,forewing,,1,text,,,Leucotaphus n. sp. cockerelli,species,256246,recombined as,Camponotus cockerelli,species,256246,38,33.9,51864
+136156,spm,,1098674,0,,BMNH I.8765,holotype,,forewing,,1,text,,,Leucotaphus n. sp. donisthorpei,species,298458,,Leucotaphus donisthorpei,species,298458,38,33.9,51864
+136157,spm,,1098674,0,,BMNH I.8765,holotype,,body,,1,text,,,Leucotaphus n. sp. donisthorpei,species,298458,,Leucotaphus donisthorpei,species,298458,38,33.9,51864
+136158,spm,,1213190,0,,BMNH In.24971,holotype,,forewing,female,1,text,,,Ponerites n. sp. hooleyi,species,298461,,Ponerites hooleyi,species,298461,38,33.9,51864
+136159,spm,,1213190,0,,BMNH In.24378,paratype,,forewing,male,1,text,,,Ponerites n. sp. hooleyi,species,298461,,Ponerites hooleyi,species,298461,38,33.9,51864
+136160,spm,,1213202,0,,BMNH I.9763,holotype,,forewing,,1,text,,,Taphopone microptera,species,298466,,Taphopone microptera,species,298466,38,33.9,51864
+136161,spm,,1213191,0,,BMNH In.24369,holotype,,forewing,,1,text,,,Taphopone n. sp. petrosa,species,298467,,Taphopone petrosa,species,298467,38,33.9,51864
+136162,spm,,1213191,0,,BMNH In.24927,paratype,,forewing,,1,text,,,Taphopone n. sp. petrosa,species,298467,,Taphopone petrosa,species,298467,38,33.9,51864
+136163,spm,,1213191,0,,BMNH In.24949,paratype,,forewing,,1,text,,,Taphopone n. sp. petrosa,species,298467,,Taphopone petrosa,species,298467,38,33.9,51864
+136164,spm,,1213192,0,,BMNH In.24917,holotype,,forewing,,1,text,,,Taphopone n. sp. aberrans,species,298468,,Taphopone aberrans,species,298468,38,33.9,51864
+136165,spm,,1213193,0,,BMNH In.24963,holotype,,forewing,,1,text,,,Paraphaenogaster n. sp. hooleyana,species,298470,,Paraphaenogaster hooleyana,species,298470,38,33.9,51864
+136166,spm,,1213193,0,,BMNH In.25082,paratype,,forewing,,1,text,,,Paraphaenogaster n. sp. hooleyana,species,298470,,Paraphaenogaster hooleyana,species,298470,38,33.9,51864
+136405,spm,,1100362,0,,PE 107,holotype,,body,female,1,text,,,Leptothorax (Macromischa) n. sp. praecreolus,species,257169,recombined as,Temnothorax praecreolus,species,257169,20.44,13.82,44636
+136795,spm,,1098420,0,,MRSN BB-1,holotype,,body,,1,text,,,Bradoponera n. sp. wunderlichi,species,256123,,Bradoponera wunderlichi,species,256123,38,33.9,44437
+137958,spm,,1100328,0,,MZCZ-37,holotype,,body,female,1,text,,,Platythyrea n. sp. pumilio,species,257124,,Platythyrea pumilio,species,257124,20.44,13.82,40818
+137961,spm,,1099168,0,,H-10-223,holotype,,body,female,1,text,,,Cyphomyrmex n. sp. maya,species,256583,,Cyphomyrmex maya,species,256583,23.03,15.97,44526
+137962,spm,,1099169,0,,MCZC-36,holotype,,body,,1,text,,,Cyphomyrmex n. sp. taino,species,256584,,Cyphomyrmex taino,species,256584,20.44,13.82,44526
+137963,spm,,1098113,0,,SMNS Do-3854-1 -4,holotype,,body,female,1,text,,,Acanthostichus n. sp. hispaniolicus,species,256010,,Acanthostichus hispaniolicus,species,256010,20.44,13.82,44410
+137970,spm,,1099170,0,,H-10-178-A,paratype,,body,female,1,text,,,Discothyrea n. sp. gigas,species,256585,,Discothyrea gigas,species,256585,20.44,13.82,44527
+137971,spm,,1099171,0,,H-10-197-1,holotype,,body,male,1,text,,,Discothyrea n. sp. maya,species,256586,,Discothyrea maya,species,256586,23.03,15.97,44527
+137973,spm,,1008879,0,,BMNH In.20182,holotype,,body,female,1,text,,,n. gen. Haidomyrmex n. sp. cerberus,species,190434,,Haidomyrmex cerberus,species,190434,99.6,93.5,39313
+137978,spm,,1005142,0,,CAS 1271,holotype,,body,female,1,text,,,Eotapinoma n. sp. macalpini,species,210480,,Eotapinoma macalpini,species,210480,83.5,70.6,38952
+137980,spm,,1005143,0,,CAS 1156,holotype,,body,female,1,text,,,n. gen. Canapone n. sp. dentata,species,210483,,Canapone dentata,species,210483,83.5,70.6,38952
+138103,spm,,1100115,0,,GPIH 4509,holotype,,body,female,1,text,,,Amblyopone n. sp. groehni,species,256971,recombined as,Stigmatomma groehni,species,256971,38,33.9,44602
+138104,spm,,1100116,0,,GPIH 4508,holotype,,body,male,1,text,,,Amblyopone n. sp. electrina,species,256972,recombined as,Stigmatomma electrina,species,256972,38,33.9,44602
+138105,spm,,1100116,0,,GPIH 4508,holotype,,forewing,male,1,text,,,Amblyopone n. sp. electrina,species,256972,recombined as,Stigmatomma electrina,species,256972,38,33.9,44602
+138122,spm,N,,0,,PE 107,holotype,,body,female,1,text,,,UNKNOWN,subgenus,257168,obsolete variant of,Leptothorax (Macromischa),subgenus,225278,,,44636
+138124,spm,,1098271,0,,SMNS Do-4629-B,holotype,,body,female,1,text,,,Aphaenogaster n. sp. amphioceanica,species,256041,,Aphaenogaster amphioceanica,species,256041,20.44,13.82,5186
+138125,spm,,1098272,0,,,holotype,,body,female,1,text,,,Aphaenogaster n. sp. praerelicta,species,256042,,Aphaenogaster praerelicta,species,256042,23.03,15.97,5186
+138221,spm,,1331950,0,,ZISP DD 8/5,holotype,,body,female,1,text,,,Pheidole n. sp. rasnitsyni,species,273604,,Pheidole rasnitsyni,species,273604,0.0117,0,47543
+138339,spm,,1099139,0,,PIN 364/407,holotype,,body,female,1,text,,,Formica (Serviformica) n. sp. baltica,species,256568,subjective synonym of,Formica flori,species,210996,38,33.9,11234
+138341,spm,,1100329,0,,In. 65422,holotype,,body,male,1,text,,,n. gen. Protomyrmica n. sp. atavia,species,257125,,Protomyrmica atavia,species,257125,38,33.9,44624
+138342,spm,,1100330,0,,GZG.BST 27.193,holotype,,body,male,1,text,,,n. gen. Plesiomyrmex n. sp. tubulatus,species,257126,,Plesiomyrmex tubulatus,species,257126,38,33.9,44624
+138343,spm,,1100006,0,,ME 13434,holotype,,body,female,1,text,,,n. gen. Eocenomyrma n. sp. orthospina,species,256884,,Eocenomyrma orthospina,species,256884,38,33.9,44580
+138344,spm,,1100004,0,,GPIH 4404,holotype,,body,female,1,text,,,Eocenomyrma n. sp. elegantula,species,256886,,Eocenomyrma elegantula,species,256886,38,33.9,44580
+138345,spm,,1100008,0,,ME 20234,holotype,,body,female,1,text,,,Eocenomyrma rugosostriata,species,256883,,Eocenomyrma rugosostriata,species,256033,38,33.9,44580
+138346,spm,,1100015,0,,UA-902,holotype,,body,female,1,text,,,n. gen. Fallomyrma n. sp. transversa,species,256888,,Fallomyrma transversa,species,256888,38,33.9,44581
+138347,spm,,1100339,0,,ZMUC 328,holotype,,body,female,1,text,,,Pristomyrmex n. sp. rasnitsyni,species,257137,,Pristomyrmex rasnitsyni,species,257137,38,33.9,44628
+138348,spm,,1100281,0,,"MCB-0060 ""Jorge Caridad""",holotype,,body,female,1,text,,,Leptothorax caritatis,species,257062,recombined as,Nesomyrmex caritatis,species,257062,20.44,13.82,5886
+138349,spm,,1100280,0,,H-10-208,holotype,,body,female,1,text,,,Leptothorax n. sp. dominicanus,species,257063,recombined as,Nesomyrmex dominicanus,species,257063,20.44,13.82,5886
+138490,spm,,1099147,0,,PIN 964/412,holotype,,body,female,1,text,,,Formica phaethusa,species,230962,,Formica phaethusa,species,230962,38,33.9,44522
+138491,spm,,1098114,0,,SMNS Do-2215,holotype,,body,,1,text,,,Odontomachus n. sp. spinifer,species,256011,,Odontomachus spinifer,species,256011,20.44,13.82,44411
+138492,spm,,1010852,0,,,holotype,,body,female,1,text,,,Odontomachus n. sp. pseudobauri,species,256012,,Odontomachus pseudobauri,species,256012,20.44,13.82,44411
+138493,spm,,1098115,0,,SMNS Do-5479,holotype,,body,female,1,text,,,Anochetus n. sp. exstinctus,species,256013,,Anochetus exstinctus,species,256013,20.44,13.82,44411
+138494,spm,,1098115,0,,SMNS Do-5479,paratype,,body,female,1,text,,,Anochetus n. sp. exstinctus,species,256013,,Anochetus exstinctus,species,256013,20.44,13.82,44411
+138495,spm,,1010853,0,,,holotype,,body,female,1,text,,,Anochetus n. sp. intermedius,species,256014,,Anochetus intermedius,species,256014,20.44,13.82,44411
+138496,spm,,1098116,0,,SMNS Do-4192,holotype,,body,female,1,text,,,Anochetus n. sp. dubius,species,256015,,Anochetus dubius,species,256015,20.44,13.82,44411
+138497,spm,,1098117,0,,SMNS Do-3346,paratype,,body,female,1,text,,,Anochetus n. sp. ambiguus,species,256016,,Anochetus ambiguus,species,256016,20.44,13.82,44411
+138498,spm,,1098121,0,,"MCZ, La Toca mine",holotype,,body,female,1,text,,,Anochetus n. sp. brevidentatus,species,256017,,Anochetus brevidentatus,species,256017,20.44,13.82,44411
+138499,spm,,1098119,0,,"SMNS Do-2846-1,2",paratype,,body,female,1,text,,,Anochetus n. sp. lucidus,species,256018,,Anochetus lucidus,species,256018,20.44,13.82,44411
+138500,spm,,1098120,0,,SMNS Do-3955,holotype,,body,female,1,text,,,Anochetus n. sp. conisquamis,species,256019,,Anochetus conisquamis,species,256019,20.44,13.82,44411
+138501,spm,,1099164,0,,,holotype,,body,female,1,text,,,Cataulacus n. sp. plebeius,species,256577,,Cataulacus plebeius,species,256577,20.44,15.97,44523
+138967,spm,,1099081,0,,16629,holotype,,body,male,1,text,,,Ectatomma n. sp. gracile,species,256535,,Ectatomma gracile,species,256535,11.608,5.333,44518
+138968,spm,,1099075,0,,16618,holotype,,body,female,1,text,,,Ponera n. sp. leptocephala,species,256536,,Ponera leptocephala,species,256536,11.608,5.333,44518
+138970,spm,,1099076,0,,16618,holotype,,body,,1,text,,,Cataulacus n. sp. planiceps,species,256538,,Cataulacus planiceps,species,256538,11.608,5.333,44518
+138971,spm,,1099082,0,,16629,holotype,,body,,1,text,,,Cataulacus n. sp. silvestrii,species,256537,,Cataulacus silvestrii,species,256537,11.608,5.333,44518
+138972,spm,,1010952,0,,16618,holotype,,body,female,1,text,,,n. gen. Hypopomyrmex n. sp. bombiccii,species,215784,,Hypopomyrmex bombiccii,species,215784,11.608,5.333,44518
+138974,spm,,1099077,0,,16618 (2),holotype,,body,,1,text,,,Podomyrma (Acrostigma) n. sp. mayri,species,255871,recombined as,Podomyrma mayri,species,255871,11.608,5.333,44518
+139086,spm,,1099085,0,,16622,holotype,,body,male,1,text,,,Aeromyrma n. sp. sophiae,species,256539,recombined as,Carebara sophiae,species,256539,11.608,5.333,44518
+139087,spm,,1099078,0,,16618,holotype,,body,male,1,text,,,Leptomyrmex n. sp. maravignae,species,256541,recombined as,Leptomyrmula maravignae,species,256541,11.608,5.333,44518
+139088,spm,,1099080,0,,16624/5,holotype,,body,male,1,text,,,Tapinoma n. sp. minutissimum,species,256542,,Tapinoma minutissimum,species,256542,11.608,5.333,44518
+139089,spm,,1099084,0,,16632,holotype,,body,female,1,text,,,Technomyrmex n. sp. deletus,species,256543,,Technomyrmex deletus,species,256543,11.608,5.333,44518
+139090,spm,,1099079,0,,16618 (4),holotype,,body,female,1,text,,,Plagiolepis n. sp. labilis,species,256544,,Plagiolepis labilis,species,256544,11.608,5.333,44518
+139241,spm,,1099086,0,,16617,holotype,,body,female,1,text,,,Oecophylla n. sp. sicula,species,256545,,Oecophylla sicula,species,256545,11.608,5.333,44518
+139242,spm,,1010953,0,,16624/5,holotype,,body,female,1,text,,,Gesomyrmex n. sp. corniger,species,215785,recombined as,Sicilomyrmex corniger,species,215785,11.608,5.333,44518
+139243,spm,,1033477,0,,313,holotype,,body,,1,text,,,Dimorphomyrmex theryi,species,230801,subjective synonym of,Gesomyrmex hoernesi,species,210994,38,33.9,39846
+140779,spm,,1098416,0,,AMNH NJ-112,holotype,,body,,1,text,,,Sphecomyrma freyi,species,214622,,Sphecomyrma freyi,species,214622,93.9,89.8,5815
+140780,spm,,1098417,0,,"AMNH NJ-242 (Luzzi, 1995)",holotype,,body,male,1,text,,,Sphecomyrma ? sp.,genus,152121,,Sphecomyrma,genus,152121,93.9,89.8,5815
+140781,spm,,1098417,0,,"AMNH NJ-242 (Luzzi, 1995)",holotype,,forewing,male,1,text,,,Sphecomyrma ? sp.,genus,152121,,Sphecomyrma,genus,152121,93.9,89.8,5815
+142680,spm,,1239732,0,,OU 44553,,,forewing,,1,text,,,Amblyoponini indet.,tribe,308108,,Amblyoponini,tribe,308108,23.03,20.44,53165
+142681,spm,,1239732,0,,OU 44553,,,body,,1,text,,,Amblyoponini indet.,tribe,308108,,Amblyoponini,tribe,308108,23.03,20.44,53165
+143230,spm,,1242868,0,,ZD0136,holotype,,body,,1,text,,,Odontomachus n. sp. paleomyagra,species,309284,,Odontomachus paleomyagra,species,309284,20,16.9,53443
+143622,spm,,1100051,0,,SMF MeI 1548a,,,forewing,,1,text,,,Formicium n. sp. simillimum,species,184425,recombined as,Titanomyrma simillima,species,184425,48.6,40.4,53574
+143623,spm,,1100051,0,,SMF MeI 1548a,,,body,,1,text,,,Formicium n. sp. simillimum,species,184425,recombined as,Titanomyrma simillima,species,184425,48.6,40.4,53574
+143624,spm,,1100051,0,,SMF MeI 1548b,,,forewing,,1,text,,,Formicium n. sp. simillimum,species,184425,recombined as,Titanomyrma simillima,species,184425,48.6,40.4,53574
+143625,spm,,1100051,0,,SMF MeI 1548b,,,body,,1,text,,,Formicium n. sp. simillimum,species,184425,recombined as,Titanomyrma simillima,species,184425,48.6,40.4,53574
+143626,spm,,1100051,0,,SMF MeI 1548c,,,forewing,,1,text,,,Formicium n. sp. simillimum,species,184425,recombined as,Titanomyrma simillima,species,184425,48.6,40.4,53574
+143627,spm,,1100051,0,,SMF MeI 1548c,,,body,,1,text,,,Formicium n. sp. simillimum,species,184425,recombined as,Titanomyrma simillima,species,184425,48.6,40.4,53574
+143884,spm,,1247131,0,,IGR.ARC-112.1,holotype,,forewing,male,1,text,,,Baikuris n. sp. maximus,species,310599,,Baikuris maximus,species,310599,105.3,99.6,53728
+143885,spm,,1247131,0,,IGR.ARC-112.1,holotype,,body,male,1,text,,,Baikuris n. sp. maximus,species,310599,,Baikuris maximus,species,310599,105.3,99.6,53728
+144105,spm,,1247876,0,,Borge Mortensen 28.2.1965 no. 380,holotype,,forewing,male,1,text,,,n. gen. Usomyrma n. sp. mirabilis,species,310990,,Usomyrma mirabilis,species,310990,38,33.9,53816
+144106,spm,,1247876,0,,Borge Mortensen 28.2.1965 no. 380,holotype,,body,male,1,text,,,n. gen. Usomyrma n. sp. mirabilis,species,310990,,Usomyrma mirabilis,species,310990,38,33.9,53816
+144857,spm,,1025735,0,,AMNH DR-14-984,holotype,,body,,1,text,,,Apterostigma n. sp. electropilosum,species,229064,,Apterostigma electropilosum,species,229064,20.44,13.82,40811
+144858,spm,,1025736,0,,AMNH DR-16-292,holotype,,body,,1,text,,,Apterostigma n. sp. eowilsoni,species,229065,,Apterostigma eowilsoni,species,229065,20.44,13.82,40811
+144952,spm,,1180705,0,,SIZK K-7656,holotype,,body,,1,text,,,n. gen. Bilobomyrma n. sp. ukrainica,species,281827,,Bilobomyrma ukrainica,species,281827,38,33.9,48824
+144953,spm,,1180706,0,,PIN 964/1274,holotype,,body,,1,text,,,Bilobomyrma n. sp. baltica,species,281828,,Bilobomyrma baltica,species,281828,38,33.9,48824
+144954,spm,,1174305,0,,SIZK K-3581,holotype,,body,female,1,text,,,n. gen. Boltonidris n. sp. mirabilis,species,292721,,Boltonidris mirabilis,species,292721,38,33.9,48397
+144955,spm,,1021150,0,,GPMHU F-199,holotype,,body,,1,text,,,Myrmica n. sp. paradoxa,species,225289,,Myrmica paradoxa,species,225289,38,33.9,40541
+144956,spm,,1021151,0,,PIN 964/479,holotype,,body,,1,text,,,Myrmica n. sp. eocenica,species,225291,,Myrmica eocenica,species,225291,38,33.9,40541
+150018,spm,,1286419,0,,USNM 609584,holotype,,body,,1,text,,,Dolichoderus n. sp. dlusskyi,species,324358,,Dolichoderus dlusskyi,species,324358,47.8,41.3,55770
+150019,spm,,1286420,0,,USNM 609585,holotype,,forewing,female,1,text,,,n. gen. Ktunaxia n. sp. jucunda,species,324360,,Ktunaxia jucunda,species,324360,47.8,41.3,55770
+150020,spm,,1286421,0,,USNM 609586,holotype,,body,,1,text,,,Proiridomyrmex n. sp. rotundatus,species,324361,,Proiridomyrmex rotundatus,species,324361,47.8,41.3,55770
+150021,spm,,1286422,0,,USNM 609590,holotype,,forewing,,1,text,,,Protazteca n. sp. eocenica,species,324362,,Protazteca eocenica,species,324362,47.8,41.3,55770
+150022,spm,,1286422,0,,USNM 609590,holotype,,body,,1,text,,,Protazteca n. sp. eocenica,species,324362,,Protazteca eocenica,species,324362,47.8,41.3,55770
+150023,spm,,1286424,0,,USNM 609591,holotype,,forewing,male,1,text,,,Formica n. sp. annosa,species,324363,,Formica annosa,species,324363,47.8,41.3,55770
+150024,spm,,1286427,0,,USNM 609598,holotype,,forewing,female,1,text,,,Solenopsites n. sp. abdita,species,324366,,Solenopsites abdita,species,324366,47.8,41.3,55770
+150025,spm,,1286429,0,,USNM 609605,holotype,,forewing,female,1,text,,,Pseudomyrmex n. sp. saxulum,species,324368,,Pseudomyrmex saxulum,species,324368,47.8,41.3,55770
+151725,spm,,1292870,0,,PIN 3429/1155,holotype,,body,,1,text,,,Paraneuretus n. sp. dubovikoffi,species,326827,,Paraneuretus dubovikoffi,species,326827,38,33.9,56094
+151726,spm,,1292870,0,,PIN 3429/1145,paratype,,forewing,,1,text,,,Paraneuretus n. sp. dubovikoffi,species,326827,,Paraneuretus dubovikoffi,species,326827,38,33.9,56094
+151727,spm,,1292870,0,,PIN 3429/1145,paratype,,body,,1,text,,,Paraneuretus n. sp. dubovikoffi,species,326827,,Paraneuretus dubovikoffi,species,326827,38,33.9,56094
+151728,spm,,1292855,0,,PIN 3429/1134,holotype,,body,male,1,text,,,Dolichoderus n. sp. pinguis,species,326828,,Dolichoderus pinguis,species,326828,38,33.9,56094
+151729,spm,,1292871,0,,PIN 3429/1187,holotype,,body,,1,text,,,Emplastus n. sp. macrops,species,326829,,Emplastus macrops,species,326829,38,33.9,56094
+151730,spm,,1292856,0,,PIN 3429/1115,holotype,,body,,1,text,,,Emplastus n. sp. elongatus,species,326830,,Emplastus elongatus,species,326830,38,33.9,56094
+151731,spm,,1292845,0,,PIN 3429/109,holotype,,body,,1,text,,,Emplastus n. sp. dubius,species,326831,replaced by,Emplastus biamoensis,species,332985,38,33.9,56094
+151732,spm,,1292872,0,,PIN 3429/1157,holotype,,body,,1,text,,,Liometopum n. sp. incognitum,species,326832,,Liometopum incognitum,species,326832,38,33.9,56094
+151733,spm,,1292858,0,,PIN 3429/1141,holotype,,body,,1,text,,,Formica n. sp. biamoensis,species,326833,,Formica biamoensis,species,326833,38,33.9,56094
+151734,spm,,1292847,0,,PIN 3429/107,holotype,,forewing,,1,text,,,Formica n. sp. paleosibirica,species,326834,,Formica paleosibirica,species,326834,38,33.9,56094
+151735,spm,,1292859,0,,PIN 3429/1105,paratype,,forewing,,1,text,,,Formica paleosibirica,species,326834,,Formica paleosibirica,species,326834,38,33.9,56094
+151736,spm,,1292859,0,,PIN 3429/1131,paratype,,forewing,,1,text,,,Formica paleosibirica,species,326834,,Formica paleosibirica,species,326834,38,33.9,56094
+151737,spm,,1292873,0,,PIN 3429/1189,paratype,,forewing,,1,text,,,Formica paleosibirica,species,326834,,Formica paleosibirica,species,326834,38,33.9,56094
+151738,spm,,1292849,0,,PIN 3429/101,holotype,,forewing,,1,text,,,Gesomyrmex n. sp. magnus,species,326835,,Gesomyrmex magnus,species,326835,38,33.9,56094
+151739,spm,,1292849,0,,PIN 3429/101,holotype,,body,,1,text,,,Gesomyrmex n. sp. magnus,species,326835,,Gesomyrmex magnus,species,326835,38,33.9,56094
+151740,spm,,1292875,0,,PIN 3429/1162,holotype,,body,,1,text,,,Gesomyrmex n. sp. macrops,species,326836,,Gesomyrmex macrops,species,326836,38,33.9,56094
+151741,spm,,1292863,0,,PIN 3429/1109,holotype,,forewing,,1,text,,,Ypresiomyrma n. sp. orientalis,species,326838,,Ypresiomyrma orientalis,species,326838,38,33.9,56094
+151742,spm,,1292863,0,,PIN 3429/1109,holotype,,body,,1,text,,,Ypresiomyrma n. sp. orientalis,species,326838,,Ypresiomyrma orientalis,species,326838,38,33.9,56094
+151743,spm,,1292879,0,,PIN 3429/1198,paratype,,forewing,,1,text,,,Ypresiomyrma orientalis,species,326838,,Ypresiomyrma orientalis,species,326838,38,33.9,56094
+151744,spm,,1292880,0,,PIN 3429/1174,holotype,,body,,1,text,,,Casaleia n. sp. orientalis,species,326839,,Casaleia orientalis,species,326839,38,33.9,56094
+151745,spm,,1292865,0,,PIN 3429/1112,holotype,,forewing,,1,text,,,Pachycondyla n. sp. oligocenica,species,326840,,Pachycondyla oligocenica,species,326840,38,33.9,56094
+151746,spm,,1292865,0,,PIN 3429/1112,holotype,,body,,1,text,,,Pachycondyla n. sp. oligocenica,species,326840,,Pachycondyla oligocenica,species,326840,38,33.9,56094
+151747,spm,,1292852,0,,PIN 3429/104,holotype,,forewing,,1,text,,,Pachycondyla n. sp. aberrans,species,326841,,Pachycondyla aberrans,species,326841,38,33.9,56094
+151748,spm,,1292852,0,,PIN 3429/104,holotype,,body,,1,text,,,Pachycondyla n. sp. aberrans,species,326841,,Pachycondyla aberrans,species,326841,38,33.9,56094
+151749,spm,,1292853,0,,PIN 3429/103,holotype,,forewing,male,1,text,,,Proceratium n. sp. petrosum,species,326843,,Proceratium petrosum,species,326843,38,33.9,56094
+151750,spm,,1292853,0,,PIN 3429/103,holotype,,body,male,1,text,,,Proceratium n. sp. petrosum,species,326843,,Proceratium petrosum,species,326843,38,33.9,56094
+151751,spm,,1292882,0,,PIN 3429/1178,holotype,,body,,1,text,,,n. gen. Agastomyrma n. sp. laticeps,species,326845,,Agastomyrma laticeps,species,326845,38,33.9,56094
+151752,spm,,1292854,0,,PIN 3429/108,holotype,,forewing,,1,text,,,n. gen. Biamomyrma n. sp. zherikhini,species,326847,,Biamomyrma zherikhini,species,326847,38,33.9,56094
+151753,spm,,1292854,0,,PIN 3429/108,holotype,,body,,1,text,,,n. gen. Biamomyrma n. sp. zherikhini,species,326847,,Biamomyrma zherikhini,species,326847,38,33.9,56094
+151754,spm,,1292884,0,,PIN 3429/1172,holotype,,body,,1,text,,,Biamomyrma n. sp. rugosa,species,326849,,Biamomyrma rugosa,species,326849,38,33.9,56094
+151755,spm,,1292883,0,,PIN 3429/1149,holotype,,body,,1,text,,,Biamomyrma n. sp. lata,species,326848,,Biamomyrma lata,species,326848,38,33.9,56094
+151756,spm,,1292867,0,,PIN 3429/1116,holotype,,body,,1,text,,,Myrmecites n. sp. dubius,species,326851,,Myrmecites dubius,species,326851,38,33.9,56094
+151757,spm,,1292868,0,,PIN 3429/1113,holotype,,body,,1,text,,,Myrmecites n. sp. major,species,326852,,Myrmecites major,species,326852,38,33.9,56094
+151758,spm,,1292866,0,,PIN 3429/1120,holotype,,body,,1,text,,,Myrmecites n. sp. sibiricus,species,326850,,Myrmecites sibiricus,species,326850,38,33.9,56094
+151772,spm,,1293239,0,,,,,forewing,,1,text,,,Formica auxillacensis,species,256270,,Formica auxillacensis,species,256270,8.7,5.333,56112
+151773,spm,,1293240,0,,,,,forewing,,1,text,,,Formica maculipennis,species,256279,,Formica maculipennis,species,256279,8.7,5.333,56112
+151774,spm,,1293243,0,,,,,forewing,,1,text,,,Lasius crispus,species,256274,,Lasius crispus,species,256274,8.7,5.333,56112
+151925,spm,,1296770,0,,MZ PAN 15440,holotype,,body,female,1,text,,,Tetramorium n. sp. paraarmatum,species,327789,,Tetramorium paraarmatum,species,327789,38,33.9,56231
+151926,spm,,1296771,0,,MZ PAN 20246,holotype,,body,,1,text,,,Tetramorium n. sp. kulickae,species,327790,,Tetramorium kulickae,species,327790,38,33.9,56231
+151987,spm,,1297823,0,,,holotype,,body,female,1,text,,,Iridomyrmex n. sp. bogdassarovi,species,256870,recombined as,Liometopum bogdassarovi,species,256870,38,33.9,56275
+152089,spm,,980400,0,,SMNK Inv. 1230,,,forewing,,1,text,,,Formica lignitum,species,200633,recombined as,Camponotus lignitus,species,200633,12.7,11.608,56453
+152090,spm,,980400,0,,SMNK Inv. 1230,,,body,,1,text,,,Formica lignitum,species,200633,recombined as,Camponotus lignitus,species,200633,12.7,11.608,56453
+152091,spm,,1299040,0,,SMNK Inv. 1193,,,body,,1,text,,,Formica seuberti,species,200696,,Formica seuberti,species,200696,12.7,11.608,56453
+152092,spm,,1299041,0,,SMNK Inv. 1282,,,forewing,,1,text,,,Formica immersa,species,200680,,Formica immersa,species,200680,12.7,11.608,56453
+152093,spm,,1299041,0,,SMNK Inv. 1282,,,body,,1,text,,,Formica immersa,species,200680,,Formica immersa,species,200680,12.7,11.608,56453
+153051,spm,,1100266,0,,SMNS Do-996-K-1,holotype,,body,,1,text,,,Leptomyrmex n. sp. neotropicus,species,256120,,Leptomyrmex neotropicus,species,256120,20.44,13.82,44615
+154473,spm,,1328141,0,,OU 44899,holotype,,forewing,,1,picture,,,Rhytidoponera n. sp. waipiata,species,340671,,Rhytidoponera waipiata,species,340671,23.03,20.44,59088
+154474,spm,,1328141,0,,OU 44899,holotype,,body,,1,text,,,Rhytidoponera n. sp. waipiata,species,340671,,Rhytidoponera waipiata,species,340671,23.03,20.44,59088
+154475,spm,,1328142,0,,OU 44900,holotype,,body,,1,text,,,Rhytidoponera n. sp. gibsoni,species,340672,,Rhytidoponera gibsoni,species,340672,23.03,20.44,59088
+154476,spm,,1328143,0,,OU 44901,holotype,,body,,1,text,,,Austroponera n. sp. schneideri,species,340674,,Austroponera schneideri,species,340674,23.03,20.44,59088
+154477,spm,,1328144,0,,OU 44569,holotype,,body,,1,text,,,Myrmecorhynchus n. sp. novaeseelandiae,species,340676,,Myrmecorhynchus novaeseelandiae,species,340676,23.03,20.44,59088
+154727,spm,,1330964,0,,NIGP 164022,holotype,,body,,1,text,,,n. gen. Ceratomyrmex n. sp. ellenbergeri,species,342092,,Ceratomyrmex ellenbergeri,species,342092,99.6,93.5,59331
+155910,spm,,1344891,0,,,holotype,,body,,1,text,,,Phyracaces n. sp. suscitatus,species,347038,recombined as,Lioponera suscitata,species,347038,0.0117,0,60540
+155911,spm,,1344890,0,,,,,body,,1,text,,,Cerapachys n. sp. conservatus,species,347034,recombined as,Parasyscia conservata,species,347034,0.0117,0,60540
+155912,spm,,1344914,0,,,holotype,,body,,1,text,,,Polyrhachis n. sp. excitata,species,347070,,Polyrhachis excitata,species,347070,0.0117,0,60540
+155913,spm,,1344915,0,,,,,body,,1,text,,,Polyrhachis n. sp. cincta,species,347075,,Polyrhachis cincta,species,347074,0.0117,0,60540
+155914,spm,,1344915,0,,,,,body,,1,text,,,Polyrhachis n. sp. cincta,species,347075,,Polyrhachis cincta,species,347074,0.0117,0,60540
+155915,spm,,1344916,0,,,holotype,,body,,1,text,,,Polyrhachis n. sp. restituta,species,347071,subjective synonym of,Polyrhachis decipiens,species,347076,0.0117,0,60540
+155916,spm,,1344917,0,,,,,body,,1,text,,,Polyrhachis continua,species,347078,,Polyrhachis continua,species,347078,0.0117,0,60540
+155917,spm,,1344918,0,,,,,body,,1,text,,,Polyrhachis n. sp. circumdata,species,347080,,Polyrhachis circumdata,species,347080,0.0117,0,60540
+155918,spm,,1344918,0,,,,,body,,1,text,,,Polyrhachis n. sp. circumdata,species,347080,,Polyrhachis circumdata,species,347080,0.0117,0,60540
+155919,spm,,1344918,0,,,,,body,,1,text,,,Polyrhachis n. sp. circumdata,species,347080,,Polyrhachis circumdata,species,347080,0.0117,0,60540
+155920,spm,,1344934,0,,,holotype,,body,,1,text,,,Polyrhachis n. sp. subfossa,species,347086,,Polyrhachis subfossa,species,347086,0.0117,0,60540
+156479,spm,,1355058,0,,SIZK K-3076,holotype,,body,male,1,text,,,Eocenomyrma n. sp. ukrainica,species,349517,,Eocenomyrma ukrainica,species,349517,38,33.9,61417
+156480,spm,,1355058,0,,SIZK K-27012,paratype,,body,female,1,text,,,Eocenomyrma n. sp. ukrainica,species,349517,,Eocenomyrma ukrainica,species,349517,38,33.9,61417
+156481,spm,,1355059,0,,SIZK K-5518,holotype,,body,,1,text,,,Eocenomyrma n. sp. breviscapa,species,349518,,Eocenomyrma breviscapa,species,349518,38,33.9,61417
+156482,spm,,1355061,0,,Groehn F-6738,,,body,,1,text,,,Eocenomyrma rugosostriata,species,256883,,Eocenomyrma rugosostriata,species,256033,38,33.9,61417
+156483,spm,,1355062,0,,Groehn F-6800,,,body,,1,text,,,Eocenomyrma orthospina,species,256884,,Eocenomyrma orthospina,species,256884,38,33.9,61417
+156484,spm,,1355063,0,,MNHN ETH 001,holotype,,forewing,,1,text,,,Melissotarsus n. sp. ethiopiensis,species,349520,,Melissotarsus ethiopiensis,species,349520,23.03,15.97,61418
+156485,spm,,1355063,0,,MNHN ETH 001,holotype,,body,,1,text,,,Melissotarsus n. sp. ethiopiensis,species,349520,,Melissotarsus ethiopiensis,species,349520,23.03,15.97,61418
+156497,spm,,1355074,0,,PIN 3387/172,holotype,,body,,1,text,,,Aphaenogaster n. sp. dlusskyana,species,349560,,Aphaenogaster dlusskyana,species,349560,47.8,41.3,61429
