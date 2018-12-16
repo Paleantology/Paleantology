@@ -30,10 +30,12 @@ Using a symmetric Dirichlet process as a prior of this modeling allows for the d
 	Any one of these assumptions may strike a reader as problematic for their particular dataset. \par
 	Heterogeneity in the evolutionary process is difficult to accommodate in morphological data. 
 	Making concrete \textit{a priori} statements about the relative probabilities of transitions between character states in a morphological character matrix is challenging. 
-	Unlike a matrix of nucleotide characters, a `0' character at one state may mean that the trait never evolved in one lineage, but was lost in another.
-	This lack of common meaning complicates the interpretation of how change occurs over time.
-	Likewise, the magnitude of change from one state to another may be different between characters, even if the characters mean the same thing (i.e. `0' representing loss and `1' representing gain).
-	For example, in one character, changing from a `0' state to a `1' state could represent a change at a single locus, but at another could represent a much larger change coordinated across many genes.
+	Unlike a matrix of nucleotide characters, in which a state carries common meaning across sites, a `1' state at one character may represent a derived state requiring many underlying genetic changes.
+	At another character, it could represent a derived state requiring only one underlying genetic change.
+	Characters can also differ in meanings with respect to whether they are coded as ancestral or derived.
+	If a matrix was coded with respect to specific outgroups, often the outgroup will mostly have a `0' state, with ingroup taxa having typically having state `1' or higher.
+	This may not be the case for composite matrices or matrices coded without specific reference to an outgroup or character polarities.
+	This lack of common meaning limits a researcher's ability to specify a common mechanism.
 	This has complicated the ability to specify $\alpha$ parameters to the Q-matrix \textit{a priori}.
 	This is a stark contrast to molecular data, in which base pairs or amino acid residues are generally assumed to have similar properties across an alignment. \par
 Prior work extending the Mk model has focused on relaxing the assumption of equal character frequencies at stationarity.
@@ -122,11 +124,6 @@ The mixing proportions are $\theta_j$, which are themselves drawn from a uniform
 
 $$f(D\mid \delta_1,\ldots,\delta_k,\theta_1,\ldots,\theta_k) = \prod_{i=1}^n \sum_{j=1}^k  f(D_i \mid \pi_i = \delta_j)\theta_j$$
 
-\subsubsection{Model comparison}
-
-The appropriate number of categories $k$ is selected by comparing estimates of the marginal likelihood under different values for $k$.
-Marginal likelihoods were estimated using the steppingstone sampling method \citep{xie2010improving} implemented in RevBayes.
-
 \subsection{Data Matrices}
 \subsubsection{Empirical Matrices}
 Several large and well-documented ant matrices were used in this study.
@@ -160,6 +157,11 @@ To test the full SHDM model, we used both the Barden-Grimaldi dataset and the co
 In testing the SHDM model, we modeled the binary and multistate characters together.
 This allowed us to both examine the impact of allowing character frequencies to be drawn from a Dirichlet, and to examine the effect of adding more data to the phylogenetic question. 
 \par
+\subsubsection{Model comparison}
+
+The appropriate number of categories $k$ for each of the two empirical datasets was selected by comparing estimates of the marginal likelihood under different values for $k$.
+Marginal likelihoods were estimated using the steppingstone sampling method \citep{xie2010improving} implemented in RevBayes.
+
 
 \subsubsection{Simulated Matrices}
 
@@ -194,7 +196,8 @@ Due to computational limits, for the multistate datasets, we used the mean of th
 
 Because the true tree cannot be known from empirical data, we used simulated data to observe the effect this model has on accuracy of estimation, and to see if it is possible to detect the true number of discrete categories of state frequency variation.
 To this end, we estimated trees for each replicate under the true model.
-We also estimated trees for each replicate under 5 misspecified models: the Mk model, 2 and 3 category models (underparameterized models), and 5 and 6 category models (overparameterized models). \par
+We also estimated trees for each replicate under 5 misspecified models: the Mk model, 2 and 3 category models (underparameterized models), and 5 and 6 category models (overparameterized models). 
+Estimation was performed in RevBayes under the generating model.\par
 
 
 \section{Results}
@@ -218,24 +221,68 @@ The marginal likelihood comparisons for the combined dataset with the multistate
 	c) Tree set visualization comparisons
 
 \subsection{Simulated Phylogenetic Analyses}
-\subsection{Binary 4-cat small}
+\subsubsection{Binary Data}
 
-\subsection{MS4cat small}
+In the large datasets, underparameterized models have a deleterious impact on the accuracy of phylogenetic analyses. 
+However, overparameterized models did not show a similar decrease in accuracy.
+In the smaller datasets, accuracy does not seem to be tied to the parameterization of the model. \par
 
-\subsection{MS4cat large}
+\subsubsection{Multistate Data}
 
+In the large, multistate data sets, accuracy is improved using a correctly-specified model over both over- and underparameterized models. 
+In the small datasets, a pattern similar to that of the large binary datasets is observed, in which underparameterization negatively effected accuracy, while overparamterization did not. \par
 
-
-
-
-	
 \section{Discussion}	
 
-	a) How has the modeling of morphology changed since the Mk was proposed by Lewis? What aspects are comparable to how we model DNA? Which are not? What are potentially interesting future directions? 
-	b) General discussion of usage of treeset visualization
-	c) something else.
+The discussion surrounding the incorporation of morphological data into phylogenetic analyses has largely focused on two endpoints on a spectrum: Parsimony and the Mk model \citep{lewis2001likelihood}.
+The idea behind parsimony is simple: that each character can have its own tree and length (number of steps) on that tree.
+The simplicity of this idea belies the complexity of the implications about character evolution.
+Parsimony can be written out as a likelihood model, referred to as the No Common Mechanisms model.
+However, it has been demonstrated that this model is so complex, and features so many parameters	that it is never chosen by even a liberal information criterion. \par
+In many ways, the Mk model is similar to an unweighted parsimony model, assuming that the transitions between any two states are equally likely.
+But the Mk model assumes a common mechanism across sites, a generalized Jukes-Cantor model.
+Application of among site rate variation (ASRV) across characters allows characters to have differing rates of evolution, accommodating natural variation in phenotypic characters. 
+Allowing the rate of evolution to vary is known to be benefit in phylogenetic analysis \citep{felsenstein78}, and can potentially be more important than an incorrectly-specified model of evolution \citep{lemmon2004importance}.
+Previous work in morphological phylogenetics has also highlighted the importance of appropriate assumptions about rate heterogeneity \citep{Harrison2014}.	\par
+The model discussed here is an effort to create a similar framework to ASRV, but for the actual model of evolution. 
+We may know little about the probability of a particular transition between two character states \textit{a priori}, in the same way that we may know little about the rate of evolution of any particular site. 
+Under the discrete Beta model and the SHDM, state frequencies are drawn from either a Beta (binary data) or Dirichlet (multistate data) prior distribution.
+The site likelihoods are then computed by marginalizing over the value of the vector of state frequencies, $\pi_i$.
+Mechanistically, this is very similar to the way in which ASRV is calculated. \par
+In practice, these model allows us to assume multiple possible mechanisms across a single dataset. 
+Previous work on similar models in the software MrBayes \citep{Wright2016} has found that the Mk model is supported using steppingstone model selection in about half of phylogenetic datasets tested.
+However, for modeling the other half, a single common mechanism is not adequate. 
+In this paper, we have implemented the Beta model from MrBayes, and clarified a model for multistate characters to allow modeling of evolution when a single, common mechanism cannot be assumed. \par
+Trees estimated from the empirical data under parsimony are extremely incompletely resolved unless clade constraints are used.
+This is also the case for our model-based estimations. 
+Due to the presence of stem ants the matrices used, particularly those of Barden, would be expected to show multiple models of asymmetric transitions. 
+In some characters, we would expect to see a strong signature of loss: stem ants often display characters similar to that of the wasp outgroup, which crown ants do not.
+We would expect to see these characters lost, but not regained as expected under the Mk model.
+Likewise, due to the presence of ant apomorphies in the crown, we expect to see these characters gained and never lost.
+Together, these character classes argue strongly for a symmetric Beta distribution, in which if there is a set of characters with a certain bias (for example, more `0' to `1' transitions), it is expected that there would be another set of characters with an opposite bias. \par
+Indeed, each dataset strongly supports the use of a non-Mk model, with differing numbers of categories (Fig. 1).
+Why then would a model statistically supported to be a better fit to the data not lead to a more resolved tree?
+There are several possible explanations for this.
+First, ants are known to have strong convergence within characters.
+The group is large and diverse, but fairly morphologically constrained.
+While likelihood-based methods are expected to fare better than parsimony when convergence is an issue, they are not perfect and can be mislead, particularly in the presence of model violations such as structured missing data.
+Secondly, the dataset is small relative to the number of taxa.
+It's possible that there simply isn't enough data to address every split in the tree.
+Lastly, I dunno. Morphology what. \par
 
-\section{Conclusion}	
+
+
+
+
+
+
+
+ \par
+
+
+
+
+
 
 
 \section{Ackno}	
