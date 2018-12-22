@@ -1,7 +1,8 @@
 \documentclass[]{article}
 \usepackage{amsmath} 
 \usepackage{natbib}
-
+\usepackage{graphicx}
+\usepackage{caption}
 \begin{document}
 
 \title{Site-Heterogeneous Character Change Models for Morphology}
@@ -11,11 +12,11 @@
 
 \section{Abstract}
 
-Morphological data is challenging to model due to the arbitrary properties of morphological character codings. 
-The Mk model, a generalization of the Jukes-Cantor model, assumes a that there is an equal rate of forward and backwards transitions in morphological traits.
-In this study, we used an expanded combined set of two ant (Formicidae) data matrices, composed of one extinct-extant matrix and one extant matrix to estimate a phylogeny for the group.
+Morphological data is challenging to model due to the complexity of morphological characters relative to nucleotide sequence or amino acid characters. 
+The Mk model, a generalization of the Jukes-Cantor model, assumes that there is an equal rate of forward and backwards transitions in morphological traits.
+In this study, we use an expanded combined set of two ant (Formicidae) data matrices, composed of one matrix of extinct and extant ants and one matrix of extant ants to estimate a phylogeny for the group.
 We use this large matrix to explore methods for relaxing the transition rate symmetry of the Mk model, and introduce the Site Heterogeneous Discrete Morphology (SHDM) to allow equilibrium character frequencies to vary. 
-Using a symmetric Dirichlet process as a prior of this modeling allows for the difference in stationary frequency of characters to be expressed more accurately than if expressed with a parsimony method such a generalized Jukes-Cantor model.
+These two models can be used to explicitly model different character frequencies within one dataset, as opposed to assuming a single common mechanism with respect to among character frequency variation.
 
 \section{Introduction}
 \subsection{Bayesian Modeling of Morphology}
@@ -26,29 +27,31 @@ Using a symmetric Dirichlet process as a prior of this modeling allows for the d
 	In this paper, we will discuss methodological advancements aimed at improving the realism of the model. \par
 	The Mk model was introduced by Lewis in 2001.
 	As a generalization of the Jukes-Cantor model, it makes the same set of assumptions: that change between any two states is equally likely, that the stationary character frequencies of every character are the same, and that each character is always in one of \textit{k} known states.
-	The model also makes the Markovian assumption that a character can change instantaneously, regardless of previous states, or multiply along a branch. 
+	The model also makes the Markovian assumption that a character can change instantaneously, regardless of previous states, and can change multiply along a branch. 
 	Any one of these assumptions may strike a reader as problematic for their particular dataset. \par
 	Heterogeneity in the evolutionary process is difficult to accommodate in morphological data. 
 	Making concrete \textit{a priori} statements about the relative probabilities of transitions between character states in a morphological character matrix is challenging. 
 	Unlike a matrix of nucleotide characters, in which a state carries common meaning across sites, a `1' state at one character may represent a derived state requiring many underlying genetic changes.
-	At another character, it could represent a derived state requiring only one underlying genetic change.
+	At another character, it could represent a state requiring only one underlying genetic change.
 	Characters can also differ in meanings with respect to whether they are coded as ancestral or derived.
-	If a matrix was coded with respect to specific outgroups, often the outgroup will mostly have a `0' state, with ingroup taxa having typically having state `1' or higher.
+	If a matrix was coded with respect to specific outgroups, often the outgroup will mostly have a `0' state, with ingroup taxa having typically having state `1' or higher, implying a highly one-directional transition matrix.
 	This may not be the case for composite matrices or matrices coded without specific reference to an outgroup or character polarities.
-	This lack of common meaning limits a researcher's ability to specify a common mechanism.
+	This lack of common meaning limits a researcher's ability to specify a model to apply to the whole matrix.
 	This has complicated the ability to specify $\alpha$ parameters to the Q-matrix \textit{a priori}.
-	This is a stark contrast to molecular data, in which base pairs or amino acid residues are generally assumed to have similar properties across an alignment. \par
+	This is a stark contrast to molecular data, in which base pairs or amino acid residues are generally assumed to have similar properties across an alignment, and exceptions are often defined with respect to known features, such as stem and loop domains. \par
 Prior work extending the Mk model has focused on relaxing the assumption of equal character frequencies at stationarity.
 MrBayes implemented a parameter called the Symmetric Dirichlet Hyperprior, which allowed users to place a prior or hyperprior on state frequencies. 
-The probability of observing a change in a character is dependent not only on the probability of change from this character to another, but on the frequency of the starting character.
-Even if a character has a low probability of changing, change in that character may still be observed many times if the stationary frequency of that character is high (i.e., the character is observed many times). 
-Likewise, a highly-probable change may be seen relatively rarely if the starting character is observed rarely. 
-Therefore, relaxing the assumption of equal stationary frequencies has been a way of changing the probabilities of observing different changes without making strong \textit{a priori} statements about transition probabilities. \par
-In the case of binary data, MrBayes implemented a Beta prior (the Dirichlet is a generalization of the Beta distribution for non-binary data), which operated in a fashion similar to gamma-distributed rate variation: the distribution is discretized into a user-specified number of categories, the median forward and backward transition rate are calculated for each category, and the likelihood of the character is calculated over each category and summed to form the total likelihood. 
+In most likelihood models of character or sequence evolution, the probability of observing a change in a character is dependent not only on the probability of change from this character to another, but on the frequency of the starting character.
+Even if a character has a low probability of changing, change in that character may still be observed many times if the stationary frequency of that character is high (i.e., the character state is observed many times). 
+Likewise, a highly-probable changes may be seen relatively rarely if the starting character is observed rarely. 
+Therefore, relaxing the assumption of equal stationary frequencies has been a way of changing the probabilities of observing different changes without making explicit \textit{a priori} statements about transition probabilities. \par
+In the case of binary data, MrBayes implemented a Beta prior (the Dirichlet is a generalization of the Beta distribution for non-binary data), which operated in a fashion similar to gamma-distributed rate variation: the Beta distribution is discretized into a user-specified number of categories, the median forward and backward transition rate are calculated for each category by multiplying together the exchangeability and the character state frequency, and the likelihood of the character is calculated over each category and summed to form the total likelihood. 
 For binary data, the state frequencies are integrated out of the likelihood, making the symmetric Dirichlet hyperprior actually a prior.
-For multistate data, the state frequencies are drawn from a Dirichlet distribution, as the Dirichlet is a multi-state generalization of the Beta distribution.
+For multistate data, the state frequencies are fit via MCMC.
 The parameter was referred to as a hyperprior because users can place a distribution on the parameter to the Beta distribution, and because the state frequencies are not integrated out of the likelihood function for multistate data. 
-As implemented in MrBayes, the Beta distribution was assumed to be symmetric, meaning that if there was a class of characters for which the stationary frequency of 0 is high, there would also be corresponding class of characters for which the stationary frequency of 1 is high.\par
+As implemented in MrBayes, the Beta distribution was assumed to be symmetric, meaning that if there was a class of characters for which the stationary frequency of 0 is high, there would also be corresponding class of characters for which the stationary frequency of 1 is high.
+A formal description for the mathematics of the model was never published, and some of the mechanisms of operation remain unclear. 
+\par
 This is a very useful model extension for morphological evolution.
 There are clear contexts to improve this concept by borrowing from the molecular literature.
 The CAT model of Lartillot represents one way forward. 
@@ -61,6 +64,7 @@ Our extension to the symmetric Beta prior allows for the Beta distribution to be
 This removes the need for there to be equal numbers of characters with high stationary frequencies for a character state as there are characters with low stationary frequencies for that same character state.
 Our CAT-like model (hereafter Site-Heterogeneous Discrete Morphology (SDHM) model) is a finite mixture model that allows characters to fit into a user-defined number of character categories that differ in their stationary frequencies. 
 The bins draw their stationary frequencies from a Dirichlet to accommodate multistate data. 
+A mathematical descriptionf of this model can be found in the methods section. \par
 
 \subsection{Morphological Phylogeny of the Formicidae}
 
@@ -74,7 +78,7 @@ Molecular systematics had originally shaken up the ant tree of life considerably
 For example, based on morphological work, six current subfamilies had been previously considered to be a single subfamily, the Ponerinae, until molecular evidence indicated that two of the clades (Ectatomminae and Heteroponerinae) within that subfamily were demonstrated to be more closely related to other ants on the tree.
 The Ponerinae was then broken into six distinct subfamilies, one of which is also called Ponerinae. 
 Recent molecular work has continued to support these six subfamilies as monophyletic, though their relationships to one another remain poorly supported. \par
-Excellent morphological matrices on the ingroup of the Formicidae have been available since the early '90s. 
+Excellent morphological matrices on the ingroup of the Formicidae have been available since the early '70s. 
 Recent morphological matrices have expanded the sampling of ants from in the large Ponerine family, which was previously undersampled.
 Sampling of fossil ants was also expanded to include specimens from the Cretaceous.
 These ants were concluded to be stem lineages, and some did not demonstrate any particular taxonomic affinity based on character data and phylogenetic placement. 
@@ -88,7 +92,10 @@ Some apomorphies of the ant group are also gained after the divergence of the st
 Because of these model violations, this dataset is an excellent test case for models that relax assumptions of the Mk model. \par
 We use Bayes Factor model selection to assess the fit of these relaxed models to the data.
 Using this dataset, we strongly support that the use of models that relax key assumptions of the Mk model can greatly improve the fit of the model to the data.
-We also perform simulations to demonstrate that the true number of transition rate asymmetry categories is detectable from the data.
+We also perform simulations to demonstrate that the true number of transition rate asymmetry categories is detectable from the data, and that using an appropriately-specified model of morphological evolution is less likely to lead to incorrect phylogenetic inference than a correctly-specified model.\par
+However, the morphological tree of ants remains poorly-resolved, consistent with prior morphological work in the group.
+We do, however, support the monophyly of what  has been considered the crown group of ants, and support a monophyletic Haidomyrmex ants, as in Barden and Grimaldi (2017). 
+Despite the lack of resolution, we think that this model is more reflective of the evolutionary processes operating within this dataset, and provide a discussion for the continued ambiguity in the group. \par
 
 \section{Methods}
 
@@ -115,6 +122,7 @@ f(D\mid \alpha,\beta) = \prod_{i=1}^n\frac{1}{k}\sum_{j=1}^k f(D_i \mid \pi_i = 
 \end{equation}
 
 Note that in the limit as the number of mixture categories approaches infinity, equation \ref{discretized-likelihood} is identical to equation \ref{continuous-likelihood}.
+This model is shown as a graphical model in Fig. 1a.
 
 \subsubsection{Site-heterogeneous multistate model}
 
@@ -123,6 +131,9 @@ Again, we use a mixture distribution to simplify the computation, but instead of
 The mixing proportions are $\theta_j$, which are themselves drawn from a uniform Dirichlet prior distribution.
 
 $$f(D\mid \delta_1,\ldots,\delta_k,\theta_1,\ldots,\theta_k) = \prod_{i=1}^n \sum_{j=1}^k  f(D_i \mid \pi_i = \delta_j)\theta_j$$
+
+A graphical model of this model can be seen in Fig. 2B. 
+
 
 \subsection{Data Matrices}
 \subsubsection{Empirical Matrices}
@@ -148,15 +159,17 @@ Most of these changes simply involved changing the terminology used in reference
 For example, Barden and Grimaldi's character 15 is the same as Keller's character 47, but the two matrices had inverse character codings relative to one another.
 The remainder of the changes were changing binary characters to a multistate in cases where one author had more states than the other. 
 We will refer to this dataset as the combined dataset. \par
-We tested the SHDM model on both binary and binary + multistate datasets.
-First, to test the model on binary-only datasets, we used Barden and Grimaldi's dataset with the multistate characters removed.
+We modeled all three datasets according to both models.
+First, to test the Beta model on binary-only datasets, we used Barden and Grimaldi's dataset with the multistate characters removed.
 This dataset was chosen because the dataset size and completeness is very typical to a morphological dataset, particularly one involving fossils.
+Because of the presence of stem ants, we also expect to see strong violations of the assumptions of the Mk model in this dataset.
 We also used the combined matrix, stripped of multistate characters to test the model to look at the effect of estimating a larger tree using more characters.
 In both cases, we performed Bayes Factor model fitting to determine how many discrete Beta categories best model the data. \par
 To test the full SHDM model, we used both the Barden-Grimaldi dataset and the combined dataset.
 In testing the SHDM model, we modeled the binary and multistate characters together.
-This allowed us to both examine the impact of allowing character frequencies to be drawn from a Dirichlet, and to examine the effect of adding more data to the phylogenetic question. 
+This allowed us to both examine the impact of allowing character frequencies to be drawn from a Dirichlet, and to examine the effect of adding more data (both more taxa and more characters) to the phylogenetic question. 
 \par
+All estimations were performed in the software RevBayes.
 \subsubsection{Model comparison}
 
 The appropriate number of categories $k$ for each of the two empirical datasets was selected by comparing estimates of the marginal likelihood under different values for $k$.
@@ -165,12 +178,12 @@ Marginal likelihoods were estimated using the steppingstone sampling method \cit
 
 \subsubsection{Simulated Matrices}
 
-To test the performance of the SHDM model on idealized datasets, we used RevBayes to simulate five sets of 100 replicates of morphological data.
+To test the performance of the SHDM model on idealized datasets, we used RevBayes to simulate four sets of 100 replicates of morphological data.
 The first two sets of simulations were based on Barden and Grimaldi's dataset size and tree.
 Under this set of conditions, datasets of 41 taxa and 42 characters were simulated in RevBayes.
 In one set, only binary characters were evolved under the Beta model.
 In the other, both binary and mutistate characters were evolved under the Dirichlet prior.
-For both datasets, the beta or Dirichlet distribution was discretized into four categories.
+For both datasets, the Beta or Dirichlet distribution was discretized into four categories.
 \par
 The other set of two simulations was based on the full datasets.
 One set of 139 binary characters was generated for the full 105 taxa under the binary model; a second set including multistate characters was generated under the SHDM model, with the distribution discretized into four categories.
@@ -197,28 +210,19 @@ Due to computational limits, for the multistate datasets, we used the mean of th
 Because the true tree cannot be known from empirical data, we used simulated data to observe the effect this model has on accuracy of estimation, and to see if it is possible to detect the true number of discrete categories of state frequency variation.
 To this end, we estimated trees for each replicate under the true model.
 We also estimated trees for each replicate under 5 misspecified models: the Mk model, 2 and 3 category models (underparameterized models), and 5 and 6 category models (overparameterized models). 
-Estimation was performed in RevBayes under the generating model.\par
+Estimation was performed in RevBayes.\par
 
 
 \section{Results}
 
 \subsection{Empirical Phylogenetic Analyses}
 
-The marginal likelihood comparisons for the Barden and Grimaldi dataset, when multistate characters are removed can be seen in Fig. 1a.
-The marginal likelihood comparisons for the combined dataset with the multistate characters removed can be seen in Fig. 1b.
-\textbf{Barden Dataset}
-	a) Best fit model?
-	b) Tree comparisons, esp. branch lengths. No asc. bias correction + misspecified model, no correction + misspecified model, correction + correct model, correction + misspecified model 
-	c) Tree set visualization comparisons
-\textbf{Keller Dataset}
-	a) Best fit model?
-	b) Tree comparisons, esp. branch lengths. No asc. bias correction + misspecified model, no correction + misspecified model, correction + correct model, correction + misspecified model 
-	c) Tree set visualization comparisons
-\textbf{Combined Dataset}
-	a) Best fit model?
+The marginal likelihood comparisons for the Barden and Grimaldi dataset can be seen in Fig. 1a.
+The marginal likelihood comparisons for the combined dataset with the multistate characters removed can be seen in Fig. 1.
+In the Barden dataset, the data support 4 character state frequency variation.
+In the combined dataset, 6 categories are supported for binary data and 7 are supported for multistate. \par
+When a phylogeny is estimated from the Barden dataset under the supported model, it is largely unresolved. 
 
-	b) Tree comparisons, esp. branch lengths. No asc. bias correction + misspecified model, no correction + misspecified model, correction + correct model, correction + misspecified model 
-	c) Tree set visualization comparisons
 
 \subsection{Simulated Phylogenetic Analyses}
 \subsubsection{Binary Data}
@@ -230,13 +234,14 @@ In the smaller datasets, accuracy does not seem to be tied to the parameterizati
 \subsubsection{Multistate Data}
 
 In the large, multistate data sets, accuracy is improved using a correctly-specified model over both over- and underparameterized models. 
-In the small datasets, a pattern similar to that of the large binary datasets is observed, in which underparameterization negatively effected accuracy, while overparamterization did not. \par
+In the small datasets, a pattern similar to that of the large binary datasets is observed, in which underparameterization negatively effected accuracy, while overparameterization did not. \par
 
 \section{Discussion}	
 
 The discussion surrounding the incorporation of morphological data into phylogenetic analyses has largely focused on two endpoints on a spectrum: Parsimony and the Mk model \citep{lewis2001likelihood}.
-The idea behind parsimony is simple: that each character can have its own tree and length (number of steps) on that tree.
+The idea behind parsimony is simple: The tree with the least changes implied should be favored.
 The simplicity of this idea belies the complexity of the implications about character evolution.
+Each character can have its own tree and length (number of steps) on that tree.
 Parsimony can be written out as a likelihood model, referred to as the No Common Mechanisms model.
 However, it has been demonstrated that this model is so complex, and features so many parameters	that it is never chosen by even a liberal information criterion. \par
 In many ways, the Mk model is similar to an unweighted parsimony model, assuming that the transitions between any two states are equally likely.
@@ -244,7 +249,7 @@ But the Mk model assumes a common mechanism across sites, a generalized Jukes-Ca
 Application of among site rate variation (ASRV) across characters allows characters to have differing rates of evolution, accommodating natural variation in phenotypic characters. 
 Allowing the rate of evolution to vary is known to be benefit in phylogenetic analysis \citep{felsenstein78}, and can potentially be more important than an incorrectly-specified model of evolution \citep{lemmon2004importance}.
 Previous work in morphological phylogenetics has also highlighted the importance of appropriate assumptions about rate heterogeneity \citep{Harrison2014}.	\par
-The model discussed here is an effort to create a similar framework to ASRV, but for the actual model of evolution. 
+The model discussed here is an effort to apply a similar framework to ASRV, but for the actual model of evolution. 
 We may know little about the probability of a particular transition between two character states \textit{a priori}, in the same way that we may know little about the rate of evolution of any particular site. 
 Under the discrete Beta model and the SHDM, state frequencies are drawn from either a Beta (binary data) or Dirichlet (multistate data) prior distribution.
 The site likelihoods are then computed by marginalizing over the value of the vector of state frequencies, $\pi_i$.
@@ -260,34 +265,66 @@ In some characters, we would expect to see a strong signature of loss: stem ants
 We would expect to see these characters lost, but not regained as expected under the Mk model.
 Likewise, due to the presence of ant apomorphies in the crown, we expect to see these characters gained and never lost.
 Together, these character classes argue strongly for a symmetric Beta distribution, in which if there is a set of characters with a certain bias (for example, more `0' to `1' transitions), it is expected that there would be another set of characters with an opposite bias. \par
-Indeed, each dataset strongly supports the use of a non-Mk model, with differing numbers of categories (Fig. 1).
+Indeed, each dataset strongly supports the use of a non-Mk model, with differing numbers of categories (Fig. 2).
 Why then would a model statistically supported to be a better fit to the data not lead to a more resolved tree?
-There are several possible explanations for this.
-First, ants are known to have strong convergence within characters.
+The lack of resolution in our recovered topologies is consistent with the lack of resolution in the papers from which the matrices were sampled.
+These matrices were sampled to maximize variation by the original authors. 
+Ants are known to have strong convergence within characters.
 The group is large and diverse, but fairly morphologically constrained.
+The morphological matrices of Barden and Keller were assembled to avoid homoplasious characters, such as sculpturing and body shape. 
+However, in such a large and diverse group, not all homoplasy can be avoided, and previous phylogenetic and taxonomic work in the group has also reported a lack of support for well-supported molecular clades due to a lack of morphological synapomorphies among these groups. 
 While likelihood-based methods are expected to fare better than parsimony when convergence is an issue, they are not perfect and can be mislead, particularly in the presence of model violations such as structured missing data.
-Secondly, the dataset is small relative to the number of taxa.
-It's possible that there simply isn't enough data to address every split in the tree.
-Lastly, I dunno. Morphology what. \par
-
-
-
-
-
-
-
-
+\par
+If, for small matrices, a model that is better fit does not yield a more resolved tree, what does this mean for morphologists? 
+This model is more computationally intense, meaning waiting longer for a result that may not represent a substantial improvement.
+Pragmatically, prior work has supported that model choice is more important when the problem is hard \citep{wright2014, Wright2016}. 
+While a tree may not be more resolved, it is less likely to be incorrect if the model of evolution is not incorrect.
+Even if more resolution cannot be recovered, either due to homoplasy or lack of information, the correct model can help us avoid selecting an incorrect tree.
  \par
 
+Philosophically, the choice of model should reflect the researcher's knowledge of the data. 
+Models inherently simplify the process of evolution; it is not possible to include every biological process in any model, particularly given the biased sample of the past that we have.
+However, we can hope to increase the availability of models that capture relevant axes of variation. 
+ASRV allows researchers to model different rates of character state change within a dataset.
+Likewise, the discrete Beta model and the SHDM allow researchers to model asymmetrical forward and backward transition rates among characters. 
+In the case of ants, the existence of characters with a strong signature of loss (wasp-like characters) and characters with a stronger signature of gain (ant apomorphies) in the data suggest that it should be expected to find strong support for a model that allows this variation.
+If this is our expectation, then this more complex model should remain in the set of models tested for fit. \par
+The modeling of discrete morphological characters has long been constrained to the end points on a spectrum of possible models. 
+Parsimony represents one extreme in terms of the elaboration of the mechanism. 
+The Mk model represents the other, in its simplicity.
+Researchers may have reasons to believe that either one of these models is a good descriptor of their data, or that assumptions of one model fit better than the other, but that the framework (frequentist or Bayesian) makes more suitable assumptions about the process of evolution.
+Use of new combinations of priors, and borrowing from the molecular toolkit enable researchers to explore more widely the continuum between these two points in a Bayesian context, and to use well-described model fit procedures to test the fit of the model to the data.
+RevBayes enables these sorts of explorations through use of modular design, allowing almost any parameter to be combined with most priors, and including the machinery to instantly simulate under the model.
+The framework enables assumptions about morphological evolution to be advanced, and tested rigorously.
+ \par
+
+\section{Conclusions}
+
+WHY WON'T YOU RENDER, THING?
 
 
+\section{Acknowledgments}
+
+The authors would like to thank Philip Barden, Michael Landis, Jeremy Brown, and Rachel Warnock	 for useful discussion.
+We also thank X, Y and handling editor Z for useful review comments.
+We would also like to thank Christina Kolbmann and Tyler Tran for useful comments on early drafts of the manuscript.
+This work was supported by NSF xxxxxx and LBRN xxxxx to AMW.
+TAH and WCP were supported on NSF XXXXXX to TAH.
 
 
-
-
-\section{Ackno}	
-
-\bibliographystyle{plain}
+\bibliographystyle{sysbio.bst}
 \bibliography{bibliography}
+
+\begin{figure}
+  \caption{A. A graphical model demonstrating the discrete Beta model. B. A graphical model displaying the SHDM. Model realization following Hoehna et al. 2016.}
+    \includegraphics[scale=0.35]{fig/1AB}
+\end{figure} 
+
+
+\begin{figure}
+  \caption{Marginal likelihood calculations for the eight models tested for teach of the four empirical datasets. The number of categories into which the Beta (binary data) or Dirichlet (multistate data) is discretized is indicated on the x-axis. Note that due to differing dataset sizes, each plot has a unique y-axis.
+    \includegraphics[scale=0.75]{fig/SS_plot_nostar}
+\end{figure} 
+
 
 \end{document}
