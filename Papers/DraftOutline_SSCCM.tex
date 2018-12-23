@@ -322,9 +322,33 @@ TAH and WCP were supported on NSF XXXXXX to TAH.
 
 
 \begin{figure}
-  \caption{Marginal likelihood calculations for the eight models tested for teach of the four empirical datasets. The number of categories into which the Beta (binary data) or Dirichlet (multistate data) is discretized is indicated on the x-axis. Note that due to differing dataset sizes, each plot has a unique y-axis.
-    \includegraphics[scale=0.75]{fig/SS_plot_nostar}
+  \caption{Marginal likelihood calculations for the eight models tested for teach of the four empirical datasets. The number of categories into which the Beta (binary data) or Dirichlet (multistate data) is discretized is indicated on the x-axis. Note that due to differing dataset sizes, each plot has a unique y-axis.}
+    \includegraphics[scale=0.5]{fig/SS_plot_nostar}
 \end{figure} 
+
+
+\begin{figure}
+  \caption{Accuracy of phylogenetic estimation in large (135 taxa, 163 character) simulated binary datasets under the Beta model, with 4 discrete categories. Underparameterized models have a wider spread of accuracy values than appropriately or overparamterized models.} 
+    \includegraphics{fig/LargeBinary}
+\end{figure} 
+
+
+\begin{figure}
+  \caption{Accuracy of phylogenetic estimation in small (41 taxa, 26 characters) simulated binary datasets under the Beta model. The correct number of simulation categories is 4. In datasets this size, there does not seem to be a relationship between parameterization and accuracy. } 
+    \includegraphics{fig/SmallBinary}
+\end{figure} 
+
+
+\begin{figure}
+  \caption{Accuracy of phylogenetic estimation in small large (135 taxa, 163 character) simulated multistate datasets under the SHDM with four transition rate asymmetry categories. Both over- and underparameterization appear to be detrimental to accuracy, though underparamterization is worse.} 
+    \includegraphics{fig/LargeMultiState}
+\end{figure} 
+
+\begin{figure}
+  \caption{Accuracy of phylogenetic estimation in small (41 taxa, 26 characters) simulated multistate datasets under the SHDM. The correct number of simulation categories is 4. Much as in the large, binary dataset, underparameterization appears to be more detrimental than overparameterization.} 
+    \includegraphics{fig/SmallMS}
+\end{figure} 
+
 
 
 \end{document}
