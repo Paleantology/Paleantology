@@ -1,0 +1,73 @@
+    br_len_lambda ~ dnExp(0.2)
+    moves.append(mvScale(br_len_lambda, weight=2))
+
+
+
+## ---- include=TRUE, eval = TRUE------------------------------------------
+
+    phylogeny ~ dnUniformTopologyBranchLength(taxa, branchLengthDistribution=dnExponential(br_len_lambda))
+    moves.append(mvNNI(phylogeny, weight=num_branches/2.0))
+    moves.append(mvSPR(phylogeny, weight=num_branches/10.0))
+    moves.append(mvBranchLengthScale(phylogeny, weight=num_branches))
+    tree_length := phylogeny.treeLength()
+
+
+## ---- include=TRUE, eval = TRUE------------------------------------------
+    alpha_morpho ~ dnUniform( 0, 1E6 )
+    rates_morpho := fnDiscretizeGamma( alpha_morpho, alpha_morpho, 4 )
+    #Moves on the parameters to the Gamma distribution.
+    moves.append(mvScale(alpha_morpho, lambda=1, weight=2.0))
+n_max_states = 7
+idx =1
+morpho_bystate <- morpho.setNumStatesVector()
+for (i in 1:n_max_states) {
+     nc = morpho_bystate[i].nchar()
+	print("nchars:", nc)
+
+    # for non-empty character blocks
+    if (0 < nc){
+      if (nc <= 10) {
+        # make i-by-i rate matrix
+        q[idx] <- fnJC(i)
+# create model of evolution for the character block
+        m_morph[idx] ~ dnPhyloCTMC( tree=phylogeny,
+                                    Q=q[idx],
+                                    nSites=nc,
+                                    siteRates=rates_morpho,
+                                    type="Standard")
+
+        # attach the data
+	    m_morph[idx].clamp(morpho_bystate[i])
+
+        # increment counter
+        idx = idx + 1
+        print("nchars:", nc)
+      }
+      if (nc > 150 ){
+      print("nchars:", nc)
+      print("nSTATES:", i)
+
+      num_cats = i
+      beta_scale ~ dnLognormal( 0.0, sd=2*0.587405 )
+      moves.append( mvScale(beta_scale, lambda=1, weight=5.0 ) )
+      cats := fnDiscretizeBeta(beta_scale, beta_scale, num_cats)
+      for (x in 1:cats.size())
+      {
+        q[x] := fnF81(simplex(cats))
+        }
+        mat_prior <- rep(1,num_cats)
+        matrix_probs ~ dnDirichlet(mat_prior)
+        matrix_probs
+        moves.append( mvBetaSimplex(matrix_probs, weight=3.0) )
+        moves.append( mvDirichletSimplex(matrix_probs, weight=1.5) )
+        m_morph[idx] ~ dnPhyloCTMC( tree=phylogeny,
+                                    Q=q,
+                                    nSites=nc,
+                                    siteRates=rates_morpho,
+                                    siteMatrices=matrix_probs,
+                                    type="Standard")
+	      m_morph[idx].clamp(morpho_bystate[i])
+        idx = idx + 1
+        }
+      }
+}
