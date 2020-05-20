@@ -1,20 +1,14 @@
-filenames <- v("Data/binarybarden.nex", "Data/trinary.nex", "Data/quat.nex","Data/cinco.nex", "Data/seite.nex")
-
-n_data_subsets <- filenames.size()
-
-for (i in 1:n_data_subsets) {
-    data[i] = readDiscreteCharacterData(filenames[i])
-}
+morpho = readDiscreteCharacterData("Data/AntMegaMatrix.nex")
 
 
-# Get some useful variables from the data. We need these later on.
-n_taxa <- data[1].taxa()
+# Get some useful variables from the morpho. We need these later on.
+n_taxa <- morpho.taxa()
 
 mvi = 1
 mni = 1
 n_branches <- 2 * n_taxa.size() - 2
 
-source("scripts/mk_cat_parts.Rev")
+source("scripts/SHDM.rev")
 
 ########
 # MCMC #
@@ -31,13 +25,13 @@ monitors[mni++] = mnFile(filename="output/cat_part_test.trees", printgen=10, phy
 monitors[mni++] = mnScreen(printgen=10)
 # Initialize the MCMC object #
 mymcmc = mcmc(mymodel, monitors, moves)
-pow_p = powerPosterior(model=mymodel, moves=moves, monitors=monitors, filename="output/stones/MS_parts_cat.log", cats=75)
+#pow_p = powerPosterior(model=mymodel, moves=moves, monitors=monitors, filename="output/stones/MS_parts_cat.log", cats=75)
 
 # Run the MCMC #
-#mymcmc.run(generations=500000)
- pow_p.burnin(generations=100000,tuningInterval=250)
- pow_p.run(generations=1000000)
- ss = steppingStoneSampler(file="output/stones/MS_parts_cat.log", powerColumnName="power", likelihoodColumnName="likelihood")
- ss.marginal()
+mymcmc.run(generations=500000)
+# pow_p.burnin(generations=100000,tuningInterval=250)
+# pow_p.run(generations=1000000)
+# ss = steppingStoneSampler(file="output/stones/MS_parts_cat.log", powerColumnName="power", likelihoodColumnName="likelihood")
+# ss.marginal()
 # Quit RevBayes #
 q()
